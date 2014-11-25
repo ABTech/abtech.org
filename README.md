@@ -15,7 +15,7 @@ I strongly recommend using a virtual environment when developing this and any ot
 $ cd abtech-website
 $ python3 -m venv .
 $ source bin/activate
-$ pip3 install -r requirements
+$ pip3 install -r requirements.txt
 ```
 
 ###Running
