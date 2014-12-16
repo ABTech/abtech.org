@@ -83,3 +83,7 @@ STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     "static/",
 )
+
+TEMPLATE_DIRS = (
+    "templates",
+)
