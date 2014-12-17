@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_medusa',
     'website'
 )
 
@@ -86,4 +87,10 @@ STATICFILES_DIRS = (
 
 TEMPLATE_DIRS = (
     "templates",
+)
+
+# django_medusa -- Render templates to html
+MEDUSA_RENDERER_CLASS = "django_medusa.renderers.DiskStaticSiteRenderer"
+MEDUSA_DEPLOY_DIR = os.path.join(
+    PROJECT_DIR, '..', "_output"
 )

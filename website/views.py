@@ -64,3 +64,4 @@ def timelapse(request):
 
 def accolades(request):
     return render(request, "accolades.html", {})
+
