@@ -1,5 +1,5 @@
 """
-Django settings for abtech project.
+Django settings for website.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -12,32 +12,25 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
+from django.core.exceptions import ImproperlyConfigured
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7q$js!ou#piw#lupv0zy1ua24kaubb$2^iphn317^x*ei4nhso'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-TEMPLATE_DEBUG = True
-
-ALLOWED_HOSTS = []
+def get_env_variable(var_name):
+    """ Get the environment variable or return exception """
+    try:
+        return os.environ[var_name]
+    except KeyError:
+        error_msg = "Set the {} environment variable".format(var_name)
+        raise ImproperlyConfigured(error_msg)
 
 
 # Application definition
-
 INSTALLED_APPS = (
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_medusa',
-    'website'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -53,8 +46,6 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'abtech.urls'
 
 WSGI_APPLICATION = 'abtech.wsgi.application'
-
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
@@ -74,23 +65,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-
-PROJECT_DIR = os.path.dirname(__file__)
-
-# Additional locations of static files
-STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-    "static/",
-)
-
-TEMPLATE_DIRS = (
-    "templates",
-)
-
-# django_medusa -- Render templates to html
-MEDUSA_RENDERER_CLASS = "django_medusa.renderers.DiskStaticSiteRenderer"
-MEDUSA_DEPLOY_DIR = os.path.join(
-    PROJECT_DIR, '..', "_output"
-)
