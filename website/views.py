@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
@@ -65,3 +65,10 @@ def timelapse(request):
 def accolades(request):
     return render(request, "accolades.html", {})
 
+
+def signup(request):
+    d = request.POST
+    andrew_id = d.get("andrew_id")
+    name = d.get("name")
+    print(andrew_id, name)
+    return HttpResponse("hi")

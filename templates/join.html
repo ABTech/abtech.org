@@ -5,10 +5,12 @@
 
 <head><title>AB Tech: Joining Tech</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{% static "js/join.js" %}"></script>
+
 </head>
 {% include "header.html" %}
 {% include "sidebar.html" %}
-
 <FONT SIZE=+1><b>Joining the Insanity</b></FONT><P>
 Membership in AB Tech is open to all Carnegie Mellon students.
 In general, we recommend members have a good sense of humor and a willingness to push heavy stuff.
@@ -20,7 +22,15 @@ Twice a year (September and January), AB Tech is at the Activities Fair along wi
 organizations. Stop by, sign up, and we'll email you a place to show up to meet everyone else and
 start playing with some of the most awesome and expensive equipment in town.
 <br><br>
-
+You can also sign up for our dlist right here:
+<form id="signup">
+  {% csrf_token %}
+  <label for="andrew_id">Andrew ID</label>
+  <input type="text" name="andrew_id"><br>
+  <label for="name">Name</label>
+  <input type="text" name="name"><br>
+  <input type="submit" value="Submit">
+</form>
 Generally our most extensive orientation event is held shortly after the September Activities Fair, but
 we encourage you to join at any time. Almost all of our training is done "on the job" -- and most of our members
 knew very little to nothing before they joined. After your sixth event, you'll "learn our secret
