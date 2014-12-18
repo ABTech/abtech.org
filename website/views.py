@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.core.mail import send_mail
 
 # Create your views here.
 def index(request):
@@ -70,5 +71,9 @@ def signup(request):
     d = request.POST
     andrew_id = d.get("andrew_id")
     name = d.get("name")
-    print(andrew_id, name)
+    subject = "D-List Request"
+    message = "Andrew ID: {}\nName: {}\n".format(andrew_id, name)
+    from_email = "robertmaratos@gmail.com"
+    recipient_list = ["rmaratos@andrew.cmu.edu"]
+    send_mail(subject, message, from_email, recipient_list, fail_silently=False)
     return HttpResponse("hi")

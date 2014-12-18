@@ -11,6 +11,8 @@ INSTALLED_APPS += ('website',
 
 PROJECT_DIR = os.path.dirname(__file__)
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # Additional locations of static files
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
