@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        position: relative;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #424b51;
+        background: #ebeeed;
+      }
+      .starter-template {
+        padding: 40px 15px;
+        text-align: center;
+      }
+
+      header {
+        /*position: fixed;*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        height: 120px;
+        border-bottom: solid 1px transparent;
+        -webkit-transition: background-color 0.1s ease-out,
+                            color 0.1s ease-out,
+                            border-color 0.1s ease-out;
+        -moz-transition:    background-color 0.1s ease-out,
+                            color 0.1s ease-out,
+                            border-color 0.1s ease-out;
+        -o-transition:      background-color 0.1s ease-out,
+                            color 0.1s ease-out,
+                            border-color 0.1s ease-out;
+        transition:         background-color 0.1s ease-out,
+                            color 0.1s ease-out,
+                            border-color 0.1s ease-out;
+      }
+      header #logo {
+        float: left;
+        padding-top: 40px;
+        padding-left: 12px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background: red;
+        box-shadow: 3px 5px 5px rgba(0,0,0,0.4);
+      }
+      header #logo img {
+        width: 132px;
+        height: 80px;
+      }
+      header .container {
+        padding-top: 20px;
+      }
+
+      header.with-background {
+        position: fixed;
+        color: #424b51;
+        background-color: rgba(255,255,255,0.80);
+        margin-top: -50px;
+        border-bottom: solid 1px #c7c9c8;
+      }
+
+      .header-nav {
+        position: relative;
+
+      }
+      .header-nav ul {
+        float: right;
+        padding-left: 0;
+        list-style: none;
+        padding: 35px 0 0 0;
+        margin-top: 30px;
+        margin-bottom: 0;
+      }
+      .header-nav li {
+        display: inline-block;
+        float: none;
+        position: relative;
+      }
+      .header-nav .heading {
+        text-transform: uppercase;
+        left: 12px; /* why is this not 10? */
+        bottom: 30px;
+        width: 0;
+        overflow: visible;
+      }
+      .header-nav li {
+        color: #CCCCCC;
+        font-weight: 600;
+        font-size: 18px;
+        text-shadow: 1px 1px rgba(0,0,0,0.4);
+        -webkit-transition: text-shadow 0.1s ease-out;
+        -moz-transition:    text-shadow 0.1s ease-out;
+        -o-transition:      text-shadow 0.1s ease-out;
+        transition:         text-shadow 0.1s ease-out;
+      }
+      .header-nav li a {
+        color: #CCCCCC;
+        padding: 30px 10px 20px 10px;
+      }
+      .header-nav li a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+
+      header.with-background .header-nav li {
+        color: #424b51;
+        text-shadow: none;
+      }
+      header.with-background .header-nav li a {
+        color: #424b51;
+      }
+      header.with-background .header-nav li a:hover {
+        color: #424b51;
+      }
+
+      #lead{
+        height: 90%;
+        min-height: 450px;
+        background-image: url('/static/img/backgrounds/background-2.jpg');
+        background-color: #999999;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+      }
+      #lead .container {
+        height: 100%;
+        position: relative;
+      }
+      #lead .container .row {
+        position: absolute;
+        bottom: 16%;
+        width: 100%;
+      }
+      #lead .lead-item {
+        display: block;
+        background-color: transparent;
+        border: 2px solid rgba(255,255,255,0.8);
+        border-radius: 10px;
+        margin: 30px;
+        padding: 30px;
+        color: #FFFFFF;
+        font-weight: 600;
+        text-align: center;
+        -webkit-transition: background-color 0.1s ease-out,
+                            color 0.1s ease-out;
+        -moz-transition: background-color 0.1s ease-out,
+                         color 0.1s ease-out;
+        -o-transition: background-color 0.1s ease-out,
+                       color 0.1s ease-out;
+        transition: background-color 0.1s ease-out,
+                    color 0.1s ease-out;
+
+      }
+      #lead .lead-item:hover {
+        background-color: rgba(255,255,255,0.8);
+        color: #424b51;
+        text-decoration: none;
+      }
+      #lead .lead-emphasis {
+        font-size: 32px;
+      }
+
+      .content-block {
+        background: #FFFFFF;
+        border-bottom: solid 1px #c7c9c8;
+        margin-top: 30px;
+        padding: 15px;
+      }
+      .content-sidebar {
+        background: #FFFFFF;
+        border-bottom: solid 1px #c7c9c8;
+        margin-top: 30px;
+        padding: 65px 15px 15px 15px;
+        position: relative;
+      }
+      .content-sidebar h1 {
+        display: block;
+        margin: 0;
+        padding: 15px;
+        font-size: 16px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #FFFFFF;
+        background: #424b51;
+      }
+
+      footer {
+        background: #FFFFFF;
+        margin-top: 30px;
+        padding-top: 30px;
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <div id="logo">
+          <a href="#"><img src="/static/img/abtech-sketched.svg" alt="AB Tech Logo"></a>
+        </div>
+
+        <div id="header-expander">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <nav class="header-nav">
+          <ul>
+            <li class="heading">Organizers</li>
+            <li><a href="#">Request Event</a></li>
+            <li><a href="#">Services + Equipment</a></li>
+            <li><a href="#">Past Events</a></li>
+            <li><a href="#">People</a></li>
+            <li class="heading">Members</li>
+            <li><a href="#">Tracker</a></li>
+            <li><a href="#">Wiki</a></li>
+          </ul>
+        </nav>
+
+      </div> <!-- /.container -->
+    </header>
+
+    <section id="lead">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><a class="lead-item" href="#"><span class="lead-emphasis">Request</span><br> an event</a></div>
+          <div class="col-md-4"><a class="lead-item" href="#"><span class="lead-emphasis">See</span><br> what we can do</a></div>
+          <div class="col-md-4"><a class="lead-item" href="#"><span class="lead-emphasis">Become</span><br> a member</a></div>
+        </div>
+      </div><!-- /.container -->
+    </section>
+
+    <main>
+      <div class="container">
+        <div class="col-md-8">
+          <div class="content-block">
+            <p>The <strong>Activities Board Technical Committee</strong>, commonly known as <strong>AB&nbsp;Tech</strong>, is the student organization charged with handling the technical production of Carnegie Mellon sponsored events, including all events organized by the <a href="http://activitiesboard.org" target="_blank">Activities Board</a>. We provide high quality, professional grade entertainment production services, including sound reinforcement, lighting design, and event management at heavily subsidized rates to the Carnegie Mellon University community. Our clients include student groups, university faculty &amp; administration, and various independent companies and other organizations.</p>
+            <p>AB Tech provides technical support in three core areas:</p>
+            <ul>
+              <li>Sound Reinforcement</li>
+              <li>Lighting Design</li>
+              <li>Production Consulting &amp; Event Management</li>
+            </ul>
+            <p>In addition to these three areas, we coordinate associated needs and services such as multi-phase/high-load power, rigging &amp; trussing, staging rentals, backline rentals, and more.</p>
+            <p>For more information on the services we offer, please <a href="#">click here</a>. Otherwise, use the menu on the left to navigate the site.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content-sidebar">
+            <h1>Facebook</h1>
+            Some kind of side content.
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="col-md-4">
+          <p>Find us on:</p>
+          <p>Facebook</p>
+          <p>Twitter</p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-center">"Fly by night sound and light" since 1973.</p>
+          <p class="text-center">A special committee of the <a href="http://activitiesboard.org/">Carnegie Mellon Activities Board.</a></p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-right">Contact us by reqest form or:</p>
+          <p class="text-right">(412) 268 - 2104</p>
+          <p class="text-right">abtech@andrew.cmu.edu</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/static/js/bootstrap/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/static/js/bootstrap/ie10-viewport-bug-workaround.js"></script>
+
+    <script type="text/javascript">
+      // decide if we should give the header a background
+      var set_header_type = function() {
+        var scroll_position = $(document).scrollTop();
+        if(scroll_position < 50) {
+          $('header').removeClass("with-background");
+        } else {
+          $('header').addClass("with-background");
+        }
+      };
+
+      // set header type at document start
+      set_header_type();
+      // and on all scroll events
+      $(document).scroll(function() {
+        set_header_type();
+      });
+    </script>
+  </body>
+</html>
