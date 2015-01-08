@@ -61,3 +61,6 @@ target/
 # Dumb OS X
 .DS_Store
 
+# Generated style files
+static/css/*
+
