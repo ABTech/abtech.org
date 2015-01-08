@@ -16,14 +16,11 @@ body {
 }
 
 header {
-  /*position: fixed;*/
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
-  height: 120px;
-  border-bottom: solid 1px transparent;
   -webkit-transition: background-color 0.1s ease-out,
                       color 0.1s ease-out,
                       border-color 0.1s ease-out;
@@ -36,86 +33,132 @@ header {
   transition:         background-color 0.1s ease-out,
                       color 0.1s ease-out,
                       border-color 0.1s ease-out;
-}
-header #logo {
-  float: left;
-  padding-top: 40px;
-  padding-left: 12px;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background: red;
-  box-shadow: 3px 5px 5px rgba(0,0,0,0.4);
-}
-header #logo img {
-  width: 132px;
-  height: 80px;
-}
-header .container {
-  padding-top: 20px;
-}
 
-header.with-background {
-  position: fixed;
   color: #424b51;
   background-color: rgba(255,255,255,0.80);
-  margin-top: -50px;
   border-bottom: solid 1px #c7c9c8;
+
+  /* top of screen bar on desktop */
+  @media (min-width: @screen-md-min) {
+    position: fixed;
+    height: 120px;
+    margin-top: -50px;
+  }
+
+  #logo {
+    /* center the logo within header (on mobile) */
+    margin: 0 auto;
+    /* to center logo image */
+    padding-top: 40px;
+    padding-left: 12px;
+    /* define circle */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.4);
+
+    /* horizontal layout on desktop */
+    @media (min-width: @screen-md-min) {
+      float: left;
+      margin: 0;
+    }
+
+    img {
+      width: 132px;
+      height: 80px;
+    }
+  }
+
+  .container {
+    padding-top: 20px;
+  }
 }
+
 
 .header-nav {
   position: relative;
 
-}
-.header-nav ul {
-  float: right;
-  padding-left: 0;
-  list-style: none;
-  padding: 35px 0 0 0;
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-.header-nav li {
-  display: inline-block;
-  float: none;
-  position: relative;
-}
-.header-nav .heading {
-  text-transform: uppercase;
-  left: 12px; /* why is this not 10? */
-  bottom: 30px;
-  width: 0;
-  overflow: visible;
-}
-.header-nav li {
-  color: #CCCCCC;
-  font-weight: 600;
-  font-size: 18px;
-  text-shadow: 1px 1px rgba(0,0,0,0.4);
-  -webkit-transition: text-shadow 0.1s ease-out;
-  -moz-transition:    text-shadow 0.1s ease-out;
-  -o-transition:      text-shadow 0.1s ease-out;
-  transition:         text-shadow 0.1s ease-out;
-}
-.header-nav li a {
-  color: #CCCCCC;
-  padding: 30px 10px 20px 10px;
-}
-.header-nav li a:hover {
-  color: #FFFFFF;
-  text-decoration: none;
+  ul {
+    list-style: none;  
+
+    @media (min-width: @screen-md-min) {
+      float: right;
+      padding-left: 0;
+      padding: 35px 0 0 0;
+      margin-top: 30px;
+      margin-bottom: 0;
+    }
+  }
+
+  li {
+    display: block;
+    padding: 15px;
+
+    @media (min-width: @screen-md-min) {
+      display: inline-block;
+      float: none;
+      position: relative;
+      padding: 0;
+      color: #424b51;
+      font-weight: 600;
+      font-size: 18px;
+      -webkit-transition: text-shadow 0.1s ease-out;
+      -moz-transition:    text-shadow 0.1s ease-out;
+      -o-transition:      text-shadow 0.1s ease-out;
+      transition:         text-shadow 0.1s ease-out;
+    }
+
+    a {
+      color: #424b51;
+      padding: 30px 10px 20px 10px;
+    }
+
+    a:hover {
+      color: #424b51;
+      text-decoration: none;
+    }
+  }
+
+  li.heading {
+    text-transform: uppercase;
+    left: 12px; /* why is this not 10? */
+    bottom: 30px;
+    width: 0;
+    overflow: visible;
+  }
 }
 
-header.with-background .header-nav li {
-  color: #424b51;
-  text-shadow: none;
-}
-header.with-background .header-nav li a {
-  color: #424b51;
-}
-header.with-background .header-nav li a:hover {
-  color: #424b51;
-}
+header.without-background {
+  /* only drop the nav background in desktop layout */
+  @media (min-width: @screen-md-min) {
+    background: transparent;
+    position: absolute;
+    margin-top: 0;
+    border-bottom: solid 1px transparent;
+  }
+
+
+  .header-nav {
+    /* only drop the nav background in desktop layout */
+    @media (min-width: @screen-md-min) {
+      li {
+        color: #CCCCCC;
+        text-shadow: none;
+        text-shadow: 1px 1px rgba(0,0,0,0.4);
+
+        a {
+          color: #CCCCCC;
+        }
+        a:hover {
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+} 
+
+
 
 #lead{
   height: 90%;
@@ -141,8 +184,7 @@ header.with-background .header-nav li a:hover {
   background-color: transparent;
   border: 2px solid rgba(255,255,255,0.8);
   border-radius: 10px;
-  margin: 30px;
-  padding: 30px;
+  
   color: #FFFFFF;
   font-weight: 600;
   text-align: center;
@@ -155,6 +197,15 @@ header.with-background .header-nav li a:hover {
   transition: background-color 0.1s ease-out,
               color 0.1s ease-out;
 
+  /* on small screens options like buttons */
+  margin: 0;
+  padding: 15px;
+
+  /* with screen space display as boxes */
+  @media (min-width: @screen-md-min) {
+    margin: 30px;
+    padding: 30px;
+  }
 }
 #lead .lead-item:hover {
   background-color: rgba(255,255,255,0.8);
