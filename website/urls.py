@@ -19,5 +19,6 @@ urlpatterns = [
     url(r'^events00$', views.events00, name='events00'),
     url(r'^timelapse$', views.timelapse, name='timelapse'),
     url(r'^accolades$', views.accolades, name='accolades'),
+    url(r'^styletest$', views.styletest, name='styletest'),
     url(r'^signup$', views.signup, name='signup'),
 ]

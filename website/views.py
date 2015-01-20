@@ -66,6 +66,9 @@ def timelapse(request):
 def accolades(request):
     return render(request, "accolades.html", {})
 
+def styletest(request):
+    return render(request, "styletest.html", {})
+
 
 def signup(request):
     d = request.POST
