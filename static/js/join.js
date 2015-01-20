@@ -13,11 +13,13 @@ $( document ).ready(function() {
             {
                 console.log("success");
                 console.log(data);
+                $("#status").text("Successfully Added");
             },
             error: function(data)
             {
                 console.log("error");
                 console.log(data);
+                $("#status").text("An error occurred");
             }
         });
     });
