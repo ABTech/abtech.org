@@ -64,3 +64,6 @@ target/
 # Generated style files
 static/css/*
 
+# PyCharm
+.idea/
+
