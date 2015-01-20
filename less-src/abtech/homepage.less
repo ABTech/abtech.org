@@ -1,3 +1,6 @@
+@screen-fullnav-min: @screen-md-min;
+@screen-mininav-min: @screen-sm-min;
+
 html {
   height: 100%;
 }
@@ -21,6 +24,7 @@ header {
   left: 0;
   right: 0;
   z-index: 10;
+  // margin-top: -50px;
   -webkit-transition: background-color 0.1s ease-out,
                       color 0.1s ease-out,
                       border-color 0.1s ease-out;
@@ -39,7 +43,7 @@ header {
   border-bottom: solid 1px #c7c9c8;
 
   /* top of screen bar on desktop */
-  @media (min-width: @screen-md-min) {
+  @media (min-width: @screen-mininav-min) {
     position: fixed;
     height: 120px;
     margin-top: -50px;
@@ -49,40 +53,66 @@ header {
     /* center the logo within header (on mobile) */
     margin: 0 auto;
     /* to center logo image */
-    padding-top: 40px;
-    padding-left: 12px;
-    /* define circle */
-    width: 160px;
-    height: 160px;
+    padding-top: 27px;
+    padding-left: 3px;
+    /* define small circle */
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background: red;
     box-shadow: 3px 5px 5px rgba(0,0,0,0.4);
 
     /* horizontal layout on desktop */
-    @media (min-width: @screen-md-min) {
+    @media (min-width: @screen-mininav-min) {
       float: left;
+      margin: 20px 0 0 0;
+    }
+
+    /* use a larger logo on large desktops */
+    @media (min-width: @screen-fullnav-min) {
       margin: 0;
+      padding-top: 40px;
+      padding-left: 12px;
+      width: 160px;
+      height: 160px;
     }
 
     img {
-      width: 132px;
-      height: 80px;
+      width: 100px;
+      height: 60px;
+
+      @media (min-width: @screen-fullnav-min) {
+        width: 132px;
+        height: 80px;
+      }
     }
   }
 
   .container {
     padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  #header-expander {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 15;
+
+    button:hover {
+      background-color: #CCCCCC;
+    }
   }
 }
 
 
-.header-nav {
+nav.header-nav {
   position: relative;
 
   ul {
     list-style: none;  
 
-    @media (min-width: @screen-md-min) {
+    @media (min-width: @screen-mininav-min) {
       float: right;
       padding-left: 0;
       padding: 35px 0 0 0;
@@ -93,25 +123,31 @@ header {
 
   li {
     display: block;
-    padding: 15px;
 
-    @media (min-width: @screen-md-min) {
+    @media (min-width: @screen-mininav-min) {
       display: inline-block;
       float: none;
       position: relative;
       padding: 0;
       color: #424b51;
       font-weight: 600;
-      font-size: 18px;
       -webkit-transition: text-shadow 0.1s ease-out;
       -moz-transition:    text-shadow 0.1s ease-out;
       -o-transition:      text-shadow 0.1s ease-out;
       transition:         text-shadow 0.1s ease-out;
     }
 
+    @media (min-width: @screen-fullnav-min) {
+      font-size: 18px;
+    }
+
     a {
       color: #424b51;
-      padding: 30px 10px 20px 10px;
+      padding: 15px;
+
+      @media (min-width: @screen-mininav-min) {
+        padding: 30px 10px 20px 10px;
+      }
     }
 
     a:hover {
@@ -131,7 +167,7 @@ header {
 
 header.without-background {
   /* only drop the nav background in desktop layout */
-  @media (min-width: @screen-md-min) {
+  @media (min-width: @screen-mininav-min) {
     background: transparent;
     position: absolute;
     margin-top: 0;
@@ -141,7 +177,7 @@ header.without-background {
 
   .header-nav {
     /* only drop the nav background in desktop layout */
-    @media (min-width: @screen-md-min) {
+    @media (min-width: @screen-mininav-min) {
       li {
         color: #CCCCCC;
         text-shadow: none;
@@ -156,8 +192,19 @@ header.without-background {
       }
     }
   }
-} 
+}
 
+nav.header-nav.hidden-nav {
+  @media (max-width: @screen-mininav-min) {
+    display: none;
+  }
+}
+.navbar-toggle .icon-bar {
+  background-color: #424b51;
+}
+.navbar-toggle {
+  border-color: #424b51;
+}
 
 
 #lead{
@@ -165,10 +212,14 @@ header.without-background {
   min-height: 450px;
   background-image: url('/static/img/backgrounds/background-2.jpg');
   background-color: #999999;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 50px;
+
+  @media (max-width: @screen-mininav-min) {
+    height: 400px;
+  }
 }
 #lead .container {
   height: 100%;
@@ -216,6 +267,8 @@ header.without-background {
   font-size: 32px;
 }
 
+
+
 .content-block {
   background: #FFFFFF;
   border-bottom: solid 1px #c7c9c8;
@@ -246,4 +299,14 @@ footer {
   background: #FFFFFF;
   margin-top: 30px;
   padding-top: 30px;
+
+  @media (min-width: @screen-md-min) {
+    .footer-center {
+      text-align: center;
+    }
+
+    .footer-right {
+      text-align: right;
+    }
+  }
 }

@@ -59,9 +59,9 @@
     <section id="lead">
       <div class="container">
         <div class="row">
-          <div class="col-md-4"><a class="lead-item" href="#"><span class="lead-emphasis">Request</span><br> an event</a></div>
-          <div class="col-md-4"><a class="lead-item" href="#"><span class="lead-emphasis">See</span><br> what we can do</a></div>
-          <div class="col-md-4"><a class="lead-item" href="#"><span class="lead-emphasis">Become</span><br> a member</a></div>
+          <div class="col-sm-4"><a class="lead-item" href="#"><span class="lead-emphasis">Request</span><br> an event</a></div>
+          <div class="col-sm-4"><a class="lead-item" href="#"><span class="lead-emphasis">See</span><br> what we can do</a></div>
+          <div class="col-sm-4"><a class="lead-item" href="#"><span class="lead-emphasis">Become</span><br> a member</a></div>
         </div>
       </div><!-- /.container -->
     </section>
@@ -92,19 +92,19 @@
 
     <footer>
       <div class="container">
-        <div class="col-md-4">
+        <div class="col-md-4 footer-left">
           <p>Find us on:</p>
           <p>Facebook</p>
           <p>Twitter</p>
         </div>
-        <div class="col-md-4">
-          <p class="text-center">"Fly by night sound and light" since 1973.</p>
-          <p class="text-center">A special committee of the <a href="http://activitiesboard.org/">Carnegie Mellon Activities Board.</a></p>
+        <div class="col-md-4 footer-center">
+          <p>"Fly by night sound and light" since 1973.</p>
+          <p>A special committee of the <a href="http://activitiesboard.org/">Carnegie Mellon Activities Board.</a></p>
         </div>
-        <div class="col-md-4">
-          <p class="text-right">Contact us by reqest form or:</p>
-          <p class="text-right">(412) 268 - 2104</p>
-          <p class="text-right">abtech@andrew.cmu.edu</p>
+        <div class="col-md-4 footer-right">
+          <p>Contact us by reqest form or:</p>
+          <p>(412) 268 - 2104</p>
+          <p>abtech@andrew.cmu.edu</p>
         </div>
     </footer>
 
@@ -131,9 +131,14 @@
       // set header type at document start
       set_header_type();
       // and on all scroll events
-      $(document).scroll(function() {
-        set_header_type();
-      });
+      $(document).scroll(set_header_type);
+
+      var toggle_mobile_nav = function() {
+        $("nav.header-nav").toggleClass("hidden-nav");
+      }
+      // hide mobile nav on startup
+      toggle_mobile_nav();
+      $("header button.navbar-toggle").click(toggle_mobile_nav);
     </script>
   </body>
 </html>
