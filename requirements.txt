@@ -1,2 +1,1 @@
 Django==1.7.1
-django-medusa==0.3.0
