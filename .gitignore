@@ -62,7 +62,7 @@ target/
 .DS_Store
 
 # Generated style files
-static/css/*
+#static/css/*
 
 # PyCharm
 .idea/
