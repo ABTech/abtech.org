@@ -1,16 +1,33 @@
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+{% load staticfiles %}
+<!DOCTYPE html>
 <html>
 
 <head><title> AB Tech: {% block title %}  {% endblock %}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+
   {% block includes %} {% endblock %}
 </head>
+
 {% include "header.html" %}
-{% include "sidebar.html" %}
+{#{% include "sidebar.html" %}#}
 
-{% block content %}
-
+{% block content-container %}
+  <main class="normal-content">
+    <div class="container">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="content-block">
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+    </div>
+  </main>
 {% endblock %}
 
 {% include "footer.html" %}

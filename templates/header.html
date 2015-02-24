@@ -1,26 +1,34 @@
 {% load staticfiles %}
-<body bgcolor="#464646" leftmargin="10" topmargin="10" marginwidth="10"
-      marginheight="10">
-<font face="helvetica,verdana,arial,charter,geneva" size="1">
-  <table align="center" width="90%" border="0" bgcolor="#FFFFFF" cellpadding=0
-         cellspacing=10>
-    <tr>
-      <td align="center" colspan="3" cellspacing=0>
-        <a href={% url "website:index" %}><img border="0" alt="AB Tech"
-                                               src="static/img/abtech-fbnsal.png"></a>
-      </td>
-      <td colspan="1" width=2></td>
-      <td valign="middle" align="center" colspan="1">
-        <H1 style="margin-bottom:5px; font-size:40px;">AB Tech</H1>
-        <font size="4">Carnegie Mellon University &ndash; Pittsburgh,
-          PA</font><br/><br/>
-        <font size="3"><b><i>Providing 'Fly-by-Night Sound and Light' Since
-          1973</i></b></font>
-      </td>
-    </tr>
+<body>
+<header>
+  <div class="container">
+    <div id="logo">
+      <a href="{% url 'website:index' %}"><img src="{% static 'img/abtech-sketched.svg' %}" alt="AB Tech Logo"></a>
+    </div>
 
-    <tr height="4" bgcolor="#990000">
-      <td height="4" colspan="5" bgcolor="#990000"></td>
-    </tr>
+    <div id="header-expander">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
-    <tr>
+    <nav class="header-nav">
+      <ul>
+        <li class="heading">Organizers</li>
+        <li><a href="{% url 'website:request' %}">Request Event</a></li>
+        <li><a href="{% url 'website:equipment' %}">Services + Equipment</a></li>
+        <li><a href="{% url 'website:events' %}">Past Events</a></li>
+        <li><a href="{% url 'website:crew' %}">People</a></li>
+        <li class="heading">Members</li>
+        <li><a href="https://tracker.abtech.org/">Tracker</a></li>
+        <li><a href="https://www.abtech.org/wiki/">Wiki</a></li>
+      </ul>
+    </nav>
+
+  </div>
+  <!-- /.container -->
+</header>

@@ -38,4 +38,6 @@ urlpatterns = [
     url(r'^styletest$', TemplateView.as_view(template_name="styletest.html"),
         name='styletest'),
     url(r'^signup$', views.signup, name='signup'),
+    url(r'^request$', TemplateView.as_view(template_name="request.html"),
+        name='request')
 ]

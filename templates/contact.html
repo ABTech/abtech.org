@@ -5,17 +5,6 @@
 
 {% block content %}
 
-  {% load staticfiles %}
-  <!-- <!DOCTYPE html> -->
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-  <html>
-
-  <head><title>AB Tech: Contacting Us</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  </head>
-  {% include "header.html" %}
-  {% include "sidebar.html" %}
-
   <font size=+1><b>Contacting Us</b></font>
   <P>
     Sending email to <a
@@ -54,7 +43,7 @@
     In the event that you need to contact us regarding an issue that <b>absolutely
     cannot wait</b> for a normal email response, and you have been unsuccessful
     in reaching us through any other means, please contact the <a
-      href="crew.shtml">Head of Tech</a> directly.<br>
+      href="{% url 'website:crew' %}">Head of Tech</a> directly.<br>
     <b><i>If your issue does not need immediate attention, please use our
       primary email address above.</i></b>
   </p>
