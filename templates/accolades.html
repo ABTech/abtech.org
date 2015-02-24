@@ -1,13 +1,9 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Accolades</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} {% endblock %}
+
+{% block content %}
 
 My entire team can truly not thank you enough.  AB Tech was professional, knowledgeable,
 and fantastic to work with.  It was so great knowing that I could rely on your entire
@@ -48,4 +44,4 @@ with all things ABTech and more for the rest of this semester.
 <br>
 - Mayur, February 2014
 
-{% include "footer.html" %}
+{% endblock %}

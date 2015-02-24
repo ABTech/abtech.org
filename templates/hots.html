@@ -1,13 +1,9 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Heads of Tech</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} Heads of Tech {% endblock %}
+
+{% block content %}
 
 <center>
 <FONT SIZE=+2><b>Heads of Tech</b></FONT>
@@ -66,4 +62,4 @@ The list is foggy beyond this point.  Rumor has it, however, that the first Head
 of Tech was elected in 1969 or 1970.
 </p></center>
 
-{% include "footer.html" %}
+{% endblock %}

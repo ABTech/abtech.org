@@ -1,13 +1,11 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Our Services</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} Our Services {% endblock %}
+
+{% block content %}
+
+
 <FONT SIZE=+1><b>Event Planning</b></FONT><P>
 
 AB Tech provides sound and lighting services to organizations affiliated with or
@@ -82,4 +80,4 @@ If you are interested in having in AB Tech provide technical support for your ev
 If AB Tech is not available to work your show, you may want to check out our
 <a href=contractors.shtml>production contractors page</a>.
 
-{% include "footer.html" %}
+{% endblock %}

@@ -1,14 +1,10 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Alumni</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+{% block title %} Alumni {% endblock %}
 
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block content %}
+
 <center>
 <FONT SIZE=+2><b>Alumni</b></FONT>
 
@@ -599,4 +595,4 @@ To join, visit <a href="http://abtech.org/mailman/listinfo/ghosts">http://abtech
 </table>
 </center>
 
-{% include "footer.html" %}
+{% endblock %}

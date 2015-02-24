@@ -1,13 +1,9 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Our Equipment</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} Our Equipment {% endblock %}
+
+{% block content %}
 
 <font size=+1><b>AB Tech Inventory</b></font><P>
 Our equipment configuration is constantly changing as we modify existing setups and acquire new gear
@@ -265,4 +261,4 @@ trees, in addition to floor lighting.
 </ul>
 </td></tr></table>
 
-{% include "footer.html" %}
+{% endblock %}

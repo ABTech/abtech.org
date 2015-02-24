@@ -1,13 +1,9 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Past Events 1970s </title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} Past Events 1970s {% endblock %}
+
+{% block content %}
 
 <table align=center width="100%"><tr>
 <td width=20%>
@@ -69,5 +65,5 @@ assembling this list.
 
 </table>
 
-{% include "footer.html" %}
+{% endblock %}
 

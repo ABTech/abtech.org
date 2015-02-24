@@ -1,13 +1,10 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Timelapses</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} Timelapses {% endblock %}
+
+{% block content %}
+
 
 <FONT SIZE=+1><b>Timelapses</b></FONT><P>
 Over time we have compiled a small collection of timelapse films.
@@ -59,4 +56,4 @@ start to finish. Enjoy!<br><br>
 
 </td></tr></table>
 
-{% include "footer.html" %}
+{% endblock %}

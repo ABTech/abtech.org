@@ -1,13 +1,9 @@
-{% load staticfiles %}
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: Past Events 2000s </title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} Past Events 2000s {% endblock %}
+
+{% block content %}
 
 <font size=+1><b>Past Events</b></font><P>
 		<table align=center width="100%"><tr>
@@ -338,4 +334,4 @@ Hendricks Trio</b></td><td  nowrap><font size="-1">September 11</font></td><td >
 nowrap><font size="-1">December 4</font></td><td ><font size="-1">McConomy</font></td></tr>
 </table>
 
-{% include "footer.html" %}
+{% endblock %}

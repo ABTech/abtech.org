@@ -1,14 +1,9 @@
-<!-- {% load staticfiles %} -->
-<!-- <!DOCTYPE html> -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+{%  extends "base.html" %}
+{%  load staticfiles %}
 
-<head><title>AB Tech: External Links</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-{% include "header.html" %}
-{% include "sidebar.html" %}
+{% block title %} External Links {% endblock %}
 
+{% block content %}
 
 Jump to:
 <a href="#Contractors">Contractors</a>,
@@ -136,4 +131,4 @@ Organizations that we are a part of, or deal with regularly.
 
 </table>
 
-{% include "footer.html" %}
+{% endblock %}
