@@ -37,7 +37,7 @@ email (we receive many emails and occasionally one will be misfiled).
 In the event that you need to contact us regarding an issue that <b>absolutely
 cannot wait</b> for a normal email response, and you have been unsuccessful
 in reaching us through any other means, please contact the <a
-  href="{% url 'website:crew' %}">Head of Tech</a> directly.<br>
+  href="/crew">Head of Tech</a> directly.<br>
 <b><i>If your issue does not need immediate attention, please use our
   primary email address above.</i></b>
 </p>

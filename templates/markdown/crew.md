@@ -1,6 +1,6 @@
 <P>
   The people who make up AB Tech. Past members can be found on the <a
-    href="{% url 'website:alumni' %}">alumni page</a>.<br/>
+    href="/alumni">alumni page</a>.<br/>
 </P>
 
 <P>
