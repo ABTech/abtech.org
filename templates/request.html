@@ -1,8 +1,15 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+{% load django_markdown %}
 
 {% block title %} Our Services {% endblock %}
 
 {% block content %}
 <p> TODO </p>
+  Raw_content <br>
+  {{ raw_content }}
+  <br>
+  <br>
+  Rendered <br>
+  {{ raw_content|markdown }}
 {% endblock %}

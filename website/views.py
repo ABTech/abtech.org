@@ -1,7 +1,7 @@
-from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.views.generic.base import TemplateView
 from django.core.mail import send_mail
+
 
 def signup(request):
     try:
@@ -18,3 +18,12 @@ def signup(request):
         return HttpResponseBadRequest(e)
 
 
+class RequestView(TemplateView):
+
+    template_name = "request.html"
+
+    def get_context_data(self, **kwargs):
+        context = super(RequestView, self).get_context_data(**kwargs)
+        with open("/Users/rmaratos/workspace/abtech.org/templates/markdown/accolades.md") as f:
+            context['raw_content'] = f.read()
+        return context

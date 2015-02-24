@@ -7,6 +7,7 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS += ('website',
+                   'django_markdown'
                    )
 
 PROJECT_DIR = os.path.dirname(__file__)
