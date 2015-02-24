@@ -24,8 +24,8 @@ you send us (you do not need to list specific items).
     href="http://www.l-acoustics.com/products-kudo-33.html">KUDO</a>,
   4 <a
       href="http://www.l-acoustics.com/products-sb28-subwoofer-44.html">SB
-    218</a>) <a href={% static "img/equipment/kudo.jpg" %}><img
-      border=0 src={% static "img/photo.gif" %}></a>
+    218</a>) <a href="/static/img/equipment/kudo.jpg"><img
+      border=0 src="/static/img/photo.gif"></a>
 
 <li>40,000W of <a href="http://www.l-acoustics.com/">L-Acoustics</a>
   <a
@@ -54,18 +54,18 @@ you send us (you do not need to list specific items).
   <a href="http://www.eaw.com/products/item.phtml?part_number=997150">SB528zP
     info</a>)
   capable of 28Hz-17kHz -3dB, +1dB A-weighted. <a
-      href={% static "img/equipment/mains.jpg" %}><img border=0
-                                                       src={% static "img/photo.gif" %}></a>
+      href="/static/img/equipment/mains.jpg"><img border=0
+                                                       src="/static/img/photo.gif"></a>
 <li>20,000W of <a href="http://www.crownaudio.com">Crown</a>
   <a
       href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech</a>)
   capable of providing power levels exceeding 115 dBA SPL at the rear
   of most
   popular CMU venues. <a
-      href={% static "img/equipment/ferdinand.jpg" %}><img border=0
-                                                           src={% static "img/photo.gif" %}></a>
-  <a href={% static "img/equipment/luther.jpg" %}><img border=0
-                                                       src={% static "img/photo.gif" %}></a>
+      href="/static/img/equipment/ferdinand.jpg"><img border=0
+                                                           src="/static/img/photo.gif"></a>
+  <a href="/static/img/equipment/luther.jpg"><img border=0
+                                                       src="/static/img/photo.gif"></a>
 <li><a href="http://www.eaw.com">EAW</a>
   <a href="http://www.eaw.com/products/MX/index.shtml">MX-800</a>
   Stereo
@@ -77,15 +77,15 @@ you send us (you do not need to list specific items).
 <li>2 <a href="http://www.eaw.com">EAW</a> <a
     href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a>/
   <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a>
-  <a href={% static "img/equipment/la.jpg" %}><img border=0
-                                                   src={% static "img/photo.gif" %}></a>
+  <a href="/static/img/equipment/la.jpg"><img border=0
+                                                   src="/static/img/photo.gif"></a>
 <li>7,500W of <a href="http://www.crownaudio.com">Crown</a> <a
     href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and
   <a href="http://www.crownaudio.com">Crown</a>
   <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech
     2400</a> amplification. <a
-      href={% static "img/equipment/swissvale.jpg" %}><img border=0
-                                                           src={% static "img/photo.gif" %}></a>
+      href="/static/img/equipment/swissvale.jpg"><img border=0
+                                                           src="/static/img/photo.gif"></a>
 <li><a href="http://www.eaw.com">EAW</a>
   <a href="http://www.eaw.com/products/MX/index.shtml">MX-100</a> and
   Ashley 2-way Active Crossovers
@@ -262,22 +262,22 @@ you send us (you do not need to list specific items).
 
 <li>5 <a href="http://www.sennheiserusa.com">Sennheiser</a> <a
     href="http://www.sennheiserusa.com/pages/products/micro/md421.htm">MD421</a>
-  <a href={% static "img/equipment/421.jpg" %}><img border=0
-                                                    src={% static "img/photo.gif" %}></a>
+  <a href="/static/img/equipment/421.jpg"><img border=0
+                                                    src="/static/img/photo.gif"></a>
 <li>2 Neumann KM184s
 <li>2 <a href="http://www.akg.com">AKG</a> <a
     href="http://www.akg.com/products/powerslave,mynodeid,15,id,759,pid,759,_language,EN.html">C1000s</a> </a>
 <li>6 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/sm81.asp">SM81</a> <a
-    href={% static "img/equipment/sm81.jpg" %}><img border=0
-                                                    src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/sm81.jpg"><img border=0
+                                                    src="/static/img/photo.gif"></a>
 <li>4 <a href="http://www.akg.com">AKG</a> 451 (2 x C451EB and 2 x
-  451E) <a href={% static "img/equipment/ck451eb.jpg" %}><img border=0
-                                                              src={% static "img/photo.gif" %}></a>
+  451E) <a href="/static/img/equipment/ck451eb.jpg"><img border=0
+                                                              src="/static/img/photo.gif"></a>
 <li>9 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/sm58.asp">SM58</a> <a
-    href={% static "img/equipment/sm58.jpg" %}><img border=0
-                                                    src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/sm58.jpg"><img border=0
+                                                    src="/static/img/photo.gif"></a>
 <li>5 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/beta58a.asp">Beta
   58A</a>
@@ -286,36 +286,36 @@ you send us (you do not need to list specific items).
   87A</a>
 <li>11 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/sm57.asp">SM57</a> <a
-    href={% static "img/equipment/sm57.jpg" %}><img border=0
-                                                    src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/sm57.jpg"><img border=0
+                                                    src="/static/img/photo.gif"></a>
 <li>2 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/beta57a.asp">Beta
   57A</a>
 <li>6 <a href="http://www.electrovoice.com">EV</a> ND408 <a
-    href={% static "img/equipment/408.jpg" %}><img border=0
-                                                   src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/408.jpg"><img border=0
+                                                   src="/static/img/photo.gif"></a>
 <li>3 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/beta98ds.asp">Beta
   98D/S</a>
 <li>1 <a href="http://www.electrovoice.com">EV</a> <a
     href="http://www.electrovoice.com/electrovoice/products.nsf/allpages/4F56507BDF754C5086256B900080527F?Opendocument">RE20 </a><a
-    href={% static "img/equipment/re20.jpg" %}><img border=0
-                                                    src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/re20.jpg"><img border=0
+                                                    src="/static/img/photo.gif"></a>
 <li>1 <a href="http://www.electrovoice.com">EV</a> PL20
 <li>4 Sennheiser e604
 <li>2 Sennheiser e906
 <li>2 <a href="http://www.akg-acoustics.com">AKG</a> <a
     href="http://www.akg.com/products/powerslave,mynodeid,15,id,261,pid,261,_language,EN.html">D112</a>
-  <a href={% static "img/equipment/d112.jpg" %}><img border=0
-                                                     src={% static "img/photo.gif" %}></a>
+  <a href="/static/img/equipment/d112.jpg"><img border=0
+                                                     src="/static/img/photo.gif"></a>
 <li>4 <a href="http://www.whirlwindusa.com">Whirlwind</a> <a
     href="http://www.whirlwindusa.com/dirbox.html">IMP2</a> DIs<a
-    href={% static "img/equipment/DI.jpg" %}><img border=0
-                                                  src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/DI.jpg"><img border=0
+                                                  src="/static/img/photo.gif"></a>
 <li>6 <a href="http://www.bss.co.uk">BSS</a> <a
     href="http://www.bss.co.uk/ar133.htm">AR-133</a> Active DIs<a
-    href={% static "img/equipment/ar133.gif" %}><img border=0
-                                                     src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/ar133.gif"><img border=0
+                                                     src="/static/img/photo.gif"></a>
 <li>4 Radial J48 Active DIs
 <li>2 Radial JPC Stereo Active DIs
 <li>1 Radio Shack PZM
@@ -375,8 +375,8 @@ trees, in addition to floor lighting.
 
 <ul>
 <li>48 PAR64 cans with 1kW lamps <a
-    href={% static "img/equipment/pars.jpg" %}><img border=0
-                                                    src={% static "img/photo.gif" %}></a>
+    href="/static/img/equipment/pars.jpg"><img border=0
+                                                    src="/static/img/photo.gif"></a>
 <li>80' 12"x12" <a href="http://www.jthomaseng.com">Thomas</a> box
   truss
 <li>12 <a href="http://www.etcconnect.com">ETC</a>
