@@ -21,5 +21,4 @@ urlpatterns = [
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
     url(r'^signup$', signup, name='signup'),
     url(r'^request$', RequestView.as_view(), name='request'),
-
 ]

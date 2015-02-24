@@ -1,6 +1,8 @@
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.views.generic.base import TemplateView
 from django.core.mail import send_mail
+from django.conf import settings
+
 
 
 def signup(request):
@@ -22,11 +24,6 @@ class RequestView(TemplateView):
 
     template_name = "request.html"
 
-    def get_context_data(self, **kwargs):
-        context = super(RequestView, self).get_context_data(**kwargs)
-        with open("/Users/rmaratos/workspace/abtech.org/templates/markdown/accolades.md") as f:
-            context['raw_content'] = f.read()
-        return context
 
 
 class MarkdownView(TemplateView):
@@ -36,8 +33,10 @@ class MarkdownView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(MarkdownView, self).get_context_data(**kwargs)
-        base_path = "/Users/rmaratos/workspace/abtech.org/templates/markdown/"
-        path = base_path + self.markdown
+        print(settings.PROJECT_DIR)
+        markdown_dir = settings.PROJECT_DIR / "templates/markdown/"
+        print(markdown_dir)
+        path = str(markdown_dir / self.markdown)
         with open(path) as f:
             context['raw_content'] = f.read()
         return context
