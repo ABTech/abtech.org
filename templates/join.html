@@ -1,59 +1,75 @@
-{%  extends "base.html" %}
-{%  load staticfiles %}
+{% extends "base.html" %}
+{% load staticfiles %}
 
 {% block title %} Joining Tech {% endblock %}
 
 {% block includes %}
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script
+      src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="{% static "js/join.js" %}"></script>
 {% endblock %}
 
 {% block content %}
 
-<FONT SIZE=+1><b>Joining the Insanity</b></FONT><P>
-Membership in AB Tech is open to all Carnegie Mellon students.
-In general, we recommend members have a good sense of humor and a willingness to push heavy stuff.
-If you have an interest in big speakers, fancy lighting, or being backstage at some of the coolest events
-on campus, AB Tech is the place to be.
-<br><br>
+  <FONT SIZE=+1><b>Joining the Insanity</b></FONT><P>
+  Membership in AB Tech is open to all Carnegie Mellon students.
+  In general, we recommend members have a good sense of humor and a willingness
+  to push heavy stuff.
+  If you have an interest in big speakers, fancy lighting, or being backstage at
+  some of the coolest events
+  on campus, AB Tech is the place to be.
+  <br><br>
 
-Twice a year (September and January), AB Tech is at the Activities Fair along with other student
-organizations. Stop by, sign up, and we'll email you a place to show up to meet everyone else and
-start playing with some of the most awesome and expensive equipment in town.
-<br><br>
-You can also sign up for our dlist right here:
-<form id="signup">
-  {% csrf_token %}
-  <label for="andrew_id">Andrew ID</label>
-  <input type="text" name="andrew_id"><br>
-  <label for="name">Name</label>
-  <input type="text" name="name"><br>
-  <input type="submit" value="Submit">
-  <div id="status"></div>
-</form>
-Generally our most extensive orientation event is held shortly after the September Activities Fair, but
-we encourage you to join at any time. Almost all of our training is done "on the job" -- and most of our members
-knew very little to nothing before they joined. After your sixth event, you'll "learn our secret
-handshake" and be considered a full member. AB Tech has no dues, no mandatory events/participation, and no other
-special requirements to stay a member -- just show up to events when you have time!
+  Twice a year (September and January), AB Tech is at the Activities Fair along
+  with other student
+  organizations. Stop by, sign up, and we'll email you a place to show up to
+  meet everyone else and
+  start playing with some of the most awesome and expensive equipment in town.
+  <br><br>
+  You can also sign up for our dlist right here:
+  <form id="signup">
+    {% csrf_token %}
+    <label for="andrew_id">Andrew ID</label>
+    <input type="text" name="andrew_id"><br>
+    <label for="name">Name</label>
+    <input type="text" name="name"><br>
+    <input type="submit" value="Submit">
 
-<br><br>
-Other options for joining AB Tech include:
-<ul>
-  <li><b>emailing <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.</b> Again, we'll send you
-  some places you might spot us in the future.
+    <div id="status"></div>
+  </form>
+  Generally our most extensive orientation event is held shortly after the
+  September Activities Fair, but
+  we encourage you to join at any time. Almost all of our training is done "on
+  the job" -- and most of our members
+  knew very little to nothing before they joined. After your sixth event, you'll
+  "learn our secret
+  handshake" and be considered a full member. AB Tech has no dues, no mandatory
+  events/participation, and no other
+  special requirements to stay a member -- just show up to events when you have
+  time!
 
-  <li><b>stopping by at an event.</b> Follow the loud music to its source, and you have probably
-  stumbled across some techies. Say Hi!
+  <br><br>
+  Other options for joining AB Tech include:
+  <ul>
+    <li><b>emailing <a
+        href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
+      &#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.</b>
+      Again, we'll send you
+      some places you might spot us in the future.
 
-  <li><b>following a friend.</b> Our members are fine, upstanding students at Carnegie Mellon (or so
-  we hope), and should know our schedule.
+    <li><b>stopping by at an event.</b> Follow the loud music to its source, and
+      you have probably
+      stumbled across some techies. Say Hi!
 
-</ul>
+    <li><b>following a friend.</b> Our members are fine, upstanding students at
+      Carnegie Mellon (or so
+      we hope), and should know our schedule.
 
-<b><a href=downloads/flyer-2010.pdf>Our Current Recruiting Flyer</a></b><br>
-<a href=downloads/flyer-2003.pdf>Our Recruiting Flyer '03-'09</a><br>
-<a href=downloads/flyer-2000.pdf>Our Recruiting Flyer '00-'02</a><br>
-<a href=downloads/flyer-fall98.pdf>Our Recruiting Flyer '98-'99</a>
+  </ul>
+
+  <b><a href=downloads/flyer-2010.pdf>Our Current Recruiting Flyer</a></b><br>
+  <a href=downloads/flyer-2003.pdf>Our Recruiting Flyer '03-'09</a><br>
+  <a href=downloads/flyer-2000.pdf>Our Recruiting Flyer '00-'02</a><br>
+  <a href=downloads/flyer-fall98.pdf>Our Recruiting Flyer '98-'99</a>
 
 {% endblock %}
