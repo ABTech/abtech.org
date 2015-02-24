@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load django_markdown %}
+
+{% block title %} Our Services {% endblock %}
+
+{% block content %}
+  {% autoescape on %}
+  {{ raw_content|markdown }}
+  {% endautoescape %}
+{% endblock %}

@@ -27,3 +27,17 @@ class RequestView(TemplateView):
         with open("/Users/rmaratos/workspace/abtech.org/templates/markdown/accolades.md") as f:
             context['raw_content'] = f.read()
         return context
+
+
+class MarkdownView(TemplateView):
+
+    template_name = "markdown-view.html"
+    markdown = None
+
+    def get_context_data(self, **kwargs):
+        context = super(MarkdownView, self).get_context_data(**kwargs)
+        base_path = "/Users/rmaratos/workspace/abtech.org/templates/markdown/"
+        path = base_path + self.markdown
+        with open(path) as f:
+            context['raw_content'] = f.read()
+        return context
