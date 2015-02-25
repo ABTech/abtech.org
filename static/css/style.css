@@ -27,13 +27,71 @@ body {
   .navbar-collapse {
       width: 100%;
   }
+    #lead {
+        padding-top: 50px;
+
+    }
+    #lead .container .row {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+    #logo {
+    position: absolute;
+    top: -30px;
+    left: 100px;
+     /*float: left */
+    padding-top: 40px;
+    padding-left: 12px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* mobile navbar */
+#logo img {
+    width: 132px;
+    height: 80px;
+}
+
+
+}
+
+/* mobile  */
 @media (max-width: 767px) {
   .navbar-collapse {
       width: 50%;
   }
+    #lead {
+        padding-top: 15px;
+
+    }
+    #lead .container .row {
+    margin-top: 30px;
+    width: 100%;
+    }
+
+    #logo {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+     /*float: left */
+    padding-top: 20px;
+    padding-left: 6px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+    #logo img {
+        width: 66px;
+        height: 40px;
+    }
+
+
 }
 
 .container-fluid {
@@ -53,24 +111,6 @@ body {
     background-color: #f8f8f8;
 }
 
-#logo {
-    position: absolute;
-    top: -30px;
-    left: 100px;
-     /*float: left */
-    padding-top: 40px;
-    padding-left: 12px;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    background: red;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
-}
-
-#logo img {
-    width: 132px;
-    height: 80px;
-}
 
 #lead {
     height: 90%;
@@ -80,7 +120,6 @@ body {
     /*background-size: 100%;*/
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -92,11 +131,7 @@ body {
     position: relative;
 }
 
-#lead .container .row {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-}
+
 
 #lead .lead-item {
     display: block;
