@@ -1,13 +1,14 @@
 {% load staticfiles %}
 <body>
-<header>
-  <div class="container">
-    <div id="logo">
-      <a href="{% url 'website:index' %}"><img src="{% static 'img/abtech-sketched.svg' %}" alt="AB Tech Logo"></a>
-    </div>
 
-    <div id="header-expander">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div id="logo">
+  <a href="{% url 'website:index' %}"><img src="{% static 'img/abtech-sketched.svg' %}" alt="AB Tech Logo"></a>
+</div>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
               aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -16,19 +17,16 @@
       </button>
     </div>
 
-    <nav class="header-nav">
-      <ul>
-        <li class="heading">Organizers</li>
-        <li><a href="{% url 'website:request' %}">Request Event</a></li>
-        <li><a href="{% url 'website:equipment' %}">Services + Equipment</a></li>
-        <li><a href="{% url 'website:events' %}">Past Events</a></li>
-        <li><a href="{% url 'website:crew' %}">People</a></li>
-        <li class="heading">Members</li>
-        <li><a href="https://tracker.abtech.org/">Tracker</a></li>
-        <li><a href="https://www.abtech.org/wiki/">Wiki</a></li>
-      </ul>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{% url 'website:request' %}">Request Event</a></li>
+          <li><a href="{% url 'website:equipment' %}">Services + Equipment</a></li>
+          <li><a href="{% url 'website:events' %}">Past Events</a></li>
+          <li class="rightmost"><a href="{% url 'website:crew' %}">People</a></li>
+        </ul>
+      </div>
+    </div>
 
   </div>
   <!-- /.container -->
-</header>
+</div>

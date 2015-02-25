@@ -25,7 +25,6 @@ class RequestView(TemplateView):
     template_name = "request.html"
 
 
-
 class MarkdownView(TemplateView):
 
     template_name = "markdown-view.html"
@@ -33,9 +32,7 @@ class MarkdownView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(MarkdownView, self).get_context_data(**kwargs)
-        print(settings.PROJECT_DIR)
         markdown_dir = settings.PROJECT_DIR / "templates/markdown/"
-        print(markdown_dir)
         path = str(markdown_dir / self.markdown)
         with open(path) as f:
             context['raw_content'] = f.read()
