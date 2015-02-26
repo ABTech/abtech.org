@@ -1,50 +1,55 @@
-<FONT SIZE=+1><b>Event Planning</b></FONT><P>
+<div class = "title-header">
+  <p class="text-justify"> 
+  <a href="/services" class="current"> Services </a> 
+   <a href="/equipment"> Equipment </a>
+    <a href="/external"> External </a> 
+  </p>
+</div>
 
 AB Tech provides sound and lighting services to organizations affiliated with
 or
 planning events at Carnegie Mellon. Most events are on-campus, but we also
 assist with a few select off-campus events each year.
 
-<br><br>
-We can assist your organization's event in a number of areas:
-<ul>
-  <li><b>Sound reinforcement:</b> From small vocal performances to dance
-    parties to large bands, we are
-    experienced in the art of sound reinforcement. Most events can be handled
-    with our own inventory,
-    providing great discounts off rental prices at external companies. As
-    necessary, we can also
-    rent equipment and bill you at-cost.
 
-  <li><b>Lighting:</b> We can provide lighting for small shows using poles or
+We can assist your organization's event in a number of areas:
+
+* **Sound reinforcement:** From small vocal performances to dance
+  parties to large bands, we are
+  experienced in the art of sound reinforcement. Most events can be handled
+  with our own inventory,
+  providing great discounts off rental prices at external companies. As
+  necessary, we can also
+  rent equipment and bill you at-cost.
+
+* **Lighting:** We can provide lighting for small shows using poles or
     floor lighting, or setup
     spans of lighting truss overhead for larger events. We have traditional
     colored lighting as well
     as LEDs, moving lights, strobes, and black lights.
 
-  <li><b>Staging:</b> If your event requires additional staging material, we
+*  **Staging:** If your event requires additional staging material, we
     can coordinate the rental of
     stage components from outside contractors. We do not carry any staging
     ourselves.
 
-  <li><b>Power:</b> Larger shows (especially those with complex lighting
+*  **Power:** Larger shows (especially those with complex lighting
     requirements) will require
     more than wall power. In some cases, generators are rented to supply this
     additional power.
     We can coordinate this.
 
-</ul>
-<P>AB Tech does not officially provide video services (including
-  projector/screen rentals, video recording/filming of events, playback of
-  slideshows, DVDs, etc.). If your event requires these services, we may
-  subcontract <a href="http://www.cmutv.org/" target="_blank">cmuTV</a> or <a
-      href="contractors.shtml">another local production company</a> at an
-  additional charge. Similarly, AB Tech does not own any backline equipment
-  (guitar amplifiers, drums, keyboards, or other musical instruments), but we
-  are happy to help coordinate the appropriate rentals through a local
-  backline rental company.</P>
+AB Tech does not officially provide video services (including
+projector/screen rentals, video recording/filming of events, playback of
+slideshows, DVDs, etc.). If your event requires these services, we may
+subcontract <a href="http://www.cmutv.org/" target="_blank">cmuTV</a> or <a
+    href="contractors.shtml">another local production company</a> at an
+additional charge. Similarly, AB Tech does not own any backline equipment
+(guitar amplifiers, drums, keyboards, or other musical instruments), but we
+are happy to help coordinate the appropriate rentals through a local
+backline rental company.
 
-<font size=+1><b>What we need:</b></font>
+**What we need:**
 <ul>
   <li><b>Precise show information:</b> To book an event, we need at minimum:
     <ul>
@@ -99,7 +104,8 @@ We can assist your organization's event in a number of areas:
   </li>
 </ul>
 
-<font size=+1><b>What we charge:</b></font><br>
+**What we charge:**
+<br>
 Our charges are based on the configuration of equipment being used and the
 personnel required to run
 your event. Thus, the cost of providing technical support for a show varies
@@ -110,17 +116,20 @@ student organizations receive more heavily subsidized pricing than other
 organizations.
 You will receive a customized quote once we receive the details of your event.
 
-<p>
-  <font size=+1><b>How to submit a request:</b></font><br>
-  If you are interested in having in AB Tech provide technical support for
-  your event, please email your request to <a
-    href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
-  &#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.
-  Expect a reply within a couple of days; if you don't hear back from us
-  within a reasonable period of time, feel free to follow up with another
-  email (we get a lot of requests and occasionally one will be misfiled).
 
-<p>
-<font size=+1><b>Other options:</b></font><br>
-If AB Tech is not available to work your show, you may want to check out our
-<a href=/external>production contractors page</a>.
+**How to submit a request:**
+<br>
+If you are interested in having in AB Tech provide technical support for
+your event, please email your request to <a
+  href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
+&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.
+Expect a reply within a couple of days; if you don't hear back from us
+within a reasonable period of time, feel free to follow up with another
+email (we get a lot of requests and occasionally one will be misfiled).
+
+
+**Other options:**
+<br>
+If AB Tech is not available to work your show, you may want to check out our 
+[production contractors page](/external) .
+ 

@@ -3,15 +3,9 @@
 
 {% block title %} Joining Tech {% endblock %}
 
-{% block includes %}
-  <script
-      src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="{% static "js/join.js" %}"></script>
-{% endblock %}
-
 {% block content %}
-
-  <FONT SIZE=+1><b>Joining the Insanity</b></FONT><P>
+  <b>Joining the Insanity</b>
+  <p>
   Membership in AB Tech is open to all Carnegie Mellon students.
   In general, we recommend members have a good sense of humor and a willingness
   to push heavy stuff.
@@ -72,4 +66,9 @@
   <a href=downloads/flyer-2000.pdf>Our Recruiting Flyer '00-'02</a><br>
   <a href=downloads/flyer-fall98.pdf>Our Recruiting Flyer '98-'99</a>
 
+{% endblock %}
+
+
+{% block includes %}
+   <script src="{% static "js/join.js" %}"></script>
 {% endblock %}

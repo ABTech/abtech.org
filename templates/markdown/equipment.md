@@ -1,4 +1,10 @@
-
+<div class = "title-header">
+  <p class="text-justify"> 
+  <a href="/services"> Services </a> 
+   <a href="/equipment" class="current"> Equipment </a>
+    <a href="/external"> External </a> 
+  </p>
+</div>
 
 <font size=+1><b>AB Tech Inventory</b></font><P>
 Our equipment configuration is constantly changing as we modify existing

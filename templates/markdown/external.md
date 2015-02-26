@@ -1,3 +1,12 @@
+<div class = "title-header">
+  <p class="text-justify"> 
+  <a href="/services"> Services </a> 
+   <a href="/equipment"> Equipment </a>
+    <a href="/external" class="current"> External </a> 
+  </p>
+</div>
+
+
 Jump to:
 <a href="#Contractors">Contractors</a>,
 <a href="#Dealers">Dealers</a>,

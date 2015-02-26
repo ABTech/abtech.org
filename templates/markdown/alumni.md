@@ -1,20 +1,21 @@
+<div class = "title-header">
+  <p class="text-justify"> 
+  <a href="/alumni" class="current"> Alumni </a> 
+   <a href="/crew"> Current Crew </a>
+    <a href="/hots"> HOTs </a> 
+  </p>
+</div>
 
-Alumni
+If you are an AB Tech alumnus and you aren't listed here, or just want to
+get in touch, drop us a line
+at <a href="mailto:alumni@abtech.org">alumni@abtech.org</a>.
 
-<p>
-  If you are an AB Tech alumnus and you aren't listed here, or just want to
-  get in touch, drop us a line
-  at <a href="mailto:alumni@abtech.org">alumni@abtech.org</a>.
-</p>
 
-<p>
-  Alumni should also be aware that a mailing list exists for their use.
-  <br/>
-  To join, visit <a href="http://abtech.org/mailman/listinfo/ghosts">http://abtech.org/mailman/listinfo/ghosts</a>.
-  Posts go to <a href="mailto:ghosts@abtech.org">ghosts@abtech.org</A>.
-</p>
+Alumni should also be aware that a mailing list exists for their use.
+<br/>
+To join, visit <a href="http://abtech.org/mailman/listinfo/ghosts">http://abtech.org/mailman/listinfo/ghosts</a>.
+Posts go to <a href="mailto:ghosts@abtech.org">ghosts@abtech.org</A>.
 
-<p>
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="3" align="center" bgcolor="#990000" width="430"><FONT

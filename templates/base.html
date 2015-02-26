@@ -14,11 +14,18 @@
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 
-  {% block includes %} {% endblock %}
+
+  <!-- Bootstrap core JavaScript
+     ================================================== -->
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="{% static 'bootstrap/js/ie10-viewport-bug-workaround.js' %}"></script>
+  {% block includes %}
+  {% endblock %}
 </head>
 
 {% include "header.html" %}
-{#{% include "sidebar.html" %}#}
 
 {% block content-container %}
   <main class="normal-content">
@@ -32,5 +39,8 @@
     </div>
   </main>
 {% endblock %}
+
+
+
 
 {% include "footer.html" %}

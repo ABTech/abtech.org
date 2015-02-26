@@ -83,7 +83,7 @@ body {
     height: 80px;
     border-radius: 50%;
     background: red;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
 }
 
     #logo img {
@@ -167,7 +167,6 @@ body {
 .content-block {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
-    margin-top: 30px;
     padding: 15px;
 }
 
@@ -209,3 +208,35 @@ footer {
 .navbar-collapse.in .rightmost, .navbar-collapse.collapsing .rightmost {
     margin-right: 0px;
 }
+
+.crew-header {
+    text-align: justify;
+}
+
+
+.title-header .current {
+    font-weight: 600;
+}
+
+.hot-table {
+    border: 1px solid #990000 ;
+    align: center;
+    padding: 4px;
+}
+
+.hot-table td {
+	border: 1px solid #990000;
+	vertical-align: top;
+    text-align:center;
+}
+
+.hot-table th {
+	border: 1px solid #990000;
+	vertical-align: top;
+    text-align:center;
+    background-color: #990000;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+

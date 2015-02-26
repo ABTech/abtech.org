@@ -1,3 +1,10 @@
+<div class = "title-header">
+  <p class="text-justify"> 
+  <a href="#" class="current"> Past Events </a> 
+   <a href="/accolades"> Accolades </a>
+  </p>
+</div>
+
 <font size=+1><b>Past Events</b></font><P>
 
 

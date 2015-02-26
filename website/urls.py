@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from django.views.generic import TemplateView
-from website.views import MarkdownView, RequestView, signup
+from website.views import MarkdownView, RequestView, signup, request_submit
 
 urlpatterns = [
     url(r'^$', MarkdownView.as_view(template_name="index.html", markdown="index.md"), name='index'),
@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
     url(r'^signup$', signup, name='signup'),
     url(r'^request$', RequestView.as_view(), name='request'),
+    url(r'^request_submit', request_submit, name='request_submit')
 ]

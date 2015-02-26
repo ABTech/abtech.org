@@ -1,3 +1,10 @@
+<div class = "title-header">
+  <p class="text-justify"> 
+  <a href="/events"> Past Events </a> 
+   <a href="/accolades" class="current"> Accolades </a>
+  </p>
+</div>
+
 <div class="accolade">
     My entire team can truly not thank you enough. AB Tech was professional,
     knowledgeable,
