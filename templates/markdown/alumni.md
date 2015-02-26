@@ -10,7 +10,6 @@ If you are an AB Tech alumnus and you aren't listed here, or just want to
 get in touch, drop us a line
 at <a href="mailto:alumni@abtech.org">alumni@abtech.org</a>.
 
-
 Alumni should also be aware that a mailing list exists for their use.
 <br/>
 To join, visit <a href="http://abtech.org/mailman/listinfo/ghosts">http://abtech.org/mailman/listinfo/ghosts</a>.

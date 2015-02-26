@@ -1,11 +1,10 @@
 {% load staticfiles %}
-<body>
 
 
 <div class="navbar navbar-default navbar-fixed-top">
   <div id="logo">
-  <a href="{% url 'website:index' %}"><img src="{% static 'img/abtech-sketched.svg' %}" alt="AB Tech Logo"></a>
-</div>
+    <a href="{% url 'website:index' %}"><img src="{% static 'img/abtech-sketched.svg' %}" alt="AB Tech Logo"></a>
+  </div>
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
@@ -18,15 +17,12 @@
     </div>
 
     <div class="collapse navbar-collapse" id="navbar1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="{% url 'website:request' %}">Request Event</a></li>
-          <li><a href="{% url 'website:services' %}">Services + Equipment</a></li>
-          <li><a href="{% url 'website:events' %}">Past Events</a></li>
-          <li class="rightmost"><a href="{% url 'website:crew' %}">People</a></li>
-        </ul>
-      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{% url 'website:request' %}">Request Event</a></li>
+        <li><a href="{% url 'website:services' %}">Services + Equipment</a></li>
+        <li><a href="{% url 'website:events' %}">Past Events</a></li>
+        <li class="rightmost"><a href="{% url 'website:crew' %}">People</a></li>
+      </ul>
     </div>
-
   </div>
-  <!-- /.container -->
 </div>

@@ -15,5 +15,5 @@ AB Tech provides technical support in three core areas:
 In addition to these three areas, we coordinate associated needs and services such as multi-phase/high-load
 power, rigging & trussing, staging rentals, backline rentals, and more.
 
-For more information on the services we offer, please [click here](/services). Otherwise, use the menu
-on the left to navigate the site.
+For more information on the services we offer, please [click here](/services). 
+Otherwise, use the menu bar to navigate the site.

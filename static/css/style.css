@@ -50,10 +50,10 @@ body {
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-#logo img {
-    width: 132px;
-    height: 80px;
-}
+    #logo img {
+        width: 132px;
+        height: 80px;
+    }
 
 
 }
@@ -167,13 +167,17 @@ body {
 .content-block {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
-    padding: 15px;
+    padding: 25px;
+}
+
+.index.content-block {
+    margin-top: 15px;
 }
 
 .content-sidebar {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 65px 15px 15px 15px;
     position: relative;
 }

@@ -1,6 +1,5 @@
+**Contacting Us**
 
-<font size=+1><b>Contacting Us</b></font>
-<P>
 Sending email to <a
   href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
 &#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>
@@ -11,36 +10,27 @@ within a reasonable period of time, feel free to follow up with another
 email (we receive many emails and occasionally one will be misfiled).
 <br>
 <br>You can also contact us via: <br>
-<table border="0" cellpadding="5">
-<tr>
-  <td>Phone:</td>
-  <td>(412) 268-2104</td>
-</tr>
-<tr>
-  <td>Fax:</td>
-  <td>(412) 268-7900</td>
-</tr>
-<tr>
-  <td valign=top>US Mail:</td>
-  <td>
+
+Phone: (412) 268-2104
+
+Fax: (412) 268-7900
+
+US Mail: <br>
     University Center Box 73<br>
     5032 Forbes Ave.<br>
     Pittsburgh, PA 15213
-  </td>
-</tr>
-</table>
-</p>
+
 <br>
 <br>
 <font size=+1><b>Extremely Time-Sensitive Needs or Emergencies</b></font>
-<p>
+
 In the event that you need to contact us regarding an issue that <b>absolutely
 cannot wait</b> for a normal email response, and you have been unsuccessful
 in reaching us through any other means, please contact the <a
   href="/crew">Head of Tech</a> directly.<br>
 <b><i>If your issue does not need immediate attention, please use our
   primary email address above.</i></b>
-</p>
+
 <br>
 <br>
 <font size=+1><b>General Activities Board Questions</b></FONT>
