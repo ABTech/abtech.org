@@ -14,10 +14,9 @@ Jump to:
 <a href="#Orgs">Organizations</a>
 
 <hr>
-<a name="Contractors">
-  <font size=+1 face=Arial,Helvetica,Charter,Geneva,Helvetica,Charterr><b>Contractors</b></font></a>
-<br>
-<a href="contractors.shtml">Click here</a> to view a list of local production
+<a name="Contractors"> **Contractors** </a>  
+
+[Click here](/contractors) to view a list of local production
 contractors that we regularly deal with.
 <br>If we are unable to work your event, you can try contacting the companies
 on the above list for production services.

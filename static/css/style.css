@@ -177,7 +177,7 @@ body {
 .content-sidebar {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 65px 15px 15px 15px;
     position: relative;
 }
@@ -217,6 +217,21 @@ footer {
     text-align: justify;
 }
 
+.title-header {
+    text-align: justify;
+    /*margin-left: 30%;*/
+    /*margin-right: 30%;*/
+}
+
+.title-header:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.title-header a {
+    display: inline-block;
+}
 
 .title-header .current {
     font-weight: 600;
@@ -243,4 +258,5 @@ footer {
     font-weight: 600;
 
 }
+
 

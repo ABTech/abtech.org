@@ -1,4 +1,4 @@
-The <strong>Activities Board Technical Committee</strong>, commonly known as <strong>AB&nbsp;Tech</strong>,
+The **Activities Board Technical Committee**, commonly known as <strong>AB&nbsp;Tech</strong>,
 is the student organization charged with handling the technical production of Carnegie Mellon sponsored
 events, including all events organized by the <a href="http://activitiesboard.org" target="_blank">Activities
   Board</a>. We provide high quality, professional grade entertainment production services, including sound

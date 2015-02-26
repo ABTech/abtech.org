@@ -25,16 +25,13 @@
     </td>
   </tr>
 </table>
-<p>
-  Over the years, AB Tech has had the [ahem] pleasure of working with a number
-  of major acts, although they weren't necessarily that big at the time. This
-  list covers major shows produced in whole or part by Tech since its
-  creation.
-  Please note this list is definitely not complete and probably not entirely
-  accurate.
-<p>
 
-
+Over the years, AB Tech has had the [ahem] pleasure of working with a number
+of major acts, although they weren't necessarily that big at the time. This
+list covers major shows produced in whole or part by Tech since its
+creation.  
+Please note this list is definitely not complete and probably not entirely
+accurate.
 
 <table cellspacing="5" cellpadding="2" width="100%">
 

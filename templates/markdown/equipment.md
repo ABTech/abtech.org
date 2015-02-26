@@ -6,7 +6,7 @@
   </p>
 </div>
 
-<font size=+1><b>AB Tech Inventory</b></font><P>
+**AB Tech Inventory**  
 Our equipment configuration is constantly changing as we modify existing
 setups and acquire new gear
 to better meet the needs of the organizations we work with. Some large events
@@ -17,38 +17,30 @@ campus.
 Please note that parts of this list may be out of date or inaccurate, so use
 this as a general reference only.
 We will design an appropriate system for your event based on the requirements
-you send us (you do not need to list specific items).
-<br><br>
+you send us (you do not need to list specific items).  
 
-<h3>Speakers and Amplifiers</h3>
+### Speakers and Amplifiers
 
 
-<h4>L-Acoustics KUDO Rig</h4>
-<ul>
-<li>Four-way stereo configuration (8 <a
-    href="http://www.l-acoustics.com">L-Acoustics</a> <a
-    href="http://www.l-acoustics.com/products-kudo-33.html">KUDO</a>,
-  4 <a
-      href="http://www.l-acoustics.com/products-sb28-subwoofer-44.html">SB
-    218</a>) <a href="/static/img/equipment/kudo.jpg"><img
+#### L-Acoustics KUDO Rig
+
+* Four-way stereo configuration (8 [L-Acoustics](http://www.l-acoustics.com)
+ [KUDO](http://www.l-acoustics.com/products-kudo-33.html),
+  4 [SB 218](http://www.l-acoustics.com/products-sb28-subwoofer-44.html) ) 
+  <a href="/static/img/equipment/kudo.jpg"><img
       border=0 src="/static/img/photo.gif"></a>
-
-<li>40,000W of <a href="http://www.l-acoustics.com/">L-Acoustics</a>
-  <a
-      href="http://labgruppen.com/products/fp_series/c/fp_6400/">LA-48</a>
-  amplification
-  capable of providing power levels exceeding 123 dBA SPL at the rear
+* 40,000W of [L-Acoustics](http://www.l-acoustics.com/)
+  [LA-48](http://labgruppen.com/products/fp_series/c/fp_6400/)
+  amplification capable of providing power levels exceeding 123 dBA SPL at the rear
   of most
   popular CMU venues.
-<li><a href="http://www.audiocore.co.uk/">XTA</a>
-  <a href="http://www.audiocore.co.uk/products-series4.html">DP448</a>
+* [XTA] (http://www.audiocore.co.uk/)
+  [DP448](http://www.audiocore.co.uk/products-series4.html)
   Loudspeaker Management System
-</ul>
 
 
-<h4>EAW KF Rig:</h4>
-<ul>
-<li>Four-way stereo configuration (6 <a
+#### EAW KF Rig:
+* Four-way stereo configuration (6 <a
     href="http://www.eaw.com">EAW</a> KF600
   (<a
       href="ftp://ftp.eaw.com/Loudspeaker_product_info/Discontinued_loudspeakers/KF_Series//KF600.pdf">KF600
@@ -62,7 +54,7 @@ you send us (you do not need to list specific items).
   capable of 28Hz-17kHz -3dB, +1dB A-weighted. <a
       href="/static/img/equipment/mains.jpg"><img border=0
                                                        src="/static/img/photo.gif"></a>
-<li>20,000W of <a href="http://www.crownaudio.com">Crown</a>
+* 20,000W of <a href="http://www.crownaudio.com">Crown</a>
   <a
       href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech</a>)
   capable of providing power levels exceeding 115 dBA SPL at the rear
@@ -72,13 +64,12 @@ you send us (you do not need to list specific items).
                                                            src="/static/img/photo.gif"></a>
   <a href="/static/img/equipment/luther.jpg"><img border=0
                                                        src="/static/img/photo.gif"></a>
-<li><a href="http://www.eaw.com">EAW</a>
+* <a href="http://www.eaw.com">EAW</a>
   <a href="http://www.eaw.com/products/MX/index.shtml">MX-800</a>
   Stereo
   4-way Active Crossover
-</ul>
 
-<h4>EAW LA Rig:</h4>
+####EAW LA Rig:  
 <ul>
 <li>2 <a href="http://www.eaw.com">EAW</a> <a
     href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a>/
@@ -97,13 +88,13 @@ you send us (you do not need to list specific items).
   Ashley 2-way Active Crossovers
 </ul>
 
-<h4>EAW JF Rig:</h4>
+####EAW JF Rig:
 <ul>
 <li>2 <a href="http://www.eaw.com">EAW</a> JF 560-series speakers.
 <li>2,400W Carver Amplifiers
 <li>Ashley 2-way Crossovers
 </ul>
-<h4>The Underground Rig:</h4>
+####The Underground Rig:
 <ul>
 <li>2 <a href="http://www.eaw.com">EAW</a> LA212
 <li>2 <a href="http://www.eaw.com">EAW</a> SB118
@@ -113,7 +104,7 @@ you send us (you do not need to list specific items).
 </ul>
 
 
-<h4>Stage Monitors:</h4>
+####Stage Monitors:
 
 <ul>
 <li>8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges</li>
@@ -128,7 +119,7 @@ you send us (you do not need to list specific items).
 <hr>
 
 
-<h3>Sound Consoles</h3>
+###Sound Consoles
 <ul>
 <li>56x32+5 w/VCAs <a
     href="http://www.yamahaproaudio.com/global/en/products/mixers/cl/index.jsp">Yamaha
@@ -164,8 +155,8 @@ you send us (you do not need to list specific items).
   monitor console
 </ul>
 
-<h3>Front of House</h3>
-<h4>Drive 1</h4>
+###Front of House
+####Drive 1
 <ul>
 <li>XTA <a href="http://www.audiocore.co.uk/products-series4.html">DP448</a>
   Loudspeaker Management System
@@ -180,7 +171,7 @@ you send us (you do not need to list specific items).
 </ul>
 
 
-<h4>FX1</h4>
+####FX1
 <ul>
 <li>Digital reverb (<a href="http://www.yamaha.com">Yamaha</a> <a
     href="http://www.yamaha.com/yamahavgn/CDA/ContentDetail/ModelSeriesDetail/0,6373,CNTID%253D128%2526CTID%253D228900%2526VNM%253DLIVE%2526AFLG%253DY%2526LGFL%253DN,00.html">SPX-990</a>)
@@ -198,7 +189,7 @@ you send us (you do not need to list specific items).
     href="http://www.drawmer.com/ds201.htm">DS201</a>)
 </ul>
 
-<h4>Drive 2</h4>
+####Drive 2
 <ul>
 <li><a href="http://www.bss.co.uk">BSS</a> <a
     href="http://www.bss.co.uk/products/equalisers/fcs-960/index.html">FCS-960</a>
@@ -210,7 +201,7 @@ you send us (you do not need to list specific items).
 </ul>
 
 
-<h4>Drive 3</h4>
+####Drive 3
 <ul>
 <li>2 <a href="http://www.dbxpro.com">dbx</a> 31-band equalizers and 1
   <a href="http://www.dbxpro.com">dbx</a> <a
@@ -221,7 +212,7 @@ you send us (you do not need to list specific items).
     href="http://www.audiotoys.com/8MX2.HTM">8MX2</a> Rack-mount mixer
 </ul>
 
-<h4>Drive 4</h4>
+####Drive 4
 <ul>
 <li>2 31-band equalizers (<a href="http://www.dbxpro.com/">dbx</a>)
 <li>1 (2) compressors (<a href="http://www.dbxpro.com">dbx</a> <a
@@ -231,7 +222,7 @@ you send us (you do not need to list specific items).
     href="http://www.yamaha.com/">Yamaha</a>)
 </ul>
 
-<h4>Recording</h4>
+####Recording
 <ul>
 <li>
 <li>1 Alesis HD24 24-track hard drive recorder
@@ -246,7 +237,7 @@ you send us (you do not need to list specific items).
 
 
 <hr>
-<h3>Snakes and Cable</h3>
+###Snakes and Cable
 <ul>
 <li>1 48+32 Yamaha Dante digital snake system, with <a
     href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha
@@ -263,7 +254,7 @@ you send us (you do not need to list specific items).
 
 
 <hr>
-<h3>Microphones</h3>
+###Microphones
 <ul>
 
 <li>5 <a href="http://www.sennheiserusa.com">Sennheiser</a> <a
@@ -342,7 +333,7 @@ you send us (you do not need to list specific items).
 </ul>
 
 
-<h4>Wireless Microphones</h4>
+####Wireless Microphones
 <ul>
 <li>1 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/microphones/models/beta58a.asp">Beta
@@ -372,7 +363,7 @@ you send us (you do not need to list specific items).
 
 <hr>
 
-<h3>Lighting</h3>
+###Lighting
 Front lighting provided by a 40' 26"x30" box truss
 (<a href="http://www.jthomaseng.com">Thomas</a>) hung with
 up to 36 1kW PAR64 canisters. Supplemental lighting is supplied by booms
@@ -422,7 +413,7 @@ trees, in addition to floor lighting.
   console for intelligent lighting
 </ul>
 <hr>
-<h3>Miscellaneous</h3>
+###Miscellaneous
 <ul>
 <li>4 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar
   half-ton chain motors

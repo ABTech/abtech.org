@@ -7,36 +7,30 @@ is the most
 efficient and preferred means of contacting us.<br>
 Expect a reply within a couple of days; if you don't hear back from us
 within a reasonable period of time, feel free to follow up with another
-email (we receive many emails and occasionally one will be misfiled).
-<br>
-<br>You can also contact us via: <br>
+email (we receive many emails and occasionally one will be misfiled).  
+  
+You can also contact us via:  
 
 Phone: (412) 268-2104
 
 Fax: (412) 268-7900
 
-US Mail: <br>
-    University Center Box 73<br>
-    5032 Forbes Ave.<br>
-    Pittsburgh, PA 15213
-
-<br>
-<br>
-<font size=+1><b>Extremely Time-Sensitive Needs or Emergencies</b></font>
+US Mail:  
+    University Center Box 73  
+    5032 Forbes Ave.  
+    Pittsburgh, PA 15213  
+  
+**Extremely Time-Sensitive Needs or Emergencies**
 
 In the event that you need to contact us regarding an issue that <b>absolutely
 cannot wait</b> for a normal email response, and you have been unsuccessful
-in reaching us through any other means, please contact the <a
-  href="/crew">Head of Tech</a> directly.<br>
-<b><i>If your issue does not need immediate attention, please use our
-  primary email address above.</i></b>
+in reaching us through any other means, please contact the [Head of Tech](/crew) directly.<br>
+**If your issue does not need immediate attention, please use our
+  primary email address above.**
 
-<br>
-<br>
-<font size=+1><b>General Activities Board Questions</b></FONT>
-<p>
+**General Activities Board Questions**
 For information about ticket sales, show times, movies, etc., please contact
-the Activities Board at:<br>
+the Activities Board at:  
 <table border="0" cellpadding="5">
 <tr>
   <td>Web:</td>
@@ -54,4 +48,3 @@ the Activities Board at:<br>
   <td>(412) 268-2105</td>
 </tr>
 </table>
-</p>

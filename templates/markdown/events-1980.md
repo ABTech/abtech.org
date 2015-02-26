@@ -30,16 +30,14 @@
 </table>
 <p>
 
-  Over the years, AB Tech has had the [ahem] pleasure of working with a number
-  of major acts, although they weren't necessarily that big at the time. This
-  list covers major shows produced in whole or part by Tech since its
-  creation.
-  Please note this list is definitely not complete and probably not entirely
-  accurate.
-<p>
-  Thanks in part to Anne Witchner and many Tech alumni for their assistance in
-  assembling this list.
-<p>
+Over the years, AB Tech has had the [ahem] pleasure of working with a number
+of major acts, although they weren't necessarily that big at the time. This
+list covers major shows produced in whole or part by Tech since its
+creation.  
+Please note this list is definitely not complete and probably not entirely
+accurate.  
+Thanks in part to Anne Witchner and many Tech alumni for their assistance in
+assembling this list.
 
 
 

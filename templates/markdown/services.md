@@ -6,11 +6,9 @@
   </p>
 </div>
 
-AB Tech provides sound and lighting services to organizations affiliated with
-or
+AB Tech provides sound and lighting services to organizations affiliated with or
 planning events at Carnegie Mellon. Most events are on-campus, but we also
 assist with a few select off-campus events each year.
-
 
 We can assist your organization's event in a number of areas:
 
@@ -104,8 +102,7 @@ backline rental company.
   </li>
 </ul>
 
-**What we charge:**
-<br>
+**What we charge:  
 Our charges are based on the configuration of equipment being used and the
 personnel required to run
 your event. Thus, the cost of providing technical support for a show varies
@@ -116,9 +113,7 @@ student organizations receive more heavily subsidized pricing than other
 organizations.
 You will receive a customized quote once we receive the details of your event.
 
-
-**How to submit a request:**
-<br>
+**How to submit a request:**  
 If you are interested in having in AB Tech provide technical support for
 your event, please email your request to <a
   href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
@@ -126,10 +121,8 @@ your event, please email your request to <a
 Expect a reply within a couple of days; if you don't hear back from us
 within a reasonable period of time, feel free to follow up with another
 email (we get a lot of requests and occasionally one will be misfiled).
-
-
-**Other options:**
-<br>
+ 
+**Other options:**  
 If AB Tech is not available to work your show, you may want to check out our 
-[production contractors page](/external) .
+[production contractors page](/external).
  

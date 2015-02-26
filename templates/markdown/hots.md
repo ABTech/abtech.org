@@ -11,7 +11,7 @@ daily operations of the organization. The position is elected annually,
 usually towards the end of each school year, with a term length of one
 year.
 
-<table  class="hot-table">
+<table class="hot-table">
   <tr>
     <th width="50">Year</td>
     <th width="350"> Head(s) of Tech</td>
