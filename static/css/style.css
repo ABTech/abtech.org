@@ -13,21 +13,12 @@ body {
     background: #ebeeed;
 }
 
-.container-fluid {
-    background: transparent;
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 .galleria-container {
-    width: 100%;
     background: black;
 }
 
 .galleria {
-    margin: 0 auto;
-    margin-top: 75px;
+    margin: 50px auto 0px auto;
 }
 
 #logo {
@@ -138,13 +129,14 @@ footer {
 
     .galleria {
         width: 700px;
-        height: 400px;
+        height: 425px;
     }
-     .quick-links {
-            margin-top: 30px;
-            padding: 15px;
-            padding-top: 0px;
-        }
+
+    .quick-links {
+        margin-top: 30px;
+        padding: 15px;
+        padding-top: 0px;
+    }
 
     .content-block {
         margin-top: 30px;
@@ -183,15 +175,19 @@ footer {
 
     .quick-links {
         margin-top: 30px;
-        padding: 5px 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0px 25px;
     }
 
     .content-block {
         padding: 15px 20px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .index.content-block {
-        margin-top: 40px;
+        margin-top: 25px;
     }
 
     .navbar-collapse {

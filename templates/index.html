@@ -7,30 +7,35 @@
 
 {% block content-container %}
 
-  <div class="container-fluid">
-    <div class="galleria-container">
-      <div class="galleria">
-        <li>
-          <img src="{% static 'img/gallery/timeflies-2014.jpg' %}">
-          <p>Timeflies - AB Spring Concert 2014</p>
-        </li>
-        <li>
-          <img src="{% static 'img/gallery/dejj-2014.jpg' %}">
-          <p> Dale Earnhardt Jr. Jr. - AB Coffeehouse 2014</p>
-        </li>
-        <li>
-          <img src="{% static 'img/gallery/tokyopoliceclub-2011.jpg' %}">
-          <p> Tokyo Police Club </p>
-        </li>
-      </div>
+  <div class="galleria-container">
+    <div class="galleria">
+      <li>
+        <img src="{% static 'img/gallery/timeflies-2014.jpg' %}">
+
+        <p>Timeflies - AB Spring Concert 2014</p>
+      </li>
+      <li>
+        <img src="{% static 'img/gallery/dejj-2014.jpg' %}">
+
+        <p> Dale Earnhardt Jr. Jr. - AB Coffeehouse 2014</p>
+      </li>
+      <li>
+        <img src="{% static 'img/gallery/tokyopoliceclub-2011.jpg' %}">
+
+        <p> Tokyo Police Club </p>
+      </li>
     </div>
+  </div>
+  <div class="container-fluid">
     <div class="row">
       <div class="col-sm-1"></div>
-      <div class="col-sm-2 quick-links">
-        <h3> Quick Links </h3>
-        <a class="lead-item" href="{% url 'website:request' %}">Request an Event</a> <br>
-        <a class="lead-item" href="{% url 'website:events' %}">Explore our Services</a> <br>
-        <a class="lead-item" href="{% url 'website:join' %}">Become a Member</a>
+      <div class="col-sm-2">
+        <div class="quick-links">
+          <h3> Quick Links </h3>
+          <a class="lead-item" href="{% url 'website:request' %}">Request an Event</a> <br>
+          <a class="lead-item" href="{% url 'website:events' %}">Explore our Services</a> <br>
+          <a class="lead-item" href="{% url 'website:join' %}">Become a Member</a>
+        </div>
       </div>
       <div class="col-sm-6">
         <div class="index content-block">
