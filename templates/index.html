@@ -8,35 +8,29 @@
 {% block content-container %}
 
   <div class="container">
-     <div class="galleria">
+    <div class="galleria-container">
+      <div class="galleria">
         <li>
-            <img src="{% static 'img/backgrounds/background-2.jpg' %}">
-            <p>My caption is <strong>gr8</strong></p>
+          <img src="{% static 'img/backgrounds/background-2.jpg' %}">
+
+          <p>My caption is <strong>gr8</strong></p>
         </li>
         <li>
-            <img src="{% static 'img/backgrounds/background-3.jpg' %}">
-            <p>My other caption is also <em>gr8</em></p>
+          <img src="{% static 'img/backgrounds/background-3.jpg' %}">
+
+          <p>My other caption is also <em>gr8</em></p>
         </li>
-    </div>
-{#    <div class="row">#}
-{#       <div class="col-sm-2"></div>#}
-{#    <div id="buttons" class="col-sm-8">#}
-{#        <div class="row">#}
-{#            <div class="col-xs-4 button"><a class="lead-item" href="{% url 'website:request' %}"><span class="lead-emphasis">Request</span><br>#}
-{#              an event</a>#}
-{#            </div>#}
-{#            <div class="col-xs-4 button"><a class="lead-item" href="{% url 'website:events' %}"><span  class="lead-emphasis">See</span><br>#}
-{#              what we do</a></div>#}
-{#            <div class="col-xs-4 button"><a class="lead-item" href="{% url 'website:join' %}"><span class="lead-emphasis">Become</span><br>#}
-{#              a member</a>#}
-{#            </div>#}
-{#        </div>#}
-{#      </div>#}
-{#    </div>#}
-  <div class="row">
-      <div class="col-sm-2">
       </div>
-      <div class="col-sm-8">
+    </div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2 quick-links">
+        <h3> Quick Links </h3>
+        <a class="lead-item" href="{% url 'website:request' %}">Request an Event</a> <br>
+        <a class="lead-item" href="{% url 'website:events' %}">Explore our Services</a> <br>
+        <a class="lead-item" href="{% url 'website:join' %}">Become a Member</a>
+      </div>
+      <div class="col-sm-6">
         <div class="index content-block">
           {{ raw_content|markdown }}
         </div>
@@ -47,17 +41,17 @@
 {% endblock %}
 
 {% block includes %}
-    <script src="{% static 'js/galleria/galleria-1.4.2.min.js' %}"></script>
-    <script>
+  <script src="{% static 'js/galleria/galleria-1.4.2.min.js' %}"></script>
+  <script>
     Galleria.loadTheme("{% static 'js/galleria/themes/classic/galleria.classic.min.js' %}");
     Galleria.run('.galleria', {
-        autoplay: true,
-        dataConfig: function(img) {
-            return {
-                description: $(img).next('p').html()
-            }
-        },
+      autoplay: true,
+      dataConfig: function (img) {
+        return {
+          description: $(img).next('p').html()
+        }
+      },
       initialTransition: 'fade'
     });
-    </script>
+  </script>
 {% endblock %}

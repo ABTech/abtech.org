@@ -11,6 +11,7 @@ body {
     line-height: 1.5;
     min-height: 450px;
     background: #ebeeed;
+    /*background: black;*/
 }
 
 .navbar-collapse li {
@@ -112,37 +113,46 @@ body {
     font-weight: 600;
 }
 
-#buttons .lead-item {
-    display: block;
-    background-color: transparent;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: 600;
-    text-align: center;
-    color: black;
-    -webkit-transition: background-color 0.1s ease-out,
-    color 0.1s ease-out;
-    -moz-transition: background-color 0.1s ease-out,
-    color 0.1s ease-out;
-    -o-transition: background-color 0.1s ease-out,
-    color 0.1s ease-out;
-    transition: background-color 0.1s ease-out,
-    color 0.1s ease-out;
-}
+/*#buttons .lead-item {*/
+    /*display: block;*/
+    /*background-color: transparent;*/
+    /*border: 2px solid;*/
+    /*border-radius: 10px;*/
+    /*padding: 10px;*/
+    /*font-weight: 600;*/
+    /*text-align: center;*/
+    /*color: black;*/
+    /*-webkit-transition: background-color 0.1s ease-out,*/
+    /*color 0.1s ease-out;*/
+    /*-moz-transition: background-color 0.1s ease-out,*/
+    /*color 0.1s ease-out;*/
+    /*-o-transition: background-color 0.1s ease-out,*/
+    /*color 0.1s ease-out;*/
+    /*transition: background-color 0.1s ease-out,*/
+    /*color 0.1s ease-out;*/
+/*}*/
 
-#buttons .lead-item:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #424b51;
-    text-decoration: none;
-}
+/*#buttons .lead-item:hover {*/
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*color: #424b51;*/
+    /*text-decoration: none;*/
+/*}*/
 
 footer {
     margin-top: 25px;
     margin-bottom: 10px;
     width: 100%;
 }
+.container {
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
+.galleria-container {
+    width: 100%;
+    background: black;
+}
 
 /* desktop */
 @media only screen and (min-width: 768px) {
@@ -172,8 +182,6 @@ footer {
     }
 
     .content-block {
-        /*padding: 15px;*/
-        /*opacity: 0.7;*/
         background: #FFFFFF;
         border-bottom: solid 1px #c7c9c8;
         margin-top: 30px;
@@ -181,22 +189,30 @@ footer {
     }
 
     .index.content-block {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .navbar-collapse {
         width: 110%;
     }
 
-    #buttons .lead-emphasis {
-        font-size: 32px;
+    .quick-links {
+        background: #FFFFFF;
+        border-bottom: solid 1px #c7c9c8;
+        margin-top: 30px;
+        padding: 15px;
+        padding-top: 0px;
     }
 
-    #buttons {
-        display: inline-block;
-        padding: 50px 100px 0px 100px;
-        margin-top: 25px;
-    }
+    /*#buttons .lead-emphasis {*/
+        /*font-size: 32px;*/
+    /*}*/
+
+    /*#buttons {*/
+        /*display: inline-block;*/
+        /*padding: 50px 100px 0px 100px;*/
+        /*margin-top: 25px;*/
+    /*}*/
 }
 
 /* mobile  */
