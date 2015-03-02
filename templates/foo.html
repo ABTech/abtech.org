@@ -21,11 +21,10 @@
         </li>
     </div>
     <script>
-{#      if (Galleria) { $("body").text('Galleria works') }#}
-Galleria.loadTheme("{% static 'js/galleria/themes/classic/galleria.classic.min.js' %}");
-    Galleria.run('.galleria', {
-    autoplay: 1000 // will move forward every 7 seconds
-});
+      Galleria.loadTheme("{% static 'js/galleria/themes/classic/galleria.classic.min.js' %}");
+          Galleria.run('.galleria', {
+          autoplay: 1000 // will move forward every 7 seconds
+      });
     </script>
     </body>
 </html>
