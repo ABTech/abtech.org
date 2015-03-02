@@ -49,28 +49,14 @@ body {
 }
 
 .navbar-collapse .rightmost {
-    margin-right: 100px;
+    margin-right: 25px;
 }
 
 .navbar-collapse.in .rightmost, .navbar-collapse.collapsing .rightmost {
     margin-right: 0px;
 }
 
-.title-header {
-    height: 35px;
-    margin-bottom: 15px;
-}
 
-.title-header a {
-    padding: 5px;
-    color: grey;
-}
-
-.title-header .current {
-    font-weight: 600;
-    color: red;
-    /*background: red;*/
-}
 
 .hot-table {
     border: 1px solid #990000;
@@ -97,46 +83,23 @@ body {
     padding-top: 100px;
 }
 
-.navbar-collapse .rightmost {
-    margin-right: 100px;
-}
-
-.navbar-collapse.in .rightmost, .navbar-collapse.collapsing .rightmost {
-    margin-right: 0px;
+.title-header {
+    height: 35px;
+    margin-bottom: 15px;
 }
 
 .title-header a {
+    padding: 5px;
+    color: grey;
     display: inline-block;
+
 }
 
 .title-header .current {
     font-weight: 600;
+    color: red;
+    /*background: red;*/
 }
-
-/*#buttons .lead-item {*/
-    /*display: block;*/
-    /*background-color: transparent;*/
-    /*border: 2px solid;*/
-    /*border-radius: 10px;*/
-    /*padding: 10px;*/
-    /*font-weight: 600;*/
-    /*text-align: center;*/
-    /*color: black;*/
-    /*-webkit-transition: background-color 0.1s ease-out,*/
-    /*color 0.1s ease-out;*/
-    /*-moz-transition: background-color 0.1s ease-out,*/
-    /*color 0.1s ease-out;*/
-    /*-o-transition: background-color 0.1s ease-out,*/
-    /*color 0.1s ease-out;*/
-    /*transition: background-color 0.1s ease-out,*/
-    /*color 0.1s ease-out;*/
-/*}*/
-
-/*#buttons .lead-item:hover {*/
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-    /*color: #424b51;*/
-    /*text-decoration: none;*/
-/*}*/
 
 footer {
     margin-top: 25px;
@@ -165,20 +128,20 @@ footer {
 
     #logo {
         position: absolute;
-        top: 5px;
+        top: -20px;
         left: 100px;
-        /*width: 200px;*/
-        /*height: 120px;*/
-        /*border-radius: 50%;*/
-        padding: 10px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        padding-top: 30px;
+        padding-left:10px;
         background: white;
-        /*border: 3px solid black;*/
-        /*box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);*/
+        border: 2px solid black;
     }
 
     #logo img {
-        width: 200px;
-        height: 120px;
+        width: 100px;
+        height: 60px;
     }
 
     .content-block {
@@ -223,6 +186,24 @@ footer {
     margin: 0 auto;
     margin-top: 75px;
 }
+     #logo {
+        position: absolute;
+        top: -10px;
+        left: 25px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        padding-top: 23px;
+        padding-left:5px;
+        background: white;
+        border: 2px solid black;
+    }
+
+    #logo img {
+        width: 75px;
+        height: 45px;
+    }
+
 
     .content-block {
         padding: 15px 20px;
