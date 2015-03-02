@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^contractors$', MarkdownView.as_view(markdown="contractors.md"), name='contractors'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
     url(r'^join$', TemplateView.as_view(template_name="join.html"), name='join'),
+    url(r'^foo$', TemplateView.as_view(template_name="foo.html"), name='foo'),
     url(r'^crew$', MarkdownView.as_view(markdown="crew.md"), name='crew'),
     url(r'^hots$', MarkdownView.as_view(markdown="hots.md"), name='hots'),
     url(r'^alumni$', MarkdownView.as_view(markdown="alumni.md"), name='alumni'),
