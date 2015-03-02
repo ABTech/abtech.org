@@ -13,12 +13,13 @@ body {
     background-image: url('../img/backgrounds/background-2.jpg');
     background-color: #999999;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .navbar-collapse li {
