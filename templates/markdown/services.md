@@ -1,9 +1,7 @@
 <div class = "title-header">
-  <p class="text-justify"> 
   <a href="/services" class="current"> Services </a> 
    <a href="/equipment"> Equipment </a>
     <a href="/external"> External </a> 
-  </p>
 </div>
 
 AB Tech provides sound and lighting services to organizations affiliated with or

@@ -4,16 +4,5 @@ events, including all events organized by the <a href="http://activitiesboard.or
   Board</a>. We provide high quality, professional grade entertainment production services, including sound
 reinforcement, lighting design, and event management at heavily subsidized rates to the Carnegie Mellon
 University community. Our clients include student groups, university faculty & administration, and
-various independent companies and other organizations.
-
-AB Tech provides technical support in three core areas:
-
-* Sound Reinforcement
-* Lighting Design
-* Production Consulting & Event Management
- 
-In addition to these three areas, we coordinate associated needs and services such as multi-phase/high-load
-power, rigging & trussing, staging rentals, backline rentals, and more.
-
-For more information on the services we offer, please [click here](/services). 
-Otherwise, use the menu bar to navigate the site.
+various independent companies and other organizations. We coordinate associated needs and services such as 
+multi-phase/high-load power, rigging & trussing, staging rentals, backline rentals, and more.

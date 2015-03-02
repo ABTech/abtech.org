@@ -6,35 +6,33 @@
 
 
 {% block content-container %}
-  <section id="lead">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-8"><a class="lead-item" href="{% url 'website:request' %}"><span
-            class="lead-emphasis">Request</span><br> an event</a>
-        </div>
-        <div class="col-md-4 col-sm-8"><a class="lead-item" href="{% url 'website:events' %}"><span
-            class="lead-emphasis">See</span><br> what we can
-          do</a></div>
-        <div class="col-md-4 col-sm-8"><a class="lead-item" href="{% url 'website:join' %}"><span class="lead-emphasis">Become</span><br>
-          a member</a>
+
+  <div class="container">
+
+    <div class="row">
+       <div class="col-sm-2"></div>
+    <div id="buttons" class="col-sm-8">
+        <div class="row">
+            <div class="col-xs-4 button"><a class="lead-item" href="{% url 'website:request' %}"><span class="lead-emphasis">Request</span><br>
+              an event</a>
+            </div>
+            <div class="col-xs-4 button"><a class="lead-item" href="{% url 'website:events' %}"><span  class="lead-emphasis">See</span><br>
+              what we do</a></div>
+            <div class="col-xs-4 button"><a class="lead-item" href="{% url 'website:join' %}"><span class="lead-emphasis">Become</span><br>
+              a member</a>
+            </div>
         </div>
       </div>
     </div>
-    <!-- /.container -->
-  </section>
-  <main>
-    <div class="container">
-      <div class="col-md-8">
+   <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
         <div class="index content-block">
           {{ raw_content|markdown }}
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="content-sidebar">
-          <h1>Facebook</h1>
-          Some kind of side content.
-        </div>
-      </div>
     </div>
-  </main>
+  </div>
+
 {% endblock %}
