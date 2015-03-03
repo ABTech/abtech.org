@@ -24,6 +24,6 @@ STATICFILES_DIRS = (
 )
 
 TEMPLATE_DIRS = (
-    "templates",
+    "templates/",
 )
 
