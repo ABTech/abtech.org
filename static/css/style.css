@@ -23,9 +23,16 @@ body {
 
 #logo {
     position: absolute;
-    background: white;
-    border: 2px solid black;
+    top: 5px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+}
+
+#logo img {
+    width: 80px;
+    height: 40px;
 }
 
 .navbar-collapse {
@@ -70,6 +77,7 @@ body {
 .title-header {
     height: 35px;
     margin-bottom: 15px;
+    border-bottom: 1px solid black;
 }
 
 .title-header a {
@@ -82,6 +90,10 @@ body {
 .title-header .current {
     font-weight: 600;
     color: red;
+}
+
+table {
+    margin: 0px auto;
 }
 
 .hot-table {
@@ -113,19 +125,6 @@ footer {
 
 /* desktop */
 @media only screen and (min-width: 768px) {
-    #logo {
-        top: -20px;
-        left: 100px;
-        width: 120px;
-        height: 120px;
-        padding-top: 30px;
-        padding-left: 10px;
-    }
-
-    #logo img {
-        width: 100px;
-        height: 60px;
-    }
 
     .galleria {
         width: 700px;
@@ -134,8 +133,7 @@ footer {
 
     .quick-links {
         margin-top: 30px;
-        padding: 15px;
-        padding-top: 0px;
+        padding: 1px 15px 10px 15px;
     }
 
     .content-block {
@@ -154,20 +152,6 @@ footer {
 
 /* mobile  */
 @media only screen and (max-width: 767px) {
-    #logo {
-        top: -10px;
-        left: 25px;
-        width: 90px;
-        height: 90px;
-        padding-top: 23px;
-        padding-left: 5px;
-    }
-
-    #logo img {
-        width: 75px;
-        height: 45px;
-    }
-
     .galleria {
         width: 90%;
         height: 300px;
