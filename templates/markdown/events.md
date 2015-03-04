@@ -63,7 +63,7 @@ accurate.
     <td width="20"></td>
     <td width="70%"><b>Mac Miler and Icona Pop</b></td>
     <td nowrap><font size="-1">April 12</font></td>
-    <td nowrap><font size="-1">Bake Lawn</font></td>
+    <td nowrap><font size="-1">Baker Lawn</font></td>
   </tr>
   <tr>
     <td width="20"></td>
@@ -74,11 +74,22 @@ accurate.
     <td width="20"></td>
     <td width="70%"><b>Walk the Moon</b></td>
     <td nowrap><font size="-1">November 13</font></td>
-    <td nowrap><font size="-1">UC Gym</font></td>
+    <td nowrap><font size="-1">CUC Gym</font></td>
   </tr>
   <tr>
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>AB Fall Concert. Shut up and dance!</i></font></td>
+  </tr>
+  
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Dale Earnhardt Jr. Jr.</b></td>
+    <td nowrap><font size="-1">November 17</font></td>
+    <td nowrap><font size="-1">CUC Rangos</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse. Giant inflated ball and incandescent light bulb letters</i></font></td>
   </tr>
   
   <!-- 2013 -->
@@ -108,6 +119,17 @@ accurate.
   <tr>
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>AB Fall Concert. LED Wall!</i></font></td>
+  </tr>
+  
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Smallpools</b></td>
+    <td nowrap><font size="-1">November 24</font></td>
+    <td nowrap><font size="-1">The Underground</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Underground.</i></font></td>
   </tr>
   
   <!-- 2012 -->

@@ -14,7 +14,7 @@ Alumni should also be aware that a mailing list exists for their use.
 To join, visit <http://abtech.org/mailman/listinfo/ghosts>.
 Posts go to [ghosts@abtech.org](mailto:ghosts@abtech.org).
 
-<table border="1" rules="rows" cellpadding="4" bordercolor="#990000" class="alumni-table">
+<table border="1" rules="rows" cellpadding="4" bordercolor="#990000" class="alumni">
   <tr>
     <th colspan="3" align="center" bgcolor="#990000" width="430"><FONT
         color="#FFFFFF"><b>Partial Alumni List</b></FONT></td>

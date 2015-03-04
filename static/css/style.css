@@ -70,10 +70,6 @@ body {
     border-bottom: solid 1px #c7c9c8;
 }
 
-.normal-content {
-    padding-top: 75px;
-}
-
 .title-header {
     height: 35px;
     margin-bottom: 15px;
@@ -117,6 +113,15 @@ table {
     font-weight: 600;
 }
 
+.alumni {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*.crew {*/
+    /*width: 50%;*/
+/*}*/
+
 footer {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -137,7 +142,8 @@ footer {
     }
 
     .content-block {
-        margin-top: 30px;
+        margin: 75px auto 0px auto;
+        width: 80%;
         padding: 15px;
     }
 
@@ -166,8 +172,9 @@ footer {
 
     .content-block {
         padding: 15px 20px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-top: 50px;
+        /*margin-left: 25px;*/
+        /*margin-right: 25px;*/
     }
 
     .index.content-block {
