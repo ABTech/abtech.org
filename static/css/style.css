@@ -65,9 +65,19 @@ body {
     margin-right: 0px;
 }
 
-.quick-links, .content-block {
+.index-block > div {
+    padding:10px;
+    height: 100%;
+}
+
+.inner {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
+    padding: 0px 10px;
+}
+
+.center-block > .inner {
+    text-align: justify;
 }
 
 .title-header {
@@ -113,17 +123,12 @@ table {
     font-weight: 600;
 }
 
-.alumni {
-    width: 80%;
-    margin: 0 auto;
+.alumni td {
+    padding:4px;
 }
 
-/*.crew {*/
-    /*width: 50%;*/
-/*}*/
-
 footer {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -135,20 +140,10 @@ footer {
         width: 700px;
         height: 425px;
     }
-
-    .quick-links {
-        margin-top: 30px;
-        padding: 1px 15px 10px 15px;
-    }
-
     .content-block {
         margin: 75px auto 0px auto;
         width: 80%;
         padding: 15px;
-    }
-
-    .index.content-block {
-        margin-top: 30px;
     }
 
     .navbar-collapse {
@@ -163,22 +158,8 @@ footer {
         height: 300px;
     }
 
-    .quick-links {
-        margin-top: 30px;
-        margin-left: 25px;
-        margin-right: 25px;
-        padding: 0px 25px;
-    }
-
     .content-block {
         padding: 15px 20px;
-        margin-top: 50px;
-        /*margin-left: 25px;*/
-        /*margin-right: 25px;*/
-    }
-
-    .index.content-block {
-        margin-top: 25px;
     }
 
     .navbar-collapse {
