@@ -42,15 +42,16 @@ accurate.
       &nbsp;&nbsp;2015</B></FONT></td>
   </tr>
 
-  <tr>
+   <tr>
     <td width="20"></td>
-    <td width="70%"><b>NAME</b></td>
-    <td nowrap><font size="-1">DATE</font></td>
-    <td nowrap><font size="-1">LOCATION</font></td>
+    <td width="70%"><b>International Championships of Collegiate A Cappella</b></td>
+    <td nowrap><font size="-1">February 28</font></td>
+    <td nowrap><font size="-1">UC McConomy</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>DESCRIPTION</i></font></td>
+    <td colspan="3"><font size="-1"><i>CMU hosts the Great Lakes ICCAs for the second time.  
+    </i></font></td>
   </tr>
   
   <!-- 2014 -->
@@ -59,6 +60,17 @@ accurate.
       &nbsp;&nbsp;2014</B></FONT></td>
   </tr>
 
+     <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Hannibal Buress</b></td>
+    <td nowrap><font size="-1">April 10</font></td>
+    <td nowrap><font size="-1">Midway Tent</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Carnival Comedian. 
+    </i></font></td>
+  </tr>
   <tr>
     <td width="20"></td>
     <td width="70%"><b>Mac Miler and Icona Pop</b></td>
@@ -67,7 +79,7 @@ accurate.
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>AB Spring Concert. I love it!</i></font></td>
+    <td colspan="3"><font size="-1"><i>AB Spring Concert. Transforming truck stage and LED wall...I love it!</i></font></td>
   </tr>
   
   <tr>
@@ -97,11 +109,33 @@ accurate.
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
       &nbsp;&nbsp;2013</B></FONT></td>
   </tr>
+   <tr>
+    <td width="20"></td>
+    <td width="70%"><b>International Championships of Collegiate A Cappella</b></td>
+    <td nowrap><font size="-1">February 2</font></td>
+    <td nowrap><font size="-1">UC McConomy</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>CMU hosts the Great Lakes ICCAs for the first time.  
+    </i></font></td>
+  </tr>
+   <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Judah Friedlander</b></td>
+    <td nowrap><font size="-1">April 18</font></td>
+    <td nowrap><font size="-1">Midway Tent</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Carnival Comedian, known for his role as Frank on NBC’s 30 Rock.  
+    </i></font></td>
+  </tr>
 
   <tr>
     <td width="20"></td>
     <td width="70%"><b>Lupe Fiasco</b></td>
-    <td nowrap><font size="-1">April 17</font></td>
+    <td nowrap><font size="-1">April 19</font></td>
     <td nowrap><font size="-1">UC Gym</font></td>
   </tr>
   <tr>
@@ -119,6 +153,17 @@ accurate.
   <tr>
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>AB Fall Concert. LED Wall!</i></font></td>
+  </tr>
+   
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>President Suresh's Inaguration</b></td>
+    <td nowrap><font size="-1">November 24</font></td>
+    <td nowrap><font size="-1">UC Rangos</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Campus wide celebration to welcome President Suresh</i></font></td>
   </tr>
   
   <tr>
