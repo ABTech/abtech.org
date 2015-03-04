@@ -74,5 +74,6 @@ class MarkdownView(TemplateView):
         markdown_dir = settings.PROJECT_DIR / "templates/markdown/"
         path = str(markdown_dir / self.markdown)
         with open(path) as f:
+            context['title'] = f.readline()
             context['raw_content'] = f.read()
         return context

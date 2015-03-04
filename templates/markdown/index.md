@@ -1,3 +1,4 @@
+Fly-by-Night Sound and Light
 The **Activities Board Technical Committee**, commonly known as <strong>AB&nbsp;Tech</strong>,
 is the student organization charged with handling the technical production of Carnegie Mellon sponsored
 events, including all events organized by the <a href="http://activitiesboard.org" target="_blank">Activities

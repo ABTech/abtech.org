@@ -1,3 +1,4 @@
+Accolades
 <div class = "title-header">
   <a href="/events"> Past Events </a> 
   <a href="/accolades" class="current"> Accolades </a>

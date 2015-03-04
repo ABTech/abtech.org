@@ -1,3 +1,5 @@
+Past Events
+
 <div class = "title-header">
   <p class="text-justify"> 
   <a href="#" class="current"> Past Events </a> 
@@ -39,12 +41,7 @@ accurate.
 Thanks in part to Anne Witchner and many Tech alumni for their assistance in
 assembling this list.
 
-
-
-
 <table cellspacing="5" cellpadding="2" width="100%">
-
-
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><font color="#FFFFFF"><b>
       &nbsp;&nbsp;1989</b></font></td>
@@ -591,7 +588,5 @@ assembling this list.
     <td colspan="3"><font size="-1"><i>This was the "how do you get truck
       tires for a semi filled on halloween?" concert.</i></font></td>
   </tr>
-
-
 </table>
 

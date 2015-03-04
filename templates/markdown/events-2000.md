@@ -1,3 +1,6 @@
+Past Events
+
+
 <div class = "title-header">
   <p class="text-justify"> 
   <a href="#" class="current"> Past Events </a> 

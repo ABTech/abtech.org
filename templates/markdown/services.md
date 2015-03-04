@@ -1,3 +1,4 @@
+Services
 <div class = "title-header">
   <a href="/services" class="current"> Services </a> 
    <a href="/equipment"> Equipment </a>
