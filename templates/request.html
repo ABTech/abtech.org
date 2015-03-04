@@ -5,10 +5,7 @@
 {% block title %} Event Request {% endblock %}
 
 {% block content %}
-  <p> Coming Soon, for now email <a
-      href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
-    &#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>
-  </p>
+  <p> See more ways to contact us <a href="{% url 'website:contact' %}">here</a>.</p>
 
   <form id="request" class="form-horizontal">
     {% csrf_token %}
