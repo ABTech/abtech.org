@@ -70,7 +70,7 @@ body {
     height: 100%;
 }
 
-.inner {
+.inner, .content-block {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
     padding: 0px 10px;
