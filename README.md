@@ -62,7 +62,7 @@ Run dev server to check work so far
 > ./manage.py runserver 0.0.0.0:8000
 
 Enable Apache mod_wsgi
-
+>sudo apt-get install libapache2-mod-wsgi-py3
 make wsgi.py executable
 >chmod u+x abtech/wsgi.py
 
