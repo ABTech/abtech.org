@@ -8,7 +8,8 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS += ('website',
-                   'django_markdown'
+                   'django_markdown',
+                   'bootstrap3'
                    )
 
 PROJECT_DIR = (Path(__file__) / "../../..").resolve()

@@ -2,8 +2,8 @@ from django.http import HttpResponse, HttpResponseBadRequest
 from django.views.generic.base import TemplateView
 from django.core.mail import send_mail
 from django.conf import settings
-
-
+from django.views.generic import FormView
+from django import forms
 
 def signup(request):
     try:
@@ -77,3 +77,13 @@ class MarkdownView(TemplateView):
             context['title'] = f.readline()
             context['raw_content'] = f.read()
         return context
+
+
+class FooForm(forms.Form):
+    andrew_id = forms.CharField(label='Andrew ID', max_length=10)
+    name = forms.CharField(label='Name', max_length=50)
+
+
+class FooFormView(FormView):
+    template_name = "foo.html"
+    form_class = FooForm

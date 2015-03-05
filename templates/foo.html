@@ -1,37 +1,13 @@
 {% load staticfiles %}
 
-<!doctype html>
-<html>
-<head>
-  <script src="{% static 'js/jquery.min.js' %}"></script>
-  <script src="{% static 'js/galleria/galleria-1.4.2.min.js' %}"></script>
-  <style>
-    .galleria {
-      width: 700px;
-      height: 400px;
-    }
-  </style>
-</head>
-<body>
-<div class="galleria">
-  <li>
-    <img src="{% static 'img/gallery/timeflies-2014.jpg' %}">
-    <p>Timeflies - AB Spring Concert 2014</p>
-  </li>
-  <li>
-    <img src="{% static 'img/backgrounds/dejj-2014.jpg' %}">
-    <p> Dale Earnhardt Jr. Jr. - AB Coffeehouse 2014</p>
-  </li>
-  <li>
-    <img src="{% static 'img/backgrounds/tokyopoliceclub-2011.jpg' %}">
-    <p> Tokyo Police Club </p>
-  </li>
-</div>
-<script>
-  Galleria.loadTheme("{% static 'js/galleria/themes/classic/galleria.classic.min.js' %}");
-  Galleria.run('.galleria', {
-    autoplay: 1000 // will move forward every 1 seconds
-  });
-</script>
-</body>
-</html>
+{%  bootstrap_messages %}
+
+<form action="/foo/" method="post" class="form">
+  {%  csrf_token %}
+  {% bootstarap_form form %}
+  {% buttons %}
+    <button type="submit" class="btn btn-primary">
+      {%  bootstarap_icon "star" %} Submit
+    </button>
+  {% endbuttons %}
+</form>
