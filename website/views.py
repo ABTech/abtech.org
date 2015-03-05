@@ -87,3 +87,4 @@ class FooForm(forms.Form):
 class FooFormView(FormView):
     template_name = "foo.html"
     form_class = FooForm
+

@@ -128,7 +128,7 @@ accurate.
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>AB Carnival Comedian, known for his role as Frank on NBC’s 30 Rock.  
+    <td colspan="3"><font size="-1"><i>AB Carnival Comedian, known for his role as Frank on NBC's 30 Rock.  
     </i></font></td>
   </tr>
 
