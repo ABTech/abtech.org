@@ -4,7 +4,6 @@ from django.core.mail import send_mail
 from django.conf import settings
 
 
-
 def signup(request):
     try:
         d = request.POST
@@ -77,3 +76,4 @@ class MarkdownView(TemplateView):
             context['title'] = f.readline()
             context['raw_content'] = f.read()
         return context
+
