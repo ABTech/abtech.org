@@ -159,6 +159,7 @@ footer {
     }
 
     .content-block {
+        margin: 50px auto 0px auto;
         padding: 15px 20px;
     }
 

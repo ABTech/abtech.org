@@ -1,6 +1,7 @@
 from django.conf.urls import url
 from django.views.generic import TemplateView
 from website.views import MarkdownView, RequestView, signup, request_submit
+from website.views import FooFormView
 
 urlpatterns = [
     url(r'^$', MarkdownView.as_view(template_name="index.html", markdown="index.md"), name='index'),
@@ -10,7 +11,7 @@ urlpatterns = [
     url(r'^contractors$', MarkdownView.as_view(markdown="contractors.md"), name='contractors'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
     url(r'^join$', TemplateView.as_view(template_name="join.html"), name='join'),
-    url(r'^foo$', TemplateView.as_view(template_name="foo.html"), name='foo'),
+    url(r'^foo$', FooFormView.as_view(), name='foo'),
     url(r'^crew$', MarkdownView.as_view(markdown="crew.md"), name='crew'),
     url(r'^hots$', MarkdownView.as_view(markdown="hots.md"), name='hots'),
     url(r'^alumni$', MarkdownView.as_view(markdown="alumni.md"), name='alumni'),
