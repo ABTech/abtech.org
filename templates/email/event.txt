@@ -1,0 +1,13 @@
+Organization: {{ organization }}
+Requester: {{ requester }}
+Email: {{ email }}
+Date: {{ date }}
+Time: {{ time }}
+Location: {{ location }}
+Details: {{ details }}
+
+Thank you for your event request.  Please verify the above information and
+feel free to respond to this email to correct or update anything.
+Expect a reply within a couple of days; if you don't hear back from us within
+a reasonable period of time, feel free to follow up with another email
+(we receive many emails and occasionally one will be misfiled).

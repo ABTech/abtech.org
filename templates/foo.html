@@ -2,20 +2,15 @@
 {% load staticfiles %}
 {% load bootstrap3 %}
 
-{#{%  bootstrap_css %}#}
 {%  bootstrap_messages %}
 
 
 {% block content %}
 
-<form action="/foo/" method="post" class="form">
+<form action="/foo/" method="post" class="form-horizontal">
   {%  csrf_token %}
-  {% bootstrap_form form %}
-  {% buttons %}
-    <button type="submit" class="btn btn-primary">
-      {%  bootstrap_icon "star" %} Submit
-    </button>
-  {% endbuttons %}
+  {% bootstrap_form form layout="horizontal" %}
+  {% buttons submit='OK' layout='horizontal' %}{% endbuttons %}
 </form>
 
 {%  endblock %}

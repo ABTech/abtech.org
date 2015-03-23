@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+{% load bootstrap3 %}
+{%  bootstrap_messages %}
 
 {% block title %} Joining Tech {% endblock %}
 
@@ -21,32 +23,13 @@
     start playing with some of the most awesome and expensive equipment in town.
     <br><br>
     You can also sign up for our dlist right here:
-  <form id="signup" class="form-horizontal">
-    {% csrf_token %}
 
-    <div class="form-group">
-      <label for="andrew_id" class="col-sm-2 control-label"> Andrew ID </label>
-      <div class="col-sm-3">
-        <input type="text" class="form-control" name="andrew_id">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="name" class="col-sm-2 control-label"> Name </label>
-
-      <div class="col-sm-3">
-        <input type="text" class="form-control" name="name">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-2">
-        <input type="submit" class="btn btn-default" value="Signup">
-      </div>
-    </div>
-
-    <div id="status"></div>
+  <form action="{% url 'website:join' %}" method="post" class="form-horizontal">
+    {%  csrf_token %}
+    {% bootstrap_form form layout="horizontal" %}
+    {% buttons submit='OK' layout='horizontal' %}{% endbuttons %}
   </form>
+
   Generally our most extensive orientation event is held shortly after the
   September Activities Fair, but
   we encourage you to join at any time. Almost all of our training is done "on
@@ -74,14 +57,12 @@
     <li><b>following a friend.</b> Our members are fine, upstanding students at
       Carnegie Mellon (or so
       we hope), and should know our schedule.
-
   </ul>
 
   <b><a href=downloads/flyer-2010.pdf>Our Current Recruiting Flyer</a></b><br>
   <a href=downloads/flyer-2003.pdf>Our Recruiting Flyer '03-'09</a><br>
   <a href=downloads/flyer-2000.pdf>Our Recruiting Flyer '00-'02</a><br>
   <a href=downloads/flyer-fall98.pdf>Our Recruiting Flyer '98-'99</a>
-
 {% endblock %}
 
 

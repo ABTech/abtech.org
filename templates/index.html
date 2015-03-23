@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 {% load django_markdown %}
-
+{% block title %} Fly-by-Night Sound and Light {% endblock %}
 {% block content-container %}
 
   <div class="galleria-container">
@@ -22,8 +22,6 @@
   </div>
   <div class="container-fluid">
     <div class="row index-block">
-{#      <div class="col-sm-1"></div>#}
-
       <div class="col-sm-8 col-sm-push-2 center-block">
         <div class="inner">
           {{ raw_content|markdown }}

@@ -1,77 +1,19 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 {% load django_markdown %}
+{% load bootstrap3 %}
+{%  bootstrap_messages %}
 
 {% block title %} Event Request {% endblock %}
 
 {% block content %}
   <p> See more ways to contact us <a href="{% url 'website:contact' %}">here</a>.</p>
 
-  <form id="request" class="form-horizontal">
-    {% csrf_token %}
-    <div class="form-group">
-      <label for="org" class="col-sm-2 control-label"> Organization </label>
-
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="org">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="requester" class="col-sm-2 control-label"> Requester </label>
-
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="requester">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="email" class="col-sm-2 control-label"> Email </label>
-
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="email">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="date" class="col-sm-2 control-label"> Date </label>
-
-      <div class="col-sm-6">
-        <input type="date" class="form-control" name="date">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="time" class="col-sm-2 control-label"> Start Time </label>
-
-      <div class="col-sm-6">
-        <input type="time" class="form-control" name="time">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="location" class="col-sm-2 control-label"> Location </label>
-
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="location">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="details" class="col-sm-2 control-label"> Details </label>
-
-      <div class="col-sm-6">
-        <textarea name="details" class="form-control" rows="3"></textarea>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-2">
-        <input type="submit" class="btn btn-default" value="Submit Request">
-      </div>
-    </div>
-
-
-    </div>
-
-    <div id="status"></div>
+  <form action="{% url 'website:request' %}" method="post" class="form-horizontal">
+    {%  csrf_token %}
+    {% bootstrap_form form layout="horizontal" %}
+    {% buttons submit='OK' layout='horizontal' %}{% endbuttons %}
   </form>
-
 {% endblock %}
 
 {% block includes %}

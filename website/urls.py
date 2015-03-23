@@ -1,7 +1,6 @@
 from django.conf.urls import url
-from django.views.generic import TemplateView
-from website.views import MarkdownView, RequestView, signup, request_submit
-from website.views import FooFormView
+from website.views import MarkdownView, RequestView
+from website.views import FooFormView, JoinView
 
 urlpatterns = [
     url(r'^$', MarkdownView.as_view(template_name="index.html", markdown="index.md"), name='index'),
@@ -10,7 +9,7 @@ urlpatterns = [
     url(r'^contact$', MarkdownView.as_view(markdown="contact.md"), name='contact'),
     url(r'^contractors$', MarkdownView.as_view(markdown="contractors.md"), name='contractors'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
-    url(r'^join$', TemplateView.as_view(template_name="join.html"), name='join'),
+    url(r'^join$', JoinView.as_view(), name='join'),
     url(r'^foo$', FooFormView.as_view(), name='foo'),
     url(r'^crew$', MarkdownView.as_view(markdown="crew.md"), name='crew'),
     url(r'^hots$', MarkdownView.as_view(markdown="hots.md"), name='hots'),
@@ -22,7 +21,5 @@ urlpatterns = [
     url(r'^events00$', MarkdownView.as_view(markdown="events-2000.md"), name='events00'),
     url(r'^timelapse$', MarkdownView.as_view(markdown="timelapse.md"), name='timelapse'),
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
-    url(r'^signup$', signup, name='signup'),
     url(r'^request$', RequestView.as_view(), name='request'),
-    url(r'^request_submit', request_submit, name='request_submit')
 ]
