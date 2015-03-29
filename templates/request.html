@@ -7,7 +7,13 @@
 {% block title %} Event Request {% endblock %}
 
 {% block content %}
-  <p> See more ways to contact us <a href="{% url 'website:contact' %}">here</a>.</p>
+  <h1> Event Request Form </h1>
+  <p> Please use this form to request an event. <br>
+    We need to know the sponsoring organization (i.e. who will be paying for our services?), a contact name and email address. If you know the date, start time, and location of your event please provide those as well. If you have not finalized this information please provide a list of possible dates and times in the details section.  If your event will span multiple days please make a note of that in the Details section.
+<br>
+    In the Details section, please describe your event in detail so we can provide the right equipment and staff.
+<br>
+    See more ways to contact us <a href="{% url 'website:contact' %}">here</a>.</p>
 
   <form action="{% url 'website:request' %}" method="post" class="form-horizontal">
     {%  csrf_token %}
