@@ -73,8 +73,8 @@ sudo a2dissite default
 sudo a2ensite django.conf
 ```
 
-Export SECRET_KEY
->export SECRET_KEY=shhh it's a secret
+Create SECRET_KEY
+>echo "SECRET_KEY='shhh it's a secret'" > abtech/settings/secret.py
 
 
 
