@@ -1,6 +1,5 @@
 from django.conf.urls import url
-from website.views import MarkdownView, RequestView
-from website.views import FooFormView, JoinView
+from website.views import MarkdownView, JoinView, RequestView
 
 urlpatterns = [
     url(r'^$', MarkdownView.as_view(template_name="index.html", markdown="index.md"), name='index'),
@@ -10,7 +9,7 @@ urlpatterns = [
     url(r'^contractors$', MarkdownView.as_view(markdown="contractors.md"), name='contractors'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
     url(r'^join$', JoinView.as_view(), name='join'),
-    url(r'^foo$', FooFormView.as_view(), name='foo'),
+    url(r'^joined$', MarkdownView.as_view(markdown="joined.md"), name='joined'),
     url(r'^crew$', MarkdownView.as_view(markdown="crew.md"), name='crew'),
     url(r'^hots$', MarkdownView.as_view(markdown="hots.md"), name='hots'),
     url(r'^alumni$', MarkdownView.as_view(markdown="alumni.md"), name='alumni'),
@@ -22,4 +21,5 @@ urlpatterns = [
     url(r'^timelapse$', MarkdownView.as_view(markdown="timelapse.md"), name='timelapse'),
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
     url(r'^request$', RequestView.as_view(), name='request'),
+    url(r'^requested$', MarkdownView.as_view(markdown="requested.md"), name='requested'),
 ]

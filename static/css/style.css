@@ -13,6 +13,9 @@ body {
     background: #ebeeed;
 }
 
+h2, h3 {
+    margin: 5px 0px;
+}
 .galleria-container {
     background: black;
 }
@@ -66,14 +69,15 @@ body {
 }
 
 .index-block > div {
-    padding:10px;
+    padding: 10px;
+    padding-top:12px;
     height: 100%;
 }
 
 .inner, .content-block {
     background: #FFFFFF;
     border-bottom: solid 1px #c7c9c8;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .center-block > .inner {
@@ -128,7 +132,7 @@ table {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
     width: 100%;
 }

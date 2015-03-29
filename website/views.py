@@ -26,16 +26,6 @@ class MarkdownView(TemplateView):
         return context
 
 
-class FooForm(forms.Form):
-    andrew_id = forms.CharField(label='Andrew ID', max_length=10)
-    name = forms.CharField(label='Name', max_length=50)
-
-
-class FooFormView(FormView):
-    template_name = "foo.html"
-    form_class = FooForm
-
-
 class JoinForm(forms.Form):
     andrew_id = forms.CharField(label='Andrew ID', max_length=10)
     name = forms.CharField(label='Name', max_length=50)
@@ -54,7 +44,7 @@ class JoinForm(forms.Form):
         # send email using the self.cleaned_data dictionary
         subject = '[AB Tech] Subject!'
         template = get_template('email/welcome.txt')
-        context = Context({"first_name": self.cleaned_data['first_name']})
+        context = Context(self.cleaned_data)
         body = template.render(context)
         from_email = 'abtech@andrew.cmu.edu'
         to_email = self.cleaned_data['email']
@@ -70,11 +60,20 @@ class RequestForm(forms.Form):
     location = forms.CharField(label='Location')
     details = forms.CharField(widget=forms.Textarea, label='Details')
 
+    def send_mail(self):
+        template = get_template('email/event.txt')
+        context = Context(self.cleaned_data)
+        subject = "[AB Tech] Event Request"
+        body = template.render(context)
+        from_email = 'abtech@andrew.cmu.edu'
+        to_email = self.cleaned_data['email']
+        send_mail(subject, body, from_email, [to_email])
+
 
 class JoinView(FormView):
     template_name = "join.html"
     form_class = JoinForm
-    success_url = "/join"
+    success_url = "/joined"
 
     def form_valid(self, form):
         # This method is called when valid form data has been POSTed.
@@ -86,3 +85,10 @@ class JoinView(FormView):
 class RequestView(FormView):
     template_name = "request.html"
     form_class = RequestForm
+    success_url = "/requested"
+
+    def form_valid(self, form):
+        # This method is called when valid form data has been POSTed.
+        # It should return an HttpResponse.
+        form.send_mail()
+        return super(RequestView, self).form_valid(form)
