@@ -74,7 +74,7 @@ sudo a2ensite django.conf
 ```
 
 Create SECRET_KEY
->echo "SECRET_KEY='shhh it's a secret'" > abtech/settings/secret.py
+>echo "SECRET_KEY=\"shhh it's a secret\"" > abtech/settings/secret.py
 
 
 
