@@ -55,7 +55,7 @@ class RequestForm(forms.Form):
     organization = forms.CharField(label='Organization', max_length=50)
     requester = forms.CharField(label='Requester', max_length=50)
     email = forms.EmailField(label='Email')
-    date = forms.DateField(label='Date')
+    start_date = forms.DateField(label='Date')
     start_time = forms.TimeField(label='Start Time')
     location = forms.CharField(label='Location')
     details = forms.CharField(widget=forms.Textarea, label='Details')
@@ -63,8 +63,8 @@ class RequestForm(forms.Form):
     def send_mail(self):
         template = get_template('email/event.txt')
         context = Context(self.cleaned_data)
-        subject = "[AB Tech] Event Request"
-        body = template.render(context)
+        email = template.render(context)
+        subject, body = email.split("\n", 1)
         from_email = 'abtech@andrew.cmu.edu'
         to_email = self.cleaned_data['email']
         send_mail(subject, body, from_email, [to_email])
