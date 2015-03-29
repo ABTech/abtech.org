@@ -1,19 +1,24 @@
 from .base import *
 from pathlib import Path
-
-SECRET_KEY = get_env_variable("SECRET_KEY")
+from .secret import SECRET_KEY
 
 DEBUG = True #False
 TEMPLATE_DEBUG = True #False
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS += ('website',
-                   'django_markdown'
+                   'django_markdown',
+		   'bootstrap3'
                    )
 
 PROJECT_DIR = (Path(__file__) / "../../..").resolve()
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = False
 
 # Additional locations of static files
 STATICFILES_DIRS = (
