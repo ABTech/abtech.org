@@ -27,7 +27,7 @@
   <form action="{% url 'website:join' %}" method="post" class="form-horizontal">
     {%  csrf_token %}
     {% bootstrap_form form layout="horizontal" %}
-    {% buttons submit='OK' layout='horizontal' %}{% endbuttons %}
+    {% buttons submit='Submit' layout='horizontal' %}{% endbuttons %}
   </form>
 
   <div class="status">

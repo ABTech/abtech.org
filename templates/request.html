@@ -18,7 +18,7 @@
   <form action="{% url 'website:request' %}" method="post" class="form-horizontal">
     {%  csrf_token %}
     {% bootstrap_form form layout="horizontal" %}
-    {% buttons submit='OK' layout='horizontal' %}{% endbuttons %}
+    {% buttons submit='Submit' layout='horizontal' %}{% endbuttons %}
   </form>
 {% endblock %}
 
