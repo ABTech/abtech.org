@@ -48,7 +48,7 @@ class JoinForm(forms.Form):
         template = get_template('email/welcome.txt')
         context = Context(self.cleaned_data)
         body = template.render(context)
-        from_email = 'abtech@andrew.cmu.edu'
+        from_email = settings.FROM_EMAIL
         to_email = self.cleaned_data['email']
         send_mail(subject, body, from_email, [to_email])
 
@@ -68,7 +68,7 @@ class RequestForm(forms.Form):
         context = Context(self.cleaned_data)
         email = template.render(context)
         subject, body = email.split("\n", 1)
-        from_email = 'abtech@andrew.cmu.edu'
+        from_email = settings.FROM_EMAIL
         to_email = self.cleaned_data['email']
         send_mail(subject, body, from_email, [to_email])
 

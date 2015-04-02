@@ -20,6 +20,8 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = False
 
+FROM_EMAIL = 'rmaratos@andrew.cmu.edu'
+
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 
 # Additional locations of static files
