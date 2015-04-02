@@ -1,7 +1,8 @@
 from .base import *
 from pathlib import Path
+from .secret import RECAPTCHA_SECRET_KEY
 
-SECRET_KEY = "asdfasdf"
+SECRET_KEY = "foobar"
 
 DEBUG = True
 TEMPLATE_DEBUG = True
@@ -9,12 +10,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS += ('website',
                    'django_markdown',
-                   'bootstrap3'
-                   )
+                   'bootstrap3',
+                   'captcha')
 
 PROJECT_DIR = (Path(__file__) / "../../..").resolve()
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 
 # Additional locations of static files
 STATICFILES_DIRS = (

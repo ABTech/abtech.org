@@ -5,6 +5,7 @@ from django import forms
 from django.template.loader import get_template
 from django.template import Context
 from django.core.mail import send_mail
+from captcha.fields import CaptchaField
 
 
 class RequestView(TemplateView):
@@ -29,6 +30,7 @@ class MarkdownView(TemplateView):
 class JoinForm(forms.Form):
     andrew_id = forms.CharField(label='Andrew ID', max_length=10)
     name = forms.CharField(label='Name', max_length=50)
+    captcha = CaptchaField()
 
     def clean(self):
         cleaned_data = super(JoinForm, self).clean()
@@ -59,6 +61,7 @@ class RequestForm(forms.Form):
     start_time = forms.TimeField(label='Start Time')
     location = forms.CharField(label='Location')
     details = forms.CharField(widget=forms.Textarea, label='Details')
+    captcha = CaptchaField()
 
     def send_mail(self):
         template = get_template('email/event.txt')
