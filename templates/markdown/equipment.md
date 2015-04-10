@@ -171,7 +171,6 @@ you send us (you do not need to list specific items).
     href="http://www.dbxpro.com/1066.htm">1066</a>)
 </ul>
 
-
 ####FX1
 <ul>
 <li>Digital reverb (<a href="http://www.yamaha.com">Yamaha</a> <a
@@ -235,9 +234,8 @@ you send us (you do not need to list specific items).
 <li>1 DAT recorder (<a href="http://www.tascam.com">Tascam</a>
   DA-20MKII)
 </ul>
-
-
 <hr>
+
 ###Snakes and Cable
 <ul>
 <li>1 48+32 Yamaha Dante digital snake system, with <a
@@ -252,12 +250,10 @@ you send us (you do not need to list specific items).
 <li>1 12+0 50'
 <li>1 6+0 25'
 </ul>
-
-
 <hr>
+
 ###Microphones
 <ul>
-
 <li>5 <a href="http://www.sennheiserusa.com">Sennheiser</a> <a
     href="http://www.sennheiserusa.com/pages/products/micro/md421.htm">MD421</a>
   <a href="/static/img/equipment/421.jpg"><img border=0
@@ -330,7 +326,6 @@ you send us (you do not need to list specific items).
   Ribbon Mic </a>
 <li>2 <a href="http://www.shure.com">Shure</a> <a
     href="http://www.shure.com/americas/products/microphones/ksm/ksm9-handheld-vocal-microphone">KSM9 </a>
-
 </ul>
 
 
@@ -414,6 +409,7 @@ trees, in addition to floor lighting.
   console for intelligent lighting
 </ul>
 <hr>
+
 ###Miscellaneous
 <ul>
 <li>4 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar
