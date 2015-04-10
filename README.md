@@ -79,6 +79,10 @@ make wsgi.py executable
 chmod u+x abtech/wsgi.py
 ```
 
+Create abtech/settings/secret.py with the necessary secret keys that are in example_secret.py
+
+Edit abtech/settings/production.py and add your host as a string to ALLOWED_HOSTS
+
 Edit existing apache config or add site file based on django-example.conf
 Site configuration will need to be enabled
 ```
@@ -86,6 +90,3 @@ cp django-example.conf /etc/apache2/sites-available/django.conf
 sudo a2dissite default
 sudo a2ensite django.conf
 ```
-
-Create abtech/settings/secret.py with the necessary secret keys that are in example_secret.py
-
