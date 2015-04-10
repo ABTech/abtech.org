@@ -128,8 +128,6 @@ you send us (you do not need to list specific items).
   <a
       href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha
     Rio3224 and Rio1608</a> Stageboxes
-<li>48+4x8x3 w/ VCAs <a href="http://www.crestaudio.com">Crest</a>
-  X-VCA-48
 <li>28+4x4x2 <a href="http://www.midasconsoles.com/">Midas</a> Venice
   320
 <li>24x8x2 <a
@@ -152,8 +150,6 @@ you send us (you do not need to list specific items).
   MixWizard3 12:2</a>
 <li>14+2x4x2 <a href="http://www.digiconsoles.com/">Soundtracs </a>FM
   FOH Console
-<li>32x8x2 <a href="http://www.ddaconsoles.com">DDA</a> S-series
-  monitor console
 </ul>
 
 ###Front of House
@@ -224,7 +220,6 @@ you send us (you do not need to list specific items).
 
 ####Recording
 <ul>
-<li>
 <li>1 Alesis HD24 24-track hard drive recorder
 <li>1 Real-Time Analyzer /w Pink Noise (<a
     href="http://www.audiocontrolindustrial.com/">AudioControl
@@ -363,8 +358,7 @@ you send us (you do not need to list specific items).
 Front lighting provided by a 40' 26"x30" box truss
 (<a href="http://www.jthomaseng.com">Thomas</a>) hung with
 up to 36 1kW PAR64 canisters. Supplemental lighting is supplied by booms
-and
-trees, in addition to floor lighting.
+and trees, in addition to floor lighting.
 
 <ul>
 <li>48 PAR64 cans with 1kW lamps <a
@@ -396,17 +390,8 @@ trees, in addition to floor lighting.
 <li>12 channels of dimming at 1.2kW/channel (<a
     href="http://www.electrol.net">Electrol</a>
   <a href="http://www.electrol.net/anaconda.htm">Anaconda</a>)
-<li><a
-    href="http://www.highend.com/products/controllers/RoadHogConsole.asp">High
-  End Systems Road Hog</a> Lighting Console (w/ additional touchscreen
-  playback wing)
-<li><a href="http://www.jandsvista.com/products/vista-t2-console/">Jands
-  Vista T2</a> Lighting Console
-<li><a href="http://www.avolites.org.uk/products/pearl2004.htm">Avolites
-  Pearl 2004</a>
+<li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a> lighting console
 <li>36-channel lighting console (<a href="http://www.leprecon.com">Leprecon</a>)
-<li><a href="http://www.compulite.com">Compulite</a> Animator Compact
-  console for intelligent lighting
 </ul>
 <hr>
 
