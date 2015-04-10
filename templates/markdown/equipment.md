@@ -221,7 +221,7 @@ you send us (you do not need to list specific items).
 ####Recording
 <ul>
 <li>1 Alesis HD24 24-track hard drive recorder
-<li>1 Real-Time Analyzer /w Pink Noise (<a
+<li>1 Real-Time Analyzer w/Pink Noise (<a
     href="http://www.audiocontrolindustrial.com/">AudioControl
   Industrial</a>SA-3051)
 <li>1 Cassette deck (<a href="http://www.tascam.com">Tascam</a>
@@ -380,8 +380,6 @@ and trees, in addition to floor lighting.
     href="http://www.vari-lite.com/index.php?src=directory&view=products&srctype=detail&refno=34215&category=Series2000">Philips
   Vari*Lite VL2500 Spot</a> Moving Head Lighting Instruments
 <li>6 Martin MAC 2000 Moving Head Lighting Instruments
-<li>4 <a href="http://www.highend.com">High-End Systems</a>
-  Intellabeam 700HX Intelligent lighting instruments
 <li>24 channels of dimming at 2.4kW/channel (<a
     href="http://www.electrol.net">Electrol</a> LP62400)
 <li>24 channels of dimming at 1.5kW/channel (<a
@@ -390,6 +388,7 @@ and trees, in addition to floor lighting.
 <li>12 channels of dimming at 1.2kW/channel (<a
     href="http://www.electrol.net">Electrol</a>
   <a href="http://www.electrol.net/anaconda.htm">Anaconda</a>)
+<li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a> lighting console
 <li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a> lighting console
 <li>36-channel lighting console (<a href="http://www.leprecon.com">Leprecon</a>)
 </ul>
