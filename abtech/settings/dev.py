@@ -11,7 +11,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS += ('website',
                    'django_markdown',
                    'bootstrap3',
-                   'captcha')
+                   'captcha',
+                    )
 
 PROJECT_DIR = (Path(__file__) / "../../..").resolve()
 

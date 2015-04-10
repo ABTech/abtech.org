@@ -50,7 +50,9 @@ Add ssh-key
 https://help.github.com/articles/generating-ssh-keys/
 
 Get repo
->git clone git@github.com:ABTech/abtech.org.git
+```
+git clone git@github.com:ABTech/abtech.org.git
+```
 
 Install Python3 and Pip3
 ```
@@ -61,22 +63,29 @@ sudo pip-3.2 install pathlib # Not necessary with python 3.4
 ```
 
 Run dev server to check work so far
-> ./manage.py runserver 0.0.0.0:8000
+```
+./manage.py runserver 0.0.0.0:8000
+```
+
+Configure smtp server on port 25
+```
+:)
+```
 
 Enable Apache mod_wsgi
->sudo apt-get install libapache2-mod-wsgi-py3
-make wsgi.py executable
->chmod u+x abtech/wsgi.py
-
-Add django apache config
 ```
-cp django.conf /etc/apache2/sites-available/django.conf
+sudo apt-get install libapache2-mod-wsgi-py3
+make wsgi.py executable
+chmod u+x abtech/wsgi.py
+```
+
+Edit existing apache config or add site file based on django-example.conf
+Site configuration will need to be enabled
+```
+cp django-example.conf /etc/apache2/sites-available/django.conf
 sudo a2dissite default
 sudo a2ensite django.conf
 ```
 
-Create SECRET_KEY
->echo "SECRET_KEY=\"shhh it's a secret\"" > abtech/settings/secret.py
-
-
+Create abtech/settings/secret.py with the necessary secret keys that are in example_secret.py
 

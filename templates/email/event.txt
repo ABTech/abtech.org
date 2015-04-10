@@ -4,7 +4,7 @@ Dear {{ requester }},
 Thank you for your event request.  Please verify the below information and feel free to respond to this email to correct or update anything. Expect a reply within a couple of days; if you don't hear back from us within a reasonable period of time, feel free to follow up with another email (we receive many emails and occasionally one will be misfiled).
 
 Organization: {{ organization }}
-Requester: {{ requester }}
+Event Contact: {{ contact }}
 Email: {{ email }}
 Date: {{ start_date|date:"SHORT_DATE_FORMAT" }}
 Time: {{ start_time }}

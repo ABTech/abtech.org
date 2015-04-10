@@ -3,6 +3,10 @@
 {% load bootstrap3 %}
 {%  bootstrap_messages %}
 
+{% block includes %}
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+{% endblock %}
+
 {% block title %} Joining Tech {% endblock %}
 
 {% block content %}
@@ -72,8 +76,3 @@
   <a href=downloads/flyer-fall98.pdf>Our Recruiting Flyer '98-'99</a>
 {% endblock %}
 
-
-{% block includes %}
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-  <script src="{% static "js/join.js" %}"></script>
-{% endblock %}

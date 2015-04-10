@@ -131,6 +131,10 @@ table {
     padding:4px;
 }
 
+.help-block {
+    margin-bottom: -5px;
+}
+
 footer {
     margin-top: 15px;
     margin-bottom: 10px;

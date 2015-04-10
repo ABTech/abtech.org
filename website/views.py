@@ -7,13 +7,17 @@ from django.template import Context
 from django.core.mail import send_mail
 from captcha.fields import CaptchaField
 
-
 class RequestView(TemplateView):
     template_name = "request.html"
 
 
 class MarkdownView(TemplateView):
+    """
+    Generic Markdown View for most static content
 
+    Reads title of page from first line of markdown file
+    Reads content from the rest
+    """
     template_name = "markdown-view.html"
     markdown = None
 
@@ -22,12 +26,15 @@ class MarkdownView(TemplateView):
         markdown_dir = settings.PROJECT_DIR / "templates/markdown/"
         path = str(markdown_dir / self.markdown)
         with open(path) as f:
-            context['title'] = f.readline()
+            context['title'] = f.readline()  # Read first line for title
             context['raw_content'] = f.read()
         return context
 
 
 class JoinForm(forms.Form):
+    """
+    Form for new member signup
+    """
     andrew_id = forms.CharField(label='Andrew ID', max_length=10)
     name = forms.CharField(label='Name', max_length=50)
     captcha = CaptchaField()
@@ -35,6 +42,7 @@ class JoinForm(forms.Form):
     def clean(self):
         cleaned_data = super(JoinForm, self).clean()
         andrew_id = cleaned_data.get("andrew_id")
+        # In case newbies don't know andrewid doesn't include @andrew
         if "@" in andrew_id:
             cleaned_data["email"] = andrew_id
         else:
@@ -54,12 +62,15 @@ class JoinForm(forms.Form):
 
 
 class RequestForm(forms.Form):
+    """
+    Form for event request
+    """
     organization = forms.CharField(label='Organization', max_length=50)
-    requester = forms.CharField(label='Requester', max_length=50)
+    contact = forms.CharField(label='Event Contact', max_length=50)
     email = forms.EmailField(label='Email')
-    start_date = forms.DateField(label='Date')
-    start_time = forms.TimeField(label='Start Time')
-    location = forms.CharField(label='Location')
+    start_date = forms.DateField(label='Date', help_text="Format: mm/dd/yyyy", required=False)
+    start_time = forms.CharField(label='Start Time', required=False)
+    location = forms.CharField(label='Location', required=False)
     details = forms.CharField(widget=forms.Textarea, label='Details')
     captcha = CaptchaField()
 
@@ -74,6 +85,9 @@ class RequestForm(forms.Form):
 
 
 class JoinView(FormView):
+    """
+    View for joining, render join form
+    """
     template_name = "join.html"
     form_class = JoinForm
     success_url = "/joined"
@@ -86,6 +100,9 @@ class JoinView(FormView):
 
 
 class RequestView(FormView):
+    """
+    View for request, render request form
+    """
     template_name = "request.html"
     form_class = RequestForm
     success_url = "/requested"
