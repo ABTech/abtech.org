@@ -2,23 +2,33 @@
 {% load staticfiles %}
 {% load django_markdown %}
 {% block title %} Fly-by-Night Sound and Light {% endblock %}
+{% block style %}
+<style type="text/css">
+  html body{
+    height: 90vh;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .images{
+    background-color: black;
+    background-image: url({% static 'img/gallery/dejj-2014.jpg' %}); 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: calc(100vh - 350px);
+    width: 100%;
+  }
+</style>
+{% endblock %}
 {% block content-container %}
 
-  <div class="galleria-container">
-    <div class="galleria">
-      <li>
-        <img src="{% static 'img/gallery/timeflies-2014.jpg' %}">
-        <p>Timeflies - AB Spring Concert 2014</p>
-      </li>
-      <li>
-        <img src="{% static 'img/gallery/dejj-2014.jpg' %}">
-        <p> Dale Earnhardt Jr. Jr. - AB Coffeehouse 2014</p>
-      </li>
-      <li>
-        <img src="{% static 'img/gallery/tokyopoliceclub-2011.jpg' %}">
-        <p> Tokyo Police Club </p>
-      </li>
-    </div>
+  <div class="images">
+    
   </div>
   <div class="container-fluid">
     <div class="row index-block">
@@ -49,17 +59,21 @@
 {% endblock %}
 
 {% block includes %}
-  <script src="{% static 'js/galleria/galleria-1.4.2.min.js' %}"></script>
-  <script>
-    Galleria.loadTheme("{% static 'js/galleria/themes/classic/galleria.classic.min.js' %}");
-    Galleria.run('.galleria', {
-      autoplay: true,
-      dataConfig: function (img) {
-        return {
-          description: $(img).next('p').html()
-        }
-      },
-      initialTransition: 'fade'
+<script type="text/javascript">
+    var images = ["dejj-2014.jpg", "tokyopoliceclub-2011.jpg", "timeflies-2014.jpg","lunarGala.png",'ds.jpg'];
+    $(function () {
+        var i = 0;
+        $(".images").css("background-image", "url(/static/img/gallery/" + images[i] + ")");
+        setInterval(function () {
+            i++;
+            if (i == images.length) {
+                i = 0;
+            }
+            $(".images").fadeOut("slow", function () {
+                $(this).css("background-image", "url(/static/img/gallery/" + images[i] + ")");
+                $(this).fadeIn("slow");
+            });
+        }, 4000);
     });
-  </script>
+</script>
 {% endblock %}
