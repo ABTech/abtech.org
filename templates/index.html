@@ -2,25 +2,39 @@
 {% load staticfiles %}
 {% load django_markdown %}
 {% block title %} Fly-by-Night Sound and Light {% endblock %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'vegas/vegas.min.css' %}">
+<style type="text/css">
+  html body{
+    height: 90vh;
+    overflow-y: auto;
+    padding: 0;
+  }
+  footer{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+  }
+  .noBack{
+    background-color: rgba(0,0,0,0.0);
+  }
+  .halfBack{
+    background-color: rgba(0,0,0,0.7);
+  }
+  #white a{
+    color: white;
+  }
+  .white a:hover{
+    color: black;
+  }
+</style>
+{% endblock %}
 {% block content-container %}
 
-  <div class="galleria-container">
-    <div class="galleria">
-      <li>
-        <img src="{% static 'img/gallery/timeflies-2014.jpg' %}">
-        <p>Timeflies - AB Spring Concert 2014</p>
-      </li>
-      <li>
-        <img src="{% static 'img/gallery/dejj-2014.jpg' %}">
-        <p> Dale Earnhardt Jr. Jr. - AB Coffeehouse 2014</p>
-      </li>
-      <li>
-        <img src="{% static 'img/gallery/tokyopoliceclub-2011.jpg' %}">
-        <p> Tokyo Police Club </p>
-      </li>
-    </div>
-  </div>
-  <div class="container-fluid">
+  <div class="vegasSlides">
+    
+  
+  <div class="container-fluid" style="position: absolute; bottom: 80px;">
     <div class="row index-block">
       <div class="col-sm-8 col-sm-push-2 center-block">
         <div class="inner">
@@ -49,17 +63,26 @@
 {% endblock %}
 
 {% block includes %}
-  <script src="{% static 'js/galleria/galleria-1.4.2.min.js' %}"></script>
-  <script>
-    Galleria.loadTheme("{% static 'js/galleria/themes/classic/galleria.classic.min.js' %}");
-    Galleria.run('.galleria', {
-      autoplay: true,
-      dataConfig: function (img) {
-        return {
-          description: $(img).next('p').html()
+</div>
+<script type="text/javascript">
+  $(document).ready(function() {
+    function checkWidth() {
+        var windowSize = $(window).width();
+
+        if (windowSize <= 767) {
+            $('.back').removeClass('noBack');
+            $('#white a').css('color','black');
         }
-      },
-      initialTransition: 'fade'
-    });
-  </script>
+        else {
+            $('.back').addClass('noBack');
+            $('#white a').css('color','white');
+        }
+    }
+
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);
+  })
+</script>
 {% endblock %}

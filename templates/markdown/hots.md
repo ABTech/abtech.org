@@ -19,11 +19,15 @@ year.
     <th width="350"> Head(s) of Tech</td>
   </tr>
   <tr>
-    <td>14-15</td>
-    <td>Peter Chiappa</td>
+    <td>15-16</td>
+    <td>Youzi Wu [youziw] / Adam Pinson </td>
   </tr>
   <tr>
     <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>14-15</td>
+    <td>Peter Chiappa</td>
   </tr>
   <tr>
     <td>13-14</td>

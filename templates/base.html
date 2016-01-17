@@ -19,10 +19,13 @@
      ================================================== -->
   <script src="{% static 'js/jquery.min.js' %}"></script>
   <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="https://use.typekit.net/mjg3mnu.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="{% static 'bootstrap/js/ie10-viewport-bug-workaround.js' %}"></script>
   {% block includes %}
   {% endblock %}
+  {% block style %}{% endblock %}
 </head>
 
 <body>
@@ -37,4 +40,23 @@
 {% include "footer.html" %}
 
 </body>
+<script src="{% static 'vegas/vegas.min.js' %}"></script>
+<script type="text/javascript">
+  $('body').vegas({
+    delay: 6000,
+    transition: 'fade',
+    timer: false,
+    transitionDuration: 3000,
+    preload: true,
+    slides: [
+        { src: "static/img/gallery/gs_sound.jpg" },
+        { src: "static/img/gallery/dejj-2014.jpg" },
+        { src: "static/img/gallery/car_12.jpg" },
+        { src: "static/img/gallery/ds.jpg" },
+        { src: "static/img/gallery/ds_12.jpg" },
+        { src: "static/img/gallery/lunarGala.png" },
+        { src: "static/img/gallery/timeflies-2014.jpg" },
+    ]
+  });
+</script>
 </html>
