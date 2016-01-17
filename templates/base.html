@@ -13,6 +13,7 @@
 
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/updatedStyle.css' %}">
 
 
   <!-- Bootstrap core JavaScript
@@ -38,25 +39,6 @@
 {% endblock %}
 
 {% include "footer.html" %}
-
+{% block script %}{% endblock %}
 </body>
-<script src="{% static 'vegas/vegas.min.js' %}"></script>
-<script type="text/javascript">
-  $('body').vegas({
-    delay: 6000,
-    transition: 'fade',
-    timer: false,
-    transitionDuration: 3000,
-    preload: true,
-    slides: [
-        { src: "static/img/gallery/gs_sound.jpg" },
-        { src: "static/img/gallery/dejj-2014.jpg" },
-        { src: "static/img/gallery/car_12.jpg" },
-        { src: "static/img/gallery/ds.jpg" },
-        { src: "static/img/gallery/ds_12.jpg" },
-        { src: "static/img/gallery/lunarGala.png" },
-        { src: "static/img/gallery/timeflies-2014.jpg" },
-    ]
-  });
-</script>
 </html>

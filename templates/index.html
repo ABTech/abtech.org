@@ -15,24 +15,11 @@
     position: absolute;
     bottom: 0px;
   }
-  .noBack{
-    background-color: rgba(0,0,0,0.0);
-  }
-  .halfBack{
-    background-color: rgba(0,0,0,0.7);
-  }
-  #white a{
-    color: white;
-  }
-  .white a:hover{
-    color: black;
-  }
 </style>
 {% endblock %}
 {% block content-container %}
 
   <div class="vegasSlides">
-    
   
   <div class="container-fluid" style="position: absolute; bottom: 80px;">
     <div class="row index-block">
@@ -61,28 +48,47 @@
   </div>
 
 {% endblock %}
-
 {% block includes %}
 </div>
+{% endblock %}
+{% block script %}
 <script type="text/javascript">
+  //change logo for mobile
   $(document).ready(function() {
     function checkWidth() {
         var windowSize = $(window).width();
 
         if (windowSize <= 767) {
-            $('.back').removeClass('noBack');
-            $('#white a').css('color','black');
+            $('#logoImage').attr('src','static/img/ab tech.png');
         }
         else {
-            $('.back').addClass('noBack');
-            $('#white a').css('color','white');
+            $('#logoImage').attr('src','static/img/abTech_logo.png');
         }
     }
-
     // Execute on load
     checkWidth();
     // Bind event listener
     $(window).resize(checkWidth);
   })
+</script>
+<script src="{% static 'vegas/vegas.min.js' %}"></script>
+<script type="text/javascript">
+  //backround settings
+  $('body').vegas({
+    delay: 6000,
+    transition: 'fade',
+    timer: false,
+    transitionDuration: 3000,
+    preload: true,
+    slides: [
+        { src: "static/img/gallery/gs_sound.jpg" },
+        { src: "static/img/gallery/dejj-2014.jpg" },
+        { src: "static/img/gallery/car_12.jpg" },
+        { src: "static/img/gallery/ds.jpg" },
+        { src: "static/img/gallery/ds_12.jpg" },
+        { src: "static/img/gallery/lunarGala.png" },
+        { src: "static/img/gallery/timeflies-2014.jpg" },
+    ]
+  });
 </script>
 {% endblock %}
