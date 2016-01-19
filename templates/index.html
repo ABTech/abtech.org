@@ -15,9 +15,13 @@
     position: absolute;
     bottom: 0px;
   }
+  .inner {
+    padding: 5px 35px;
+  }
 </style>
 {% endblock %}
-{% block content-container %}
+{% block content-container %} <!--penises are great!
+i love them a lot -->
 
   <div class="vegasSlides">
   
@@ -30,7 +34,7 @@
       </div>
 
       <div class="col-sm-2 col-sm-pull-8 left-block">
-        <div class="inner">
+        <div class="inner" style="padding: 5px 15px;">
           <h3> Quick Links </h3>
           <a class="lead-item" href="{% url 'website:request' %}">Request an Event</a> <br>
           <a class="lead-item" href="{% url 'website:services' %}">Explore our Services</a> <br>
@@ -39,7 +43,7 @@
       </div>
 
     <div class="col-sm-2 right-block">
-      <div class="inner">
+      <div class="inner" style="padding: 5px 15px;">
         <h3> Upcoming Events </h3>
         <p> Coming Soon! </p>
         </div>
