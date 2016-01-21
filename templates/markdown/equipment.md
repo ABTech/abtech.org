@@ -113,26 +113,20 @@ you send us (you do not need to list specific items).
 <li>2 XTA DP224 Audio Management System (Beta)</li>
 <li>2 XTA DP424? Audio Management System (Alpha)</li>
 
-<li>8 Dual 31-band graphic equalizer output transformer balanced (<a
-    href="http://www.klarkteknik.com">Klark-Teknik</a> <a
-    href="http://www.klarkteknik.com/dn360.htm">DN360</a>)
 </ul>
 <hr>
 
 
 ###Sound Consoles
 <ul>
+<li>Yamaha CL5
+<li>Yamaha QL1
 <li>56x32+5 w/VCAs <a
     href="http://www.yamahaproaudio.com/global/en/products/mixers/cl/index.jsp">Yamaha
   CL3</a> Digital Mixing Console with
   <a
       href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha
     Rio3224 and Rio1608</a> Stageboxes
-<li>28+4x4x2 <a href="http://www.midasconsoles.com/">Midas</a> Venice
-  320
-<li>24x8x2 <a
-    href="http://www.allen-heath.com/uk/Products/pages/ProductDetails.aspx?catId=&ProductId=ML3000&SubCatId=">A&H
-  ML3000</a>
 <li>16+4x8 <a
     href="http://www.yamahaproaudio.com/products/mixers/ls9/">Yamaha
   LS9-16</a> Digital Mixing Console
@@ -145,102 +139,13 @@ you send us (you do not need to list specific items).
 <li>12+2x2 <a
     href="http://www.presonus.com/products/StudioLive-16.0.2">Presonus
   Studiolive 16.0.2</a> Digital Mixing Console
-<li>12+2x2 <a
-    href="http://www.allen-heath.com/uk/products/pages/productdetails.aspx?CatId=MixWizard3Series&ProductId=MixWizard3122">A&H
-  MixWizard3 12:2</a>
-<li>14+2x4x2 <a href="http://www.digiconsoles.com/">Soundtracs </a>FM
-  FOH Console
 </ul>
-
-###Front of House
-####Drive 1
-<ul>
-<li>XTA <a href="http://www.audiocore.co.uk/products-series4.html">DP448</a>
-  Loudspeaker Management System
-<li>2 <a href="http://www.dbxpro.com">dbx</a> 31-band equalizers
-<li>1 <a href="http://www.bss.co.uk">BSS</a> <a
-    href="http://www.bss.co.uk/products/equalisers/fcs-960/index.html">FCS-960</a>
-  dual 30-band equalizer
-<li>CD Player (<a href="http://www.usa.denon.com/pro/">Denon
-  DN-C630</a>)
-<li>Stereo compressor (<a href="http://www.dbxpro.com">dbx</a> <a
-    href="http://www.dbxpro.com/1066.htm">1066</a>)
-</ul>
-
-####FX1
-<ul>
-<li>Digital reverb (<a href="http://www.yamaha.com">Yamaha</a> <a
-    href="http://www.yamaha.com/yamahavgn/CDA/ContentDetail/ModelSeriesDetail/0,6373,CNTID%253D128%2526CTID%253D228900%2526VNM%253DLIVE%2526AFLG%253DY%2526LGFL%253DN,00.html">SPX-990</a>)
-<li>Digital reverb (<a href="http://www.tcelectronic.com/">TC-Electronics</a>
-  <a href="http://www.tcelectronic.com/default.asp?id=853">M3000</a>)
-<li>Digital delay (<a href="http://www.lexicon.com">Lexicon</a>
-  PCM-42)
-<li>2 channel delay (<a href="http://www.rane.com">Rane</a> <a
-    href="http://www.rane.com/ad22d.html">AD-22d</a>)
-<li>10 compressors (<a href="http://www.dbxpro.com">dbx</a> <a
-    href="http://www.dbxpro.com/1066.htm">1066</a>)
-<li>4 gates (<a href="http://www.bss.co.uk">BSS</a> <a
-    href="http://www.bss.co.uk/products/dynamics/dpr-504/index.html">DPR-504</a>
-<li>4 gates (<a href="http://www.drawmer.com">Drawmer</a> <a
-    href="http://www.drawmer.com/ds201.htm">DS201</a>)
-</ul>
-
-####Drive 2
-<ul>
-<li><a href="http://www.bss.co.uk">BSS</a> <a
-    href="http://www.bss.co.uk/products/equalisers/fcs-960/index.html">FCS-960</a>
-  dual 30-band equalizer and <a
-      href="http://www.bss.co.uk/products/dynamics/dpr-402/index.html">DPR-402</a>
-  dual compressor for system equalization
-<li> CD Player <a href="http://www.sony.com">Sony</a> <a
-    href="http://bssc.sel.sony.com/Professional/webapp/ModelPrint?id=55638">CDP-D11</a>
-</ul>
-
-
-####Drive 3
-<ul>
-<li>2 <a href="http://www.dbxpro.com">dbx</a> 31-band equalizers and 1
-  <a href="http://www.dbxpro.com">dbx</a> <a
-      href="http://www.dbxpro.com/1066.htm">1066</a> compressor
-<li> CD Player (<a href="http://www.usa.denon.com/pro/">Denon
-  DN-C635</a>)
-<li><a href="http://www.audiotoys.com/">ATI </a> <a
-    href="http://www.audiotoys.com/8MX2.HTM">8MX2</a> Rack-mount mixer
-</ul>
-
-####Drive 4
-<ul>
-<li>2 31-band equalizers (<a href="http://www.dbxpro.com/">dbx</a>)
-<li>1 (2) compressors (<a href="http://www.dbxpro.com">dbx</a> <a
-    href="http://www.dbxpro.com/">166</a>)
-<li>CD Player (<a href="http://www.tascam.com">Tascam</a>)
-<li>3 31-band equalizers (<a href="http://www.dbxpro.com/">dbx</a>, <a
-    href="http://www.yamaha.com/">Yamaha</a>)
-</ul>
-
-####Recording
-<ul>
-<li>1 Alesis HD24 24-track hard drive recorder
-<li>1 Real-Time Analyzer w/Pink Noise (<a
-    href="http://www.audiocontrolindustrial.com/">AudioControl
-  Industrial</a>SA-3051)
-<li>1 Cassette deck (<a href="http://www.tascam.com">Tascam</a>
-  112MKII)
-<li>1 DAT recorder (<a href="http://www.tascam.com">Tascam</a>
-  DA-20MKII)
-</ul>
-<hr>
 
 ###Snakes and Cable
 <ul>
 <li>1 48+32 Yamaha Dante digital snake system, with <a
     href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha
   Rio3224 and Rio1608</a> stageboxes
-<li>1 48+8 <a href="http://www.whirlwindusa.com/">Whirlwind</a> with
-  <a href="http://www.whirlwindusa.com/multi012.html">W4</a> ends and
-  ground lifts
-<li>1 32+8 with <a href="http://www.whirlwindusa.com/multi012.html">
-  Whirlwind W4</a> ends
 <li>1 16+4 75'
 <li>1 12+0 50'
 <li>1 6+0 25'
@@ -390,6 +295,8 @@ and trees, in addition to floor lighting.
 <li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a> lighting console
 <li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a> lighting console
 <li>36-channel lighting console (<a href="http://www.leprecon.com">Leprecon</a>)
+<li>1 American DJ UV Canon black lights
+<li>3 Martin Atomic 3000 DMX Strobe
 </ul>
 <hr>
 
@@ -402,9 +309,6 @@ and trees, in addition to floor lighting.
 <li>1 <a href="http://www.rosco.com">Rosco</a> 4500 Fog Machine
 <li>1 <a href="http://www.rosco-ca.com/products/fog/hazemaker.html">Rosco
   Hazemaker</a>
-<li>2 American DJ UV Canon black lights
-<li>1 Martin Atomic 3000 DMX Strobe
-<li>2 Strobe Cannon strobe lights
 <li>Communications system: <a href="http://www.beltpack.com">Production
   Intercom</a> <a href="http://www.beltpack.com/ms-200.htm">MS-200
   Main Station</a> plus assorted remote stations
