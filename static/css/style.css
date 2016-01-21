@@ -6,7 +6,7 @@ body {
     margin: 0;
     height: 100%;
     position: relative;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'acumin-pro-semi-condensed';
     font-size: 12pt;
     line-height: 1.5;
     min-height: 450px;
@@ -15,6 +15,7 @@ body {
 
 h1, h2, h3 {
     margin: 5px 0px;
+    font-family: 'freight-macro-pro';
 }
 .galleria-container {
     background: black;
@@ -45,6 +46,7 @@ h1, h2, h3 {
 
 .navbar-collapse li {
     text-align: right;
+    font-family: 'freight-macro-pro';
 }
 
 .navbar-default {
@@ -75,9 +77,13 @@ h1, h2, h3 {
 }
 
 .inner, .content-block {
-    background: #FFFFFF;
+    background: RGBA(255,255,255,0.82);
     border-bottom: solid 1px #c7c9c8;
     padding: 10px 10px;
+}
+
+.inner{
+    min-height: 250px;
 }
 
 .center-block > .inner {
@@ -88,17 +94,16 @@ h1, h2, h3 {
     height: 35px;
     margin-bottom: 15px;
     border-bottom: 1px solid black;
+    font-family: 'freight-macro-pro';
 }
 
 .title-header a {
     padding: 5px;
     color: grey;
     display: inline-block;
-
 }
 
 .title-header .current {
-    font-weight: 600;
     color: red;
 }
 

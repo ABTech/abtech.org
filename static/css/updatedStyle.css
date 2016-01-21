@@ -1,0 +1,12 @@
+.noBack{
+  background-color: rgba(0,0,0,0.0);
+}
+.halfBack{
+  background-color: rgba(0,0,0,0.7);
+}
+#white a{
+  color: white;
+}
+.white a:hover{
+  color: black;
+}

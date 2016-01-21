@@ -18,7 +18,7 @@ The people who make up AB Tech.
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
-        color="#990000" size="5"><b>2014 &mdash; 2015</b></FONT></td>
+        color="#990000" size="5"><b>2015 &mdash; 2016</b></FONT></td>
   </tr>
 
   <tr>
@@ -27,7 +27,7 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Peter Chiappa [pchiappa]</td>
+    <td colspan="2" align="center">Youzi Wu [youziw]<br>Adam Pinson</td>
   </tr>
 
   <tr>
@@ -37,12 +37,9 @@ The people who make up AB Tech.
 
   <tr>
     <td colspan="2" align="center">
-      Ian Hartwig<br>
-      Michelle Mackie<br>
+      Pedro Lima<br>
       Robert Maratos<br>
-      Andrew Mort<br>
-      Adam Pinson<br>
-      Youzi Wu<br>
+      Christine Xu<br>
     </td>
   </tr>
 
@@ -55,36 +52,32 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Balke, Erin
-        <li>Betancourt, Ian
-        <li>Cook, Alyssa
-        <li>Dalzell, Haley
+        <li>Cohen, Kenny
         <li>Duenas, Danica
         <li>Elan, Alissa
         <li>Evans, Amos
-        <li>Gasbarro, Nick
-        <li>Karras, Elena
+        <li>Fermin, Luis
+        <li>Garbade, Edward
+        <li>Gotsis, Alex
+        <li>Gunsalus, Laura
+        <li>Guitierrez, Andre
         <li>Kang, Jamie
-        <li>Kim, Yoon-ji
-        <li>Lyness, Hannah
-        <li>Maratos, Robert
-        <li>Martin, Christi
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Mehrle, David
-        <li>Meredith, Chris
+        <li>Kozina, Val
+        <li>Kuang, Stephanie
+        <li>Lyness, Hannah
+        <li>Martin, Christi
         <li>Mertz, Joe
-        <li>Milner, Will
-        <li>Mou, Doci
+        <li>Miele, Dan
+        <li>Rakla, Aamer
         <li>Rauchenberger, Kelly
-        <li>Sebek, Matt
-        <li>Share-Raab, Sam
-        <li>Stokes, Becca
-        <li>Solomon, Erika
+        <li>Speer, Sam
+        <li>Tan, Bridget
+        <li>Wang, Sarah
         <li>Weiss, Jacob
-        <li>Xu, Christine
-        <li>Zhang, Anita
       </ul>
     </td>
   </tr>

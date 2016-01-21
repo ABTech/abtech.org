@@ -13,16 +13,20 @@
 
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/updatedStyle.css' %}">
 
 
   <!-- Bootstrap core JavaScript
      ================================================== -->
   <script src="{% static 'js/jquery.min.js' %}"></script>
   <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="https://use.typekit.net/mjg3mnu.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="{% static 'bootstrap/js/ie10-viewport-bug-workaround.js' %}"></script>
   {% block includes %}
   {% endblock %}
+  {% block style %}{% endblock %}
 </head>
 
 <body>
@@ -35,6 +39,6 @@
 {% endblock %}
 
 {% include "footer.html" %}
-
+{% block script %}{% endblock %}
 </body>
 </html>

@@ -379,7 +379,6 @@ and trees, in addition to floor lighting.
 <li>6 <a
     href="http://www.vari-lite.com/index.php?src=directory&view=products&srctype=detail&refno=34215&category=Series2000">Philips
   Vari*Lite VL2500 Spot</a> Moving Head Lighting Instruments
-<li>6 Martin MAC 2000 Moving Head Lighting Instruments
 <li>24 channels of dimming at 2.4kW/channel (<a
     href="http://www.electrol.net">Electrol</a> LP62400)
 <li>24 channels of dimming at 1.5kW/channel (<a

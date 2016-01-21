@@ -1,9 +1,9 @@
 {% load staticfiles %}
 
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="halfBack back navbar navbar-default navbar-fixed-top">
   <a href="{% url 'website:index' %}">
     <div id="logo">
-    <img src="{% static 'img/ab tech.png' %}" alt="AB Tech Logo">
+    <img id="logoImage" src="{% static 'img/abTech_logo.png' %}" alt="AB Tech Logo">
   </div>
     </a>
   <div class="container-fluid">
@@ -17,13 +17,13 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div class="collapse navbar-collapse" id="navbar1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="{% url 'website:request' %}">Request Event</a></li>
-        <li><a href="{% url 'website:services' %}">Services + Equipment</a></li>
-        <li><a href="{% url 'website:events' %}">Past Events</a></li>
-        <li><a href="{% url 'website:crew' %}">People</a></li>
-        <li class="rightmost"><a href="{% url 'website:join' %}">Join</a></li>
+    <div class="noBack back collapse navbar-collapse" id="navbar1">
+      <ul id='white' class="noBack back nav navbar-nav navbar-right">
+        <li><a class='white' href="{% url 'website:request' %}">Request Event</a></li>
+        <li><a class='white' href="{% url 'website:services' %}">Services + Equipment</a></li>
+        <li><a class='white' href="{% url 'website:events' %}">Past Events</a></li>
+        <li><a class='white' href="{% url 'website:crew' %}">People</a></li>
+        <li class="rightmost"><a class='white' href="{% url 'website:join' %}">Join</a></li>
       </ul>
     </div>
   </div>
