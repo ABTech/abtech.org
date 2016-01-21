@@ -6,7 +6,7 @@ body {
     margin: 0;
     height: 100%;
     position: relative;
-    font-family: 'acumin-pro-semi-condensed';
+    font-family: 'arial';
     font-size: 12pt;
     line-height: 1.5;
     min-height: 450px;
@@ -15,7 +15,7 @@ body {
 
 h1, h2, h3 {
     margin: 5px 0px;
-    font-family: 'freight-macro-pro';
+    font-family: 'georgia';
 }
 .galleria-container {
     background: black;
@@ -46,7 +46,7 @@ h1, h2, h3 {
 
 .navbar-collapse li {
     text-align: right;
-    font-family: 'freight-macro-pro';
+    font-family: 'georgia';
 }
 
 .navbar-default {
@@ -94,7 +94,7 @@ h1, h2, h3 {
     height: 35px;
     margin-bottom: 15px;
     border-bottom: 1px solid black;
-    font-family: 'freight-macro-pro';
+    font-family: 'georgia';
 }
 
 .title-header a {
@@ -179,4 +179,5 @@ footer {
     .navbar-collapse {
         width: 50%;
     }
+
 }
