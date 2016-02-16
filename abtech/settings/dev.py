@@ -18,7 +18,7 @@ PROJECT_DIR = (Path(__file__) / "../../..").resolve()
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-FROM_EMAIL = "kicohen@andrew.cmu.edu"
+FROM_EMAIL = "rmaratos@andrew.cmu.edu"
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 
