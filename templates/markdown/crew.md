@@ -52,9 +52,9 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Balke, Erin
+        <li>Chan, Calvin
         <li>Cohen, Kenny
         <li>Duenas, Danica
-        <li>Elan, Alissa
         <li>Evans, Amos
         <li>Fermin, Luis
         <li>Garbade, Edward
@@ -62,16 +62,18 @@ The people who make up AB Tech.
         <li>Gunsalus, Laura
         <li>Guitierrez, Andre
         <li>Kang, Jamie
+        <li>Kozina, Val
+        <li>Kuang, Stephanie
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Kozina, Val
-        <li>Kuang, Stephanie
+        <li>Lareau, Dillon
         <li>Lyness, Hannah
         <li>Martin, Christi
         <li>Mertz, Joe
         <li>Miele, Dan
+        <li>Parenti, Tim
         <li>Rakla, Aamer
         <li>Rauchenberger, Kelly
         <li>Speer, Sam
