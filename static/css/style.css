@@ -39,6 +39,14 @@ h1, h2, h3 {
     height: 40px;
 }
 
+#debug {
+    position: absolute;
+    top: 3px;
+    left: 150px;
+    color: red;
+    font-size: 24pt;
+}
+
 .navbar-collapse {
     float: right;
     background-color: #f8f8f8;

@@ -3,9 +3,15 @@
 <div class="halfBack back navbar navbar-default navbar-fixed-top">
   <a href="{% url 'website:index' %}">
     <div id="logo">
-    <img id="logoImage" src="{% static 'img/abTech_logo.png' %}" alt="AB Tech Logo">
+      <img id="logoImage" src="{% static 'img/abTech_logo.png' %}" alt="AB Tech Logo">
+
+    </div>
+  </a>
+  {% if DEBUG %}
+  <div id="debug">
+      DEBUG
   </div>
-    </a>
+  {% endif %}
   <div class="container-fluid">
     <div class="navbar-header">
 

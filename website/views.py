@@ -28,6 +28,7 @@ class MarkdownView(TemplateView):
         with open(path) as f:
             context['title'] = f.readline()  # Read first line for title
             context['raw_content'] = f.read()
+            context['DEBUG'] = settings.DEBUG
         return context
 
 
