@@ -37,9 +37,10 @@ The people who make up AB Tech.
 
   <tr>
     <td colspan="2" align="center">
-      Pedro Lima<br>
-      Robert Maratos<br>
       Christine Xu<br>
+      Pedro Lima<br>
+      Alexander Gotsis<br>
+      Kenny Cohen<br>
     </td>
   </tr>
 
@@ -52,13 +53,12 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Balke, Erin
+        <li>Bezi, Oscar
         <li>Chan, Calvin
-        <li>Cohen, Kenny
         <li>Duenas, Danica
         <li>Evans, Amos
         <li>Fermin, Luis
         <li>Garbade, Edward
-        <li>Gotsis, Alex
         <li>Gunsalus, Laura
         <li>Guitierrez, Andre
         <li>Kang, Jamie
@@ -73,6 +73,7 @@ The people who make up AB Tech.
         <li>Martin, Christi
         <li>Mertz, Joe
         <li>Miele, Dan
+        <li>Newman, Emily
         <li>Parenti, Tim
         <li>Rakla, Aamer
         <li>Rauchenberger, Kelly
