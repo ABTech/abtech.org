@@ -18,7 +18,7 @@ The people who make up AB Tech.
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
-        color="#990000" size="5"><b>2015 &mdash; 2016</b></FONT></td>
+        color="#990000" size="5"><b>2016 &mdash; 2017</b></FONT></td>
   </tr>
 
   <tr>
@@ -27,7 +27,7 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Youzi Wu [youziw]<br>Adam Pinson</td>
+    <td colspan="2" align="center">Robert Maratos [rmaratos]</td>
   </tr>
 
   <tr>
