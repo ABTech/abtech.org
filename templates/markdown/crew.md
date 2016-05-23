@@ -18,7 +18,7 @@ The people who make up AB Tech.
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
-        color="#990000" size="5"><b>2015 &mdash; 2016</b></FONT></td>
+        color="#990000" size="5"><b>2016 &mdash; 2017</b></FONT></td>
   </tr>
 
   <tr>
@@ -27,7 +27,7 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Youzi Wu [youziw]<br>Adam Pinson</td>
+    <td colspan="2" align="center">Robert Maratos [rmaratos]</td>
   </tr>
 
   <tr>
@@ -37,9 +37,10 @@ The people who make up AB Tech.
 
   <tr>
     <td colspan="2" align="center">
-      Pedro Lima<br>
-      Robert Maratos<br>
       Christine Xu<br>
+      Pedro Lima<br>
+      Alexander Gotsis<br>
+      Kenny Cohen<br>
     </td>
   </tr>
 
@@ -52,13 +53,12 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Balke, Erin
+        <li>Bezi, Oscar
         <li>Chan, Calvin
-        <li>Cohen, Kenny
         <li>Duenas, Danica
         <li>Evans, Amos
         <li>Fermin, Luis
         <li>Garbade, Edward
-        <li>Gotsis, Alex
         <li>Gunsalus, Laura
         <li>Guitierrez, Andre
         <li>Kang, Jamie
@@ -73,6 +73,7 @@ The people who make up AB Tech.
         <li>Martin, Christi
         <li>Mertz, Joe
         <li>Miele, Dan
+        <li>Newman, Emily
         <li>Parenti, Tim
         <li>Rakla, Aamer
         <li>Rauchenberger, Kelly
