@@ -4,40 +4,7 @@
 {% block title %} Fly-by-Night Sound and Light {% endblock %}
 {% block style %}
 <link rel="stylesheet" type="text/css" href="{% static 'vegas/vegas.min.css' %}">
-<style type="text/css">
-  html body{
-    height: 90vh;
-    overflow-y: auto;
-    padding: 0;
-  }
-  footer{
-    color: white;
-    position: absolute;
-    bottom: 0px;
-  }
-  .inner {
-    padding: 20px 35px;
-  }
-  footer a{
-    color: lightblue;
-  }
-  @media only screen and (max-width: 767px) {
-    .mobileFix{
-      position: absolute;
-      top: 60px;
-    }
-    footer{
-      position: absolute;
-      bottom: -30%;
-    }
-}
-@media only screen and (max-width: 600px) {
-    footer{
-      position: absolute;
-      bottom: -35%;
-    }
-}
-</style>
+<link rel="stylesheet" type="text/css" href="{% static 'css/homePage.css' %}">
 {% endblock %}
 {% block content-container %}
 
@@ -56,7 +23,9 @@
           <h3> Quick Links </h3>
           <a class="lead-item" href="{% url 'website:request' %}">Request an Event</a> <br>
           <a class="lead-item" href="{% url 'website:services' %}">Explore our Services</a> <br>
-          <a class="lead-item" href="{% url 'website:join' %}">Become a Member</a>
+          <a class="lead-item" href="{% url 'website:join' %}">Become a Member</a><br>
+          <a class="lead-item" href="http://tracker.abtech.org">Tracker (Upcoming Events)</a><br>
+          <a class="lead-item" href="http://wiki.abtech.org">ABTech Wiki (Private)</a>
           </div>
       </div>
 
@@ -74,25 +43,6 @@
 </div>
 {% endblock %}
 {% block script %}
-<script type="text/javascript">
-  //change logo for mobile
-  $(document).ready(function() {
-    function checkWidth() {
-        var windowSize = $(window).width();
-
-        if (windowSize <= 767) {
-            $('#logoImage').attr('src','static/img/ab tech.png');
-        }
-        else {
-            $('#logoImage').attr('src','static/img/abTech_logo.png');
-        }
-    }
-    // Execute on load
-    checkWidth();
-    // Bind event listener
-    $(window).resize(checkWidth);
-  })
-</script>
 <script src="{% static 'vegas/vegas.min.js' %}"></script>
 <script type="text/javascript">
   //backround settings
@@ -103,10 +53,12 @@
     transitionDuration: 3000,
     preload: true,
     slides: [
+        { src: "static/img/gallery/griz-sc2016.jpg" },
         { src: "static/img/gallery/lg2016.jpg" },
         { src: "static/img/gallery/gs_sound.jpg" },
         { src: "static/img/gallery/dejj-2014.jpg" },
         { src: "static/img/gallery/car_12.jpg" },
+        { src: "static/img/gallery/outdoorConcert.jpg" },
         { src: "static/img/gallery/ds.jpg" },
         { src: "static/img/gallery/ds_12.jpg" },
         { src: "static/img/gallery/lunarGala.png" },

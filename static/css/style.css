@@ -146,6 +146,10 @@ footer {
     width: 100%;
 }
 
+.contractorsTable td{ 
+    padding: 0px 10px;
+}
+
 /* desktop */
 @media only screen and (min-width: 768px) {
 
@@ -161,6 +165,16 @@ footer {
 
     .navbar-collapse {
         width: 110%;
+    }
+    .form-horizontal{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (min-width: 990px) {
+    .form-horizontal{
+        width: auto;
     }
 }
 
@@ -178,6 +192,9 @@ footer {
 
     .navbar-collapse {
         width: 50%;
+    }
+    .form-horizontal{
+        width: auto;
     }
 
 }

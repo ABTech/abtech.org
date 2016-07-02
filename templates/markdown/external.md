@@ -31,18 +31,15 @@ on the above list for production services.
 Equipment dealers that we regularly deal with.
 <table>
   <tr>
-    <td><a href="http://www.prg.com/bash/">Bash Lighting Services</a></td>
+    <td><a href="http://www.bmisupply.com">BMI Supply</A></td>
   </tr>
-
-  <tr>
-    <td><a href="http://www.boyntonstudio.com">Boynton Studio</A></td>
-  </tr>
-
   <tr>
     <td><a href="http://www.compufind.com/gpas.html">Gourmet PA Systems</a>
     </td>
   </tr>
-
+  <tr>
+    <td><a href="http://www.hollowood.com/">Hollowood Sound</a></td>
+  </tr>
   <tr>
     <td><a href="http://www.vincentlighting.com/">Vincent Lighting Systems</a>
     </td>

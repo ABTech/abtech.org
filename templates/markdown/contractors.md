@@ -6,7 +6,7 @@ If AB Tech cannot work your event you may want to try a vendor from this list.
 <p>
 
 
-<table cellpadding=3>
+<table cellpadding=3 class='contractorsTable'>
 <tr>
  <td><b>Benack Sound Productions</b></td>
  <td nowrap>(412) 653-9950</td>
