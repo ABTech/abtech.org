@@ -1,0 +1,32 @@
+html body{
+  height: 90vh;
+  overflow-y: auto;
+  padding: 0;
+}
+footer{
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+.inner {
+  padding: 20px 35px;
+}
+footer a{
+  color: lightblue;
+}
+@media only screen and (max-width: 767px) {
+  .mobileFix{
+    position: absolute;
+    top: 60px;
+  }
+  footer{
+    position: absolute;
+    bottom: -30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+    footer{
+      position: absolute;
+      bottom: -35%;
+    }
+}
