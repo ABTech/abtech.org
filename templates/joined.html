@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load bootstrap3 %}
+{%  bootstrap_messages %}
+
+{% block title %} Thanks! {% endblock %}
+
+{% block content %}
+Thanks {{first_name}} for signing up! <br>
+You should expect to receive an email at {{email}} with more information shortly! <br>
+
+In the meantime, checkout some cool stuff:
+{% endblock %}

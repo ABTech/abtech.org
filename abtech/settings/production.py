@@ -3,8 +3,16 @@ from pathlib import Path
 from .secret import SECRET_KEY, RECAPTCHA_SECRET_KEY
 
 DEBUG = False
-TEMPLATE_DEBUG = False
+
+# Show captchas on forms
+CAPTCHA = True
+
+# Autofill form entries
+AUTOFILL = False
+
 ALLOWED_HOSTS = []
+
+ADMINS = [('Sam Abtek', 'abtech@andrew.cmu.edu')]
 
 INSTALLED_APPS += ('website',
                    'django_markdown',
@@ -32,7 +40,11 @@ STATICFILES_DIRS = (
     (PROJECT_DIR / "static/").resolve(),
 )
 
-TEMPLATE_DIRS = (
-    (PROJECT_DIR / "templates/").resolve(),
-)
-
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [
+            "templates/",
+        ],
+        'APP_DIRS': True,
+]

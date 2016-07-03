@@ -5,8 +5,15 @@ from .secret import RECAPTCHA_SECRET_KEY
 SECRET_KEY = "foobar"
 
 DEBUG = True
-TEMPLATE_DEBUG = True
-ALLOWED_HOSTS = []
+
+# Show captchas on forms
+CAPTCHA = False
+
+# Autofill form entries
+AUTOFILL = True
+
+# List of IPs that will receive debug in their request context
+INTERNAL_IPS = ['127.0.0.1']
 
 INSTALLED_APPS += ('website',
                    'django_markdown',
@@ -30,7 +37,17 @@ STATICFILES_DIRS = (
     "static/",
 )
 
-TEMPLATE_DIRS = (
-    "templates/",
-)
-
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [
+            "templates/",
+        ],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+            ],
+        },
+    },
+]

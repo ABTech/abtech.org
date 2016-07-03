@@ -1,7 +1,7 @@
-[AB Tech] Request | {{ organization }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
-Dear {{ requester }},
+[AB Tech] Event Request | {{ organization }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
+We have received for your event request.
 
-Thank you for your event request.  Please verify the below information and feel free to respond to this email to correct or update anything. Expect a reply within a couple of days; if you don't hear back from us within a reasonable period of time, feel free to follow up with another email (we receive many emails and occasionally one will be misfiled).
+-------------------------------------------------------------------------------
 
 Organization: {{ organization }}
 Event Contact: {{ contact }}
@@ -9,8 +9,13 @@ Email: {{ email }}
 Date: {{ start_date|date:"SHORT_DATE_FORMAT" }}
 Time: {{ start_time }}
 Location: {{ location }}
-Details: {{ details }}
+Details:
+{{ details }}
 
-Thanks,
-Peter Chiappa
+-------------------------------------------------------------------------------
+
+We will review your request and contact you as soon as possible.
+To provide additional information, please respond to this message.
+
+Thank you,
 AB Tech

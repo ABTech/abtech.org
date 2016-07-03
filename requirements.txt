@@ -1,5 +1,6 @@
-Django==1.7.4
-Markdown==2.6
-django-bootstrap3==5.1.1
+Django==1.9.7
+Markdown==2.6.6
+django-bootstrap3==7.0.1
+django-bootstrap3-datetimepicker==2.2.3
 django-markdown==0.8.4
 six==1.9.0

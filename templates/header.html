@@ -7,7 +7,7 @@
 
     </div>
   </a>
-  {% if DEBUG %}
+  {% if debug %}
   <div id="debug">
       DEBUG
   </div>
@@ -29,8 +29,6 @@
         <li><a class='white' href="{% url 'website:services' %}">Services + Equipment</a></li>
         <li><a class='white' href="{% url 'website:events' %}">Past Events</a></li>
         <li><a class='white' href="{% url 'website:crew' %}">People</a></li>
-        <li><a class='white' href="http://tracker.abtech.org" target="_blank">Tracker</a></li>
-        <li><a class='white' href="https://www.abtech.org/wiki/bin/view" target="_blank">Wiki  <i>(Private)</i></a></li>
         <li class="rightmost"><a class='white' href="{% url 'website:join' %}">Join</a></li>
       </ul>
     </div>
