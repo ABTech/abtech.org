@@ -9,35 +9,20 @@
 {% block content-container %}
 
   <div class="vegasSlides">
-
   <div class="container-fluid mobileFix" style="position: absolute; bottom: 80px;">
     <div class="row index-block">
-      <div class="col-sm-8 col-sm-push-2 center-block">
+      <div class="col-sm-6 col-sm-push-3 center-block">
         <div class="inner">
           {{ raw_content|markdown }}
           </div>
       </div>
-
-      <div class="col-sm-2 col-sm-pull-8 left-block">
-        <div class="inner" style="padding: 5px 15px;">
-          <h3> Quick Links </h3>
-          <a class="lead-item" href="{% url 'website:request' %}">Request an Event</a> <br>
-          <a class="lead-item" href="{% url 'website:services' %}">Explore our Services</a> <br>
-          <a class="lead-item" href="{% url 'website:join' %}">Become a Member</a><br>
-          <a class="lead-item" href="http://tracker.abtech.org">Tracker (Upcoming Events)</a><br>
-          <a class="lead-item" href="http://wiki.abtech.org">ABTech Wiki (Private)</a>
-          </div>
-      </div>
-
-    <div class="col-sm-2 right-block">
-      <div class="inner" style="padding: 5px 15px;">
-        <h3> Upcoming Events </h3>
-        <p> Coming Soon! </p>
-        </div>
-    </div>
     </div>
   </div>
+  <div class="gradient-block">
 
+    &nbsp;
+
+  </div>
 {% endblock %}
 {% block includes %}
 </div>

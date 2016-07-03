@@ -6,19 +6,37 @@ body {
     margin: 0;
     height: 100%;
     position: relative;
-    font-family: 'arial';
-    font-size: 12pt;
+    font-family: 'tahoma';
+    font-size: 11pt;
     line-height: 1.5;
     min-height: 450px;
     background: #D4D4D4;
 }
 
+.content-shift {
+    position:absolute;
+    bottom:0;
+    height:95%;
+    width:100%;
+    overflow:auto;
+}
+
+a {
+    color: #c01c1d;
+}
+
+a:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+
 h1, h2, h3 {
     margin: 5px 0px;
-    font-family: 'georgia';
+    font-family: 'cambria', 'georgia';
+    color:#000;
 }
 .galleria-container {
-    background: black;
+    background: #000;
 }
 
 .galleria {
@@ -54,7 +72,7 @@ h1, h2, h3 {
 
 .navbar-collapse li {
     text-align: right;
-    font-family: 'georgia';
+    font-family: 'cambria', 'georgia';
 }
 
 .navbar-default {
@@ -84,14 +102,34 @@ h1, h2, h3 {
     height: 100%;
 }
 
-.inner, .content-block {
+.content-block {
     background: RGBA(255,255,255,0.82);
-    border-bottom: solid 1px #c7c9c8;
-    padding: 10px 10px;
+    border-bottom: 3px solid #c7c9c8;
+    color: #888;
+}
+
+.content-block b, strong{
+    color: #000;
 }
 
 .inner{
-    min-height: 250px;
+    background: #000000;
+    opacity: 0.7;
+    padding: 20px;
+    color: #aaa;
+    z-index:1;
+}
+
+.inner a{
+    color:#ff8888;
+}
+
+.inner a:hover{
+    color:#ff0000;
+}
+
+.inner h1, h2, h3{
+    font-weight:bold;
 }
 
 .center-block > .inner {
@@ -101,18 +139,25 @@ h1, h2, h3 {
 .title-header {
     height: 35px;
     margin-bottom: 15px;
-    border-bottom: 1px solid black;
-    font-family: 'georgia';
+    padding-left: 40px;
+    border-bottom: 1px solid #c01c1d;
+    font-size: 15pt;
+    font-family: 'cambria', 'georgia';
 }
 
 .title-header a {
     padding: 5px;
-    color: grey;
+    color: #000;
     display: inline-block;
+}
+
+.title-header a:hover {
+    color:#ff0000;
 }
 
 .title-header .current {
     color: red;
+    font-style: italic;
 }
 
 table {
@@ -120,22 +165,22 @@ table {
 }
 
 .hot-table {
-    border: 1px solid #990000;
+    border: 1px solid #c01c1d;
     align: center;
     padding: 4px;
 }
 
 .hot-table td {
-    border: 1px solid #990000;
+    border: 1px solid #c01c1d;
     vertical-align: top;
     text-align: center;
 }
 
 .hot-table th {
-    border: 1px solid #990000;
+    border: 1px solid #c01c1d;
     vertical-align: top;
     text-align: center;
-    background-color: #990000;
+    background-color: #c01c1d;
     color: #ffffff;
     font-weight: 600;
 }
@@ -154,9 +199,23 @@ footer {
     width: 100%;
 }
 
-.contractorsTable td{ 
+.contractorsTable td{
     padding: 0px 10px;
 }
+
+.noBack{
+  background-color: rgba(0,0,0,0.0);
+}
+.halfBack{
+  background-color: rgba(0,0,0,0.7);
+}
+#white a{
+  color: #fff;
+}
+.white a:hover{
+  color: #000;
+}
+
 
 /* desktop */
 @media only screen and (min-width: 768px) {
@@ -166,9 +225,9 @@ footer {
         height: 425px;
     }
     .content-block {
-        margin: 75px auto 0px auto;
+        margin: 30px auto 0px auto;
         width: 80%;
-        padding: 15px;
+        padding: 25px;
     }
 
     .navbar-collapse {
@@ -194,7 +253,7 @@ footer {
     }
 
     .content-block {
-        margin: 50px auto 0px auto;
+        margin: 15px auto 0px auto;
         padding: 15px 20px;
     }
 
