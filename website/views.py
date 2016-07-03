@@ -103,9 +103,8 @@ class RequestForm(forms.Form):
         subject, body = email.split("\n", 1)
         from_email = settings.FROM_EMAIL
         to_email = self.cleaned_data['email']
-        send_mail(subject, body, from_email, [to_email])
+        send_mail(subject, body, from_email, [to_email, from_email])
         return self.cleaned_data
-
 
 
 class JoinView(FormView):

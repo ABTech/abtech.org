@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/
 """
 
 import os, sys
-sys.path.append('/home/rmaratos/workspace/abtech.org')
+sys.path.append('/srv/abtech.org')
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "abtech.settings.production")
 
 

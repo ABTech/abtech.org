@@ -2,7 +2,7 @@ from .base import *
 from pathlib import Path
 from .secret import SECRET_KEY, RECAPTCHA_SECRET_KEY
 
-DEBUG = False
+DEBUG = True
 
 # Show captchas on forms
 CAPTCHA = True
@@ -10,9 +10,9 @@ CAPTCHA = True
 # Autofill form entries
 AUTOFILL = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www-01.abtech.org', '128.2.24.195']
 
-ADMINS = [('Sam Abtek', 'abtech@andrew.cmu.edu')]
+ADMINS = [('Robert Maratos', 'rmaratos@andrew.cmu.edu')]
 
 INSTALLED_APPS += ('website',
                    'django_markdown',
@@ -44,7 +44,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            "templates/",
+            (PROJECT_DIR / "templates/").resolve(),
         ],
         'APP_DIRS': True,
+    }
 ]
