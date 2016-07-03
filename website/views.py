@@ -28,9 +28,7 @@ class MarkdownView(TemplateView):
     markdown = None
 
     def get_context_data(self, **kwargs):
-        print('REMOTE_ADDR:', self.request.META['REMOTE_ADDR'])
         context = super(MarkdownView, self).get_context_data(**kwargs)
-        print(context['view'].args)
         markdown_dir = settings.PROJECT_DIR / "templates/markdown/"
         path = str(markdown_dir / self.markdown)
         with open(path) as f:
@@ -99,7 +97,6 @@ class RequestForm(forms.Form):
         details.initial = "\n".join(["blah"]*3)
 
     def send_mail(self):
-        print("MAKING MAIL")
         template = get_template('email/event.txt')
         context = Context(self.cleaned_data)
         email = template.render(context)
