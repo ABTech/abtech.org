@@ -4,10 +4,10 @@ function checkWidth() {
     var windowSize = $(window).width();
 
     if (windowSize <= 767) {
-        $('#logoImage').attr('src','static/img/ab tech.png');
+        $('#logoImage').attr('src','static/img/abTech_logo_small.png');
     }
     else {
-        $('#logoImage').attr('src','static/img/abTech_logo.png');
+        $('#logoImage').attr('src','static/img/abTech_logo_small.png');
     }
 }
 // Execute on load

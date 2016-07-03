@@ -11,9 +11,6 @@
   <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
-  <link rel="stylesheet" type="text/css" href="{% static 'css/updatedStyle.css' %}">
-
-
   <!-- Bootstrap core JavaScript
      ================================================== -->
   <script src="{% static 'js/jquery.min.js' %}"></script>
@@ -29,6 +26,7 @@
 <body>
 {% include "header.html" %}
 
+<div class="content-shift">
 {% block content-container %}
   <main class="content-block">
       {% block content %}{% endblock %}
@@ -36,6 +34,8 @@
 {% endblock %}
 
 {% include "footer.html" %}
+
+</div>
 {% block script %}{% endblock %}
 </body>
 </html>
