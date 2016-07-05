@@ -1,54 +1,30 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 {% load django_markdown %}
-{% block title %} Fly-by-Night Sound and Light {% endblock %}
-{% block style %}
-<link rel="stylesheet" type="text/css" href="{% static 'vegas/vegas.min.css' %}">
-<link rel="stylesheet" type="text/css" href="{% static 'css/homePage.css' %}">
-{% endblock %}
-{% block content-container %}
 
+{% block title %} Fly-by-Night Sound and Light {% endblock %}
+
+{% block style %}
+  <link rel="stylesheet" type="text/css" href="{% static 'vegas/vegas.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+{% endblock %}
+
+{% block content-container %}
   <div class="vegasSlides">
-  <div class="container-fluid mobileFix" style="position: absolute; bottom: 80px;">
-    <div class="row index-block">
-      <div class="col-sm-6 col-sm-push-3 center-block">
-        <div class="inner">
-          {{ raw_content|markdown }}
-          </div>
+    <div class="container-fluid mobileFix" style="position: absolute; bottom: 80px;">
+      <div class="row index-block">
+        <div class="col-sm-6 col-sm-push-3 center-block">
+          <div class="inner">
+            {{ raw_content|markdown }}
+            </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="gradient-block">
-
-    &nbsp;
-
+    <div class="gradient-block"></div>
   </div>
 {% endblock %}
-{% block includes %}
-</div>
-{% endblock %}
+
 {% block script %}
-<script src="{% static 'vegas/vegas.min.js' %}"></script>
-<script type="text/javascript">
-  //backround settings
-  $('body').vegas({
-    delay: 6000,
-    transition: 'fade',
-    timer: false,
-    transitionDuration: 3000,
-    preload: true,
-    slides: [
-        { src: "static/img/gallery/griz-sc2016.jpg" },
-        { src: "static/img/gallery/lg2016.jpg" },
-        { src: "static/img/gallery/gs_sound.jpg" },
-        { src: "static/img/gallery/dejj-2014.jpg" },
-        { src: "static/img/gallery/car_12.jpg" },
-        { src: "static/img/gallery/outdoorConcert.jpg" },
-        { src: "static/img/gallery/ds.jpg" },
-        { src: "static/img/gallery/ds_12.jpg" },
-        { src: "static/img/gallery/lunarGala.png" },
-        { src: "static/img/gallery/timeflies-2014.jpg" },
-    ]
-  });
-</script>
+  <script src="{% static 'vegas/vegas.min.js' %}"></script>
+  <script src="{% static 'js/index.js' %}"></script>
 {% endblock %}
