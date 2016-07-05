@@ -69,7 +69,7 @@ class JoinForm(forms.Form):
         body = template.render(context)
         from_email = settings.FROM_EMAIL
         to_email = self.cleaned_data['email']
-        send_mail(subject, body, from_email, [to_email])
+        send_mail(subject, body, from_email, [to_email, from_email])
         return self.cleaned_data
 
 
