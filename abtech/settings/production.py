@@ -10,7 +10,8 @@ CAPTCHA = True
 # Autofill form entries
 AUTOFILL = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www-01.abtech.org', '128.2.24.195']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www-01.abtech.org', '128.2.24.195',
+                 'www-staging.abtech.org']
 
 ADMINS = [('Robert Maratos', 'rmaratos@andrew.cmu.edu')]
 
@@ -28,7 +29,8 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = False
 
-FROM_EMAIL = 'abtech+chair@andrew.cmu.edu'
+EVENT_EMAIL = 'abtech+chair@andrew.cmu.edu'
+JOIN_EMAIL = 'abtech+chair@andrew.cmu.edu'
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 

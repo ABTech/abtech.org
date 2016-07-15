@@ -13,6 +13,10 @@ body {
     background: #D4D4D4;
 }
 
+#navbar1 {
+  font-size: 12pt;
+}
+
 .content-shift {
     position:absolute;
     bottom:0;

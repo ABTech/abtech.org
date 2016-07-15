@@ -1,5 +1,33 @@
+[AB Tech] Greetings {{ andrew_id }}!
 Hi {{ first_name }}!
 
-This is AB Tech.
+You're receiving this email because you were added to our mailing list. If you would like to be removed, let us know by replying to this email.
 
-Sam Abtek
+To learn more about AB Tech and what we do:
+
+1. Check out the rest of our website at www.abtech.org
+2. Join us at our Orientation Info Session and Live Demos on 8/26, 14:00-16:00, in the Cohon Center Studio Theater.
+3. Email us if you have any questions.
+
+Once the semester starts, about once a week, we'll send out an email containing information about events that we're doing on campus. Come to any events you're free for, find someone with a shirt that says TECH on it or looks like they know what they're doing, and ask what you can do to help. Keep track of the events you attend and help out at, and after you go to 6 events, email abtech@andrew.cmu.edu and you can become a full member.
+
+Our storage room is located in the Cohon Center on the second floor, next to the Rangos stage. To get there, enter the white double doors (kitchen service hallway) located on the right side of Rangos 3, if you're looking at it from the open dining area. Follow this corridor straight, up the ramp, and at the end on the right side, you'll find a storage room. This is the "tech room," and is where we meet for 99% of our events. You can see a map here: https://abtech.org/static/img/abtech_room.png
+
+Here's some jargon you may need to know to understand future emails:
+
+Call time: the time you show up.
+Show time: the time the event actually begins
+Strike time: the time you show up for cleanup
+HoT: Head of Tech (me)
+TiC: Techie in Charge (the person who is in charge of the individual event)
+FoH: Front of House (sound) person
+LD: Lighting Designer
+SM: Stage Manager
+
+One last note: if you ever hear the song Sunchyme by Dario G playing anywhere on campus, that's an indicator that AB Tech is about to start cleaning up an event. Find the source of the song and help out. This song is also known internally as the "strike song," and you can listen to it here: http://www.youtube.com/watch?v=UM1d9al5gj0
+
+If you ever have any questions about anything, don't hesitate to email abtech@andrew.cmu.edu, and I or someone from our exec board will get back to you shortly.
+
+Thanks,
+Robert Maratos
+Head of Tech

@@ -63,11 +63,11 @@ class JoinForm(forms.Form):
 
     def send_mail(self):
         # send email using the self.cleaned_data dictionary
-        subject = '[AB Tech] Subject!'
         template = get_template('email/welcome.txt')
-        context = Context(self.cleaned_data)
-        body = template.render(context)
-        from_email = settings.FROM_EMAIL
+        context = self.cleaned_data
+        email = template.render(context)
+        subject, body = email.split("\n", 1)
+        from_email = settings.JOIN_EMAIL
         to_email = self.cleaned_data['email']
         send_mail(subject, body, from_email, [to_email, from_email])
         return self.cleaned_data
@@ -98,10 +98,10 @@ class RequestForm(forms.Form):
 
     def send_mail(self):
         template = get_template('email/event.txt')
-        context = Context(self.cleaned_data)
+        context = self.cleaned_data
         email = template.render(context)
         subject, body = email.split("\n", 1)
-        from_email = settings.FROM_EMAIL
+        from_email = settings.EVENT_EMAIL
         to_email = self.cleaned_data['email']
         send_mail(subject, body, from_email, [to_email, from_email])
         return self.cleaned_data
