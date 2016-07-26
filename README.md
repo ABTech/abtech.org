@@ -90,3 +90,8 @@ cp django-example.conf /etc/apache2/sites-available/django.conf
 sudo a2dissite default
 sudo a2ensite django.conf
 ```
+
+To reload code changes on the site live:
+```
+touch abtech/wsgi.py
+```
