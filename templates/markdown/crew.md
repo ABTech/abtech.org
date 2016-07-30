@@ -52,35 +52,40 @@ The people who make up AB Tech.
   <tr>
     <td width="230" valign="top">
       <ul>
-        <li>Balke, Erin
         <li>Bezi, Oscar
-        <li>Chan, Calvin
         <li>Duenas, Danica
+        <li>Dodhia, Kevan
         <li>Evans, Amos
         <li>Fermin, Luis
         <li>Garbade, Edward
         <li>Gunsalus, Laura
         <li>Guitierrez, Andre
+        <li>Huang, Jocelyn
         <li>Kang, Jamie
         <li>Kozina, Val
+        <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
+        <li>Lareau, Dillon
+        <li>Long, Vicki
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Lareau, Dillon
-        <li>Lyness, Hannah
+        <li>Lu, Melissa
+        <li>MacDonald, Scott
         <li>Martin, Christi
         <li>Mertz, Joe
-        <li>Miele, Dan
         <li>Newman, Emily
         <li>Parenti, Tim
-        <li>Rakla, Aamer
+        <li>Pinson, Adam
         <li>Rauchenberger, Kelly
+        <li>Richards, Meg
         <li>Speer, Sam
         <li>Tan, Bridget
         <li>Wang, Sarah
         <li>Weiss, Jacob
+        <li>Wu, Youzi
+        <li>Yokum, Elliot
       </ul>
     </td>
   </tr>
