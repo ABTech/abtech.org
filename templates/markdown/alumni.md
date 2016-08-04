@@ -221,7 +221,7 @@ Posts go to [ghosts@abtech.org](mailto:ghosts@abtech.org).
   </tr>
   <tr>
     <td width="230">Nick Harper ('07-'11)</td>
-    <td>[<a href="mailto:nharper#andrew.cmu.edu">mail</a>]</td>
+    <td>[<a href="mailto:nharper#abtech.org">mail</a>]</td>
     <td></td>
   </tr>
   <tr>
