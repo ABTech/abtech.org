@@ -73,7 +73,7 @@ accurate.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Mac Miler and Icona Pop</b></td>
+    <td width="70%"><b>Mac Miller and Icona Pop</b></td>
     <td nowrap><font size="-1">April 12</font></td>
     <td nowrap><font size="-1">Baker Lawn</font></td>
   </tr>
