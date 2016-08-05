@@ -40,7 +40,7 @@ AB Tech does not officially provide video services (including
 projector/screen rentals, video recording/filming of events, playback of
 slideshows, DVDs, etc.). If your event requires these services, we may
 subcontract <a href="http://www.cmutv.org/" target="_blank">cmuTV</a> or <a
-    href="contractors.shtml">another local production company</a> at an
+    href="/contractors">another local production company</a> at an
 additional charge. Similarly, AB Tech does not own any backline equipment
 (guitar amplifiers, drums, keyboards, or other musical instruments), but we
 are happy to help coordinate the appropriate rentals through a local
