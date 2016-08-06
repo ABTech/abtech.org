@@ -27,9 +27,21 @@
       <ul id='white' class="noBack back nav navbar-nav navbar-right">
         <li><a href="{% url 'website:contact' %}">Contact</a></li>
         <li><a href="{% url 'website:request' %}">Request Event</a></li>
-        <li><a href="{% url 'website:services' %}">Services/Equipment</a></li>
+        <li class="dropdown"><a href="{% url 'website:services' %}" role="button" aria-haspopup="true" aria-expanded="false">Services/Equipment</a>
+          <ul class="dropdown-menu">
+            <li><a href="{% url 'website:services' %}">Services</a></li>
+            <li><a href="{% url 'website:equipment' %}">Equipment</a></li>
+            <li><a href="{% url 'website:external' %}">External</a></li>
+          </ul>
+        </li>
         <li><a href="{% url 'website:events' %}">Past Events</a></li>
-        <li><a href="{% url 'website:crew' %}">People</a></li>
+        <li class="dropdown"><a href="{% url 'website:crew' %}" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="{% url 'website:alumni' %}">Alumni</a></li>
+            <li><a href="{% url 'website:crew' %}">Current Crew</a></li>
+            <li><a href="{% url 'website:hots' %}">HOTs</a></li>
+          </ul>
+        </li>
         <li class="rightmost"><a href="{% url 'website:join' %}">Join</a></li>
       </ul>
     </div>
