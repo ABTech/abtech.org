@@ -124,6 +124,10 @@ Organizations that we are a part of, or deal with regularly.
   </tr>
 
   <tr>
+    <td><a href="http://www.snstheatre.org/">Scotch'n'Soda Theatre</a></td>
+  </tr>
+
+  <tr>
     <td><a href="http://www.cmu.edu/">Carnegie Mellon University</a></td>
   </tr>
 
