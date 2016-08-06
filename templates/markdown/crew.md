@@ -67,11 +67,12 @@ The people who make up AB Tech.
         <li>Kuang, Stephanie
         <li>Lareau, Dillon
         <li>Long, Vicki
+        <li>Lu, Melissa
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Lu, Melissa
+        <li>Lyness, Hannah
         <li>MacDonald, Scott
         <li>Martin, Christi
         <li>Mertz, Joe
