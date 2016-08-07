@@ -282,3 +282,17 @@ footer {
     display: block;
   }
 }
+
+#timelapses{
+    width: 560px;
+    margin-left: calc(50% - 280px); 
+}
+
+@media (max-width: 600px) {
+  #timelapses{
+    width: 95%;
+    margin-left: 2.5%; 
+  }
+}
+
+

@@ -2,6 +2,7 @@ Accolades
 <div class = "title-header">
   <a href="/events"> Past Events </a> 
   <a href="/accolades" class="current"> Accolades </a>
+  <a href="/timelapse"> Videos </a>
 </div>
 
 >My entire team can truly not thank you enough. AB Tech was professional,

@@ -3,6 +3,7 @@ Past Events
   <p class="text-justify"> 
   <a href="#" class="current"> Past Events </a> 
    <a href="/accolades"> Accolades </a>
+   <a href="/timelapse"> Videos </a>
   </p>
 </div>
 
