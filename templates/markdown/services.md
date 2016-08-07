@@ -1,8 +1,8 @@
 Services
 <div class = "title-header">
-  <a href="/services" class="current"> Services </a> 
+  <a href="/services" class="current"> Services </a>
    <a href="/equipment"> Equipment </a>
-    <a href="/external"> External </a> 
+    <a href="/external"> External </a>
 </div>
 
 AB Tech provides sound and lighting services to organizations affiliated with or
@@ -40,7 +40,7 @@ AB Tech does not officially provide video services (including
 projector/screen rentals, video recording/filming of events, playback of
 slideshows, DVDs, etc.). If your event requires these services, we may
 subcontract <a href="http://www.cmutv.org/" target="_blank">cmuTV</a> or <a
-    href="/contractors">another local production company</a> at an
+    href="/external">another local production company</a> at an
 additional charge. Similarly, AB Tech does not own any backline equipment
 (guitar amplifiers, drums, keyboards, or other musical instruments), but we
 are happy to help coordinate the appropriate rentals through a local
@@ -120,8 +120,7 @@ your event, please email your request to <a
 Expect a reply within a couple of days; if you don't hear back from us
 within a reasonable period of time, feel free to follow up with another
 email (we get a lot of requests and occasionally one will be misfiled).
- 
+
 **Other options:**  
-If AB Tech is not available to work your show, you may want to check out our 
+If AB Tech is not available to work your show, you may want to check out our
 [production contractors page](/external).
- 
