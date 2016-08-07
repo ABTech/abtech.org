@@ -216,8 +216,12 @@ footer {
 #white a{
   color: #fff;
 }
-.white a:hover{
-  color: #000;
+#white a:hover{
+  color: #aaa;
+}
+
+#white .dropdown ul li a{
+    color: #000;
 }
 
 
@@ -268,4 +272,13 @@ footer {
         width: auto;
     }
 
+}
+
+.dropdown ul li a{
+      color: black;
+    }
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
 }
