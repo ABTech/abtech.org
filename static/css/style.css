@@ -232,6 +232,7 @@ footer {
         width: 700px;
         height: 425px;
     }
+    
     .content-block {
         margin: 30px auto 0px auto;
         width: 80%;
@@ -241,15 +242,16 @@ footer {
     .navbar-collapse {
         width: 110%;
     }
-    .form-horizontal{
-        width: 500px;
+
+    .form-control{
+        width:400px;
     }
 
 }
 
 @media only screen and (min-width: 990px) {
-    .form-horizontal{
-        width: auto;
+    .form-control{
+        width:400px;
     }
 }
 
@@ -267,9 +269,6 @@ footer {
 
     .navbar-collapse {
         width: 50%;
-    }
-    .form-horizontal{
-        width: auto;
     }
 
 }
