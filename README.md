@@ -1,4 +1,4 @@
-p#AB Tech Website
+#AB Tech Website
 The website for the Carnegie Mellon Activities Board Technical Committee
 
 Django Captcha App from: https://github.com/2buntu/2buntu-blog
