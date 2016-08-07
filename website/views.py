@@ -128,7 +128,6 @@ class RequestView(FormView):
     """
     template_name = "request.html"
     form_class = RequestForm
-    success_url = "/requested"
 
     def form_valid(self, form):
         # This method is called when valid form data has been POSTed.

@@ -20,5 +20,4 @@ urlpatterns = [
     url(r'^timelapse$', MarkdownView.as_view(markdown="timelapse.md"), name='timelapse'),
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
     url(r'^request$', RequestView.as_view(), name='request'),
-    url(r'^requested$', MarkdownView.as_view(markdown="requested.md"), name='requested'),
 ]
