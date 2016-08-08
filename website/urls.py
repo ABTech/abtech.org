@@ -1,4 +1,5 @@
 from django.conf.urls import url
+from django.views.generic import TemplateView
 from website.views import MarkdownView, JoinView, RequestView
 
 urlpatterns = [
@@ -20,4 +21,5 @@ urlpatterns = [
     url(r'^timelapse$', MarkdownView.as_view(markdown="timelapse.md"), name='timelapse'),
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
     url(r'^request$', RequestView.as_view(), name='request'),
+    url(r'^404test$', TemplateView.as_view(template_name="404.html")),
 ]
