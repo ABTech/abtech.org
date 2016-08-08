@@ -1,3 +1,5 @@
+"""Django View Classes for abtech.org."""
+
 from django.conf.urls import url
 from django.views.generic import TemplateView
 from website.views import MarkdownView, JoinView, RequestView
