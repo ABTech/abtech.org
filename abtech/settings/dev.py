@@ -13,7 +13,9 @@ CAPTCHA = False
 AUTOFILL = True
 
 # List of IPs that will receive debug in their request context
-INTERNAL_IPS = ['127.0.0.1']
+INTERNAL_IPS = ['127.0.0.1', 'localhost']
+
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 INSTALLED_APPS += ('website',
                    'django_markdown',
