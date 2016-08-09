@@ -1,10 +1,18 @@
-{% extends "base.html" %}
 {% load staticfiles %}
-{% load bootstrap3 %}
-{%  bootstrap_messages %}
-
-{% block title %} 404 {% endblock %}
-
-{% block content %}
-404 message
-{% endblock %}
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/404.css' %}">
+</head>
+<body>
+    <div id="background">
+        <div>
+            <img src="https://www-staging.abtech.org/static/img/abtech_logo.png" />
+            <h1>404: Warning</h1>
+            <p>Strobes will be used extensively during tonight's performance.</p>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="{% static 'js/404.js' %}"></script>
+</body>
+</html>
