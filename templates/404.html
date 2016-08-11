@@ -7,12 +7,15 @@
 <body>
     <div id="background">
         <div>
-            <img src="https://www-staging.abtech.org/static/img/abtech_logo.png" />
+            <img src="{% static 'img/abtech_logo.png' %}"/>
             <h1>404: Warning</h1>
             <p>Strobes will be used extensively during tonight's performance.</p>
+            <p>Click anywhere to return home.</p>
         </div>
     </div>
-    <canvas id="canvas"></canvas>
+    <a href="{% url 'website:index' %}">
+      <canvas id="canvas"></canvas>
+    </a>
     <script src="{% static 'js/404.js' %}"></script>
 </body>
 </html>
