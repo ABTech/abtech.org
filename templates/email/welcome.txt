@@ -1,3 +1,4 @@
+{% autoescape off %}
 [AB Tech] Greetings {{ andrew_id }}!
 Hi {{ first_name }}!
 
@@ -31,3 +32,4 @@ If you ever have any questions about anything, don't hesitate to email abtech@an
 Thanks,
 Robert Maratos
 Head of Tech
+{% endautoescape %}
