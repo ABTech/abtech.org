@@ -13,6 +13,14 @@ body {
     background: #D4D4D4;
 }
 
+.announcement {
+
+    color:#ff0000;
+    text-align: center;
+    font-size:30pt;
+    font-family: Impact;
+}
+
 #navbar1 {
   font-size: 12pt;
 }
@@ -232,7 +240,7 @@ footer {
         width: 700px;
         height: 425px;
     }
-    
+
     .content-block {
         margin: 30px auto 0px auto;
         width: 80%;
@@ -284,14 +292,12 @@ footer {
 
 #timelapses{
     width: 560px;
-    margin-left: calc(50% - 280px); 
+    margin-left: calc(50% - 280px);
 }
 
 @media (max-width: 600px) {
   #timelapses{
     width: 95%;
-    margin-left: 2.5%; 
+    margin-left: 2.5%;
   }
 }
-
-
