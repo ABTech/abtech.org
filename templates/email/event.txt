@@ -1,5 +1,4 @@
-{% autoescape off %}
-[AB Tech] Event Request | {{ organization }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
+{% autoescape off %}[AB Tech] Event Request | {{ organization }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
 We have received for your event request.
 
 -------------------------------------------------------------------------------
@@ -19,5 +18,4 @@ We will review your request and contact you as soon as possible.
 To provide additional information, please respond to this message.
 
 Thank you,
-AB Tech
-{% endautoescape %}
+AB Tech{% endautoescape %}

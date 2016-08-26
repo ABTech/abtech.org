@@ -1,5 +1,4 @@
-{% autoescape off %}
-[AB Tech] Greetings {{ andrew_id }}!
+{% autoescape off %}[AB Tech] Greetings {{ andrew_id }}!
 Hi {{ first_name }}!
 
 You're receiving this email because you were added to our mailing list. If you would like to be removed, let us know by replying to this email.
@@ -31,5 +30,4 @@ If you ever have any questions about anything, don't hesitate to email abtech@an
 
 Thanks,
 Robert Maratos
-Head of Tech
-{% endautoescape %}
+Head of Tech{% endautoescape %}
