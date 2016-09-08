@@ -48,6 +48,7 @@ class JoinForm(forms.Form):
 class RequestForm(forms.Form):
     """Form for event request."""
 
+    event_name = forms.CharField(label='Event Name', max_length=50)
     organization = forms.CharField(label='Organization', max_length=50)
     contact = forms.CharField(label='Event Contact Name', max_length=50)
     email = forms.EmailField(label='Event Contact Email')
@@ -61,6 +62,7 @@ class RequestForm(forms.Form):
         captcha = CaptchaField()
 
     if settings.AUTOFILL:
+        event_name.initial = "Event Name"
         organization.initial = "Foo Organization"
         contact.initial = "First Last"
         email.initial = "rmaratos@andrew.cmu.edu"

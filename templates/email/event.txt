@@ -1,8 +1,9 @@
-{% autoescape off %}[AB Tech] Event Request | {{ organization }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
+{% autoescape off %}[AB Tech] Request | {{ event_name }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
 We have received for your event request.
 
 -------------------------------------------------------------------------------
 
+Event Name: {{ event_name }}
 Organization: {{ organization }}
 Event Contact: {{ contact }}
 Email: {{ email }}
