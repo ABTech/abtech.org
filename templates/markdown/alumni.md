@@ -95,6 +95,11 @@ Posts go to [ghosts@abtech.org](mailto:ghosts@abtech.org).
     <td></td>
   </tr>
   <tr>
+    <td width="230">Thomas Cook ('89-'93)</td>
+    <td>[<a href="mailto:tom@thomasmcook.com">mail</a>]</td>
+    <td></td>
+  </tr>
+  <tr>
     <td width="230">Katherine Crawford</td>
     <td></td>
     <td></td>
@@ -495,7 +500,7 @@ Posts go to [ghosts@abtech.org](mailto:ghosts@abtech.org).
   </tr>
   <tr>
     <td width="230">Tom Strong ('89-'92)</td>
-    <td>[<a href="mailto:strong@dementia.org">mail</a>]</td>
+    <td>[<a href="mailto:tomstrong@gmail.com">mail</a>]</td>
     <td>[<a href="http://www.tomstrong.org">web</a>]</td>
   </tr>
   <tr>

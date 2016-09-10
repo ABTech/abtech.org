@@ -66,3 +66,7 @@ target/
 
 # SECRET_KEY
 secret.py
+
+pip-selfcheck.json
+
+fabfile.py

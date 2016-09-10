@@ -1,4 +1,7 @@
+"""Django View Classes for abtech.org."""
+
 from django.conf.urls import url
+from django.views.generic import TemplateView
 from website.views import MarkdownView, JoinView, RequestView
 
 urlpatterns = [
@@ -6,7 +9,6 @@ urlpatterns = [
     url(r'^services$', MarkdownView.as_view(markdown="services.md"), name='services'),
     url(r'^equipment$', MarkdownView.as_view(markdown="equipment.md"), name='equipment'),
     url(r'^contact$', MarkdownView.as_view(markdown="contact.md"), name='contact'),
-    url(r'^contractors$', MarkdownView.as_view(markdown="contractors.md"), name='contractors'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
     url(r'^join$', JoinView.as_view(), name='join'),
     url(r'^joined$', MarkdownView.as_view(markdown="joined.md"), name='joined'),
@@ -21,5 +23,5 @@ urlpatterns = [
     url(r'^timelapse$', MarkdownView.as_view(markdown="timelapse.md"), name='timelapse'),
     url(r'^accolades$', MarkdownView.as_view(markdown='accolades.md'), name='accolades'),
     url(r'^request$', RequestView.as_view(), name='request'),
-    url(r'^requested$', MarkdownView.as_view(markdown="requested.md"), name='requested'),
+    url(r'^404test$', TemplateView.as_view(template_name="404.html")),
 ]

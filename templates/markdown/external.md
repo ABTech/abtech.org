@@ -1,10 +1,11 @@
 External
 
+
 <div class = "title-header">
-  <p class="text-justify"> 
-  <a href="/services"> Services </a> 
+  <p class="text-justify">
+  <a href="/services"> Services </a>
    <a href="/equipment"> Equipment </a>
-    <a href="/external" class="current"> External </a> 
+    <a href="/external" class="current"> External </a>
   </p>
 </div>
 
@@ -18,10 +19,54 @@ Jump to:
 <hr>
 <a name="Contractors"> **Contractors** </a>  
 
-[Click here](/contractors) to view a list of local production
-contractors that we regularly deal with.
-<br>If we are unable to work your event, you can try contacting the companies
-on the above list for production services.
+These are companies that AB Tech has worked with in the past.
+If AB Tech cannot work your event you may want to try a vendor from this list.
+<p>
+
+<table cellpadding=3 class='contractorsTable'>
+
+<tr>
+ <td><a href="http://www.hollowood.com/">Hollowood Sound &amp; Music</a></b></td>
+ <td>Large sound reinforcement company, backline rentals </td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+ <td><a href="http://www.hughies.com/">Hughie's</a></td>
+ <td>Sound reinforcement, lighting, video, staging, and rental company</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.pnsmusic.com/">Pianos N' Stuff Music</a></td>
+  <td>Backline and sound rentals</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.taylorrental.com/">Taylor Rental</a></td>
+  <td>Staging, Tents</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.3riversentertainment.com/">Three Rivers Entertainment &amp; Production</a></td>
+  <td>Lighting services</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.vincentlighting.com/">Vincent Lighting</a></td>
+  <td>Lighting services</td>
+</tr>
+
+</table>
+
 <hr>
 
 
@@ -124,6 +169,10 @@ Organizations that we are a part of, or deal with regularly.
   </tr>
 
   <tr>
+    <td><a href="http://www.snstheatre.org/">Scotch'n'Soda Theatre</a></td>
+  </tr>
+
+  <tr>
     <td><a href="http://www.cmu.edu/">Carnegie Mellon University</a></td>
   </tr>
 
@@ -145,4 +194,3 @@ Organizations that we are a part of, or deal with regularly.
   </tr>
 
 </table>
-
