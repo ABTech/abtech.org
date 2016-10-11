@@ -1,9 +1,9 @@
 Crew
 <div class = "title-header">
-  <p class="text-justify"> 
-  <a href="/alumni"> Alumni </a> 
+  <p class="text-justify">
+  <a href="/alumni"> Alumni </a>
    <a href="/crew" class="current"> Current Crew </a>
-    <a href="/hots"> HOTs </a> 
+    <a href="/hots"> HOTs </a>
   </p>
 </div>
 
@@ -39,8 +39,10 @@ The people who make up AB Tech.
     <td colspan="2" align="center">
       Christine Xu<br>
       Pedro Lima<br>
-      Alexander Gotsis<br>
+      Alex Gotsis<br>
       Kenny Cohen<br>
+      Dillon Lareau<br>
+      Emily Newman<br>
     </td>
   </tr>
 
