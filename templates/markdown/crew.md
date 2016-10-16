@@ -39,10 +39,10 @@ The people who make up AB Tech.
     <td colspan="2" align="center">
       Christine Xu<br>
       Pedro Lima<br>
-      Alexander Gotsis<br>
+      Alex Gotsis<br>
       Kenny Cohen<br>
-      Emily Newman<br>
       Dillon Lareau<br>
+      Emily Newman<br>
     </td>
   </tr>
 
@@ -65,6 +65,7 @@ The people who make up AB Tech.
         <li>Eckrich, Christoph
         <li>Fan, Frank
         <li>Fermin, Luis
+        <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
         <li>Grossack, Christopher
@@ -84,6 +85,7 @@ The people who make up AB Tech.
         <li>Long, Vicki
         <li>Lowe, William
         <li>Lu, Melissa
+        <li>Lyness, Hannah
         <li>MacDonald, Scott
         <li>Martin, Christi
         <li>Mertz, Joe
