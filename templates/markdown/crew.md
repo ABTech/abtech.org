@@ -1,9 +1,9 @@
 Crew
 <div class = "title-header">
-  <p class="text-justify"> 
-  <a href="/alumni"> Alumni </a> 
+  <p class="text-justify">
+  <a href="/alumni"> Alumni </a>
    <a href="/crew" class="current"> Current Crew </a>
-    <a href="/hots"> HOTs </a> 
+    <a href="/hots"> HOTs </a>
   </p>
 </div>
 
@@ -39,8 +39,10 @@ The people who make up AB Tech.
     <td colspan="2" align="center">
       Christine Xu<br>
       Pedro Lima<br>
-      Alexander Gotsis<br>
+      Alex Gotsis<br>
       Kenny Cohen<br>
+      Dillon Lareau<br>
+      Emily Newman<br>
     </td>
   </tr>
 
@@ -53,38 +55,52 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Bezi, Oscar
+        <li>Bressler, Laura
+        <li>Chen, Cassandra
+        <li>Chen, Luyun
+        <li>Chen, Claire
         <li>Duenas, Danica
         <li>Dodhia, Kevan
-        <li>Evans, Amos
+        <li>Eckert, Ryan
+        <li>Eckrich, Christoph
+        <li>Fan, Frank
         <li>Fermin, Luis
         <li>Garbade, Edward
+        <li>Girdhar, Tishya
+        <li>Gong, Jason
+        <li>Grossack, Christopher
         <li>Gunsalus, Laura
-        <li>Guitierrez, Andre
-        <li>Huang, Jocelyn
+        <li>Gutierrez, Andre
         <li>Kang, Jamie
+        <li>Kong, Matthew
         <li>Kozina, Val
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
-        <li>Lareau, Dillon
-        <li>Long, Vicki
-        <li>Lu, Melissa
+          <li>Lee, Sungho
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
+        <li>Lerner, Adam
+        <li>Long, Vicki
+        <li>Lowe, William
+        <li>Lu, Melissa
         <li>Lyness, Hannah
         <li>MacDonald, Scott
         <li>Martin, Christi
         <li>Mertz, Joe
-        <li>Newman, Emily
         <li>Parenti, Tim
+        <li>Phillips, Scott
         <li>Pinson, Adam
         <li>Rauchenberger, Kelly
         <li>Richards, Meg
+        <li>Sandler, Joseph
         <li>Speer, Sam
         <li>Tan, Bridget
+        <li>Traiger, Jade
         <li>Wang, Sarah
         <li>Weiss, Jacob
+        <li>Whyte, Ali
         <li>Wu, Youzi
         <li>Yokum, Elliot
       </ul>
