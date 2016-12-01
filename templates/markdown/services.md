@@ -114,9 +114,7 @@ You will receive a customized quote once we receive the details of your event.
 
 **How to submit a request:**  
 If you are interested in having in AB Tech provide technical support for
-your event, please email your request to <a
-  href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
-&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.
+your event, please fill our our [event request form](/request).
 Expect a reply within a couple of days; if you don't hear back from us
 within a reasonable period of time, feel free to follow up with another
 email (we get a lot of requests and occasionally one will be misfiled).
