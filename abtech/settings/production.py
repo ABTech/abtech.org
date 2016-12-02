@@ -34,6 +34,8 @@ JOIN_EMAIL = 'abtech+join@andrew.cmu.edu'
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 
+TRACKER = 'https://tracker.abtech.org/'
+
 # Additional locations of static files
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".

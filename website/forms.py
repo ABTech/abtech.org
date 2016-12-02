@@ -3,7 +3,7 @@
 from captcha.fields import CaptchaField
 
 from django import forms
-from django.core.mail import send_mail
+from django.core.mail import send_mail, EmailMessage, make_msgid
 from django.conf import settings
 from django.template.loader import get_template
 
@@ -87,7 +87,16 @@ class RequestForm(forms.Form):
         subject, body = email.split("\n", 1)
         from_email = settings.EVENT_EMAIL
         to_email = self.cleaned_data['email']
-        send_mail(subject, body, from_email, [to_email, from_email])
+
+        message_id = make_msgid()
+        email = EmailMessage(subject, body, from_email, [to_email, from_email],
+                    headers={'Message-ID': message_id}
+        )
+        email.send()
+
+
         event_url = self.tracker_event(context)
-        send_mail(subject, event_url, from_email, [from_email])
+        tracker_email = EmailMessage(subject, event_url, from_email, [from_email],
+            headers={'In-Reply-To': message_id})
+        tracker_email.send()
         return self.cleaned_data

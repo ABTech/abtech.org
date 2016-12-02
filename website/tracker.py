@@ -4,7 +4,7 @@ from robobrowser import RoboBrowser
 from django.conf import settings
 import datetime
 
-TRACKER = 'https://tracker.abtech.org/'
+TRACKER = settings.TRACKER
 TRACKER_LOGIN = TRACKER + 'members/sign_in'
 TRACKER_EVENT = TRACKER + '/events/new'
 EVENT_DATE = "event[eventdates_attributes][0]"
