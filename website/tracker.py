@@ -35,14 +35,16 @@ class Tracker(object):
             event_form[EVENT_DATE + "[description]"] = "Show"
             event_form[EVENT_DATE + "[location_ids][]"] = "70"
 
-            startdate = datetime.datetime.now() + datetime.timedelta(days=365)
-            enddate = startdate + datetime.timedelta(days=1)
-            event_form[EVENT_DATE + "[startdate(1i)]"] = str(startdate.year)
-            event_form[EVENT_DATE + "[startdate(2i)]"] = str(startdate.month)
-            event_form[EVENT_DATE + "[startdate(3i)]"] = str(startdate.day)
-            event_form[EVENT_DATE + "[enddate(1i)]"] = str(enddate.year)
-            event_form[EVENT_DATE + "[enddate(2i)]"] = str(enddate.month)
-            event_form[EVENT_DATE + "[enddate(3i)]"] = str(enddate.day)
+            start_date = event["start_date"]
+
+            event_form[EVENT_DATE + "[startdate(1i)]"] = str(start_date.year)
+            event_form[EVENT_DATE + "[startdate(2i)]"] = str(start_date.month)
+            event_form[EVENT_DATE + "[startdate(3i)]"] = str(start_date.day)
+            event_form[EVENT_DATE + "[startdate(5i)]"] = "00"
+            event_form[EVENT_DATE + "[enddate(1i)]"] = str(start_date.year)
+            event_form[EVENT_DATE + "[enddate(2i)]"] = str(start_date.month)
+            event_form[EVENT_DATE + "[enddate(3i)]"] = str(start_date.day)
+            event_form[EVENT_DATE + "[enddate(5i)]"] = "05"
             event_form["event[notes]"] = description
 
             self.browser.submit_form(event_form)
