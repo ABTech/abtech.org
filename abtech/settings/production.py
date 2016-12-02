@@ -1,6 +1,6 @@
 from .base import *
 from pathlib import Path
-from .secret import SECRET_KEY, RECAPTCHA_SECRET_KEY
+from .secret import SECRET_KEY, RECAPTCHA_SECRET_KEY, TRACKER_LOGIN, TRACKER_PASSWORD
 
 DEBUG = False
 

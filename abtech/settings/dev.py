@@ -1,6 +1,7 @@
 from .base import *
 from pathlib import Path
-from .secret import RECAPTCHA_SECRET_KEY
+from .secret import RECAPTCHA_SECRET_KEY, TRACKER_LOGIN, TRACKER_PASSWORD
+
 
 SECRET_KEY = "foobar"
 

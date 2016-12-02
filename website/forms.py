@@ -7,6 +7,8 @@ from django.core.mail import send_mail
 from django.conf import settings
 from django.template.loader import get_template
 
+from website import tracker
+
 
 class JoinForm(forms.Form):
     """Form for email list signup."""
@@ -71,6 +73,12 @@ class RequestForm(forms.Form):
         location.initial = "Tech Room"
         details.initial = "\n".join(["blah"]*3)
 
+    def tracker_event(self, context):
+        template = get_template('email/tracker_event.txt')
+        description = template.render(context)
+        event_id = tracker.Tracker().create_event(context, description)
+        return event_id
+
     def send_mail(self):
         """Send event request email generated using form data."""
         template = get_template('email/event.txt')
@@ -80,4 +88,6 @@ class RequestForm(forms.Form):
         from_email = settings.EVENT_EMAIL
         to_email = self.cleaned_data['email']
         send_mail(subject, body, from_email, [to_email, from_email])
+        event_url = self.tracker_event(context)
+        send_mail(subject, event_url, from_email, [from_email])
         return self.cleaned_data
