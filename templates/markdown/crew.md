@@ -37,10 +37,8 @@ The people who make up AB Tech.
 
   <tr>
     <td colspan="2" align="center">
-      Christine Xu<br>
       Pedro Lima<br>
       Alex Gotsis<br>
-      Kenny Cohen<br>
       Dillon Lareau<br>
       Emily Newman<br>
     </td>
@@ -59,6 +57,7 @@ The people who make up AB Tech.
         <li>Chen, Cassandra
         <li>Chen, Luyun
         <li>Chen, Claire
+        <li>Cohen, Kenny
         <li>Duenas, Danica
         <li>Dodhia, Kevan
         <li>Eckert, Ryan
@@ -89,6 +88,7 @@ The people who make up AB Tech.
         <li>MacDonald, Scott
         <li>Martin, Christi
         <li>Mertz, Joe
+        <li>Pang, Joseph
         <li>Parenti, Tim
         <li>Phillips, Scott
         <li>Pinson, Adam
@@ -102,6 +102,7 @@ The people who make up AB Tech.
         <li>Weiss, Jacob
         <li>Whyte, Ali
         <li>Wu, Youzi
+        <li>Xu, Christine
         <li>Yokum, Elliot
       </ul>
     </td>
