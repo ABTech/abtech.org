@@ -35,6 +35,12 @@
           </ul>
         </li>
         <li><a href="{% url 'website:events' %}">Past Events</a></li>
+        <li class="dropdown"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Internal</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://tracker.abtech.org/" target="_blank">Tracker</a></li>
+            <li><a href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+          </ul>
+        </li>
         <li class="dropdown"><a href="{% url 'website:crew' %}" role="button" aria-haspopup="true" aria-expanded="false">People</a>
           <ul class="dropdown-menu">
             <li><a href="{% url 'website:crew' %}">Current Crew</a></li>
