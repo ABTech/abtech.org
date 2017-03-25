@@ -294,4 +294,8 @@ footer {
   }
 }
 
-
+@media screen and (min-width: 767px){
+.date{
+  width: 400px;
+}
+}
