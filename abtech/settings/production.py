@@ -11,7 +11,7 @@ CAPTCHA = True
 AUTOFILL = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www-01.abtech.org',
-                 'www-staging.abtech.org', 'www.abtech.org']
+                 'www-staging.abtech.org', 'www.abtech.org', 'abtech.andrew.cmu.edu']
 
 ADMINS = [('Robert Maratos', 'rmaratos@andrew.cmu.edu')]
 
