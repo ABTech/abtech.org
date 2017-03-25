@@ -11,9 +11,7 @@ The people who make up AB Tech.
 
 
 <em>If you are looking to have us provide technical support for your
-  event, please email your request to <a
-      href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x61;&#98;&#116;&#x65;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#x77;&#46;&#x63;&#109;&#x75;&#x2e;&#101;&#100;&#117;">
-    &#x61;&#98;&#116;&#x65;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#x77;&#46;&#x63;&#109;&#x75;&#x2e;&#101;&#100;&#117;</a>.</em>
+  event, please fill out our [event request form](/request).</em>
 
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
