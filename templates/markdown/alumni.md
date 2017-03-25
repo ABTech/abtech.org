@@ -1,8 +1,8 @@
 Alumni
 <div class = "title-header">
-  <a href="/alumni" class="current"> Alumni </a> 
   <a href="/crew"> Current Crew </a>
   <a href="/hots"> HOTs </a> 
+  <a href="/alumni" class="current"> Alumni </a> 
 </div>
 
 If you are an AB Tech alumnus and you aren't listed here, or just want to
