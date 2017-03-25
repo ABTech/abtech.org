@@ -8,7 +8,6 @@ urlpatterns = [
     url(r'^$', MarkdownView.as_view(template_name="index.html", markdown="index.md"), name='index'),
     url(r'^services$', MarkdownView.as_view(markdown="services.md"), name='services'),
     url(r'^equipment$', MarkdownView.as_view(markdown="equipment.md"), name='equipment'),
-    url(r'^contact$', MarkdownView.as_view(markdown="contact.md"), name='contact'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
     url(r'^join$', JoinView.as_view(), name='join'),
     url(r'^joined$', MarkdownView.as_view(markdown="joined.md"), name='joined'),
