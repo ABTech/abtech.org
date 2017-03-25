@@ -49,34 +49,34 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Operation Re-Information</b></td>
-    <td nowrap><font size="-1">March 11</font></td>
-    <td><font size="-1">Rangos Ballroom</font></td>
+    <td width="70%"><b>World Color</b></td>
+    <td nowrap><font size="-1">October 14</font></td>
+    <td><font size="-1"></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i></i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>Douglas Adams</b></td>
-    <td nowrap><font size="-1">April 9</font></td>
-    <td><font size="-1">Rangos Ballroom</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>AB Tech "special forces"</i></font>
+    <td colspan="3"><font size="-1"><i>International Festival Band</i></font>
     </td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Soul Coughing with Angry Salad</b></td>
-    <td nowrap><font size="-1">April 16</font></td>
-    <td><font size="-1">Old Gym</font></td>
+    <td width="70%"><b>The Bevis Frond</b></td>
+    <td nowrap><font size="-1">September 22</font></td>
+    <td><font size="-1"></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Spring Carnival Concert</i></font></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse concert</i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Laughing Colors</b></td>
+    <td nowrap><font size="-1">September 6</font></td>
+    <td><font size="-1"></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Labor Day concert</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
@@ -92,34 +92,34 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Laughing Colors</b></td>
-    <td nowrap><font size="-1">September 6</font></td>
-    <td><font size="-1"></font></td>
+    <td width="70%"><b>Soul Coughing with Angry Salad</b></td>
+    <td nowrap><font size="-1">April 16</font></td>
+    <td><font size="-1">Old Gym</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Labor Day concert</i></font></td>
+    <td colspan="3"><font size="-1"><i>Spring Carnival Concert</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>The Bevis Frond</b></td>
-    <td nowrap><font size="-1">September 22</font></td>
-    <td><font size="-1"></font></td>
+    <td width="70%"><b>Douglas Adams</b></td>
+    <td nowrap><font size="-1">April 9</font></td>
+    <td><font size="-1">Rangos Ballroom</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>AB Coffeehouse concert</i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>World Color</b></td>
-    <td nowrap><font size="-1">October 14</font></td>
-    <td><font size="-1"></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>International Festival Band</i></font>
+    <td colspan="3"><font size="-1"><i>AB Tech "special forces"</i></font>
     </td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Operation Re-Information</b></td>
+    <td nowrap><font size="-1">March 11</font></td>
+    <td><font size="-1">Rangos Ballroom</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i></i></font></td>
   </tr>
 
   <tr>
@@ -128,8 +128,8 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Norm MacDonald</b></td>
-    <td nowrap><font size="-1">January 24</font></td>
+    <td width="70%"><b>Black Star</b></td>
+    <td nowrap><font size="-1">November 21</font></td>
     <td><font size="-1">Rangos Ballroom</font></td>
   </tr>
   <tr>
@@ -138,25 +138,23 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Dharma Sons and the Ike McCoy Band</b></td>
-    <td nowrap><font size="-1">April 17</font></td>
-    <td><font size="-1">Carnival Tent</font></td>
+    <td width="70%"><b>Jazz Mandolin Project</b></td>
+    <td nowrap><font size="-1">October 22</font></td>
+    <td><font size="-1">Mellon Institute</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Spring Carnival concert sponsored by
-      the Spring Carnival Committee.</i></font></td>
+    <td colspan="3"><font size="-1"><i></i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Galactic and the Charlie Hunter Trio</b></td>
-    <td nowrap><font size="-1">April 18</font></td>
-    <td><font size="-1">The Mall</font></td>
+    <td width="70%"><b>Fugazi with Burning Airlines and Quixotic</b></td>
+    <td nowrap><font size="-1">May 2</font></td>
+    <td><font size="-1">Rangos Ballroom</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Spring Carnival concert.</i></font>
-    </td>
+    <td colspan="3"><font size="-1"><i>WRCT benefit concert</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
@@ -171,28 +169,30 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Fugazi with Burning Airlines and Quixotic</b></td>
-    <td nowrap><font size="-1">May 2</font></td>
-    <td><font size="-1">Rangos Ballroom</font></td>
+    <td width="70%"><b>Galactic and the Charlie Hunter Trio</b></td>
+    <td nowrap><font size="-1">April 18</font></td>
+    <td><font size="-1">The Mall</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>WRCT benefit concert</i></font></td>
+    <td colspan="3"><font size="-1"><i>Spring Carnival concert.</i></font>
+    </td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Jazz Mandolin Project</b></td>
-    <td nowrap><font size="-1">October 22</font></td>
-    <td><font size="-1">Mellon Institute</font></td>
+    <td width="70%"><b>Dharma Sons and the Ike McCoy Band</b></td>
+    <td nowrap><font size="-1">April 17</font></td>
+    <td><font size="-1">Carnival Tent</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i></i></font></td>
+    <td colspan="3"><font size="-1"><i>Spring Carnival concert sponsored by
+      the Spring Carnival Committee.</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Black Star</b></td>
-    <td nowrap><font size="-1">November 21</font></td>
+    <td width="70%"><b>Norm MacDonald</b></td>
+    <td nowrap><font size="-1">January 24</font></td>
     <td><font size="-1">Rangos Ballroom</font></td>
   </tr>
   <tr>
@@ -206,55 +206,35 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Letters to Cleo with Angry Salad</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">Skibo Gym</font></td>
+    <td width="70%"><b>Henry Rollins</b></td>
+    <td nowrap><font size="-1">November 19</font></td>
+    <td><font size="-1">McConomy Auditorium</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Spring Carnival concert</i></font></td>
+    <td colspan="3"><font size="-1"><i>Spoken word performance to a sellout
+      crowd.</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>The Clarks and Brownie Mary</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">Carnival Tent</font></td>
+    <td width="70%"><b>They Might Be Giants w/ Lincoln</b></td>
+    <td nowrap><font size="-1">November 7</font></td>
+    <td><font size="-1">Rangos Ballroom</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Spring Carnival concert sponsored by
-      Spring Carnival Committee</i></font></td>
+    <td colspan="3"><font size="-1"><i>Sellout crowd. Made discovery that
+      Rangos is very springy.</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>The Clarks</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">Orientation Tent</font></td>
+    <td width="70%"><b>Andy Richter</b></td>
+    <td nowrap><font size="-1">November 3</font></td>
+    <td><font size="-1">Rangos Ballroom</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Freshman Orientation concert</i></font>
-    </td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>Push</b></td>
-    <td nowrap><font size="-1">September 5</font></td>
-    <td><font size="-1">Fraternity Quad</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i></i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>Sleeping Giants</b></td>
-    <td nowrap><font size="-1">October 17</font></td>
-    <td><font size="-1">Margaret Morrisson Hall</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Homecoming concert</i></font></td>
+    <td colspan="3"><font size="-1"><i>Sellout crowd.</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
@@ -270,35 +250,55 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Andy Richter</b></td>
-    <td nowrap><font size="-1">November 3</font></td>
-    <td><font size="-1">Rangos Ballroom</font></td>
+    <td width="70%"><b>Sleeping Giants</b></td>
+    <td nowrap><font size="-1">October 17</font></td>
+    <td><font size="-1">Margaret Morrisson Hall</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Sellout crowd.</i></font></td>
+    <td colspan="3"><font size="-1"><i>Homecoming concert</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>They Might Be Giants w/ Lincoln</b></td>
-    <td nowrap><font size="-1">November 7</font></td>
-    <td><font size="-1">Rangos Ballroom</font></td>
+    <td width="70%"><b>Push</b></td>
+    <td nowrap><font size="-1">September 5</font></td>
+    <td><font size="-1">Fraternity Quad</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Sellout crowd. Made discovery that
-      Rangos is very springy.</i></font></td>
+    <td colspan="3"><font size="-1"><i></i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Henry Rollins</b></td>
-    <td nowrap><font size="-1">November 19</font></td>
-    <td><font size="-1">McConomy Auditorium</font></td>
+    <td width="70%"><b>The Clarks</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">Orientation Tent</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Spoken word performance to a sellout
-      crowd.</i></font></td>
+    <td colspan="3"><font size="-1"><i>Freshman Orientation concert</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>The Clarks and Brownie Mary</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">Carnival Tent</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Spring Carnival concert sponsored by
+      Spring Carnival Committee</i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Letters to Cleo with Angry Salad</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">Skibo Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Spring Carnival concert</i></font></td>
   </tr>
 
   <tr>
