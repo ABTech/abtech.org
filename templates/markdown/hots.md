@@ -2,9 +2,9 @@ Heads of Tech
 
 <div class = "title-header">
   <p class="text-justify"> 
-  <a href="/alumni"> Alumni </a> 
-   <a href="/crew"> Current Crew </a>
+    <a href="/crew"> Current Crew </a>
     <a href="/hots" class="current"> HOTs </a> 
+    <a href="/alumni"> Alumni </a> 
   </p>
 </div>
 

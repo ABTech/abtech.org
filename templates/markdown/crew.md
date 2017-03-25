@@ -1,9 +1,9 @@
 Crew
 <div class = "title-header">
   <p class="text-justify">
-  <a href="/alumni"> Alumni </a>
-   <a href="/crew" class="current"> Current Crew </a>
+    <a href="/crew" class="current"> Current Crew </a>
     <a href="/hots"> HOTs </a>
+    <a href="/alumni"> Alumni </a>
   </p>
 </div>
 
