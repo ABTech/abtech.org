@@ -159,13 +159,13 @@ Organizations that we are a part of, or deal with regularly.
 
 <table>
   <tr>
-    <td><a href="http://www.activitiesboard.org/">Carnegie Mellon Activities
+    <td><a href="https://www.facebook.com/activitiesboard">Carnegie Mellon Activities
       Board</a></td>
   </tr>
 
   <tr>
-    <td><a href="http://www.studentaffairs.cmu.edu/StudentActivities/">CMU
-      Department of Student Activities</a></td>
+    <td><a href="http://www.cmu.edu/student-affairs/slice/studentactivities/">Student Leadership, Involvement, 
+and Civic Engagement (SLICE) 🍕 </a></td>
   </tr>
 
   <tr>
