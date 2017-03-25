@@ -18,7 +18,6 @@
   <form action="{% url 'website:request' %}" method="post" class="form-horizontal">
     {%  csrf_token %}
     {% bootstrap_form form layout="horizontal" %}
-    <p style="color:red"> AB Tech is closed for Spring Break and will not be responding to email.  We will be back on Monday March 20th. If you require technical assistance before then please contact Mediatech at <a href="mailto:mediatech@andrew.cmu.edu">mediatech@andrew.cmu.edu </a>.</p>
     {% buttons submit='Submit' layout='horizontal' %}{% endbuttons %}
   </form>
 {% endblock %}
