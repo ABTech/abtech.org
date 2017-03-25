@@ -13,6 +13,13 @@
 {% endblock %}
 {% block style %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-datepicker.min.css' %}">
+<style type="text/css">
+  @media screen and (min-width: 767px){
+    .date{
+      width: 400px;
+    }
+  }
+  </style>
 {% endblock %}
 
 {% block content %}
