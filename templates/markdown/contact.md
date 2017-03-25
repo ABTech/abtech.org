@@ -1,7 +1,11 @@
 Contact
+<h3>Event Request</h3>
+
+Please use our [event request form](/request) to request our services. Please refer to our <a href="https://tracker.abtech.org/events/calendar" target="_blank">calendar</a> for what dates we are available.
+
 <h3>Contact Us</h3>
 
-Email is the best way to reach us. You can expect a reply within two days. If not, feel free to follow up with another email.
+For general correspondence, email is the best way to reach us. You can expect a reply within two days. If not, feel free to follow up with another email.
 
 **Email:** <a
   href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
