@@ -1,16 +1,16 @@
-#AB Tech Website
+# AB Tech Website
 The website for the Carnegie Mellon Activities Board Technical Committee
 
 Django Captcha App from: https://github.com/2buntu/2buntu-blog
 
-##Issues
+## Issues
 We all have them.
 
-##Development
-###Prerequisites
+## Development
+### Prerequisites
 - [Python 3.4](https://www.python.org/downloads/)
 
-###Setup
+### Setup
 Clone this repo into your workspace.
 I strongly recommend using a virtual environment when developing this and any other Python project.
 ```
@@ -20,15 +20,15 @@ $ source bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-###Running
+### Running
 ```
 $ ./manage.py runserver
 ```
 
-##Contribute
+## Contribute
 Just send a pull request!
 
-###Production
+### Production
 On a clean install of Debian:
 
 Install Vim
