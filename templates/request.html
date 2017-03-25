@@ -6,6 +6,15 @@
 
 {% block title %} Event Request {% endblock %}
 
+{% block includes %}
+<script type="text/javascript" src="{% static 'js/moment.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+{% endblock %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-datepicker.min.css' %}">
+{% endblock %}
+
 {% block content %}
   <h1> Event Request Form </h1>
   <p> Please refer to our <a href="https://tracker.abtech.org/events/calendar" target="_blank">calendar</a> for what dates we are available. <br> <br>
@@ -16,11 +25,29 @@
 
   <form action="{% url 'website:request' %}" method="post" class="form-horizontal">
     {%  csrf_token %}
-    {% bootstrap_form form layout="horizontal" %}
+    {% for field in form %}
+      {% if field.name == 'start_date' %}
+        <div class="form-group">
+            {{ field.errors }}
+        <label class="col-md-3 control-label">{{ field.label }}</label> 
+        <div class='col-md-9'>
+            <div class="input-group date" id="{{ field.auto_id }}_cal" style="width: 400px;">
+              <input type="text" class="form-control" placeholder="Event Date" name="{{ field.html_name }}" id="{{ field.auto_id }}"><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+            </div>
+        </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#{{ field.auto_id }}_cal').datepicker({
+                      sideBySide: true,
+                    });
+                });
+            </script>
+      {% else %}
+        {% bootstrap_field field layout="horizontal" %}
+      {% endif %}
+    {% endfor %}
     {% buttons submit='Submit' layout='horizontal' %}{% endbuttons %}
   </form>
 {% endblock %}
 
-{% block includes %}
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-{% endblock %}
