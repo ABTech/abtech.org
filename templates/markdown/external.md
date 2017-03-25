@@ -164,8 +164,8 @@ Organizations that we are a part of, or deal with regularly.
   </tr>
 
   <tr>
-    <td><a href="http://www.cmu.edu/student-affairs/slice/studentactivities/">Student Leadership, Involvement, 
-and Civic Engagement (SLICE) 🍕 </a></td>
+    <td><a href="http://www.cmu.edu/student-affairs/slice/studentactivities/">Student Leadership, Involvement,
+and Civic Engagement (SLICE)</a></td>
   </tr>
 
   <tr>
