@@ -3,9 +3,9 @@ External
 
 <div class = "title-header">
   <p class="text-justify">
-  <a href="/services"> Services </a>
-   <a href="/equipment"> Equipment </a>
-    <a href="/external" class="current"> External </a>
+    <a href="/services"> Services </a>
+    <a href="/equipment"> Equipment </a>
+    <a href="/external" class="current"> External Resources </a>
   </p>
 </div>
 

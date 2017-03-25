@@ -3,7 +3,7 @@ Equipment
   <p class="text-justify"> 
     <a href="/services"> Services </a> 
     <a href="/equipment" class="current"> Equipment </a>
-    <a href="/external"> External </a> 
+    <a href="/external"> External Resources </a> 
   </p>
 </div>
 
