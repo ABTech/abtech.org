@@ -457,14 +457,77 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Rick Danko</b></td>
-    <td nowrap><font size="-1">February</font></td>
+    <td width="70%"><b>The Clash</b></td>
+    <td nowrap><font size="-1">October 16</font></td>
+    <td><font size="-1">Skibo Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Tickets sold out at the Student Center
+      Info Desk in less than two hours.</i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Yakov Smirnov</b></td>
+    <td nowrap><font size="-1"></font></td>
     <td><font size="-1">Skibo Ballroom</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>With Blondie Chapman on
-      Guitar</i></font></td>
+    <td colspan="3"><font size="-1"><i>Broadcast on HBO</i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>The Toons</b></td>
+    <td nowrap><font size="-1">September 19</font></td>
+    <td><font size="-1">The Ballroom</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Sponsored by AB Coffeehouse.</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Cheap Trick</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">Skibo Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Sponsored by the CMU Student Dormitory
+      Council</i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>David Johansen</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">The Ballroom</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i></i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Tom Verlaine</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">The Ballroom</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i></i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Steve Goodman</b></td>
+    <td nowrap><font size="-1">September 6</font></td>
+    <td><font size="-1">Flagstaff Hill</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Co-sponsored by the University of
+      Pittsburgh</i></font></td>
   </tr>
   <tr>
     <td width="20"></td>
@@ -480,77 +543,14 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Steve Goodman</b></td>
-    <td nowrap><font size="-1">September 6</font></td>
-    <td><font size="-1">Flagstaff Hill</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Co-sponsored by the University of
-      Pittsburgh</i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>Tom Verlaine</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">The Ballroom</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i></i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>David Johansen</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">The Ballroom</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i></i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>Cheap Trick</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">Skibo Gym</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Sponsored by the CMU Student Dormitory
-      Council</i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>The Toons</b></td>
-    <td nowrap><font size="-1">September 19</font></td>
-    <td><font size="-1">The Ballroom</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Sponsored by AB Coffeehouse.</i></font>
-    </td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>Yakov Smirnov</b></td>
-    <td nowrap><font size="-1"></font></td>
+    <td width="70%"><b>Rick Danko</b></td>
+    <td nowrap><font size="-1">February</font></td>
     <td><font size="-1">Skibo Ballroom</font></td>
   </tr>
   <tr>
     <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Broadcast on HBO</i></font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td width="70%"><b>The Clash</b></td>
-    <td nowrap><font size="-1">October 16</font></td>
-    <td><font size="-1">Skibo Gym</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>Tickets sold out at the Student Center
-      Info Desk in less than two hours.</i></font></td>
+    <td colspan="3"><font size="-1"><i>With Blondie Chapman on
+      Guitar</i></font></td>
   </tr>
 
   <tr>
@@ -569,17 +569,6 @@ assembling this list.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Muddy Waters</b></td>
-    <td nowrap><font size="-1"></font></td>
-    <td><font size="-1">Skibo Gym</font></td>
-  </tr>
-  <tr>
-    <td width="20"></td>
-    <td colspan="3"><font size="-1"><i>1980 Spring Carnival Concert</i></font>
-    </td>
-  </tr>
-  <tr>
-    <td width="20"></td>
     <td width="70%"><b>King Crimson</b></td>
     <td nowrap><font size="-1">October 31</font></td>
     <td><font size="-1">Skibo Gym</font></td>
@@ -588,6 +577,17 @@ assembling this list.
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>This was the "how do you get truck
       tires for a semi filled on halloween?" concert.</i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Muddy Waters</b></td>
+    <td nowrap><font size="-1"></font></td>
+    <td><font size="-1">Skibo Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>1980 Spring Carnival Concert</i></font>
+    </td>
   </tr>
 </table>
 
