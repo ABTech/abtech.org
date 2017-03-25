@@ -101,7 +101,7 @@ backline rental company.
   </li>
 </ul>
 
-**What we charge:  
+**What we charge:**
 Our charges are based on the configuration of equipment being used and the
 personnel required to run
 your event. Thus, the cost of providing technical support for a show varies
