@@ -42,7 +42,17 @@ accurate.
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
       &nbsp;&nbsp;2016</B></FONT></td>
   </tr>
-
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Eric Andre</b></td>
+    <td nowrap><font size="-1">November 17</font></td>
+    <td nowrap><font size="-1">McConomy Auditorium</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Comedy: Sasha chugged an entire liter of ranch.  
+    </i></font></td>
+  </tr>
   <tr>
     <td width="20"></td>
     <td width="70%"><b>Griz and Dan Deacon</b></td>
