@@ -54,8 +54,7 @@ class RequestForm(forms.Form):
     organization = forms.CharField(label='Organization', max_length=50)
     contact = forms.CharField(label='Event Contact Name', max_length=50)
     email = forms.EmailField(label='Event Contact Email')
-    start_date = forms.DateField(label='Date', help_text="Format: mm/dd/yyyy",
-                                 required=False)
+    start_date = forms.DateField(label='Date', help_text="Format: mm/dd/yyyy")
     start_time = forms.CharField(label='Start Time', required=False)
     location = forms.CharField(label='Location', required=False)
     details = forms.CharField(widget=forms.Textarea, label='Details')
