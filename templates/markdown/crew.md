@@ -62,6 +62,7 @@ The people who make up AB Tech.
         <li>Eckrich, Christoph
         <li>Fan, Frank
         <li>Fermin, Luis
+        <li>Ford, Thomas
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
@@ -73,7 +74,7 @@ The people who make up AB Tech.
         <li>Kozina, Val
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
-          <li>Lee, Sungho
+        <li>Lee, Sungho
       </ul>
     </td>
     <td width="230" valign="top">
@@ -93,9 +94,11 @@ The people who make up AB Tech.
         <li>Rauchenberger, Kelly
         <li>Richards, Meg
         <li>Sandler, Joseph
+        <li>Sat-Vollhardt, Julien
         <li>Speer, Sam
         <li>Tan, Bridget
         <li>Traiger, Jade
+        <li>Vultaggio, Mike
         <li>Wang, Sarah
         <li>Weiss, Jacob
         <li>Whyte, Ali
