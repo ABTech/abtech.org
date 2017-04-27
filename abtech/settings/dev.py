@@ -33,7 +33,7 @@ JOIN_EMAIL = "rmaratos@andrew.cmu.edu"
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 
-TRACKER = 'https://tracker-dev.abtech.org/'
+TRACKER = 'https://abtech.andrew.cmu.edu/tracker-staging/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (

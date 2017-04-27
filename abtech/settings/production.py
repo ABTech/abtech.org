@@ -34,7 +34,7 @@ JOIN_EMAIL = 'abtech+join@andrew.cmu.edu'
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
 
-TRACKER = 'https://tracker.abtech.org/'
+TRACKER = 'https://abtech.andrew.cmu.edu/tracker/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
