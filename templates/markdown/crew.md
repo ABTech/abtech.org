@@ -50,6 +50,7 @@ The people who make up AB Tech.
   <tr>
     <td width="230" valign="top">
       <ul>
+        <li>Angel, Sophia
         <li>Bezi, Oscar
         <li>Bressler, Laura
         <li>Chen, Cassandra
@@ -74,11 +75,11 @@ The people who make up AB Tech.
         <li>Kozina, Val
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
-        <li>Lee, Sungho
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
+        <li>Lee, Sungho
         <li>Lerner, Adam
         <li>Long, Vicki
         <li>Lowe, William
