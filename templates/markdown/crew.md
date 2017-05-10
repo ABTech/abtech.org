@@ -82,12 +82,12 @@ The people who make up AB Tech.
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
         <li>Lee, Sungho
+        <li>Lerner, Adam
+        <li>Long, Vicki
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Lerner, Adam
-        <li>Long, Vicki
         <li>Lowe, William
         <li>Lu, Melissa
         <li>Lyness, Hannah
