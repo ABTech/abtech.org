@@ -16,7 +16,7 @@ The people who make up AB Tech.
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
-        color="#990000" size="5"><b>2016 &mdash; 2017</b></FONT></td>
+        color="#990000" size="5"><b>2017 &mdash; 2018</b></FONT></td>
   </tr>
 
   <tr>
@@ -34,17 +34,23 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">
-      Pedro Lima<br>
-      Alex Gotsis<br>
-      Emily Newman<br>
-      Val Kozina<br>
-      Jade Traiger<br>
-      Laura Bressler<br>
-      Ryan Eckert<br>
-      Cassandra Chen<br>
-      Bridget Tan<br>
-      Frank Fan<br>
+    <td width="230" valign="top">
+      <ul>
+        <li>Laura Bressler
+        <li>Cassandra Chen
+        <li>Ryan Eckert
+        <li>Frank Fan
+        <li>Alex Gotsis
+      </ul>
+    </td>
+    <td width="230" valign="top">
+      <ul>
+        <li>Val Kozina
+        <li>Pedro Lima
+        <li>Emily Newman
+        <li>Bridget Tan
+        <li>Jade Traiger
+      </ul>
     </td>
   </tr>
 
