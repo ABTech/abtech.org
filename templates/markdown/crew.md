@@ -25,7 +25,7 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Robert Maratos [rmaratos]</td>
+    <td colspan="2" align="center">Kenny Cohen [kicohen]</td>
   </tr>
 
   <tr>
@@ -37,8 +37,14 @@ The people who make up AB Tech.
     <td colspan="2" align="center">
       Pedro Lima<br>
       Alex Gotsis<br>
-      Dillon Lareau<br>
       Emily Newman<br>
+      Val Kozina<br>
+      Jade Traiger<br>
+      Laura Bressler<br>
+      Ryan Eckert<br>
+      Cassandra Chen<br>
+      Bridget Tan<br>
+      Frank Fan<br>
     </td>
   </tr>
 
@@ -52,16 +58,11 @@ The people who make up AB Tech.
       <ul>
         <li>Angel, Sophia
         <li>Bezi, Oscar
-        <li>Bressler, Laura
-        <li>Chen, Cassandra
         <li>Chen, Luyun
         <li>Chen, Claire
-        <li>Cohen, Kenny
         <li>Duenas, Danica
         <li>Dodhia, Kevan
-        <li>Eckert, Ryan
         <li>Eckrich, Christoph
-        <li>Fan, Frank
         <li>Fermin, Luis
         <li>Ford, Thomas
         <li>Garbade, Edward
@@ -72,7 +73,6 @@ The people who make up AB Tech.
         <li>Gutierrez, Andre
         <li>Kang, Jamie
         <li>Kong, Matthew
-        <li>Kozina, Val
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
         <li>Lee, Sungho
@@ -97,8 +97,6 @@ The people who make up AB Tech.
         <li>Sandler, Joseph
         <li>Sat-Vollhardt, Julien
         <li>Speer, Sam
-        <li>Tan, Bridget
-        <li>Traiger, Jade
         <li>Vultaggio, Mike
         <li>Wang, Sarah
         <li>Weiss, Jacob
