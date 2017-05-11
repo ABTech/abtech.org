@@ -91,7 +91,19 @@ sudo a2dissite default
 sudo a2ensite django.conf
 ```
 
-To reload code changes on the site live:
+### Maintenance
+Code hosted at www-01.abtech.org:/srv/abtech.org
+
+To load changes from server:
 ```
+git pull
+# Only necessary for code changes
 touch abtech/wsgi.py
+```
+
+To load changes from local machine, configure fabfile.py to point at your private key file, and run the following:
+```
+fab pull
+# Only necessary for code changes
+fab touch
 ```
