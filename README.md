@@ -19,6 +19,7 @@ $ python3 -m venv .
 $ source bin/activate
 $ pip3 install -r requirements.txt
 ```
+Create abtech/settings/secret.py with the necessary secret keys that are in example_secret.py
 
 ### Running
 ```
