@@ -23,11 +23,11 @@ year.
     <td>Kenny Cohen [kicohen]</td>
   </tr>
   <tr>
-    <td>16-17</td>
-    <td>Robert Maratos</td>
+    <td colspan="2"></td>
   </tr>
   <tr>
-    <td colspan="2"></td>
+    <td>16-17</td>
+    <td>Robert Maratos</td>
   </tr>
   <tr>
     <td>15-16</td>
