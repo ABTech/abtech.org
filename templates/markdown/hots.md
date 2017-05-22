@@ -19,8 +19,12 @@ year.
     <th width="350"> Head(s) of Tech</td>
   </tr>
   <tr>
+    <td>17-18</td>
+    <td>Kenny Cohen [kicohen]</td>
+  </tr>
+  <tr>
     <td>16-17</td>
-    <td>Robert Maratos [rmaratos]</td>
+    <td>Robert Maratos</td>
   </tr>
   <tr>
     <td colspan="2"></td>
