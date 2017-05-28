@@ -300,6 +300,11 @@ Posts go to [ghosts@abtech.org](mailto:ghosts@abtech.org).
     <td></td>
   </tr>
   <tr>
+    <td width="230">Robert Maratos ('13-'17)</td>
+    <td>[<a href="mailto:rmaratos#alumni.cmu.edu">mail</a>]</td>
+    <td>[<a href="https://rmaratos.github.io">web</a>]</td>
+  </tr>
+  <tr>
     <td width="230">Chris Marshal</td>
     <td></td>
     <td></td>
