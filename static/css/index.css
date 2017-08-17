@@ -63,3 +63,22 @@ footer a{
     opacity:0.5;
     text-transform:uppercase;
 }
+
+div#banner {
+	width:100%;
+	color:#fff;
+	background-color: #cb0026;
+	text-align:center;
+	position:absolute !important;
+	top: 0 !important;
+	display:block !important;
+}
+
+div#banner a {
+	color:#5577cc;
+}
+
+div#banner a:hover {
+	color:#222288;
+	cursor:pointer;
+}

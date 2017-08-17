@@ -69,3 +69,5 @@ secret.py
 
 pip-selfcheck.json
 
+# Python Wheels
+share/python-wheels/*
