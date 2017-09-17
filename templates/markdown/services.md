@@ -69,7 +69,7 @@ backline rental company.
   <li><b>Advance notice:</b> At least one week advance notice of the event.
     Larger events require more lead time (usually 2 weeks or more). We
     recommend that
-    you contact us as soon as you possible to make sure we can fit you in our
+    you contact us as soon as possible to make sure we can fit you in our
     schedule, as
     we frequently work multiple events simultaneously and have limited staff
     &amp; equipment.
