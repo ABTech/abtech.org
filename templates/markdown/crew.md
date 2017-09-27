@@ -40,7 +40,6 @@ The people who make up AB Tech.
         <li>Cassandra Chen
         <li>Ryan Eckert
         <li>Frank Fan
-        <li>Alex Gotsis
       </ul>
     </td>
     <td width="230" valign="top">
@@ -74,6 +73,7 @@ The people who make up AB Tech.
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
+        <li>Gotsis, Alex
         <li>Grossack, Christopher
         <li>Gunsalus, Laura
         <li>Gutierrez, Andre
