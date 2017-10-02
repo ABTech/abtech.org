@@ -40,6 +40,7 @@ The people who make up AB Tech.
         <li>Cassandra Chen
         <li>Ryan Eckert
         <li>Frank Fan
+        <li>Alex Gotsis
       </ul>
     </td>
     <td width="230" valign="top">
