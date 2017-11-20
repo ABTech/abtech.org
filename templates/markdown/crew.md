@@ -63,54 +63,45 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Angel, Sophia
-        <li>Bezi, Oscar
-        <li>Chen, Luyun
-        <li>Chen, Claire
-        <li>Duenas, Danica
-        <li>Dodhia, Kevan
         <li>Eckrich, Christoph
-        <li>Fermin, Luis
-        <li>Ford, Thomas
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
         <li>Gotsis, Alex
         <li>Grossack, Christopher
-        <li>Gunsalus, Laura
-        <li>Gutierrez, Andre
-        <li>Kang, Jamie
+        <li>Koltas, Julia
         <li>Kong, Matthew
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
+        <li>Laroia, Tarana
         <li>Lee, Sungho
         <li>Lerner, Adam
         <li>Long, Vicki
+        <li>Lowe, William
+        <li>Lyness, Hannah
+        <li>MacDonald, Scott
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Lowe, William
-        <li>Lu, Melissa
-        <li>Lyness, Hannah
-        <li>MacDonald, Scott
-        <li>Martin, Christi
-        <li>Mertz, Joe
+        <li>Morton, Renee
         <li>Pang, Joseph
         <li>Parenti, Tim
         <li>Phillips, Scott
         <li>Pinson, Adam
-        <li>Rauchenberger, Kelly
+        <li>Quarles, Matthew
+        <li>Rauchenberger, Fef
+        <li>Rich, Ethan
         <li>Richards, Meg
         <li>Sandler, Joseph
         <li>Sat-Vollhardt, Julien
         <li>Speer, Sam
-        <li>Vultaggio, Mike
+        <li>Uy, Ariel
         <li>Wang, Sarah
-        <li>Weiss, Jacob
         <li>Whyte, Ali
         <li>Wu, Youzi
-        <li>Xu, Christine
         <li>Yokum, Elliot
+        <li>Zhang, Bobby
       </ul>
     </td>
   </tr>
