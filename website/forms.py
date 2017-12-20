@@ -54,8 +54,10 @@ class RequestForm(forms.Form):
     organization = forms.CharField(label='Organization', max_length=50)
     contact = forms.CharField(label='Event Contact Name', max_length=50)
     email = forms.EmailField(label='Event Contact Email')
-    start_date = forms.DateField(label='Date', help_text="Format: mm/dd/yyyy")
+    start_date = forms.DateField(label='Start Date', help_text="Format: mm/dd/yyyy")
     start_time = forms.CharField(label='Start Time', required=False)
+    end_date = forms.DateField(label='End Date', help_text="Format: mm/dd/yyyy")
+    end_time = forms.CharField(label='End Time', required=False)
     location = forms.CharField(label='Location', required=False)
     details = forms.CharField(widget=forms.Textarea, label='Details')
 
@@ -69,6 +71,8 @@ class RequestForm(forms.Form):
         email.initial = "rmaratos@andrew.cmu.edu"
         start_date.initial = "1/1/2017"
         start_time.initial = "7pm"
+        end_date.initial = "1/1/2017"
+        end_time.initial = "8pm"
         location.initial = "Tech Room"
         details.initial = "\n".join(["blah"]*3)
 
