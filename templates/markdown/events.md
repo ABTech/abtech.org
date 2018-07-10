@@ -209,7 +209,7 @@ accurate.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>President Suresh's Inaguration</b></td>
+    <td width="70%"><b>President Suresh's Inauguration</b></td>
     <td nowrap><font size="-1">November 24</font></td>
     <td nowrap><font size="-1">UC Rangos</font></td>
   </tr>
