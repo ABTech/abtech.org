@@ -13,3 +13,4 @@ slides: [
     { src: "static/img/gallery/ds.jpg" },
 ]
 });
+

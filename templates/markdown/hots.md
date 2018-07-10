@@ -2,9 +2,9 @@ Heads of Tech
 
 <div class = "title-header">
   <p class="text-justify"> 
-  <a href="/alumni"> Alumni </a> 
-   <a href="/crew"> Current Crew </a>
+    <a href="/crew"> Current Crew </a>
     <a href="/hots" class="current"> HOTs </a> 
+    <a href="/alumni"> Alumni </a> 
   </p>
 </div>
 
@@ -19,11 +19,15 @@ year.
     <th width="350"> Head(s) of Tech</td>
   </tr>
   <tr>
-    <td>16-17</td>
-    <td>Robert Maratos [rmaratos]</td>
+    <td>17-18</td>
+    <td>Kenny Cohen [kicohen]</td>
   </tr>
   <tr>
     <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>16-17</td>
+    <td>Robert Maratos</td>
   </tr>
   <tr>
     <td>15-16</td>

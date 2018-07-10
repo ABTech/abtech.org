@@ -5,8 +5,8 @@ You're receiving this email because you were added to our mailing list. If you w
 
 To learn more about AB Tech and what we do:
 
-1. Check out the rest of our website at www.abtech.org
-2. Come help out at an event. You can see a list of our events at tracker.abtech.org
+1. Check out the rest of our website at https://www.abtech.org
+2. Come help out at an event. You can see a list of our events at https://abtech.andrew.cmu.edu/tracker
 3. Email us if you have any questions.
 
 Once the semester starts, about once a week, we'll send out an email containing information about events that we're doing on campus. Come to any events you're free for, find someone with a shirt that says TECH on it or looks like they know what they're doing, and ask what you can do to help. Keep track of the events you attend and help out at, and after you go to 6 events, email abtech@andrew.cmu.edu and you can become a full member.
@@ -29,5 +29,5 @@ One last note: if you ever hear the song Sunchyme by Dario G playing anywhere on
 If you ever have any questions about anything, don't hesitate to email abtech@andrew.cmu.edu, and I or someone from our exec board will get back to you shortly.
 
 Thanks,
-Robert Maratos
+Kenny Cohen
 Head of Tech{% endautoescape %}

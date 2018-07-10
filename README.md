@@ -1,16 +1,16 @@
-#AB Tech Website
+# AB Tech Website
 The website for the Carnegie Mellon Activities Board Technical Committee
 
 Django Captcha App from: https://github.com/2buntu/2buntu-blog
 
-##Issues
+## Issues
 We all have them.
 
-##Development
-###Prerequisites
+## Development
+### Prerequisites
 - [Python 3.4](https://www.python.org/downloads/)
 
-###Setup
+### Setup
 Clone this repo into your workspace.
 I strongly recommend using a virtual environment when developing this and any other Python project.
 ```
@@ -19,16 +19,17 @@ $ python3 -m venv .
 $ source bin/activate
 $ pip3 install -r requirements.txt
 ```
+Create abtech/settings/secret.py with the necessary secret keys that are in example_secret.py
 
-###Running
+### Running
 ```
 $ ./manage.py runserver
 ```
 
-##Contribute
+## Contribute
 Just send a pull request!
 
-###Production
+### Production
 On a clean install of Debian:
 
 Install Vim
@@ -91,7 +92,19 @@ sudo a2dissite default
 sudo a2ensite django.conf
 ```
 
-To reload code changes on the site live:
+### Maintenance
+Code hosted at www-01.abtech.org:/srv/abtech.org
+
+To load changes from server:
 ```
+git pull
+# Only necessary for code changes
 touch abtech/wsgi.py
+```
+
+To load changes from local machine, configure fabfile.py to point at your private key file, and run the following:
+```
+fab pull
+# Only necessary for code changes
+fab touch
 ```

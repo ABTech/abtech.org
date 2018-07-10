@@ -1,9 +1,9 @@
 Crew
 <div class = "title-header">
   <p class="text-justify">
-  <a href="/alumni"> Alumni </a>
-   <a href="/crew" class="current"> Current Crew </a>
+    <a href="/crew" class="current"> Current Crew </a>
     <a href="/hots"> HOTs </a>
+    <a href="/alumni"> Alumni </a>
   </p>
 </div>
 
@@ -11,14 +11,12 @@ The people who make up AB Tech.
 
 
 <em>If you are looking to have us provide technical support for your
-  event, please email your request to <a
-      href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x61;&#98;&#116;&#x65;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#x77;&#46;&#x63;&#109;&#x75;&#x2e;&#101;&#100;&#117;">
-    &#x61;&#98;&#116;&#x65;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#x77;&#46;&#x63;&#109;&#x75;&#x2e;&#101;&#100;&#117;</a>.</em>
+  event, please fill out our [event request form](/request).</em>
 
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
-        color="#990000" size="5"><b>2016 &mdash; 2017</b></FONT></td>
+        color="#990000" size="5"><b>2017 &mdash; 2018</b></FONT></td>
   </tr>
 
   <tr>
@@ -27,7 +25,7 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Robert Maratos [rmaratos]</td>
+    <td colspan="2" align="center">Kenny Cohen [kicohen]</td>
   </tr>
 
   <tr>
@@ -36,13 +34,23 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">
-      Christine Xu<br>
-      Pedro Lima<br>
-      Alex Gotsis<br>
-      Kenny Cohen<br>
-      Dillon Lareau<br>
-      Emily Newman<br>
+    <td width="230" valign="top">
+      <ul>
+        <li>Laura Bressler
+        <li>Cassandra Chen
+        <li>Ryan Eckert
+        <li>Frank Fan
+        <li>Alex Gotsis
+      </ul>
+    </td>
+    <td width="230" valign="top">
+      <ul>
+        <li>Val Kozina
+        <li>Pedro Lima
+        <li>Emily Newman
+        <li>Bridget Tan
+        <li>Jade Traiger
+      </ul>
     </td>
   </tr>
 
@@ -54,55 +62,46 @@ The people who make up AB Tech.
   <tr>
     <td width="230" valign="top">
       <ul>
-        <li>Bezi, Oscar
-        <li>Bressler, Laura
-        <li>Chen, Cassandra
-        <li>Chen, Luyun
-        <li>Chen, Claire
-        <li>Duenas, Danica
-        <li>Dodhia, Kevan
-        <li>Eckert, Ryan
+        <li>Angel, Sophia
         <li>Eckrich, Christoph
-        <li>Fan, Frank
-        <li>Fermin, Luis
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
+        <li>Gotsis, Alex
         <li>Grossack, Christopher
-        <li>Gunsalus, Laura
-        <li>Gutierrez, Andre
-        <li>Kang, Jamie
+        <li>Koltas, Julia
         <li>Kong, Matthew
-        <li>Kozina, Val
         <li>Kozlowski, Kyle
         <li>Kuang, Stephanie
-          <li>Lee, Sungho
+        <li>Laroia, Tarana
+        <li>Lee, Sungho
+        <li>Lerner, Adam
+        <li>Long, Vicki
+        <li>Lowe, William
+        <li>Lyness, Hannah
+        <li>MacDonald, Scott
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Lerner, Adam
-        <li>Long, Vicki
-        <li>Lowe, William
-        <li>Lu, Melissa
-        <li>Lyness, Hannah
-        <li>MacDonald, Scott
-        <li>Martin, Christi
-        <li>Mertz, Joe
+        <li>Morton, Renee
+        <li>Pang, Joseph
         <li>Parenti, Tim
         <li>Phillips, Scott
         <li>Pinson, Adam
-        <li>Rauchenberger, Kelly
+        <li>Quarles, Matthew
+        <li>Rauchenberger, Fef
+        <li>Rich, Ethan
         <li>Richards, Meg
         <li>Sandler, Joseph
+        <li>Sat-Vollhardt, Julien
         <li>Speer, Sam
-        <li>Tan, Bridget
-        <li>Traiger, Jade
+        <li>Uy, Ariel
         <li>Wang, Sarah
-        <li>Weiss, Jacob
         <li>Whyte, Ali
         <li>Wu, Youzi
         <li>Yokum, Elliot
+        <li>Zhang, Bobby
       </ul>
     </td>
   </tr>

@@ -3,7 +3,7 @@ Equipment
   <p class="text-justify"> 
     <a href="/services"> Services </a> 
     <a href="/equipment" class="current"> Equipment </a>
-    <a href="/external"> External </a> 
+    <a href="/external"> External Resources </a> 
   </p>
 </div>
 
@@ -166,10 +166,11 @@ up to 36 1kW PAR64 canisters. Supplemental lighting is supplied by booms
 and trees, in addition to floor lighting.
 
 <ul>
-  <li>48 PAR64 cans with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>32 PAR64 cans with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif"></a>
   <li>80' 12"x12" <a href="http://www.jthomaseng.com">Thomas</a> box truss
-  <li>12 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?13"> Source Four PAR</a> with 575W lamps
+  <li>8 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?13"> Source Four PAR</a> with 575W lamps
   <li>12 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?1"> Source Four </a> with 575W lamps and 10-, 19-, 26-, 36-, and 50-degree lens tubes
+  <li>18 <a href="http://www.martin.com/">Martin</a><a href="http://www.martin.com/en-us/product-details/rush-par-1-rgbw"> Rush Par 1 RGBW</a>
   <li>8 <a href="http://www.colorkinetics.com/ls/rgb/colorblazetrx/">Philips Color Kinetics ColorBlaze TRX</a> 2' RGBAW LED Wash Fixtures (with 22-, 32-, 60x32-, and 32x12-degree spread lenses)
   <li>6 <a href="http://www.vari-lite.com/index.php?src=directory&view=products&srctype=detail&refno=34215&category=Series2000">Philips Vari*Lite VL2500 Spot</a> Moving Head Lighting Instruments
   <li>24 channels of dimming at 2.4kW/channel (<a href="http://www.electrol.net">Electrol</a> LP62400)
@@ -178,7 +179,6 @@ and trees, in addition to floor lighting.
   <li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a> lighting console
   <li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a> lighting console
   <li>36-channel lighting console (<a href="http://www.leprecon.com">Leprecon</a>)
-  <li>1 American DJ UV Canon black lights
   <li>3 Martin Atomic 3000 DMX Strobe
 </ul>
 
@@ -186,9 +186,7 @@ and trees, in addition to floor lighting.
 
 ###Miscellaneous
 <ul>
-  <li>4 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar half-ton chain motors
-  <li>2 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar quarter-ton chain motors
-  <li>1 <a href="http://www.rosco.com">Rosco</a> 4500 Fog Machine
-  <li>1 <a href="http://www.rosco-ca.com/products/fog/hazemaker.html">Rosco Hazemaker</a>
+  <li>6 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar half-ton chain motors
+  <li>4 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar quarter-ton chain motors
   <li>Communications system: <a href="http://www.beltpack.com">Production Intercom</a> <a href="http://www.beltpack.com/ms-200.htm">MS-200 Main Station</a> plus assorted remote stations
 </ul>

@@ -1,5 +1,5 @@
 {% autoescape off %}[AB Tech] Request | {{ event_name }} {{ start_date|date:"SHORT_DATE_FORMAT" }}
-We have received for your event request.
+We have received your event request.
 
 -------------------------------------------------------------------------------
 

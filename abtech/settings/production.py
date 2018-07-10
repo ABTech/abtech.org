@@ -1,6 +1,6 @@
 from .base import *
 from pathlib import Path
-from .secret import SECRET_KEY, RECAPTCHA_SECRET_KEY
+from .secret import SECRET_KEY, RECAPTCHA_SECRET_KEY, TRACKER_LOGIN, TRACKER_PASSWORD
 
 DEBUG = False
 
@@ -11,7 +11,7 @@ CAPTCHA = True
 AUTOFILL = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www-01.abtech.org',
-                 'www-staging.abtech.org', 'www.abtech.org']
+                 'www-staging.abtech.org', 'www.abtech.org', 'abtech.andrew.cmu.edu']
 
 ADMINS = [('Robert Maratos', 'rmaratos@andrew.cmu.edu')]
 
@@ -33,6 +33,8 @@ EVENT_EMAIL = 'abtech@andrew.cmu.edu'
 JOIN_EMAIL = 'abtech+join@andrew.cmu.edu'
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
+
+TRACKER = 'https://abtech.andrew.cmu.edu/tracker/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (

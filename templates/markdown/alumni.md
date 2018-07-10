@@ -1,8 +1,8 @@
 Alumni
 <div class = "title-header">
-  <a href="/alumni" class="current"> Alumni </a> 
   <a href="/crew"> Current Crew </a>
   <a href="/hots"> HOTs </a> 
+  <a href="/alumni" class="current"> Alumni </a> 
 </div>
 
 If you are an AB Tech alumnus and you aren't listed here, or just want to
@@ -298,6 +298,11 @@ Posts go to [ghosts@abtech.org](mailto:ghosts@abtech.org).
     <td width="230">Anand Marathe ('98-'00)</td>
     <td>[<a href="mailto:avm#abtech.org">mail</a>]</td>
     <td></td>
+  </tr>
+  <tr>
+    <td width="230">Robert Maratos ('13-'17)</td>
+    <td>[<a href="mailto:rmaratos#alumni.cmu.edu">mail</a>]</td>
+    <td>[<a href="https://rmaratos.github.io">web</a>]</td>
   </tr>
   <tr>
     <td width="230">Chris Marshal</td>

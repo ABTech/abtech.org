@@ -1,8 +1,8 @@
 Services
 <div class = "title-header">
   <a href="/services" class="current"> Services </a>
-   <a href="/equipment"> Equipment </a>
-    <a href="/external"> External </a>
+  <a href="/equipment"> Equipment </a>
+  <a href="/external"> External Resources </a>
 </div>
 
 AB Tech provides sound and lighting services to organizations affiliated with or
@@ -69,7 +69,7 @@ backline rental company.
   <li><b>Advance notice:</b> At least one week advance notice of the event.
     Larger events require more lead time (usually 2 weeks or more). We
     recommend that
-    you contact us as soon as you possible to make sure we can fit you in our
+    you contact us as soon as possible to make sure we can fit you in our
     schedule, as
     we frequently work multiple events simultaneously and have limited staff
     &amp; equipment.
@@ -101,7 +101,7 @@ backline rental company.
   </li>
 </ul>
 
-**What we charge:  
+**What we charge:**
 Our charges are based on the configuration of equipment being used and the
 personnel required to run
 your event. Thus, the cost of providing technical support for a show varies
@@ -114,9 +114,7 @@ You will receive a customized quote once we receive the details of your event.
 
 **How to submit a request:**  
 If you are interested in having in AB Tech provide technical support for
-your event, please email your request to <a
-  href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
-&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.
+your event, please fill our our [event request form](/request).
 Expect a reply within a couple of days; if you don't hear back from us
 within a reasonable period of time, feel free to follow up with another
 email (we get a lot of requests and occasionally one will be misfiled).

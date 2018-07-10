@@ -141,7 +141,7 @@ h1, h2, h3 {
 }
 
 .title-header {
-    height: 35px;
+    min-height: 35px;
     margin-bottom: 15px;
     padding-left: 40px;
     border-bottom: 1px solid #c01c1d;
@@ -294,4 +294,8 @@ footer {
   }
 }
 
-
+@media screen and (min-width: 767px){
+.date{
+  width: 400px;
+}
+}

@@ -1,0 +1,9 @@
+Event Name: {{ event_name }}
+Organization: {{ organization }}
+Event Contact: {{ contact }}
+Email: {{ email }}
+Date: {{ start_date|date:"SHORT_DATE_FORMAT" }}
+Time: {{ start_time }}
+Location: {{ location }}
+Details:
+{{ details }}

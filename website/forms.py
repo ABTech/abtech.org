@@ -3,9 +3,11 @@
 from captcha.fields import CaptchaField
 
 from django import forms
-from django.core.mail import send_mail
+from django.core.mail import send_mail, EmailMessage, make_msgid
 from django.conf import settings
 from django.template.loader import get_template
+
+from website import tracker
 
 
 class JoinForm(forms.Form):
@@ -52,9 +54,10 @@ class RequestForm(forms.Form):
     organization = forms.CharField(label='Organization', max_length=50)
     contact = forms.CharField(label='Event Contact Name', max_length=50)
     email = forms.EmailField(label='Event Contact Email')
-    start_date = forms.DateField(label='Date', help_text="Format: mm/dd/yyyy",
-                                 required=False)
+    start_date = forms.DateField(label='Start Date', help_text="Format: mm/dd/yyyy")
     start_time = forms.CharField(label='Start Time', required=False)
+    end_date = forms.DateField(label='End Date', help_text="Format: mm/dd/yyyy")
+    end_time = forms.CharField(label='End Time', required=False)
     location = forms.CharField(label='Location', required=False)
     details = forms.CharField(widget=forms.Textarea, label='Details')
 
@@ -68,8 +71,16 @@ class RequestForm(forms.Form):
         email.initial = "rmaratos@andrew.cmu.edu"
         start_date.initial = "1/1/2017"
         start_time.initial = "7pm"
+        end_date.initial = "1/1/2017"
+        end_time.initial = "8pm"
         location.initial = "Tech Room"
         details.initial = "\n".join(["blah"]*3)
+
+    def tracker_event(self, context):
+        template = get_template('email/tracker_event.txt')
+        description = template.render(context)
+        event_id = tracker.Tracker().create_event(context, description)
+        return event_id
 
     def send_mail(self):
         """Send event request email generated using form data."""
@@ -79,5 +90,16 @@ class RequestForm(forms.Form):
         subject, body = email.split("\n", 1)
         from_email = settings.EVENT_EMAIL
         to_email = self.cleaned_data['email']
-        send_mail(subject, body, from_email, [to_email, from_email])
+
+        message_id = make_msgid()
+        email = EmailMessage(subject, body, from_email, [to_email, from_email],
+                    headers={'Message-ID': message_id}
+        )
+        email.send()
+
+
+        event_url = self.tracker_event(context)
+        tracker_email = EmailMessage(subject, event_url, from_email, [from_email],
+            headers={'In-Reply-To': message_id})
+        tracker_email.send()
         return self.cleaned_data

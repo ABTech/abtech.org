@@ -1,6 +1,7 @@
 from .base import *
 from pathlib import Path
-from .secret import RECAPTCHA_SECRET_KEY
+from .secret import RECAPTCHA_SECRET_KEY, TRACKER_LOGIN, TRACKER_PASSWORD
+
 
 SECRET_KEY = "foobar"
 
@@ -31,6 +32,8 @@ EVENT_EMAIL = "rmaratos@andrew.cmu.edu"
 JOIN_EMAIL = "rmaratos@andrew.cmu.edu"
 
 RECAPTCHA_SITE_KEY = '6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO'
+
+TRACKER = 'https://abtech.andrew.cmu.edu/tracker-staging/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (

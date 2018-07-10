@@ -69,4 +69,5 @@ secret.py
 
 pip-selfcheck.json
 
-fabfile.py
+# Python Wheels
+share/python-wheels/*
