@@ -16,7 +16,7 @@ The people who make up AB Tech.
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
   <tr>
     <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
-        color="#990000" size="5"><b>2017 &mdash; 2018</b></FONT></td>
+        color="#990000" size="5"><b>2018 &mdash; 2019</b></FONT></td>
   </tr>
 
   <tr>
@@ -25,7 +25,7 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Kenny Cohen [kicohen]</td>
+    <td colspan="2" align="center">Emily Newman [epnewman]</td>
   </tr>
 
   <tr>
@@ -38,16 +38,12 @@ The people who make up AB Tech.
       <ul>
         <li>Laura Bressler
         <li>Cassandra Chen
-        <li>Ryan Eckert
         <li>Frank Fan
-        <li>Alex Gotsis
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Val Kozina
-        <li>Pedro Lima
-        <li>Emily Newman
+        <li>Alex Gotsis
         <li>Bridget Tan
         <li>Jade Traiger
       </ul>
@@ -63,45 +59,52 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Angel, Sophia
+        <li>Balke, Erin  
+        <li>Chi, Christina          
+        <li>Cohen, Kenny          
+        <li>Eckert, Ryan          
         <li>Eckrich, Christoph
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
-        <li>Gotsis, Alex
-        <li>Grossack, Christopher
+        <li>Grossack, Chris
+        <li>Kolb, Rachel          
         <li>Koltas, Julia
         <li>Kong, Matthew
         <li>Kozlowski, Kyle
+        <li>Krotkov, Gabriel          
         <li>Kuang, Stephanie
         <li>Laroia, Tarana
         <li>Lee, Sungho
         <li>Lerner, Adam
+        <li>Lewis, Keilan         
         <li>Long, Vicki
         <li>Lowe, William
-        <li>Lyness, Hannah
-        <li>MacDonald, Scott
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
+        <li>Lyness, Hannah
+        <li>MacDonald, Scott
+        <li>Molitoriss, Sam
         <li>Morton, Renee
         <li>Pang, Joseph
         <li>Parenti, Tim
         <li>Phillips, Scott
-        <li>Pinson, Adam
+        <li>Pina, Tabatha          
         <li>Quarles, Matthew
-        <li>Rauchenberger, Fef
         <li>Rich, Ethan
         <li>Richards, Meg
+        <li>Rizzolo, Trevor          
         <li>Sandler, Joseph
         <li>Sat-Vollhardt, Julien
-        <li>Speer, Sam
         <li>Uy, Ariel
         <li>Wang, Sarah
         <li>Whyte, Ali
         <li>Wu, Youzi
-        <li>Yokum, Elliot
+        <li>Xia, Karen          
         <li>Zhang, Bobby
+        <li>Zheng, Alex          
       </ul>
     </td>
   </tr>
