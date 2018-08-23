@@ -78,12 +78,12 @@ The people who make up AB Tech.
         <li>Lee, Sungho
         <li>Lerner, Adam
         <li>Lewis, Keilan         
-        <li>Long, Vicki
-        <li>Lowe, William
+        <li>Long, Vicki        
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
+        <li>Lowe, William       
         <li>Lyness, Hannah
         <li>MacDonald, Scott
         <li>Molitoriss, Sam
@@ -100,8 +100,7 @@ The people who make up AB Tech.
         <li>Sat-Vollhardt, Julien
         <li>Uy, Ariel
         <li>Wang, Sarah
-        <li>Whyte, Ali
-        <li>Wu, Youzi
+        <li>Whyte, Ali        
         <li>Xia, Karen          
         <li>Zhang, Bobby
         <li>Zheng, Alex          
