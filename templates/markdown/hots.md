@@ -19,11 +19,15 @@ year.
     <th width="350"> Head(s) of Tech</td>
   </tr>
   <tr>
-    <td>17-18</td>
-    <td>Kenny Cohen [kicohen]</td>
+    <td>18-19</td>
+    <td>Emily Newman [epnewman]</td>
   </tr>
   <tr>
     <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>17-18</td>
+    <td>Kenny Cohen</td>
   </tr>
   <tr>
     <td>16-17</td>
