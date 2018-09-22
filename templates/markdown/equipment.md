@@ -188,7 +188,7 @@ you send us (you do not need to list specific items).
   <li>24 channels of dimming at 2.4kW/channel (<a href="http://www.electrol.net">Electrol</a> LP62400)
   <li>24 channels of dimming at 1.5kW/channel (<a href="http://www.electrol.net">Electrol</a><a href="http://www.electrol.net/dxdimming.htm">D125dx</a>)
   <li>12 channels of dimming at 1.2kW/channel (<a href="http://www.electrol.net">Electrol</a><a href="http://www.electrol.net/anaconda.htm">Anaconda</a>)
-  <li>12 channels of dimming at 1.2kW/channel (<a href="https://www.etcconnect.com/Products/Power-Controls/Distributed/SmartSystems/SmartBar-2.aspx">ETC Smartbar 2)
+  <li>12 channels of dimming at 1.2kW/channel (<a href="https://www.etcconnect.com/Products/Power-Controls/Distributed/SmartSystems/SmartBar-2.aspx">ETC Smartbar 2</a>)
 ####Control
   <li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a>
     <li><a href="https://jands.com/stage-cl/">Jands Stage CL</a>
