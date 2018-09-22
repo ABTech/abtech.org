@@ -85,7 +85,12 @@ you send us (you do not need to list specific items).
   <li>8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges</li>
   <li>8 Lab.Gruppen fp6400 amplification</li>
   <li>2 XTA DP224 Audio Management System (Beta)</li>
-  <li>2 XTA DP424? Audio Management System (Alpha)</li>
+  <li>2 XTA DP424 Audio Management System (Alpha)</li>
+</ul>
+
+####Other:
+<ul>
+  <li>6 L-Acoustics 108P</li>
 </ul>
 
 <hr>
@@ -93,8 +98,8 @@ you send us (you do not need to list specific items).
 ###Sound Consoles
 <ul>
   <li>Yamaha CL5
+  <li>Yamaha CL3
   <li>Yamaha QL1
-  <li>56x32+5 w/VCAs <a href="http://www.yamahaproaudio.com/global/en/products/mixers/cl/index.jsp">Yamaha CL3</a> Digital Mixing Console with <a href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha Rio3224 and Rio1608</a> Stageboxes
   <li>16+4x8 <a href="http://www.yamahaproaudio.com/products/mixers/ls9/">Yamaha LS9-16</a> Digital Mixing Console
   <li>32x16 <a href="http://www.yamahaproaudio.com/products/mixers/ls9/">Yamaha LS9-16</a> Digital Mixing Console with <a href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha Rio1608</a> Stagebox
   <li>12+2x2 <a href="http://www.presonus.com/products/StudioLive-16.0.2">Presonus Studiolive 16.0.2</a> Digital Mixing Console
@@ -102,10 +107,12 @@ you send us (you do not need to list specific items).
 
 ###Snakes and Cable
 <ul>
-  <li>1 48+32 Yamaha Dante digital snake system, with <a href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha Rio3224 and Rio1608</a> stageboxes
-  <li>1 16+4 75'
-  <li>1 12+0 50'
-  <li>1 6+0 25'
+  <li>1 Yamaha Rio3224-D</li>
+  <li>1 Yamaha Rio1608-D</li>
+  <li>1 Yamaha Ro8-D</li>
+  <li>1 16+4 75'</li>
+  <li>1 12+0 50'</li>
+  <li>1 6+0 25'</li>
 </ul>
 
 <hr>
@@ -144,12 +151,14 @@ you send us (you do not need to list specific items).
 
 ####Wireless Microphones
 <ul>
-  <li>1 <a href="http://www.shure.com">Shure</a> <a href="http://www.shure.com/microphones/models/beta58a.asp">Beta 58A</a> Wireless (LX series) (VHF)
-  <li>8 <a href="http://www.shure.com">Shure</a> UR4D-J5 UHF-R Diversity Receivers (2-channel)
+  <li>6 <a href="http://www.shure.com">Shure</a> UR4D-J5 UHF-R Diversity Receivers (2-channel)
   <li>2 <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 SM 58 Handhelds</a>
   <li>4 <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 Beta 58 Handhelds</a>
   <li>2 <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 Beta 87A Handhelds</a>
   <li>2 <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 Beta KSM9 Handhelds</a>
+  <li>3 <a href="http://www.shure.com/americas/products/wireless-systems/ulxd-systems">Shure ULXD4Q</a> Digital Wireless Receivers (4-channel)</li>
+  <li>12 ULXD2 SM58 Handheld Wireless Transmitters</li>
+  <li>12 ULXD1 Bodypack Wireless Transmitters</li>
   <li>8 <a href="http://www.shure.com/wireless/uhf/u1.asp">UR1-J5 Bodypacks</a> with Cardioid-pickup Lavalier Microphones
   <li>2 <a href="http://www.shure.com/microphones/models/wl18x.asp">Shure WL185</a> (Cardioid) Lavalier Microphones
   <li>2 <a href="http://www.shure.com/microphones/models/wh20.asp">Shure WH20TQG</a> (Cardioid) Headset Microphones
@@ -160,26 +169,30 @@ you send us (you do not need to list specific items).
 <hr>
 
 ###Lighting
-Front lighting provided by a 40' 26"x30" box truss
-(<a href="http://www.jthomaseng.com">Thomas</a>) hung with
-up to 36 1kW PAR64 canisters. Supplemental lighting is supplied by booms
-and trees, in addition to floor lighting.
-
+####Fixtures
 <ul>
   <li>32 PAR64 cans with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif"></a>
   <li>80' 12"x12" <a href="http://www.jthomaseng.com">Thomas</a> box truss
+  <li>40' 26"x30" box truss (<a href="http://www.jthomaseng.com">Thomas</a>) hung with up to 36 1kW PAR64 canisters
   <li>8 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?13"> Source Four PAR</a> with 575W lamps
-  <li>12 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?1"> Source Four </a> with 575W lamps and 10-, 19-, 26-, 36-, and 50-degree lens tubes
+  <li>20 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?1"> Source Four </a> with 10-, 19-, 26-, 36-, and 50-degree lens tubes
+  <li>8 <a href="http://www.etcconnect.com">ETC</a> <a href="https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2/Source-Four-LED-Series-2-Lustr/">Source Four LED Series 2 Lustr+</a> with 19-, 26-, 36-, and 50-degree EDLT lens tubes</li>
   <li>18 <a href="http://www.martin.com/">Martin</a><a href="http://www.martin.com/en-us/product-details/rush-par-1-rgbw"> Rush Par 1 RGBW</a>
   <li>8 <a href="http://www.colorkinetics.com/ls/rgb/colorblazetrx/">Philips Color Kinetics ColorBlaze TRX</a> 2' RGBAW LED Wash Fixtures (with 22-, 32-, 60x32-, and 32x12-degree spread lenses)
   <li>6 <a href="http://www.vari-lite.com/index.php?src=directory&view=products&srctype=detail&refno=34215&category=Series2000">Philips Vari*Lite VL2500 Spot</a> Moving Head Lighting Instruments
+  <li>3 Martin Atomic 3000 DMX Strobe
+  <li>18 <a href="https://www.chauvetdj.com/products/freedom-par-hex-4/">Chauvet Freedom Par Hex-4</a>
+</ul>
+####Dimming
+<ul>
   <li>24 channels of dimming at 2.4kW/channel (<a href="http://www.electrol.net">Electrol</a> LP62400)
   <li>24 channels of dimming at 1.5kW/channel (<a href="http://www.electrol.net">Electrol</a><a href="http://www.electrol.net/dxdimming.htm">D125dx</a>)
   <li>12 channels of dimming at 1.2kW/channel (<a href="http://www.electrol.net">Electrol</a><a href="http://www.electrol.net/anaconda.htm">Anaconda</a>)
-  <li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a> lighting console
-  <li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a> lighting console
-  <li>36-channel lighting console (<a href="http://www.leprecon.com">Leprecon</a>)
-  <li>3 Martin Atomic 3000 DMX Strobe
+  <li>12 channels of dimming at 1.2kW/channel (<a href="https://www.etcconnect.com/Products/Power-Controls/Distributed/SmartSystems/SmartBar-2.aspx">ETC Smartbar 2)
+####Control
+  <li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a>
+    <li><a href="https://jands.com/stage-cl/">Jands Stage CL</a>
+  <li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a>
 </ul>
 
 <hr>
