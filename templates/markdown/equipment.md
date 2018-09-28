@@ -82,7 +82,7 @@ you send us (you do not need to list specific items).
 ####Stage Monitors:
 
 <ul>
-  <li>8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges</li>
+  <li>8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges with ETR115XT flybars</li>
   <li>8 Lab.Gruppen fp6400 amplification</li>
   <li>2 XTA DP224 Audio Management System (Beta)</li>
   <li>2 XTA DP424 Audio Management System (Alpha)</li>
@@ -91,6 +91,7 @@ you send us (you do not need to list specific items).
 ####Other:
 <ul>
   <li>6 L-Acoustics 108P</li>
+  <li>4 Mackie SRM350v3</li>
 </ul>
 
 <hr>
