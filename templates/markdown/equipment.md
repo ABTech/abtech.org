@@ -199,6 +199,18 @@ you send us (you do not need to list specific items).
 
 <hr>
 
+###Media
+####Projectors
+<ul>
+  <li>2 <a href="https://epson.com/For-Work/Projectors/Large-Venue/Pro-L1755UNL-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement-Without-Lens/p/V11H892820">Epson Pro L1755UNL WUXGA 3LCD Laser Projectors</a> with 2 each of <a href="https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%231-Zoom-Lens-%28ELPLW05%29/p/V12H004W05">ELPLW05</a>, <a href="https://epson.com/Accessories/Projector-Accessories/Short-Throw-%231-Zoom-Lens-%28ELPLU03%29/p/V12H004U03">ELPLU03</a>, <a href="https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%232-Zoom-Lens-%28ELPLW06%29/p/V12H004W06">ELPLW06</a> lenses
+</ul>
+####Control
+<ul>
+  <li>1 <a href="https://proav.roland.com/global/products/v-1sdi/">Roland V1-SDI Media Switcher</a>
+</ul>
+
+<hr>
+
 ###Miscellaneous
 <ul>
   <li>6 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar half-ton chain motors
