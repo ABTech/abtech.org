@@ -102,7 +102,6 @@ you send us (you do not need to list specific items).
   <li>Yamaha CL3
   <li>Yamaha QL1
   <li>16+4x8 <a href="http://www.yamahaproaudio.com/products/mixers/ls9/">Yamaha LS9-16</a> Digital Mixing Console
-  <li>32x16 <a href="http://www.yamahaproaudio.com/products/mixers/ls9/">Yamaha LS9-16</a> Digital Mixing Console with <a href="http://www.yamahaproaudio.com/global/en/products/interfaces/rio/index.jsp">Yamaha Rio1608</a> Stagebox
   <li>12+2x2 <a href="http://www.presonus.com/products/StudioLive-16.0.2">Presonus Studiolive 16.0.2</a> Digital Mixing Console
 </ul>
 
