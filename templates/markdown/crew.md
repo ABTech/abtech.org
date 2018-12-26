@@ -38,14 +38,15 @@ The people who make up AB Tech.
       <ul>
         <li>Laura Bressler
         <li>Cassandra Chen
-        <li>Frank Fan
+        <li>Ryan Eckert
+      	<li>Frank Fan
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
         <li>Alex Gotsis
         <li>Bridget Tan
-        <li>Jade Traiger
+        <li>Ariel Uy
       </ul>
     </td>
   </tr>
@@ -59,51 +60,66 @@ The people who make up AB Tech.
     <td width="230" valign="top">
       <ul>
         <li>Angel, Sophia
-        <li>Balke, Erin  
-        <li>Chi, Christina          
-        <li>Cohen, Kenny          
-        <li>Eckert, Ryan          
+        <li>Balke, Erin
+        <li>Bloor, Albany
+        <li>Buchan, Katie
+        <li>Cao, Andrew
+        <li>Chen, Gwyneth
+        <li>Chen, Cathy
+        <li>Chi, Christina
+        <li>Chiu, Ian
+        <li>Cohen, Kenny
+        <li>Drebes, Keaton
         <li>Eckrich, Christoph
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
         <li>Grossack, Chris
-        <li>Kolb, Rachel          
+        <li>Huang, Phil
+        <li>Kang, Iris
+        <li>Kolb, Rachel
         <li>Koltas, Julia
         <li>Kong, Matthew
         <li>Kozlowski, Kyle
-        <li>Krotkov, Gabriel          
+        <li>Krotkov, Gabriel
         <li>Kuang, Stephanie
         <li>Laroia, Tarana
         <li>Lee, Sungho
+        <li>Lesh, DJ
         <li>Lerner, Adam
-        <li>Lewis, Keilan         
-        <li>Long, Vicki        
+        <li>Lewis, Keilan
       </ul>
     </td>
     <td width="230" valign="top">
       <ul>
-        <li>Lowe, William       
+        <li>Long, Vicki
+        <li>Lowe, William
         <li>Lyness, Hannah
         <li>MacDonald, Scott
         <li>Molitoriss, Sam
         <li>Morton, Renee
-        <li>Pang, Joseph
+        <li>Naseck, Perry
+	      <li>Pang, Joseph
         <li>Parenti, Tim
+	      <li>Peprah, Angel
         <li>Phillips, Scott
-        <li>Pina, Tabatha          
+        <li>Pina, Tabatha
         <li>Quarles, Matthew
         <li>Rich, Ethan
         <li>Richards, Meg
-        <li>Rizzolo, Trevor          
+        <li>Rizzolo, Trevor
         <li>Sandler, Joseph
         <li>Sat-Vollhardt, Julien
-        <li>Uy, Ariel
-        <li>Wang, Sarah
-        <li>Whyte, Ali        
-        <li>Xia, Karen          
+        <li>Sheng, Andrew
+	      <li>Shumate, Margaret
+	      <li>Sipp, Beverly
+	      <li>Tang, Lilia
+	      <li>Traiger, Jade
+	      <li>Wang, Sarah
+        <li>Whyte, Ali
+        <li>Xia, Karen
         <li>Zhang, Bobby
-        <li>Zheng, Alex          
+        <li>Zheng, Alex
       </ul>
     </td>
   </tr>
