@@ -13,37 +13,34 @@ The people who make up AB Tech.
 <em>If you are looking to have us provide technical support for your
   event, please fill out our [event request form](/request).</em>
 
-<table border="1" rules="rows" cellpadding="4" bordercolor="#990000">
+<div style="min-width: 50%; max-width: 100%; width: 600px; display: block; margin: auto;">
+<table border="1" rules="rows" cellpadding="4" bordercolor="#990000" style="width: 100%; table-layout: fixed;">
   <tr>
-    <td colspan="2" align="center" bgcolor="#FFFFFF" width="500"><FONT
+    <td align="center" bgcolor="#FFFFFF"><FONT
         color="#990000" size="5"><b>2018 &mdash; 2019</b></FONT></td>
   </tr>
 
   <tr>
-    <td colspan="2" align="center" bgcolor="#990000" width="500"><FONT
+    <td align="center" bgcolor="#990000"><FONT
         color="#FFFFFF"><b>Head of Tech</b></FONT></td>
   </tr>
 
   <tr>
-    <td colspan="2" align="center">Emily Newman [epnewman]</td>
+    <td align="center">Emily Newman [epnewman]</td>
   </tr>
 
   <tr>
-    <td colspan="2" align="center" bgcolor="#990000" width="500"><FONT
+    <td align="center" bgcolor="#990000"><FONT
         color="#FFFFFF"><b>Executive Board</b></FONT></td>
   </tr>
 
   <tr>
-    <td width="230" valign="top">
-      <ul>
+    <td valign="top">
+      <ul style="column-width: 240px; column-gap: 2.5em; column-rule: 1px solid #ccc; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -0.7em;">
         <li>Laura Bressler
         <li>Cassandra Chen
         <li>Ryan Eckert
         <li>Frank Fan
-      </ul>
-    </td>
-    <td width="230" valign="top">
-      <ul>
         <li>Alex Gotsis
         <li>Bridget Tan
         <li>Ariel Uy
@@ -52,13 +49,13 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td colspan="2" align="center" bgcolor="#990000" width="500"><FONT
+    <td align="center" bgcolor="#990000"><FONT
         color="#FFFFFF"><b>General Members</b></FONT></td>
   </tr>
 
   <tr>
-    <td width="230" valign="top">
-      <ul>
+    <td valign="top">
+      <ul style="column-width: 180px; column-gap: 2.5em; column-rule: 1px solid #ccc; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -0.7em;">
         <li>Angel, Sophia
         <li>Balke, Erin
         <li>Bloor, Albany
@@ -88,10 +85,6 @@ The people who make up AB Tech.
         <li>Lesh, DJ
         <li>Lerner, Adam
         <li>Lewis, Keilan
-      </ul>
-    </td>
-    <td width="230" valign="top">
-      <ul>
         <li>Long, Vicki
         <li>Lowe, William
         <li>Lyness, Hannah
@@ -124,3 +117,4 @@ The people who make up AB Tech.
     </td>
   </tr>
 </table>
+</div>
