@@ -39,7 +39,7 @@ The people who make up AB Tech.
         <li>Laura Bressler
         <li>Cassandra Chen
         <li>Ryan Eckert
-      	<li>Frank Fan
+        <li>Frank Fan
       </ul>
     </td>
     <td width="230" valign="top">
