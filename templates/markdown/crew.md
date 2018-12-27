@@ -99,9 +99,9 @@ The people who make up AB Tech.
         <li>Molitoriss, Sam
         <li>Morton, Renee
         <li>Naseck, Perry
-	      <li>Pang, Joseph
+        <li>Pang, Joseph
         <li>Parenti, Tim
-	      <li>Peprah, Angel
+        <li>Peprah, Angel
         <li>Phillips, Scott
         <li>Pina, Tabatha
         <li>Quarles, Matthew
@@ -111,11 +111,11 @@ The people who make up AB Tech.
         <li>Sandler, Joseph
         <li>Sat-Vollhardt, Julien
         <li>Sheng, Andrew
-	      <li>Shumate, Margaret
-	      <li>Sipp, Beverly
-	      <li>Tang, Lilia
-	      <li>Traiger, Jade
-	      <li>Wang, Sarah
+        <li>Shumate, Margaret
+        <li>Sipp, Beverly
+        <li>Tang, Lilia
+        <li>Traiger, Jade
+        <li>Wang, Sarah
         <li>Whyte, Ali
         <li>Xia, Karen
         <li>Zhang, Bobby
