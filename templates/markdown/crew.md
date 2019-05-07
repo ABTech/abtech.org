@@ -26,8 +26,12 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td align="center">Ariel Uy [auy]</td>
-    <td align="center">Bridget Tan [bridgett]</td>
+    <td valign="top">
+      <ul style="column-width: 240px; column-gap: 2.5em; column-rule: 1px solid #ccc; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -0.7em;">
+        <li>Ariel Uy [auy]
+        <li>Bridget Tan [bridgett]
+      </ul>
+    </td>
   </tr>
 
   <tr>
