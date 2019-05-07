@@ -26,7 +26,8 @@ The people who make up AB Tech.
   </tr>
 
   <tr>
-    <td align="center">Emily Newman [epnewman]</td>
+    <td align="center">Ariel Uy [auy]</td>
+    <td align="center">Bridget Tan [bridgett]</td>
   </tr>
 
   <tr>
@@ -42,8 +43,6 @@ The people who make up AB Tech.
         <li>Ryan Eckert
         <li>Frank Fan
         <li>Alex Gotsis
-        <li>Bridget Tan
-        <li>Ariel Uy
       </ul>
     </td>
   </tr>
