@@ -17,7 +17,7 @@ The people who make up AB Tech.
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000" style="width: 100%; table-layout: fixed;">
   <tr>
     <td align="center" bgcolor="#FFFFFF"><FONT
-        color="#990000" size="5"><b>2018 &mdash; 2019</b></FONT></td>
+        color="#990000" size="5"><b>2019 &mdash; 2020</b></FONT></td>
   </tr>
 
   <tr>
