@@ -13,43 +13,12 @@ The people who make up AB Tech.
 <em>If you are looking to have us provide technical support for your
   event, please fill out our [event request form](/request).</em>
 
+### Heads of Tech 2019-2020
+Ariel Uy and Bridget Tan
+
+
 <div style="min-width: 50%; max-width: 100%; width: 600px; display: block; margin: auto;">
 <table border="1" rules="rows" cellpadding="4" bordercolor="#990000" style="width: 100%; table-layout: fixed;">
-  <tr>
-    <td align="center" bgcolor="#FFFFFF"><FONT
-        color="#990000" size="5"><b>2019 &mdash; 2020</b></FONT></td>
-  </tr>
-
-  <tr>
-    <td align="center" bgcolor="#990000"><FONT
-        color="#FFFFFF"><b>Head of Tech</b></FONT></td>
-  </tr>
-
-  <tr>
-    <td valign="top">
-      <ul style="column-width: 240px; column-gap: 2.5em; column-rule: 1px solid #ccc; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -0.7em;">
-        <li>Ariel Uy [auy]
-        <li>Bridget Tan [bridgett]
-      </ul>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" bgcolor="#990000"><FONT
-        color="#FFFFFF"><b>Executive Board</b></FONT></td>
-  </tr>
-
-  <tr>
-    <td valign="top">
-      <ul style="column-width: 240px; column-gap: 2.5em; column-rule: 1px solid #ccc; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -0.7em;">
-        <li>Laura Bressler
-        <li>Cassandra Chen
-        <li>Ryan Eckert
-        <li>Frank Fan
-        <li>Alex Gotsis
-      </ul>
-    </td>
-  </tr>
 
   <tr>
     <td align="center" bgcolor="#990000"><FONT
