@@ -16,21 +16,21 @@ Crew
 <br>
 <em>Co-Head of Tech</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Ariel" width=200 /></p>
+<p><img src="/static/img/officers/ariel.jpg" alt="Ariel" width=200 /></p>
 <p>Ariel is a junior majoring in Discrete Math. Ariel is mainly a lighting designer and implementer for tech. They also like board games, rock climbing, puzzlehunts, and spinning poi. </p>
 
 <strong>Bridget Tan</strong> (<a href="mailto:bridgett@andrew.cmu.edu">bridgett@andrew.cmu.edu</a>)
 <br>
 <em>Co-Head of Tech</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Bridget" width=200 /></p>
+<p><img src="/static/img/officers/bridget.jpg" alt="Bridget" width=200 /></p>
 <p>Bridget is......</p>
 
 <strong>Bobby Zhang</strong> (<a href="mailto:robertz1@andrew.cmu.edu">robertz1@andrew.cmu.edu</a>)
 <br>
 <em>Finance Chair</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Bobby" width=200 /></p>
+<p><img src="/static/img/officers/bobby.jpg" alt="Bobby" width=200 /></p>
 <p>Bobby is a junior majoring in Information Systems. He does all sorts of odd jobs around AB Tech, such as countercoiling, power, drinking way too much coffee, stage managing a singular event, and being involved with AB Concerts. Catch him (probably) drinking grape juice and (almost definitely) rambling/complaining about CS assignments. He's always down to talk about video games/memes/video game memes.
 </p>
 
@@ -38,35 +38,35 @@ Crew
 <br>
 <em>Equipment Manager</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Perry" width=200 /></p>
+<p><img src="/static/img/officers/perry.jpg" alt="Perry" width=200 /></p>
 <p>Perry is a sophomore in the school of art with a focus on electronics, software, and interaction. He does a lot of sound, networking, and repair & maintenance.</p>
 
 <strong>Cassandra Chen</strong> (<a href="mailto:cassandc@andrew.cmu.edu">cassandc@andrew.cmu.edu</a>)
 <br>
 <em>Personnel Manager</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Cassandra" width=200 /></p>
+<p><img src="/static/img/officers/cassandra.jpg" alt="Cassandra" width=200 /></p>
 <p>Cassandra is......</p>
 
 <strong>Laura Bressler</strong> (<a href="mailto:lbressle@andrew.cmu.edu">lbressle@andrew.cmu.edu</a>)
 <br>
 <em>Training Chair</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Laura" width=200 /></p>
+<p><img src="/static/img/officers/laura.jpg" alt="Laura" width=200 /></p>
 <p>Laura is......</p>
 
 <strong>Gwyneth Chen</strong> (<a href="mailto:gschen@andrew.cmu.edu">gschen@andrew.cmu.edu</a>)
 <br>
 <em>Recruitment/Retainment/Social Chair</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Gwyneth" width=200 /></p>
+<p><img src="/static/img/officers/gwyneth.jpg" alt="Gwyneth" width=200 /></p>
 <p>Gwyneth Chen is a sophomore in the School of Computer Science starting her second year in AB Tech. She works primarily with lighting production but is also looking to expand her experience into everything Tech-related. Outside of Tech, Gwyneth entertains a wide array of casual interests, including poetry, music, language, archery, calligraphy, and anything else that catches her attention.</p>
 
 <strong>Lilia Tang</strong> (<a href="mailto:liliat@andrew.cmu.edu">liliat@andrew.cmu.edu</a>)
 <br>
 <em>Secretary</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Lilia" width=200 /></p>
+<p><img src="/static/img/officers/lila.jpg" alt="Lilia" width=200 /></p>
 <p>Lilia is a senior in Computer Science and has been in Tech for one year. She mostly does sound for Tech. In her rare moments of free time she enjoys gaming, anime, and probably listens to too much K-pop.
 </p>
 
@@ -74,7 +74,7 @@ Crew
 <br>
 <em>Tracker Dev/Webmaster</em>
 <br>
-<p><img src="/static/img/officers/name.jpg" alt="Ryan" width=200 /></p>
+<p><img src="/static/img/officers/ryan.jpg" alt="Ryan" width=200 /></p>
 <p>Ryan Eckert is the Tracker Dev chair and is a senior in Information Systems. Bearer of the Pikachu hat, Ryan is also the token weeb of AB Tech and CMU's Cosplay Club vice president. In tech, Ryan is familiar with most run positions, with a slight specialty towards being FoH (sound engineer) and LD (lighting designer).</p>
 
 
@@ -98,13 +98,11 @@ Crew
         <li>Chen, Cathy
         <li>Chi, Christina
         <li>Chiu, Ian
-        <li>Cohen, Kenny
         <li>Drebes, Keaton
         <li>Eckrich, Christoph
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
-        <li>Grossack, Chris
         <li>Huang, Phil
         <li>Kang, Iris
         <li>Kolb, Rachel
@@ -116,13 +114,9 @@ Crew
         <li>Laroia, Tarana
         <li>Lee, Sungho
         <li>Lesh, DJ
-        <li>Lerner, Adam
         <li>Lewis, Keilan
-        <li>Long, Vicki
         <li>Lowe, William
         <li>Lyness, Hannah
-        <li>MacDonald, Scott
-        <li>Molitoriss, Sam
         <li>Morton, Renee
         <li>Naseck, Perry
         <li>Pang, Joseph
