@@ -24,7 +24,7 @@ Crew
 <em>Co-Head of Tech</em>
 <br>
 <p><img src="/static/img/officers/bridget.jpg" alt="Bridget" width=200 /></p>
-<p>Bridget is......</p>
+<p>Bridget is one of this year's co-Head of Tech. She is a first year Master's student in Electrical and Computer Engineering and this is her fifth year in AB Tech. She specializes in sound and rigging, although she is trying to learn more lighting this year. Her favorite part about Tech is when everyone's hard work comes together to create an amazing show. She's excited to see the new direction Tech takes in the coming year.</p>
 
 <strong>Bobby Zhang</strong> (<a href="mailto:robertz1@andrew.cmu.edu">robertz1@andrew.cmu.edu</a>)
 <br>
@@ -46,14 +46,14 @@ Crew
 <em>Personnel Manager</em>
 <br>
 <p><img src="/static/img/officers/cassandra.jpg" alt="Cassandra" width=200 /></p>
-<p>Cassandra is......</p>
+<p>Cassandra is a senior majoring in Biomedical Engineering and Material Science. She is a lighting designer in her spare time. She enjoys playing Fire Emblem and other video games.</p>
 
 <strong>Laura Bressler</strong> (<a href="mailto:lbressle@andrew.cmu.edu">lbressle@andrew.cmu.edu</a>)
 <br>
 <em>Training Chair</em>
 <br>
 <p><img src="/static/img/officers/laura.jpg" alt="Laura" width=200 /></p>
-<p>Laura is......</p>
+<p>Laura is a senior in Computer Science. Her roles in AB Tech mostly consist of stage management and working with power. Outside of tech, she's also involved in CMU EMS. In her free time, she enjoys reading, sleeping, and baking cookies.</p>
 
 <strong>Gwyneth Chen</strong> (<a href="mailto:gschen@andrew.cmu.edu">gschen@andrew.cmu.edu</a>)
 <br>
@@ -66,7 +66,7 @@ Crew
 <br>
 <em>Secretary</em>
 <br>
-<p><img src="/static/img/officers/lila.jpg" alt="Lilia" width=200 /></p>
+<p><img src="/static/img/officers/lilia.jpg" alt="Lilia" width=200 /></p>
 <p>Lilia is a senior in Computer Science and has been in Tech for one year. She mostly does sound for Tech. In her rare moments of free time she enjoys gaming, anime, and probably listens to too much K-pop.
 </p>
 
