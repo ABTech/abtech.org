@@ -23,14 +23,11 @@ year.
     <td>Bridget Tan / Ariel Uy [bridgett/auy]</td>
   </tr>
   <tr>
-    <td colspan="2"></td>
+    <td colspan="2"><!-- ---------- --></td>
   </tr>
   <tr>
     <td>18-19</td>
     <td>Emily Newman </td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
   </tr>
   <tr>
     <td>17-18</td>
