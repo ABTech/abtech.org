@@ -21,9 +21,10 @@ We will design an appropriate system for your event based on the requirements
 you send us (you do not need to list specific items).  
 ### Speakers and Amplifiers
 
-#### d&b audiotechnik Y-series System
+#### d&b audiotechnik Y-series
 * 8 [Y8](https://www.dbaudio.com/global/en/products/series/y-series/y8/) and 4 [Y12](https://www.dbaudio.com/global/en/products/series/y-series/y12/) 2-way passive line array loudspeakers
 * 6 [V-SUB](https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/) subwoofers
+* 2 [Y10P](https://www.dbaudio.com/global/en/products/series/y-series/y10p/) point source loudspeakers
 * [D80](https://www.dbaudio.com/global/en/products/amplifiers/d80/) and [D20](https://www.dbaudio.com/global/en/products/amplifiers/d20/) amplification
 
 #### L-Acoustics KUDO System
@@ -44,33 +45,32 @@ you send us (you do not need to list specific items).
 
 
 #### EAW KF System:
-* Four-way stereo configuration (6 <a href="http://www.eaw.com">EAW</a> KF600
+* Four-way stereo configuration (6 EAW KF600
   (<a href="ftp://ftp.eaw.com/Loudspeaker_product_info/Discontinued_loudspeakers/KF_Series//KF600.pdf">KF600 datasheet</a>,
   <a href="http://www.eaw.com/products/item.phtml?part_number=997195">KF650z info</a>),
   4 SB528 (<a href="ftp://ftp.eaw.com/Discontinued%20Products/Datasheets/PDFs/SB528.pdf">Datasheet</a>,
   <a href="http://www.eaw.com/products/item.phtml?part_number=997150">SB528zP info</a>)
   capable of 28Hz-17kHz -3dB, +1dB A-weighted. <a href="/static/img/equipment/mains.jpg"><img border=0
                                                        src="/static/img/photo.gif"></a>
-* 20,000W of <a href="http://www.crownaudio.com">Crown</a>
+* 20,000W of Crown
   <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech</a>)
   capable of providing power levels exceeding 115 dBA SPL at the rear
   of most popular CMU venues. <a href="/static/img/equipment/ferdinand.jpg"><img border=0 src="/static/img/photo.gif"></a>
   <a href="/static/img/equipment/luther.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* <a href="http://www.eaw.com">EAW</a>
-  <a href="http://www.eaw.com/products/MX/index.shtml">MX-800</a>
+* EAW <a href="http://www.eaw.com/products/MX/index.shtml">MX-800</a>
   Stereo
   4-way Active Crossover
 
 #### EAW LA System:  
-* 2 <a href="http://www.eaw.com">EAW</a> <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* 7,500W of <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* <a href="http://www.eaw.com">EAW</a> <a href="http://www.eaw.com/products/MX/index.shtml">MX-100</a> and Ashley 2-way Active Crossovers
+* 2 EAW <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
+* 7,500W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
+* EAW <a href="http://www.eaw.com/products/MX/index.shtml">MX-100</a> and Ashley 2-way Active Crossovers
 
 #### The Underground Rig:
-* 2 <a href="http://www.eaw.com">EAW</a> LA212
-* 2 <a href="http://www.eaw.com">EAW</a> SB118
-* 5,000W of <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification
-* <a href="http://www.eaw.com/">EAW</a> MX-100
+* 2 EAW LA212
+* 2 EAW SB118
+* 5,000W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification
+* EAW MX-100
 
 #### Stage Monitors:
 
@@ -81,7 +81,7 @@ you send us (you do not need to list specific items).
 
 #### Other:
 * 6 L-Acoustics [108P](https://www.l-acoustics.com/en/product/108p/) powered loudspeakers
-* 4 Mackie SRM350v3 portable powered loudspeakers
+* 4 Mackie [SRM350v3](https://mackie.com/sites/default/files/PRODUCT%20RESOURCES/SPECS/Spec_Sheets/SRM350v3_450v3_SS.pdf) portable powered loudspeakers
 
 <hr>
 
