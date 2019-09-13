@@ -21,8 +21,12 @@ We will design an appropriate system for your event based on the requirements
 you send us (you do not need to list specific items).  
 ### Speakers and Amplifiers
 
+#### d&b audiotechnik Y-series System
+* 8 [Y8](https://www.dbaudio.com/global/en/products/series/y-series/y8/) and 4 [Y12](https://www.dbaudio.com/global/en/products/series/y-series/y12/) 2-way passive line array loudspeakers
+* 6 [V-SUB](https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/) subwoofers
+* [D80](https://www.dbaudio.com/global/en/products/amplifiers/d80/) and [D20](https://www.dbaudio.com/global/en/products/amplifiers/d20/) amplification
 
-#### L-Acoustics KUDO Rig
+#### L-Acoustics KUDO System
 
 * Four-way stereo configuration (8 [L-Acoustics](http://www.l-acoustics.com)
  [KUDO](http://www.l-acoustics.com/products-kudo-33.html),
@@ -39,7 +43,7 @@ you send us (you do not need to list specific items).
   Loudspeaker Management System
 
 
-#### EAW KF Rig:
+#### EAW KF System:
 * Four-way stereo configuration (6 <a href="http://www.eaw.com">EAW</a> KF600
   (<a href="ftp://ftp.eaw.com/Loudspeaker_product_info/Discontinued_loudspeakers/KF_Series//KF600.pdf">KF600 datasheet</a>,
   <a href="http://www.eaw.com/products/item.phtml?part_number=997195">KF650z info</a>),
@@ -57,42 +61,27 @@ you send us (you do not need to list specific items).
   Stereo
   4-way Active Crossover
 
-####EAW LA Rig:  
-<ul>
-  <li>2 <a href="http://www.eaw.com">EAW</a> <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
-  <li>7,500W of <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
-  <li><a href="http://www.eaw.com">EAW</a> <a href="http://www.eaw.com/products/MX/index.shtml">MX-100</a> and Ashley 2-way Active Crossovers
-</ul>
+#### EAW LA System:  
+* 2 <a href="http://www.eaw.com">EAW</a> <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
+* 7,500W of <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
+* <a href="http://www.eaw.com">EAW</a> <a href="http://www.eaw.com/products/MX/index.shtml">MX-100</a> and Ashley 2-way Active Crossovers
 
-####EAW JF Rig:
-<ul>
-  <li>2 <a href="http://www.eaw.com">EAW</a> JF 560-series speakers.
-  <li>2,400W Carver Amplifiers
-  <li>Ashley 2-way Crossovers
-</ul>
-####The Underground Rig:
-<ul>
-  <li>2 <a href="http://www.eaw.com">EAW</a> LA212
-  <li>2 <a href="http://www.eaw.com">EAW</a> SB118
-  <li>5,000W of <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification
-  <li><a href="http://www.eaw.com/">EAW</a> MX-100
-</ul>
+#### The Underground Rig:
+* 2 <a href="http://www.eaw.com">EAW</a> LA212
+* 2 <a href="http://www.eaw.com">EAW</a> SB118
+* 5,000W of <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification
+* <a href="http://www.eaw.com/">EAW</a> MX-100
 
+#### Stage Monitors:
 
-####Stage Monitors:
+* 8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges
+* 8 Lab.Gruppen fp6400 amplification
+* 2 XTA DP224 Audio Management System (Beta)
+* 2 XTA DP424 Audio Management System (Alpha)
 
-<ul>
-  <li>8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges with ETR115XT flybars</li>
-  <li>8 Lab.Gruppen fp6400 amplification</li>
-  <li>2 XTA DP224 Audio Management System (Beta)</li>
-  <li>2 XTA DP424 Audio Management System (Alpha)</li>
-</ul>
-
-####Other:
-<ul>
-  <li>6 L-Acoustics 108P</li>
-  <li>4 Mackie SRM350v3</li>
-</ul>
+#### Other:
+* 6 L-Acoustics [108P](https://www.l-acoustics.com/en/product/108p/) powered loudspeakers
+* 4 Mackie SRM350v3 portable powered loudspeakers
 
 <hr>
 
