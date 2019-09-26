@@ -25,7 +25,7 @@ you send us (you do not need to list specific items).
 * 8 [Y8](https://www.dbaudio.com/global/en/products/series/y-series/y8/) and 4 [Y12](https://www.dbaudio.com/global/en/products/series/y-series/y12/) 2-way passive line array loudspeakers
 * 6 [V-SUB](https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/) subwoofers
 * 2 [Y10P](https://www.dbaudio.com/global/en/products/series/y-series/y10p/) point source loudspeakers
-* [D80](https://www.dbaudio.com/global/en/products/amplifiers/d80/) and [D20](https://www.dbaudio.com/global/en/products/amplifiers/d20/) amplification
+* [D80](https://www.dbaudio.com/global/en/products/amplifiers/d80/) and [D20](https://www.dbaudio.com/global/en/products/amplifiers/d20/) amplification with network-controlled monitoring and processing
 
 #### L-Acoustics KUDO System
 
@@ -37,9 +37,8 @@ you send us (you do not need to list specific items).
 * 40,000W of [L-Acoustics](http://www.l-acoustics.com/)
   [LA-48](http://labgruppen.com/products/fp_series/c/fp_6400/)
   amplification capable of providing power levels exceeding 123 dBA SPL at the rear
-  of most
-  popular CMU venues.
-* [XTA] (http://www.audiocore.co.uk/)
+  of most popular CMU venues.
+* [XTA](http://www.audiocore.co.uk/)
   [DP448](http://www.audiocore.co.uk/products-series4.html)
   Loudspeaker Management System
 
@@ -57,14 +56,12 @@ you send us (you do not need to list specific items).
   capable of providing power levels exceeding 115 dBA SPL at the rear
   of most popular CMU venues. <a href="/static/img/equipment/ferdinand.jpg"><img border=0 src="/static/img/photo.gif"></a>
   <a href="/static/img/equipment/luther.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* EAW <a href="http://www.eaw.com/products/MX/index.shtml">MX-800</a>
-  Stereo
-  4-way Active Crossover
+* dbx DriveRack 480 Loudspeaker Management System
 
 #### EAW LA System:  
 * 2 EAW <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
 * 7,500W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* EAW <a href="http://www.eaw.com/products/MX/index.shtml">MX-100</a> and Ashley 2-way Active Crossovers
+* dbx DriveRack 480 Loudspeaker Management System
 
 #### The Underground Rig:
 * 2 EAW LA212
@@ -99,6 +96,7 @@ you send us (you do not need to list specific items).
   <li>1 Yamaha Rio3224-D</li>
   <li>1 Yamaha Rio1608-D</li>
   <li>1 Yamaha Ro8-D</li>
+  <li>1 d&b audiotechnik DS10</li>
   <li>1 16+4 75'</li>
   <li>1 12+0 50'</li>
   <li>1 6+0 25'</li>
@@ -171,6 +169,7 @@ you send us (you do not need to list specific items).
   <li>6 <a href="http://www.vari-lite.com/index.php?src=directory&view=products&srctype=detail&refno=34215&category=Series2000">Philips Vari*Lite VL2500 Spot</a> Moving Head Lighting Instruments
   <li>3 Martin Atomic 3000 DMX Strobe
   <li>18 <a href="https://www.chauvetdj.com/products/freedom-par-hex-4/">Chauvet Freedom Par Hex-4</a>
+  <li>4 <a href="https://www.claypaky.it/en/products/stormy">Clay Paky Stormy CC</a> Color Strobe
 </ul>
 ####Dimming
 <ul>
@@ -178,12 +177,14 @@ you send us (you do not need to list specific items).
   <li>24 channels of dimming at 1.5kW/channel (<a href="http://www.electrol.net">Electrol</a><a href="http://www.electrol.net/dxdimming.htm">D125dx</a>)
   <li>12 channels of dimming at 1.2kW/channel (<a href="http://www.electrol.net">Electrol</a><a href="http://www.electrol.net/anaconda.htm">Anaconda</a>)
   <li>12 channels of dimming at 1.2kW/channel (<a href="https://www.etcconnect.com/Products/Power-Controls/Distributed/SmartSystems/SmartBar-2.aspx">ETC Smartbar 2</a>)
+  <li>Up to 12 channels of dimming for either 12 channels at 750W/channel or 8 channels at 1.0kW/channel (<a href="https://www.leprecon.com/products/product/9">Leprecon ULD-360-HP</a>)
 </ul>
 ####Control
 <ul>
   <li><a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">MA Lighting grandMA2 Light</a>
     <li><a href="https://jands.com/stage-cl/">Jands Stage CL</a>
   <li><a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">ETC Smartfade 1296</a>
+  <li><a href="https://www.etcconnect.com/Products/Consoles/ColorSource/Features.aspx">ETC ColorSource 20 AV</a>
 </ul>
 
 <hr>
