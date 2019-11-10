@@ -14,6 +14,7 @@ urlpatterns = [
     url(r'^crew$', MarkdownView.as_view(markdown="crew.md"), name='crew'),
     url(r'^hots$', MarkdownView.as_view(markdown="hots.md"), name='hots'),
     url(r'^alumni$', MarkdownView.as_view(markdown="alumni.md"), name='alumni'),
+    url(r'^events$', MarkdownView.as_view(markdown="events.md"), name='events'),
     url(r'^archives$', MarkdownView.as_view(markdown="archives.md"), name='archives'),
     url(r'^archives70$', MarkdownView.as_view(markdown="archives-1970.md"), name='archives70'),
     url(r'^archives80$', MarkdownView.as_view(markdown="archives-1980.md"), name='archives80'),
