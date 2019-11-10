@@ -1,15 +1,16 @@
 Past Events
 
-
 <div class = "title-header">
   <p class="text-justify"> 
-  <a href="#" class="current"> Past Events </a> 
+    <a href="/events"> Our Events </a> 
+    <a href="/archives" class="current"> Archive </a>
    <a href="/accolades"> Accolades </a>
    <a href="/timelapse"> Videos </a>
   </p>
 </div>
 
 <font size=+1><b>Past Events</b></font><P>
+
 <table align=center width="100%">
   <tr>
     <td width=20%>
@@ -34,14 +35,9 @@ of major acts, although they weren't necessarily that big at the time. This
 list covers major shows produced in whole or part by Tech since its
 creation.  
 Please note this list is definitely not complete and probably not entirely
-accurate.  
-
-
-
-
+accurate.
 
 <table cellspacing="5" cellpadding="2" width="100%">
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
@@ -110,7 +106,6 @@ accurate.
     <td colspan="3"><font size="-1"><i>AB Coffeehouse concert</i></font></td>
   </tr>
 
-
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
       &nbsp;&nbsp;2008</B></FONT></td>
@@ -146,7 +141,6 @@ accurate.
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>Spring Concert</i></font></td>
   </tr>
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
@@ -225,7 +219,6 @@ accurate.
     <td colspan="3"><font size="-1"><i> </i></font></td>
   </tr>
 
-
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
       &nbsp;&nbsp;2006</B></FONT></td>
@@ -265,7 +258,6 @@ accurate.
       Secret Machines.</i></font></td>
   </tr>
 
-
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
       &nbsp;&nbsp;2005</B></FONT></td>
@@ -302,7 +294,6 @@ accurate.
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i> </i></font></td>
   </tr>
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
@@ -395,7 +386,6 @@ accurate.
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i> </i></font></td>
   </tr>
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
@@ -509,7 +499,6 @@ accurate.
     <td colspan="3"><font size="-1"><i>AB Political Speakers. Noted Political
       Cartoonist.</i></font></td>
   </tr>
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
@@ -669,7 +658,6 @@ accurate.
       with us!&quot;</i></font></td>
   </tr>
 
-
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
       &nbsp;&nbsp;2001</B></FONT></td>
@@ -782,7 +770,6 @@ accurate.
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>Popular entertainer.</i></font></td>
   </tr>
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>

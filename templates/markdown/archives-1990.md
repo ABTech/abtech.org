@@ -2,7 +2,8 @@ Past Events
 
 <div class = "title-header">
   <p class="text-justify"> 
-  <a href="#" class="current"> Past Events </a> 
+    <a href="/events"> Our Events </a> 
+  <a href="/archives" class="current"> Archive </a>
    <a href="/accolades"> Accolades </a>
    <a href="/timelapse"> Videos </a>
   </p>
@@ -38,10 +39,7 @@ accurate.
 Thanks in part to Anne Witchner and many Tech alumni for their assistance in
 assembling this list.
 
-
-
 <table cellspacing="5" cellpadding="2" width="100%">
-
 
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><font color="#FFFFFF"><b>

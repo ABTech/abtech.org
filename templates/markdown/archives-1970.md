@@ -1,7 +1,9 @@
 Past Events
+
 <div class = "title-header">
   <p class="text-justify"> 
-  <a href="#" class="current"> Past Events </a> 
+  <a href="/events"> Our Events </a> 
+  <a href="/archives" class="current"> Archive </a>
    <a href="/accolades"> Accolades </a>
    <a href="/timelapse"> Videos </a>
   </p>
@@ -37,7 +39,6 @@ Please note this list is definitely not complete and probably not entirely
 accurate.  
 Thanks in part to Anne Witchner and many Tech alumni for their assistance in
 assembling this list.
-
 
 <table cellspacing="5" cellpadding="2" width="100%">
 
@@ -148,5 +149,3 @@ assembling this list.
   </tr>
 
 </table>
-
-
