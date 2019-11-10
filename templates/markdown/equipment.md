@@ -1,4 +1,5 @@
 Equipment
+
 <div class = "title-header">
   <p class="text-justify"> 
     <a href="/services"> Services </a> 
@@ -18,71 +19,77 @@ campus.
 Please note that parts of this list may be out of date or inaccurate, so use
 this as a general reference only.
 We will design an appropriate system for your event based on the requirements
-you send us (you do not need to list specific items).  
+you send us (you do not need to list specific items).
+
 ### Speakers and Amplifiers
 
 #### d&b audiotechnik Y-series
-* 8 [Y8](https://www.dbaudio.com/global/en/products/series/y-series/y8/) and 4 [Y12](https://www.dbaudio.com/global/en/products/series/y-series/y12/) 2-way passive line array loudspeakers
-* 6 [V-SUB](https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/) subwoofers
-* 2 [Y10P](https://www.dbaudio.com/global/en/products/series/y-series/y10p/) point source loudspeakers
-* [D80](https://www.dbaudio.com/global/en/products/amplifiers/d80/) and [D20](https://www.dbaudio.com/global/en/products/amplifiers/d20/) amplification with network-controlled monitoring and processing
+
+- 8 [Y8](https://www.dbaudio.com/global/en/products/series/y-series/y8/) and 4 [Y12](https://www.dbaudio.com/global/en/products/series/y-series/y12/) 2-way passive line array loudspeakers
+- 6 [V-SUB](https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/) subwoofers
+- 2 [Y10P](https://www.dbaudio.com/global/en/products/series/y-series/y10p/) point source loudspeakers
+- [D80](https://www.dbaudio.com/global/en/products/amplifiers/d80/) and [D20](https://www.dbaudio.com/global/en/products/amplifiers/d20/) amplification with network-controlled monitoring and processing
 
 #### L-Acoustics KUDO System
 
-* Four-way stereo configuration (8 [L-Acoustics](http://www.l-acoustics.com)
- [KUDO](http://www.l-acoustics.com/products-kudo-33.html),
-  4 [SB 218](http://www.l-acoustics.com/products-sb28-subwoofer-44.html) ) 
+- Four-way stereo configuration (8 [L-Acoustics](http://www.l-acoustics.com)
+  [KUDO](http://www.l-acoustics.com/products-kudo-33.html),
+  4 [SB 218](http://www.l-acoustics.com/products-sb28-subwoofer-44.html) )
   <a href="/static/img/equipment/kudo.jpg"><img
-      border=0 src="/static/img/photo.gif"></a>
-* 40,000W of [L-Acoustics](http://www.l-acoustics.com/)
+       border=0 src="/static/img/photo.gif"></a>
+- 40,000W of [L-Acoustics](http://www.l-acoustics.com/)
   [LA-48](http://labgruppen.com/products/fp_series/c/fp_6400/)
   amplification capable of providing power levels exceeding 123 dBA SPL at the rear
   of most popular CMU venues.
-* [XTA](http://www.audiocore.co.uk/)
+- [XTA](http://www.audiocore.co.uk/)
   [DP448](http://www.audiocore.co.uk/products-series4.html)
   Loudspeaker Management System
 
-
 #### EAW KF System:
-* Four-way stereo configuration (6 EAW KF600
+
+- Four-way stereo configuration (6 EAW KF600
   (<a href="ftp://ftp.eaw.com/Loudspeaker_product_info/Discontinued_loudspeakers/KF_Series//KF600.pdf">KF600 datasheet</a>,
   <a href="http://www.eaw.com/products/item.phtml?part_number=997195">KF650z info</a>),
   4 SB528 (<a href="ftp://ftp.eaw.com/Discontinued%20Products/Datasheets/PDFs/SB528.pdf">Datasheet</a>,
   <a href="http://www.eaw.com/products/item.phtml?part_number=997150">SB528zP info</a>)
   capable of 28Hz-17kHz -3dB, +1dB A-weighted. <a href="/static/img/equipment/mains.jpg"><img border=0
                                                        src="/static/img/photo.gif"></a>
-* 20,000W of Crown
+- 20,000W of Crown
   <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech</a>)
   capable of providing power levels exceeding 115 dBA SPL at the rear
   of most popular CMU venues. <a href="/static/img/equipment/ferdinand.jpg"><img border=0 src="/static/img/photo.gif"></a>
   <a href="/static/img/equipment/luther.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* dbx DriveRack 480 Loudspeaker Management System
+- dbx DriveRack 480 Loudspeaker Management System
 
-#### EAW LA System:  
-* 2 EAW <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* 7,500W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
-* dbx DriveRack 480 Loudspeaker Management System
+#### EAW LA System:
+
+- 2 EAW <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a>
+- 7,500W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a>
+- dbx DriveRack 480 Loudspeaker Management System
 
 #### The Underground Rig:
-* 2 EAW LA212
-* 2 EAW SB118
-* 5,000W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification
-* EAW MX-100
+
+- 2 EAW LA212
+- 2 EAW SB118
+- 5,000W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification
+- EAW MX-100
 
 #### Stage Monitors:
 
-* 8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges
-* 8 Lab.Gruppen fp6400 amplification
-* 2 XTA DP224 Audio Management System (Beta)
-* 2 XTA DP424 Audio Management System (Alpha)
+- 8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges
+- 8 Lab.Gruppen fp6400 amplification
+- 2 XTA DP224 Audio Management System (Beta)
+- 2 XTA DP424 Audio Management System (Alpha)
 
 #### Other:
-* 6 L-Acoustics [108P](https://www.l-acoustics.com/en/product/108p/) powered loudspeakers
-* 4 Mackie [SRM350v3](https://mackie.com/sites/default/files/PRODUCT%20RESOURCES/SPECS/Spec_Sheets/SRM350v3_450v3_SS.pdf) portable powered loudspeakers
+
+- 6 L-Acoustics [108P](https://www.l-acoustics.com/en/product/108p/) powered loudspeakers
+- 4 Mackie [SRM350v3](https://mackie.com/sites/default/files/PRODUCT%20RESOURCES/SPECS/Spec_Sheets/SRM350v3_450v3_SS.pdf) portable powered loudspeakers
 
 <hr>
 
 ###Sound Consoles
+
 <ul>
   <li>Yamaha CL5
   <li>Yamaha CL3
@@ -92,6 +99,7 @@ you send us (you do not need to list specific items).
 </ul>
 
 ###Snakes and Cable
+
 <ul>
   <li>1 Yamaha Rio3224-D</li>
   <li>1 Yamaha Rio1608-D</li>
@@ -105,6 +113,7 @@ you send us (you do not need to list specific items).
 <hr>
 
 ###Microphones
+
 <ul>
   <li>5 <a href="http://www.sennheiserusa.com">Sennheiser</a> <a href="http://www.sennheiserusa.com/pages/products/micro/md421.htm">MD421</a><a href="/static/img/equipment/421.jpg"><img border=0 src="/static/img/photo.gif"></a>
   <li>2 Neumann KM184s
@@ -135,8 +144,8 @@ you send us (you do not need to list specific items).
   <li>2 <a href="http://www.shure.com">Shure</a> <a href="http://www.shure.com/americas/products/microphones/ksm/ksm9-handheld-vocal-microphone">KSM9 </a>
 </ul>
 
-
 ####Wireless Microphones
+
 <ul>
   <li>6 <a href="http://www.shure.com">Shure</a> UR4D-J5 UHF-R Diversity Receivers (2-channel)
   <li>2 <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 SM 58 Handhelds</a>
@@ -157,13 +166,14 @@ you send us (you do not need to list specific items).
 
 ###Lighting
 ####Fixtures
+
 <ul>
-  <li>32 PAR64 cans with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif"></a>
-  <li>80' 12"x12" <a href="http://www.jthomaseng.com">Thomas</a> box truss
-  <li>40' 26"x30" box truss (<a href="http://www.jthomaseng.com">Thomas</a>) hung with up to 36 1kW PAR64 canisters
+  <li>18 PAR64 cans with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>8 10'x12"x12" <a href="http://www.jthomaseng.com">Thomas</a> box truss
+  <li>6 8'x12"x12" <a href="http://www.jthomaseng.com">Thomas</a> box truss
   <li>8 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?13"> Source Four PAR</a> with 575W lamps
   <li>20 <a href="http://www.etcconnect.com">ETC</a><a href="http://www.etcconnect.com/products/products.asp?1"> Source Four </a> with 10-, 19-, 26-, 36-, and 50-degree lens tubes
-  <li>8 <a href="http://www.etcconnect.com">ETC</a> <a href="https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2/Source-Four-LED-Series-2-Lustr/">Source Four LED Series 2 Lustr+</a> with 19-, 26-, 36-, and 50-degree EDLT lens tubes</li>
+  <li>12 <a href="http://www.etcconnect.com">ETC</a> <a href="https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2/Source-Four-LED-Series-2-Lustr/">Source Four LED Series 2 Lustr+</a> with 19-, 26-, 36-, and 50-degree EDLT lens tubes</li>
   <li>18 <a href="http://www.martin.com/">Martin</a><a href="http://www.martin.com/en-us/product-details/rush-par-1-rgbw"> Rush Par 1 RGBW</a>
   <li>8 <a href="http://www.colorkinetics.com/ls/rgb/colorblazetrx/">Philips Color Kinetics ColorBlaze TRX</a> 2' RGBAW LED Wash Fixtures (with 22-, 32-, 60x32-, and 32x12-degree spread lenses)
   <li>6 <a href="http://www.vari-lite.com/index.php?src=directory&view=products&srctype=detail&refno=34215&category=Series2000">Philips Vari*Lite VL2500 Spot</a> Moving Head Lighting Instruments
@@ -191,6 +201,7 @@ you send us (you do not need to list specific items).
 
 ###Media
 ####Projectors
+
 <ul>
   <li>2 <a href="https://epson.com/For-Work/Projectors/Large-Venue/Pro-L1755UNL-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement-Without-Lens/p/V11H892820">Epson Pro L1755UNL WUXGA 3LCD Laser Projectors</a> with 2 each of <a href="https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%231-Zoom-Lens-%28ELPLW05%29/p/V12H004W05">ELPLW05</a>, <a href="https://epson.com/Accessories/Projector-Accessories/Short-Throw-%231-Zoom-Lens-%28ELPLU03%29/p/V12H004U03">ELPLU03</a>, <a href="https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%232-Zoom-Lens-%28ELPLW06%29/p/V12H004W06">ELPLW06</a> lenses
 </ul>
@@ -202,6 +213,7 @@ you send us (you do not need to list specific items).
 <hr>
 
 ###Miscellaneous
+
 <ul>
   <li>6 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar half-ton chain motors
   <li>4 <a href="http://www.cmworks.com/">Columbus McKinnon</a> Lodestar quarter-ton chain motors
