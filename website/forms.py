@@ -55,10 +55,10 @@ class RequestForm(forms.Form):
     contact = forms.CharField(label='Event Contact Name', max_length=50)
     email = forms.EmailField(label='Event Contact Email')
     start_date = forms.DateField(label='Start Date', help_text="Format: mm/dd/yyyy")
-    start_time = forms.CharField(label='Start Time', required=False)
+    start_time = forms.TimeField(label='Start Time', widget=forms.TimeInput(format='%I:%M %p'))
     end_date = forms.DateField(label='End Date', help_text="Format: mm/dd/yyyy")
-    end_time = forms.CharField(label='End Time', required=False)
-    location = forms.CharField(label='Location', required=False)
+    end_time = forms.TimeField(label='End Time', widget=forms.TimeInput(format='%I:%M %p'))
+    location = forms.CharField(label='Location')
     details = forms.CharField(widget=forms.Textarea, label='Details')
 
     if settings.CAPTCHA:
@@ -70,9 +70,9 @@ class RequestForm(forms.Form):
         contact.initial = "First Last"
         email.initial = "rmaratos@andrew.cmu.edu"
         start_date.initial = "1/1/2017"
-        start_time.initial = "7pm"
+        start_time.initial = "7:00 PM"
         end_date.initial = "1/1/2017"
-        end_time.initial = "8pm"
+        end_time.initial = "8:00 PM"
         location.initial = "Tech Room"
         details.initial = "\n".join(["blah"]*3)
 
