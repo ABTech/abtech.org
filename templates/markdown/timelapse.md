@@ -2,7 +2,7 @@ Timelapses
 
 <div class = "title-header">
   <p class="text-justify"> 
-  <a href="/events"> Past Events </a> 
+  <a href="/archives"> Past Events </a> 
    <a href="/accolades"> Accolades </a>
    <a href="/timelapse" class="current"> Videos </a>
   </p>

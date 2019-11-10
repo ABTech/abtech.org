@@ -15,19 +15,19 @@ Past Events
 <table align=center width="100%">
   <tr>
     <td width=20%>
-      <center><a href="/events70">1970s</a></center>
+      <center><a href="/archives70">1970s</a></center>
     </td>
     <td width=20%>
       <center><b>1980s</b></center>
     </td>
     <td width=20%>
-      <center><a href="/events90">1990s</a></center>
+      <center><a href="/archives90">1990s</a></center>
     </td>
     <td width=20%>
-      <center><a href="/events00">2000s</a></center>
+      <center><a href="/archives00">2000s</a></center>
     </td>
     <td width=20%>
-      <center><a href="/events">2010 - Present</a></center>
+      <center><a href="/archives">2010 - Present</a></center>
     </td>
   </tr>
 </table>
