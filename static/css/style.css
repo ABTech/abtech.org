@@ -18,11 +18,8 @@ body {
 }
 
 .content-shift {
-    position:absolute;
-    bottom:0;
-    height:95%;
     width:100%;
-    overflow:auto;
+    padding-top:35px;
 }
 
 a {
@@ -143,7 +140,6 @@ h1, h2, h3 {
 .title-header {
     min-height: 35px;
     margin-bottom: 15px;
-    padding-left: 40px;
     border-bottom: 1px solid #c01c1d;
     font-size: 15pt;
     font-family: 'cambria', 'georgia';
@@ -166,6 +162,30 @@ h1, h2, h3 {
 
 table {
     margin: 0px auto;
+}
+
+/* The list of decades in Past Events */
+#event-decades-header {
+    margin-bottom: 20px;
+}
+
+#event-decades-header tr {
+    display:flex;
+    justify-content:space-around;
+}
+#event-decades-header td {
+    margin: 0 5px;
+}
+
+/* The full table of the events by year */
+
+#events-table {
+}
+
+.events-year-header {
+    font-weight:bold;
+    color:white;
+    background-color: #c01c1d;
 }
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
