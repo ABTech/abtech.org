@@ -1,4 +1,5 @@
 Crew
+
 <div class = "title-header">
   <p class="text-justify">
     <a href="/crew" class="current"> Current Crew </a>
@@ -8,7 +9,7 @@ Crew
 </div>
 
 <em>If you are looking to have us provide technical support for your
-  event, please fill out our [event request form](/request).</em>
+event, please fill out our [event request form](/request).</em>
 
 ## AB Tech Officers 2019&ndash;2020
 
@@ -96,7 +97,6 @@ Ryan is the Tracker Dev chair and is a senior in Information Systems. Bearer of 
 
 </div>
 
-
 ## General Members
 
 <br>
@@ -104,23 +104,28 @@ Ryan is the Tracker Dev chair and is a senior in Information Systems. Bearer of 
 <div style="min-width: 50%; max-width: 100%; display: block; margin: auto;">
 <table border="0" rules="rows" cellpadding="4" style="width: 100%; table-layout: fixed;">
 
-
   <tr>
     <td valign="top">
       <ul style="column-width: 180px; column-gap: 2.5em; column-rule: 1px solid #ccc; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -0.7em;">
         <li>Angel, Sophia
         <li>Balke, Erin
+        <li>Bates, Theodore
+        <li>Berger, Abigail
         <li>Bloor, Albany
         <li>Buchan, Katie
         <li>Cao, Andrew
         <li>Chen, Cathy
         <li>Chi, Christina
         <li>Chiu, Ian
+        <li>Cooke, Mary Kate
         <li>Drebes, Keaton
+        <li>Domalik, David
+        <li>Ding, Shannon
         <li>Eckrich, Christoph
         <li>Garbade, Edward
         <li>Girdhar, Tishya
         <li>Gong, Jason
+        <li>Ho, Alice
         <li>Huang, Phil
         <li>Kang, Iris
         <li>Kolb, Rachel
@@ -149,11 +154,15 @@ Ryan is the Tracker Dev chair and is a senior in Information Systems. Bearer of 
         <li>Sat-Vollhardt, Julien
         <li>Sheng, Andrew
         <li>Shumate, Margaret
+        <li>Stapleton, Sarah
+        <li>Strasser, Alex
         <li>Sipp, Beverly
+        <li>Thodarson, Dean
         <li>Traiger, Jade
         <li>Wang, Sarah
         <li>Whyte, Ali
         <li>Xia, Karen
+        <li>Xiao, Mason
         <li>Zheng, Alex
       </ul>
     </td>
