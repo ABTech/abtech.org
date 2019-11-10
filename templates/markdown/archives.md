@@ -37,6 +37,255 @@ accurate.
 
 <table cellspacing="5" cellpadding="2" width="100%">
   
+  <!-- 2019 -->
+  <tr>
+    <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
+      &nbsp;&nbsp;2019</B></FONT></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Antoni Porowski</b></td>
+    <td nowrap><font size="-1">November 6</font></td>
+    <td nowrap><font size="-1">McConomy Auditorium</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Lectures. Cooking demo with a full house.  
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Smallpools and Gnash</b></td>
+    <td nowrap><font size="-1">November 2</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts. Our first large concert with bands in a long time. 
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Michelle Wolf</b></td>
+    <td nowrap><font size="-1">October 25</font></td>
+    <td nowrap><font size="-1">Rangos</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Comedy event for the inaugural Tartan Community Day.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Bülow</b></td>
+    <td nowrap><font size="-1">September 6</font></td>
+    <td nowrap><font size="-1">Baker Lawn</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse. Outdoor show with a truck stage.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>DRAM and Vanic</b></td>
+    <td nowrap><font size="-1">April 13</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts. Green confetti and broccoli.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Jimmy O. Yang</b></td>
+    <td nowrap><font size="-1">April 11</font></td>
+    <td nowrap><font size="-1">McConomy Auditorium</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Comedy.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Injury Reserve and Jez Dior</b></td>
+    <td nowrap><font size="-1">March 22</font></td>
+    <td nowrap><font size="-1">Studio Theater</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Grant Imahara</b></td>
+    <td nowrap><font size="-1">March 20</font></td>
+    <td nowrap><font size="-1">McConomy Auditorium</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Lectures. Full house.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Josh Peck</b></td>
+    <td nowrap><font size="-1">January 30</font></td>
+    <td nowrap><font size="-1">McConomy Auditorium</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Lectures.
+    </i></font></td>
+  </tr>
+
+  <!-- 2018 -->
+  <tr>
+    <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
+      &nbsp;&nbsp;2018</B></FONT></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Snakehips and Social House</b></td>
+    <td nowrap><font size="-1">November 3</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Tepper Quad Grand Opening</b></td>
+    <td nowrap><font size="-1">September 13</font></td>
+    <td nowrap><font size="-1">Tepper Quad</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>Grand opening celebration for the Tepper Quad.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Elephante</b></td>
+    <td nowrap><font size="-1">August 31</font></td>
+    <td nowrap><font size="-1">Studio Theater</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Wale</b></td>
+    <td nowrap><font size="-1">April 21</font></td>
+    <td nowrap><font size="-1">The Cut</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts. Our first concert outdoors in a long time and the original opener dropped out last minute.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Lovelytheband</b></td>
+    <td nowrap><font size="-1">March 5</font></td>
+    <td nowrap><font size="-1">The Underground</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Underground.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Casey Neistat</b></td>
+    <td nowrap><font size="-1">February 6</font></td>
+    <td nowrap><font size="-1">McConomy Auditorium</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Lectures.
+    </i></font></td>
+  </tr>
+
+  <!-- 2017 -->
+  <tr>
+    <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
+      &nbsp;&nbsp;2017</B></FONT></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>For the Founders</b></td>
+    <td nowrap><font size="-1">November 9 - 10</font></td>
+    <td nowrap><font size="-1">Various Locations</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>CMU's 50th anniversary celebration.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Cashmere Cat and Hotel Garuda</b></td>
+    <td nowrap><font size="-1">October 28</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts. Salmon pink...salmon pink everywhere...
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Audien</b></td>
+    <td nowrap><font size="-1">September 1</font></td>
+    <td nowrap><font size="-1">Studio Theater</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Nghtmre and San Holo</b></td>
+    <td nowrap><font size="-1">April 22</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts. 4 foot disco ball and lots of pyro.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Laverne Cox</b></td>
+    <td nowrap><font size="-1">April 13</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Lectures.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>TOKiMONSTA</b></td>
+    <td nowrap><font size="-1">January 29</font></td>
+    <td nowrap><font size="-1">Studio Theater</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse.
+    </i></font></td>
+  </tr>
+
   <!-- 2016 -->
   <tr>
     <td colspan="4" bgcolor="#990000" align="left"><FONT color="#FFFFFF"><B>
@@ -51,6 +300,50 @@ accurate.
   <tr>
     <td width="20"></td>
     <td colspan="3"><font size="-1"><i>AB Comedy: Sasha chugged an entire liter of ranch.  
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>ILoveMakonnen</b></td>
+    <td nowrap><font size="-1">November 12</font></td>
+    <td nowrap><font size="-1">Wiegand Gym</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Concerts.  
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Denzel Curry</b></td>
+    <td nowrap><font size="-1">October 15</font></td>
+    <td nowrap><font size="-1">Studio Theater</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse.  
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Louis the Child</b></td>
+    <td nowrap><font size="-1">September 2</font></td>
+    <td nowrap><font size="-1">Studio Theater</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Coffeehouse. Par grid.
+    </i></font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td width="70%"><b>Black Tie Stereo</b></td>
+    <td nowrap><font size="-1">August 27</font></td>
+    <td nowrap><font size="-1">Rangos</font></td>
+  </tr>
+  <tr>
+    <td width="20"></td>
+    <td colspan="3"><font size="-1"><i>AB Underground goes above ground.
     </i></font></td>
   </tr>
   <tr>
