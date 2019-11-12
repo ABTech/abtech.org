@@ -51,7 +51,7 @@ accurate.
   </tr>
   <tr>
     <td width="20"></td>
-    <td width="70%"><b>Bülow</b></td>
+    <td width="70%"><b>B&uuml;low</b></td>
     <td nowrap><font size="-1">September 6</font></td>
     <td nowrap><font size="-1">Baker Lawn</font></td>
   </tr>
