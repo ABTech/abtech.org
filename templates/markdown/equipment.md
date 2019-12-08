@@ -164,7 +164,7 @@ you send us (you do not need to list specific items).
 # Lighting
 ## Fixtures
 ### Conventional
-- 18 PAR64 cans with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif">
+- 18 PAR64 with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif">
 - 8 ETC [Source Four PAR](https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-PAR/Features.aspx) with 575W lamps
 - 20 ETC [Source Four](https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four/Features.aspx) with 10-, 19-, 26-, 36-, and 50-degree lens tubes
 
@@ -210,4 +210,4 @@ you send us (you do not need to list specific items).
 - 6 8'x12"x12" Thomas box truss (silver)
 - 6 Columbus McKinnon Lodestar half-ton chain motors
 - 6 Columbus McKinnon Prostar quarter-ton chain motors
-- Communications system: Production Intercom <a href="http://www.beltpack.com/ms-200.htm">MS-200 Main Station</a> plus assorted remote stations
+- Communications system: Clear-Com [MS-702 Main Station](https://www.clearcom.com/product/ms-702/) plus assorted remote stations
