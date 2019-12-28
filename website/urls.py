@@ -5,7 +5,7 @@ from django.views.generic import TemplateView
 from website.views import MarkdownView, JoinView, RequestView
 
 urlpatterns = [
-    url(r'^$', MarkdownView.as_view(template_name="index.html", markdown="index.md"), name='index'),
+    url(r'^$', TemplateView.as_view(template_name="index.html"), name='index'),
     url(r'^services$', MarkdownView.as_view(markdown="services.md"), name='services'),
     url(r'^equipment$', MarkdownView.as_view(markdown="equipment.md"), name='equipment'),
     url(r'^external$', MarkdownView.as_view(markdown="external.md"), name='external'),
