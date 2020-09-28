@@ -19,11 +19,15 @@ year.
     <th width="350"> Head(s) of Tech</td>
   </tr>
   <tr>
-    <td>19-20</td>
-    <td>Bridget Tan / Ariel Uy [bridgett/auy]</td>
+    <td>20-21</td>
+    <td>Ryan Eckert / Robert Zhang [reckert/robertz1]</td>
   </tr>
   <tr>
     <td colspan="2"><!-- ---------- --></td>
+  </tr>
+  <tr>
+    <td>19-20</td>
+    <td>Bridget Tan / Ariel Uy </td>
   </tr>
   <tr>
     <td>18-19</td>
