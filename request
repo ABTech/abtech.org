@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+
+<head><title> AB Tech:  Event Request </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/img/favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Bootstrap core JavaScript
+     ================================================== -->
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="/static/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80292141-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+<script type="text/javascript" src="/static/js/moment.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-datepicker.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+  
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap-datepicker.min.css">
+<style type="text/css">
+  @media screen and (min-width: 767px){
+    .date{
+      width: 400px;
+    }
+  }
+  </style>
+
+</head>
+
+<body>
+
+
+<div class="halfBack back navbar navbar-default navbar-fixed-top">
+  <a href="/">
+    <div id="logo">
+      <img id="logoImage" src="/static/img/abtech_logo.png" alt="AB Tech Logo">
+    </div>
+  <div id="debug">
+    
+  </div>
+</a>
+  <div class="container-fluid">
+    <div class="halfBack navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="noBack back collapse navbar-collapse" id="navbar1">
+      <ul id='white' class="noBack back nav navbar-nav navbar-right">
+        <li><a href="/events">Our Events</a></li>
+        <li><a href="/request">Request Event</a></li>
+        <li class="dropdown"><a href="/services" role="button" aria-haspopup="true" aria-expanded="false">What We Do</a>
+          <ul class="dropdown-menu">
+            <li><a href="/services">Services</a></li>
+            <li><a href="/equipment">Equipment</a></li>
+            <li><a href="/external">External Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="/archives">Past Events</a></li>
+        <li class="dropdown"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Internal</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
+            <li><a href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="/crew" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="/crew">Current Crew</a></li>
+            <li><a href="/hots">HOTs</a></li>
+            <li><a href="/alumni">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="rightmost"><a href="/join">Join</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="content-shift">
+  
+    <main class="content-block">
+        
+  <h1> Event Request Form </h1>
+  <p> Please refer to our <a href="https://abtech.andrew.cmu.edu/tracker/events/calendar" target="_blank">calendar</a> for what dates we are available. <br> <br>
+    We need to know the sponsoring organization (i.e. who will be paying for our services?), a contact name and email address. If you know the date, start time, end time, and location of your event please provide those as well. If you have not finalized this information please provide a list of possible dates and times in the details section.  If your event will span multiple days please make a note of that in the Details section.
+<br> <br>
+    In the Details section, please describe your event in detail so we can provide the right equipment and staff.
+<br> <br>
+    Please note that our calendar is often booked tightly, and we may not be able to provide support for events requested less than a week in advance. Additionally, events requested less than a week in advance will incur a small late fee. Events requested less than 48 hours in advance will incur a larger late fee. Large events or events requiring rental equipment should be requested at least 3 weeks in advance.
+</p>
+
+  <form action="/request" method="post" class="form-horizontal">
+    <input type='hidden' name='csrfmiddlewaretoken' value='dLD1gI7aeZdBIKWusAMMCJeAzGb5znrD' />
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_event_name">Event Name</label><div class="col-md-9"><input class="form-control" id="id_event_name" maxlength="50" name="event_name" placeholder="Event Name" required="required" title="" type="text" /></div></div>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_organization">Organization</label><div class="col-md-9"><input class="form-control" id="id_organization" maxlength="50" name="organization" placeholder="Organization" required="required" title="" type="text" /></div></div>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_contact">Event Contact Name</label><div class="col-md-9"><input class="form-control" id="id_contact" maxlength="50" name="contact" placeholder="Event Contact Name" required="required" title="" type="text" /></div></div>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_email">Event Contact Email</label><div class="col-md-9"><input class="form-control" id="id_email" name="email" placeholder="Event Contact Email" required="required" title="" type="email" /></div></div>
+      
+    
+      
+        <div class="form-group">
+            
+        <label class="col-md-3 control-label">Start Date</label>
+        <div class='col-md-9'>
+            <div class="input-group date" id="id_start_date_cal">
+              <input type="text" class="form-control" placeholder="Event Date" name="start_date" id="id_start_date"><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+            </div>
+        </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#id_start_date_cal').datepicker({
+                      sideBySide: true,
+                      autoclose: true
+                    });
+                });
+            </script>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_start_time">Start Time</label><div class="col-md-9"><input class="form-control" id="id_start_time" name="start_time" placeholder="Start Time" required="required" title="" type="text" /></div></div>
+      
+    
+      
+        <div class="form-group">
+            
+        <label class="col-md-3 control-label">End Date</label>
+        <div class='col-md-9'>
+            <div class="input-group date" id="id_end_date_cal">
+              <input type="text" class="form-control" placeholder="Event Date" name="end_date" id="id_end_date"><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+            </div>
+        </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#id_end_date_cal').datepicker({
+                      sideBySide: true,
+                      autoclose: true
+                    });
+                });
+            </script>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_end_time">End Time</label><div class="col-md-9"><input class="form-control" id="id_end_time" name="end_time" placeholder="End Time" required="required" title="" type="text" /></div></div>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_location">Location</label><div class="col-md-9"><input class="form-control" id="id_location" name="location" placeholder="Location" required="required" title="" type="text" /></div></div>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_details">Details</label><div class="col-md-9"><textarea class="form-control" cols="40" id="id_details" name="details" placeholder="Details" required="required" rows="10" title="">
+</textarea></div></div>
+      
+    
+      
+        <div class="form-group"><label class="col-md-3 control-label" for="id_captcha">Captcha</label><div class="col-md-9">
+<div class="g-recaptcha" data-sitekey="6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO" data-theme="None"></div>
+
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                        bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                          class="g-recaptcha-response"
+                          style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                                 margin: 0px; padding: 0px; resize: none;" value=""></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+</div></div>
+      
+    
+    <div class="form-group"><label class="col-md-3 control-label">&#160;</label><div class="col-md-9"><button class="btn btn-primary" type="submit">Submit</button></div></div>
+  </form>
+
+    </main>
+  
+
+  
+
+<footer class="text-center">
+  <a href="mailto:abtech@andrew.cmu.edu">abtech@andrew.cmu.edu</a> |
+  <a href="tel:4122682104"> 412.268.2104 </a> |
+  <a href="https://www.facebook.com/cmuabtech" target="_blank">
+    <img src="/static/img/fb.png" width="18">
+  </a>
+  <br>
+  CUC Box 73 | 5032 Forbes Ave | Pittsburgh, PA 15213 <br>
+  "Fly by night sound and light" since 1973. <br>
+  Copyright &copy; 2021 AB Tech <br>
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
+

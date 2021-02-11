@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+
+<head><title> AB Tech:  Joining Tech </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/img/favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Bootstrap core JavaScript
+     ================================================== -->
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="/static/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80292141-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+  
+</head>
+
+<body>
+
+
+<div class="halfBack back navbar navbar-default navbar-fixed-top">
+  <a href="/">
+    <div id="logo">
+      <img id="logoImage" src="/static/img/abtech_logo.png" alt="AB Tech Logo">
+    </div>
+  <div id="debug">
+    
+  </div>
+</a>
+  <div class="container-fluid">
+    <div class="halfBack navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="noBack back collapse navbar-collapse" id="navbar1">
+      <ul id='white' class="noBack back nav navbar-nav navbar-right">
+        <li><a href="/events">Our Events</a></li>
+        <li><a href="/request">Request Event</a></li>
+        <li class="dropdown"><a href="/services" role="button" aria-haspopup="true" aria-expanded="false">What We Do</a>
+          <ul class="dropdown-menu">
+            <li><a href="/services">Services</a></li>
+            <li><a href="/equipment">Equipment</a></li>
+            <li><a href="/external">External Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="/archives">Past Events</a></li>
+        <li class="dropdown"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Internal</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
+            <li><a href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="/crew" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="/crew">Current Crew</a></li>
+            <li><a href="/hots">HOTs</a></li>
+            <li><a href="/alumni">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="rightmost"><a href="/join">Join</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="content-shift">
+  
+    <main class="content-block">
+        
+  <b>Joining the Insanity</b>
+  <p>
+    Membership in AB Tech is open to all Carnegie Mellon students.
+    In general, we recommend members have a good sense of humor and a willingness
+    to push heavy stuff.
+    If you have an interest in big speakers, fancy lighting, or being backstage at
+    some of the coolest events
+    on campus, AB Tech is the place to be.
+    <br><br>
+
+    Twice a year (September and January), AB Tech is at the Activities Fair along
+    with other student
+    organizations. Stop by, sign up, and we'll email you a place to show up to
+    meet everyone else and
+    start playing with some of the most awesome and expensive equipment in town.
+    <br><br>
+    You can also sign up for our dlist right here, right now:
+
+  <form action="/join" method="post" class="form-horizontal">
+    <input type='hidden' name='csrfmiddlewaretoken' value='dLD1gI7aeZdBIKWusAMMCJeAzGb5znrD' />
+    <div class="form-group"><label class="col-md-3 control-label" for="id_andrew_id">Andrew ID</label><div class="col-md-9"><input class="form-control" id="id_andrew_id" maxlength="10" name="andrew_id" placeholder="Andrew ID" required="required" title="" type="text" /></div></div>
+<div class="form-group"><label class="col-md-3 control-label" for="id_name">Name</label><div class="col-md-9"><input class="form-control" id="id_name" maxlength="50" name="name" placeholder="Name" required="required" title="" type="text" /></div></div>
+<div class="form-group"><label class="col-md-3 control-label" for="id_captcha">Captcha</label><div class="col-md-9">
+<div class="g-recaptcha" data-sitekey="6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO" data-theme="None"></div>
+
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdvswQTAAAAAPhSuC25sVceWHEfpTIe3I0PuYnO"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                        bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                          class="g-recaptcha-response"
+                          style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                                 margin: 0px; padding: 0px; resize: none;" value=""></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+</div></div>
+    <div class="form-group"><label class="col-md-3 control-label">&#160;</label><div class="col-md-9"><button class="btn btn-primary" type="submit">Submit</button></div></div>
+  </form>
+
+  <div class="status">
+    
+  </div>
+
+
+  Generally our most extensive orientation event is held shortly after the
+  September Activities Fair, but
+  we encourage you to join at any time. Almost all of our training is done "on
+  the job" -- and most of our members
+  knew very little to nothing before they joined. After your sixth event, you'll
+  "learn our secret
+  handshake" and be considered a full member. AB Tech has no dues, no mandatory
+  events/participation, and no other
+  special requirements to stay a member -- just show up to events when you have
+  time!
+
+  <br><br>
+  Other options for joining AB Tech include:
+  <ul>
+    <li><b>emailing <a
+        href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;">
+      &#x61;&#x62;&#x74;&#101;&#99;&#104;&#x40;&#x61;&#x6e;&#100;&#x72;&#101;&#119;&#46;&#99;&#x6d;&#x75;&#x2e;&#101;&#x64;&#x75;</a>.</b>
+      Again, we'll send you
+      some places you might spot us in the future.
+
+    <li><b>stopping by at an event.</b> Follow the loud music to its source, and
+      you have probably
+      stumbled across some techies. Say Hi!
+
+    <li><b>following a friend.</b> Our members are fine, upstanding students at
+      Carnegie Mellon (or so
+      we hope), and should know our schedule.
+  </ul>
+
+    </main>
+  
+
+  
+
+<footer class="text-center">
+  <a href="mailto:abtech@andrew.cmu.edu">abtech@andrew.cmu.edu</a> |
+  <a href="tel:4122682104"> 412.268.2104 </a> |
+  <a href="https://www.facebook.com/cmuabtech" target="_blank">
+    <img src="/static/img/fb.png" width="18">
+  </a>
+  <br>
+  CUC Box 73 | 5032 Forbes Ave | Pittsburgh, PA 15213 <br>
+  "Fly by night sound and light" since 1973. <br>
+  Copyright &copy; 2021 AB Tech <br>
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
+

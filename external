@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html>
+
+<head><title> AB Tech:  External
+ </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/img/favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Bootstrap core JavaScript
+     ================================================== -->
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="/static/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80292141-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+
+  
+</head>
+
+<body>
+
+
+<div class="halfBack back navbar navbar-default navbar-fixed-top">
+  <a href="/">
+    <div id="logo">
+      <img id="logoImage" src="/static/img/abtech_logo.png" alt="AB Tech Logo">
+    </div>
+  <div id="debug">
+    
+  </div>
+</a>
+  <div class="container-fluid">
+    <div class="halfBack navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="noBack back collapse navbar-collapse" id="navbar1">
+      <ul id='white' class="noBack back nav navbar-nav navbar-right">
+        <li><a href="/events">Our Events</a></li>
+        <li><a href="/request">Request Event</a></li>
+        <li class="dropdown"><a href="/services" role="button" aria-haspopup="true" aria-expanded="false">What We Do</a>
+          <ul class="dropdown-menu">
+            <li><a href="/services">Services</a></li>
+            <li><a href="/equipment">Equipment</a></li>
+            <li><a href="/external">External Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="/archives">Past Events</a></li>
+        <li class="dropdown"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Internal</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
+            <li><a href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="/crew" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="/crew">Current Crew</a></li>
+            <li><a href="/hots">HOTs</a></li>
+            <li><a href="/alumni">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="rightmost"><a href="/join">Join</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="content-shift">
+  
+    <main class="content-block">
+        
+
+<div class = "title-header">
+  <p class="text-justify">
+    <a href="/services"> Services </a>
+    <a href="/equipment"> Equipment </a>
+    <a href="/external" class="current"> External Resources </a>
+  </p>
+</div>
+
+<p>Jump to:
+<a href="#Contractors">Contractors</a>,
+<a href="#Dealers">Dealers</a>,
+<a href="#Manufacturers">Manufacturers</a>,
+<a href="#Orgs">Organizations</a></p>
+<p><hr>
+<a name="Contractors"> <strong>Contractors</strong> </a></p>
+<p>These are companies that AB Tech has worked with in the past.
+If AB Tech cannot work your event you may want to try a vendor from this list.
+<p></p>
+<table cellpadding=3 class='contractorsTable'>
+
+<tr>
+ <td><a href="http://www.hollowood.com/">Hollowood Sound &amp; Music</a></b></td>
+ <td>Large sound reinforcement company, backline rentals </td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+ <td><a href="http://www.hughies.com/">Hughie's</a></td>
+ <td>Sound reinforcement, lighting, video, staging, and rental company</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.pnsmusic.com/">Pianos N' Stuff Music</a></td>
+  <td>Backline and sound rentals</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.taylorrental.com/">Taylor Rental</a></td>
+  <td>Staging, Tents</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.3riversentertainment.com/">Three Rivers Entertainment &amp; Production</a></td>
+  <td>Lighting services</td>
+</tr>
+
+<tr><td colspan=3>&nbsp;</td></tr>
+
+<tr>
+  <td><a href="http://www.vincentlighting.com/">Vincent Lighting</a></td>
+  <td>Lighting services</td>
+</tr>
+
+</table>
+
+<hr>
+
+<p><a name="Dealers">
+  <font size=+1 face=Arial,Helvetica,Charter,Geneva,Helvetica,Charter><b>Dealers</b></font></a>
+<br>
+Equipment dealers that we regularly deal with.
+<table>
+  <tr>
+    <td><a href="http://www.bmisupply.com">BMI Supply</A></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.compufind.com/gpas.html">Gourmet PA Systems</a>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="http://www.hollowood.com/">Hollowood Sound</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.vincentlighting.com/">Vincent Lighting Systems</a>
+    </td>
+  </tr></p>
+</table>
+
+<p><hr>
+<a name="Manufacturers">
+  <font size=+1 face=Arial,Helvetica,Charter,Geneva,Helvetica,Charter><b>Manufacturers</b></font></a>
+<br>
+Manufacturers of equipment we own.
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li><a href="http://www.akg-acoustics.com/">AKG Acoustics</a>
+        <li><a href="http://www.alesis.com/">Alesis</a>
+        <li><a href="http://www.amek.com/">Amek</a>
+        <li><a href="http://www.ashly.com/">Ashly</a>
+        <li><a href="http://www.audiocontrol.com/">Audio Control
+          Industrial</a>
+        <li><a href="http://www.audiotoys.com/">Audio Toys Inc.</a>
+        <li><a href="http://www.avolites.com/">Avolites</a>
+        <li><a href="http://www.bss.co.uk/">BSS Audio</a>
+        <li><a href="http://www.calzonecase.com/">Calzone Cases</a>
+        <li><a href="http://www.carverpro.com/">Carver Professional</a>
+        <li><a href="http://www.clearcom.com/">Clear-Com</a>
+        <li><a href="http://www.crownaudio.com/">Crown Audio</a>
+        <li><a href="http://www.dbxpro.com/">dbx</a>
+        <li><a href="http://www.eviaudio.com/dda">DDA</a>
+        <li><a href="http://www.d-mpro.com">D&amp;M Professional</a>
+        <li><a href="http://www.proaudio.co.uk/drawmer.htm">Drawmer</a>
+        <li><a href="http://www.eaw.com/">Eastern Acoustic Works</a>
+        <li><a href="http://www.electrovoice.com/">Electro-Voice</a>
+        <li><a href="http://www.etcconnect.com/">Electronic Theatre
+          Controls</a>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><a href="http://www.furmansound.com/">Furman</a>
+        <li><a href="http://www.genielift.com/">Genie Industries</a>
+        <li><a href="http://www.highend.com">High End Systems</a>
+        <li><a href="http://www.klarkteknik.com/">Klark-Teknik</a>
+        <li><a href="http://www.l-acoustics.com">L-Acoustics</a>
+        <li><a href="http://www.caeinc.com/leprecon">Leprecon</a>
+        <li><a href="http://www.lexicon.com/">Lexicon</a>
+        <li><a href="http://www.neutrikusa.com/">Neutrik</a>
+        <li><a href="http://www.rane.com/">Rane</a>
+        <li><a href="http://www.rosco.com/">Rosco</a>
+        <li><a href="http://www.sennheiserusa.com/">Sennheiser</a>
+        <li><a href="http://www.shure.com/">Shure</a>
+        <li><a href="http://www.skbcases.com/">SKB Cases</a>
+        <li><a href="http://www.soundtracs.co.uk/">Soundtracs</a>
+        <li><a href="http://www.tascam.com/">Tascam</a>
+        <li><a href="http://www.jthomaseng.com/">James Thomas Engineering</a>
+        <li><a href="http://www.vari-lite.com/">Vari-Lite</a>
+        <li><a href="http://www.whirlwindusa.com/">Whirlwind</a>
+        <li><a href="http://www.yamaha.com/">Yamaha</a>
+      </ul>
+    </td>
+  </tr>
+</table></p>
+<hr>
+
+<p><a name="Orgs">
+  <font size=+1 face=Arial,Helvetica,Charter,Geneva,Helvetica,Charterr><b>Organizations</b></font></a>
+<br>
+Organizations that we are a part of, or deal with regularly.</p>
+<table>
+  <tr>
+    <td><a href="https://www.facebook.com/activitiesboard">Carnegie Mellon Activities
+      Board</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.cmu.edu/student-affairs/slice/studentactivities/">Student Leadership, Involvement,
+and Civic Engagement (SLICE)</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.snstheatre.org/">Scotch'n'Soda Theatre</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.cmu.edu/">Carnegie Mellon University</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.aes.org/">Audio Engineering Society</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.ldishow.com/">Live Design International</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.andrew.cmu.edu/org/carnival">Carnegie Mellon
+      Spring Carnival Committee</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="http://www.w3vc.org">W3VC Carnegie Tech Radio Club</a></td>
+  </tr>
+
+</table>
+
+
+    </main>
+  
+
+  
+
+<footer class="text-center">
+  <a href="mailto:abtech@andrew.cmu.edu">abtech@andrew.cmu.edu</a> |
+  <a href="tel:4122682104"> 412.268.2104 </a> |
+  <a href="https://www.facebook.com/cmuabtech" target="_blank">
+    <img src="/static/img/fb.png" width="18">
+  </a>
+  <br>
+  CUC Box 73 | 5032 Forbes Ave | Pittsburgh, PA 15213 <br>
+  "Fly by night sound and light" since 1973. <br>
+  Copyright &copy; 2021 AB Tech <br>
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
+

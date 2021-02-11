@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html>
+
+<head><title> AB Tech:  Equipment
+ </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/img/favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Bootstrap core JavaScript
+     ================================================== -->
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="/static/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80292141-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+
+  
+</head>
+
+<body>
+
+
+<div class="halfBack back navbar navbar-default navbar-fixed-top">
+  <a href="/">
+    <div id="logo">
+      <img id="logoImage" src="/static/img/abtech_logo.png" alt="AB Tech Logo">
+    </div>
+  <div id="debug">
+    
+  </div>
+</a>
+  <div class="container-fluid">
+    <div class="halfBack navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="noBack back collapse navbar-collapse" id="navbar1">
+      <ul id='white' class="noBack back nav navbar-nav navbar-right">
+        <li><a href="/events">Our Events</a></li>
+        <li><a href="/request">Request Event</a></li>
+        <li class="dropdown"><a href="/services" role="button" aria-haspopup="true" aria-expanded="false">What We Do</a>
+          <ul class="dropdown-menu">
+            <li><a href="/services">Services</a></li>
+            <li><a href="/equipment">Equipment</a></li>
+            <li><a href="/external">External Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="/archives">Past Events</a></li>
+        <li class="dropdown"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Internal</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
+            <li><a href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="/crew" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="/crew">Current Crew</a></li>
+            <li><a href="/hots">HOTs</a></li>
+            <li><a href="/alumni">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="rightmost"><a href="/join">Join</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="content-shift">
+  
+    <main class="content-block">
+        
+
+<div class = "title-header">
+  <p class="text-justify"> 
+    <a href="/services"> Services </a> 
+    <a href="/equipment" class="current"> Equipment </a>
+    <a href="/external"> External Resources </a> 
+  </p>
+</div>
+
+<p><strong>AB Tech Inventory</strong><br />
+Our equipment configuration is constantly changing as we modify existing
+setups and acquire new gear
+to better meet the needs of the organizations we work with. Some large events
+require nearly our entire inventory all in one place, and other times our gear
+is divided between a half-dozen small events occurring simultaneously across
+campus.</p>
+<p>Please note that parts of this list may be out of date or inaccurate, so use
+this as a general reference only.
+We will design an appropriate system for your event based on the requirements
+you send us (you do not need to list specific items).</p>
+<h1>Sound</h1>
+<h2>Speakers and Amplifiers</h2>
+<h3>d&amp;b audiotechnik Y-series</h3>
+<ul>
+<li>8 <a href="https://www.dbaudio.com/global/en/products/series/y-series/y8/">Y8</a> and 4 <a href="https://www.dbaudio.com/global/en/products/series/y-series/y12/">Y12</a> 2-way passive line array loudspeakers</li>
+<li>6 <a href="https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/">V-SUB</a> subwoofers</li>
+<li>2 <a href="https://www.dbaudio.com/global/en/products/series/y-series/y10p/">Y10P</a> point source loudspeakers</li>
+<li><a href="https://www.dbaudio.com/global/en/products/amplifiers/d80/">D80</a> and <a href="https://www.dbaudio.com/global/en/products/amplifiers/d20/">D20</a> amplification with network-controlled monitoring and processing</li>
+</ul>
+<h3>L-Acoustics KUDO System</h3>
+<ul>
+<li>Four-way stereo configuration (8 L-Acoustics
+  <a href="http://www.l-acoustics.com/products-kudo-33.html">KUDO</a>,
+  4 <a href="http://www.l-acoustics.com/products-sb28-subwoofer-44.html">SB 218</a> )
+  <a href="/static/img/equipment/kudo.jpg"><img
+       border=0 src="/static/img/photo.gif"></a></li>
+<li>40,000W of <a href="http://www.l-acoustics.com/">L-Acoustics</a>
+  <a href="http://labgruppen.com/products/fp_series/c/fp_6400/">LA-48</a>
+  amplification capable of providing power levels exceeding 123 dBA SPL at the rear
+  of most popular CMU venues.</li>
+<li><a href="http://www.audiocore.co.uk/">XTA</a>
+  <a href="http://www.audiocore.co.uk/products-series4.html">DP448</a>
+  Loudspeaker Management System</li>
+</ul>
+<h3>EAW KF System:</h3>
+<ul>
+<li>Four-way stereo configuration (6 EAW KF600
+  (<a href="ftp://ftp.eaw.com/Loudspeaker_product_info/Discontinued_loudspeakers/KF_Series//KF600.pdf">KF600 datasheet</a>,
+  <a href="http://www.eaw.com/products/item.phtml?part_number=997195">KF650z info</a>),
+  4 SB528 (<a href="ftp://ftp.eaw.com/Discontinued%20Products/Datasheets/PDFs/SB528.pdf">Datasheet</a>,
+  <a href="http://www.eaw.com/products/item.phtml?part_number=997150">SB528zP info</a>)
+  capable of 28Hz-17kHz -3dB, +1dB A-weighted. <a href="/static/img/equipment/mains.jpg"><img border=0
+                                                       src="/static/img/photo.gif"></a></li>
+<li>20,000W of Crown
+  <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech</a>)
+  capable of providing power levels exceeding 115 dBA SPL at the rear
+  of most popular CMU venues. <a href="/static/img/equipment/ferdinand.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <a href="/static/img/equipment/luther.jpg"><img border=0 src="/static/img/photo.gif"></a></li>
+<li>dbx DriveRack 480 Loudspeaker Management System</li>
+</ul>
+<h3>EAW LA System:</h3>
+<ul>
+<li>2 EAW <a href="http://www.eaw.com/products/item.phtml?part_number=999025">LA325</a> <a href="http://www.eaw.com/products/item.phtml?part_number=997212">LA128</a> <a href="/static/img/equipment/la.jpg"><img border=0 src="/static/img/photo.gif"></a></li>
+<li>7,500W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> and <a href="http://www.crownaudio.com">Crown</a> <a href="http://www.crownaudio.com/amp_htm/macronew.htm">MacroTech 2400</a> amplification. <a href="/static/img/equipment/swissvale.jpg"><img border=0 src="/static/img/photo.gif"></a></li>
+<li>dbx DriveRack 480 Loudspeaker Management System</li>
+</ul>
+<h3>The Underground Rig:</h3>
+<ul>
+<li>2 EAW LA212</li>
+<li>2 EAW SB118</li>
+<li>5,000W of Crown <a href="http://www.crownaudio.com/amp_htm/k.htm">K2</a> amplification</li>
+<li>EAW MX-100</li>
+</ul>
+<h3>Stage Monitors:</h3>
+<ul>
+<li>8 L-Acoustics 115XT (1x15" low, 1x1.4" high) coaxial wedges</li>
+<li>8 Lab.Gruppen fp6400 amplification</li>
+<li>2 XTA DP224 Audio Management System (Beta)</li>
+<li>2 XTA DP424 Audio Management System (Alpha)</li>
+</ul>
+<h3>Other:</h3>
+<ul>
+<li>6 L-Acoustics <a href="https://www.l-acoustics.com/en/product/108p/">108P</a> powered loudspeakers</li>
+<li>4 Mackie <a href="https://mackie.com/sites/default/files/PRODUCT%20RESOURCES/SPECS/Spec_Sheets/SRM350v3_450v3_SS.pdf">SRM350v3</a> portable powered loudspeakers</li>
+</ul>
+<hr />
+<h2>Sound Consoles</h2>
+<ul>
+<li>Yamaha CL5</li>
+<li>Yamaha CL3</li>
+<li>Yamaha QL1</li>
+<li>16+4x8 <a href="http://www.yamahaproaudio.com/products/mixers/ls9/">Yamaha LS9-16</a> Digital Mixing Console</li>
+<li>12+2x2 <a href="http://www.presonus.com/products/StudioLive-16.0.2">Presonus Studiolive 16.0.2</a> Digital Mixing Console</li>
+</ul>
+<h3>Snakes and Cable</h3>
+<ul>
+<li>1 Yamaha Rio3224-D</li>
+<li>1 Yamaha Rio1608-D</li>
+<li>1 Yamaha Ro8-D</li>
+<li>1 d&amp;b audiotechnik DS10</li>
+<li>1 16+4 75'</li>
+<li>1 12+0 50'</li>
+<li>1 6+0 25'</li>
+</ul>
+<hr />
+<h2>Microphones</h2>
+<ul>
+  <li>5 Sennheiser <a href="http://www.sennheiserusa.com/pages/products/micro/md421.htm">MD421</a><a href="/static/img/equipment/421.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>2 Neumann KM184s
+  <li>2 AKG <a href="http://www.akg.com/products/powerslave,mynodeid,15,id,759,pid,759,_language,EN.html">C1000s</a> </a>
+  <li>6 Shure <a href="http://www.shure.com/microphones/models/sm81.asp">SM81</a> <a href="/static/img/equipment/sm81.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>4 AKG 451 (2 x C451EB and 2 x 451E) <a href="/static/img/equipment/ck451eb.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>9 Shure <a href="http://www.shure.com/microphones/models/sm58.asp">SM58</a> <a href="/static/img/equipment/sm58.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>5 Shure <a href="http://www.shure.com/microphones/models/beta58a.asp">Beta 58A</a>
+  <li>2 Shure <a href="http://www.shure.com/microphones/models/beta87.asp">Beta 87A</a>
+  <li>11 Shure <a href="http://www.shure.com/microphones/models/sm57.asp">SM57</a> <a href="/static/img/equipment/sm57.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>2 Shure <a href="http://www.shure.com/microphones/models/beta57a.asp">Beta 57A</a>
+  <li>6 EV ND408 <a href="/static/img/equipment/408.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>3 Shure <a href="http://www.shure.com/microphones/models/beta98ds.asp">Beta 98D/S</a>
+  <li>1 EV <a href="http://www.electrovoice.com/electrovoice/products.nsf/allpages/4F56507BDF754C5086256B900080527F?Opendocument">RE20 </a><a href="/static/img/equipment/re20.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>1 EV PL20
+  <li>4 Sennheiser e604
+  <li>2 Sennheiser e906
+  <li>2 AKG <a href="http://www.akg.com/products/powerslave,mynodeid,15,id,261,pid,261,_language,EN.html">D112</a> <a href="/static/img/equipment/d112.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>4 Whirlwind <a href="http://www.whirlwindusa.com/dirbox.html">IMP2</a> DIs<a href="/static/img/equipment/DI.jpg"><img border=0 src="/static/img/photo.gif"></a>
+  <li>6 BSS <a href="http://www.bss.co.uk/ar133.htm">AR-133</a> Active DIs<a href="/static/img/equipment/ar133.gif"><img border=0 src="/static/img/photo.gif"></a>
+  <li>4 Radial J48 Active DIs
+  <li>2 Radial JPC Stereo Active DIs
+  <li>1 Radio Shack PZM
+  <li>1 Shure <a href="http://www.shure.com/microphones/models/beta52.asp">Beta 52A</a>
+  <li>1 Shure <a href="http://www.shure.com/microphones/models/beta91.asp">Beta 91</a>
+  <li>2 Shure <a href="http://www.shure.com/microphones/models/ksm32.asp">KSM32/SL </a>
+  <li>1 Audio-Technica <a href="http://www.audio-technica.com/cms/wired_mics/b0107aebd9c2641d/index.html">AT4080 Ribbon Mic </a>
+  <li>2 Shure <a href="http://www.shure.com/americas/products/microphones/ksm/ksm9-handheld-vocal-microphone">KSM9 </a>
+</ul>
+
+<h3>Wireless Microphones</h3>
+<ul>
+  <li>6 Shure UR4D-J5 UHF-R Diversity Receivers (2-channel)
+  <li>2 Shure <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 SM 58 Handhelds</a>
+  <li>4 Shure <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 Beta 58 Handhelds</a>
+  <li>2 Shure <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 Beta 87A Handhelds</a>
+  <li>2 Shure <a href="http://www.shure.com/wireless/uhf/u2.asp">UR2-J5 Beta KSM9 Handhelds</a>
+  <li>3 Shure <a href="http://www.shure.com/americas/products/wireless-systems/ulxd-systems">Shure ULXD4Q</a> Digital Wireless Receivers (4-channel)</li>
+  <li>12 ULXD2 SM58 Handheld Wireless Transmitters</li>
+  <li>12 ULXD1 Bodypack Wireless Transmitters</li>
+  <li>8 <a href="http://www.shure.com/wireless/uhf/u1.asp">UR1-J5 Bodypacks</a> with Cardioid-pickup Lavalier Microphones
+  <li>2 <a href="http://www.shure.com/microphones/models/wl18x.asp">Shure WL185</a> (Cardioid) Lavalier Microphones
+  <li>2 <a href="http://www.shure.com/microphones/models/wh20.asp">Shure WH20TQG</a> (Cardioid) Headset Microphones
+  <li>10 <a href="http://www.shure.com/microphones/models/beta53.asp">WBH53</a> (Omni) Headset Microphones
+  <li>2 <a href="http://www.shure.com/microphones/models/beta98h.asp">Shure WB98H/C</a> Wireless Instrument Microphones (with Horn Clamp)
+</ul>
+
+<hr />
+<h1>Lighting</h1>
+<h2>Fixtures</h2>
+<h3>Conventional</h3>
+<ul>
+<li>18 PAR64 with 1kW lamps <a href="/static/img/equipment/pars.jpg"><img border=0 src="/static/img/photo.gif"></li>
+<li>8 ETC <a href="https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-PAR/Features.aspx">Source Four PAR</a> with 575W lamps</li>
+<li>20 ETC <a href="https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four/Features.aspx">Source Four</a> with 10-, 19-, 26-, 36-, and 50-degree lens tubes</li>
+</ul>
+<h3>LED</h3>
+<ul>
+<li>12 ETC <a href="https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2/Source-Four-LED-Series-2-Lustr/">Source Four LED Series 2 Lustr+</a> with 19-, 26-, 36-, and 50-degree EDLT lens tubes</li>
+<li>8 Philips <a href="http://www.colorkinetics.com/ls/rgb/colorblazetrx/">Color Kinetics ColorBlaze TRX</a> 2' RGBAW LED Wash Fixtures (with 22-, 32-, 60x32-, and 32x12-degree spread lenses)</li>
+<li>18 Martin <a href="http://www.martin.com/en-us/product-details/rush-par-1-rgbw">Rush Par 1 RGBW</a></li>
+<li>18 Chauvet <a href="https://www.chauvetdj.com/products/freedom-par-hex-4/">Freedom Par Hex-4</a></li>
+</ul>
+<h3>Moving Head</h3>
+<ul>
+<li>6 Philips <a href="https://www.vari-lite.com/global/products/vl2500-spot">Vari*Lite VL2500 Spot</a></li>
+</ul>
+<h3>Special</h3>
+<ul>
+<li>3 Martin Atomic 3000 DMX Strobe</li>
+<li>4 Clay Paky <a href="https://www.claypaky.it/en/products/stormy">Stormy CC</a> Color Strobe</li>
+</ul>
+<h3>Dimming</h3>
+<ul>
+<li>24 channels of dimming at 2.4kW/channel (Electrol LP62400)</li>
+<li>24 channels of dimming at 1.5kW/channel (Electrol D125dx)</li>
+<li>12 channels of dimming at 1.2kW/channel (Electrol Anaconda)</li>
+<li>12 channels of dimming at 1.2kW/channel (<a href="https://www.etcconnect.com/Products/Power-Controls/Distributed/SmartSystems/SmartBar-2.aspx">ETC Smartbar 2</a>)</li>
+<li>Up to 12 channels of dimming for either 12 channels at 750W/channel or 8 channels at 1.0kW/channel (<a href="https://www.leprecon.com/products/product/9">Leprecon ULD-360-HP</a>)</li>
+</ul>
+<h3>Control</h3>
+<ul>
+<li>MA Lighting <a href="http://www.malighting.com/en/products/control/control/ma-lighting/grandma2-light/120112-grandma2-light.html">grandMA2 Light</a></li>
+<li>Jands <a href="https://jands.com/stage-cl/">Stage CL</a></li>
+<li>ETC <a href="http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx">Smartfade 1296</a></li>
+<li>ETC <a href="https://www.etcconnect.com/Products/Consoles/ColorSource/Features.aspx">ColorSource 20 AV</a></li>
+</ul>
+<hr />
+<h1>Media</h1>
+<h2>Projectors</h2>
+<ul>
+<li>2 Epson Pro <a href="https://epson.com/For-Work/Projectors/Large-Venue/Pro-L1755UNL-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement-Without-Lens/p/V11H892820">L1755U WUXGA 3LCD Laser Projectors</a> with 2 each of <a href="https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%231-Zoom-Lens-%28ELPLW05%29/p/V12H004W05">ELPLW05</a>, <a href="https://epson.com/Accessories/Projector-Accessories/Short-Throw-%231-Zoom-Lens-%28ELPLU03%29/p/V12H004U03">ELPLU03</a>, <a href="https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%232-Zoom-Lens-%28ELPLW06%29/p/V12H004W06">ELPLW06</a> lenses, and 1 of <a href="https://epson.com/Accessories/Projector-Accessories/Middle-Throw-Zoom-Lens-%233-%28ELPLM10%29/p/V12H004M0A">ELPLM10</a></li>
+</ul>
+<h3>Control</h3>
+<ul>
+<li>1 <a href="https://proav.roland.com/global/products/v-1sdi/">Roland V1-SDI Media Switcher</a></li>
+</ul>
+<h1>Miscellaneous</h1>
+<ul>
+<li>8 10'x12"x12" Thomas box truss (silver)</li>
+<li>6 8'x12"x12" Thomas box truss (silver)</li>
+<li>6 Columbus McKinnon Lodestar half-ton chain motors</li>
+<li>6 Columbus McKinnon Prostar quarter-ton chain motors</li>
+<li>Communications system: Clear-Com <a href="https://www.clearcom.com/product/ms-702/">MS-702 Main Station</a> plus assorted remote stations</li>
+</ul>
+
+
+    </main>
+  
+
+  
+
+<footer class="text-center">
+  <a href="mailto:abtech@andrew.cmu.edu">abtech@andrew.cmu.edu</a> |
+  <a href="tel:4122682104"> 412.268.2104 </a> |
+  <a href="https://www.facebook.com/cmuabtech" target="_blank">
+    <img src="/static/img/fb.png" width="18">
+  </a>
+  <br>
+  CUC Box 73 | 5032 Forbes Ave | Pittsburgh, PA 15213 <br>
+  "Fly by night sound and light" since 1973. <br>
+  Copyright &copy; 2021 AB Tech <br>
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
+

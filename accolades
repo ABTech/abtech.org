@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+
+<head><title> AB Tech:  Accolades
+ </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/img/favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Bootstrap core JavaScript
+     ================================================== -->
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="/static/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80292141-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+
+  
+</head>
+
+<body>
+
+
+<div class="halfBack back navbar navbar-default navbar-fixed-top">
+  <a href="/">
+    <div id="logo">
+      <img id="logoImage" src="/static/img/abtech_logo.png" alt="AB Tech Logo">
+    </div>
+  <div id="debug">
+    
+  </div>
+</a>
+  <div class="container-fluid">
+    <div class="halfBack navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="noBack back collapse navbar-collapse" id="navbar1">
+      <ul id='white' class="noBack back nav navbar-nav navbar-right">
+        <li><a href="/events">Our Events</a></li>
+        <li><a href="/request">Request Event</a></li>
+        <li class="dropdown"><a href="/services" role="button" aria-haspopup="true" aria-expanded="false">What We Do</a>
+          <ul class="dropdown-menu">
+            <li><a href="/services">Services</a></li>
+            <li><a href="/equipment">Equipment</a></li>
+            <li><a href="/external">External Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="/archives">Past Events</a></li>
+        <li class="dropdown"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Internal</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
+            <li><a href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="/crew" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="/crew">Current Crew</a></li>
+            <li><a href="/hots">HOTs</a></li>
+            <li><a href="/alumni">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="rightmost"><a href="/join">Join</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="content-shift">
+  
+    <main class="content-block">
+        
+
+<div class = "title-header">
+  <a href="/archives"> Past Events </a> 
+  <a href="/accolades" class="current"> Accolades </a>
+  <a href="/timelapse"> Videos </a>
+</div>
+
+<blockquote>
+<p>My entire team can truly not thank you enough. AB Tech was professional,
+knowledgeable,
+and fantastic to work with. It was so great knowing that I could rely on your
+entire
+team to make the event not only happen, but go off without one hitch. Thank
+you for all
+of your hard work and efforts! We appreciate it and truly could not have done
+it without you!
+We look forward to working with you again in the future!  </p>
+</blockquote>
+<p>President's Inauguration Celebration, November 2013<br />
+<br></p>
+<blockquote>
+<p>Thanks a lot! We were very happy with the service, as always.
+I am sure we will come back for more.  </p>
+</blockquote>
+<p>SPICMACAY, November 2013<br />
+<br></p>
+<blockquote>
+<p>Thank you so much for your help and support surrounding the Hagit Yaso
+concert.
+The event was a great success and we hope you enjoyed it as well.
+We couldn't have put on such a large scale production without your support.
+We look forward to continuing our relationship in the future.  </p>
+</blockquote>
+<p>Tartans 4 Israel, October 2013<br />
+<br></p>
+<blockquote>
+<p>On behalf of Bhangra in the Burgh 7's Executive Board and Staff we would
+like to say
+thank you so much for all your hard work for BIB. We've been getting a lot
+of compliments
+from many of the teams who came to BIB7 about how smoothly the show was run
+and ABTech
+played a huge part in this. The lighting and music were great and the mics
+were on point
+(especially for Deewane). Thank you so much so being so flexible with the
+last minute
+changes with the lighting and the show schedule--we know it could not have
+been easy.  </p>
+</blockquote>
+<p>Bhangra in the Burgh 7, November 2013<br />
+<br></p>
+<blockquote>
+<p>Just wanted to thank you all for your help with the Mayur Show this weekend!
+You all really played a huge role in making the show such a success.
+Despite all the confusion and lack of preparation on our part, you were able
+to adapt
+quickly and did a great job with all the lights, mic tech, and backstage
+organization!
+We really appreciate your cooperation and involvement, and we wish you all the
+luck
+with all things ABTech and more for the rest of this semester.  </p>
+</blockquote>
+<p>Mayur, February 2014  </p>
+
+
+    </main>
+  
+
+  
+
+<footer class="text-center">
+  <a href="mailto:abtech@andrew.cmu.edu">abtech@andrew.cmu.edu</a> |
+  <a href="tel:4122682104"> 412.268.2104 </a> |
+  <a href="https://www.facebook.com/cmuabtech" target="_blank">
+    <img src="/static/img/fb.png" width="18">
+  </a>
+  <br>
+  CUC Box 73 | 5032 Forbes Ave | Pittsburgh, PA 15213 <br>
+  "Fly by night sound and light" since 1973. <br>
+  Copyright &copy; 2021 AB Tech <br>
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
+
