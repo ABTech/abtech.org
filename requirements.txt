@@ -5,3 +5,4 @@ django-bootstrap3-datetimepicker==2.2.3
 django-markdown==0.8.4
 robobrowser==0.5.3
 six==1.9.0
+Werkzeug==0.16.1
