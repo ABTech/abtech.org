@@ -170,11 +170,13 @@ you send us (you do not need to list specific items).
 
 ### LED
 - 12 ETC [Source Four LED Series 2 Lustr+](https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2/Source-Four-LED-Series-2-Lustr/) with 19-, 26-, 36-, and 50-degree EDLT lens tubes
+- 6 Chroma-Q [Color Force II 48](https://chroma-q.com/products/color-force-ii-48) 4' RGBA LED Cyc/Wash Fictures (with 22°, 43°, and 80° x 35° spread options)
 - 8 Philips [Color Kinetics ColorBlaze TRX](http://www.colorkinetics.com/ls/rgb/colorblazetrx/) 2' RGBAW LED Wash Fixtures (with 22-, 32-, 60x32-, and 32x12-degree spread lenses)
 - 18 Martin [Rush Par 1 RGBW](http://www.martin.com/en-us/product-details/rush-par-1-rgbw)
 - 18 Chauvet [Freedom Par Hex-4](https://www.chauvetdj.com/products/freedom-par-hex-4/)
 
 ### Moving Head
+- 4 Robe [Esprite](https://www.robe.cz/esprite/)
 - 6 Philips [Vari\*Lite VL2500 Spot](https://www.vari-lite.com/global/products/vl2500-spot)
 
 ### Special
@@ -193,16 +195,18 @@ you send us (you do not need to list specific items).
 - Jands [Stage CL](https://jands.com/stage-cl/)
 - ETC [Smartfade 1296](http://www.etcconnect.com/Products/Consoles/Smart-Family/SmartFade/Features.aspx)
 - ETC [ColorSource 20 AV](https://www.etcconnect.com/Products/Consoles/ColorSource/Features.aspx)
+- ETC [DMX/RDM Four-Port Gateway](https://www.etcconnect.com/Products/Networking/DMX-RDM-Four-Port-Gateway/Features.aspx)
 
 ---
 
 # Media
 ## Projectors
 
-- 2 Epson Pro [L1755U WUXGA 3LCD Laser Projectors](https://epson.com/For-Work/Projectors/Large-Venue/Pro-L1755UNL-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement-Without-Lens/p/V11H892820) with 2 each of [ELPLW05](https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%231-Zoom-Lens-%28ELPLW05%29/p/V12H004W05), [ELPLU03](https://epson.com/Accessories/Projector-Accessories/Short-Throw-%231-Zoom-Lens-%28ELPLU03%29/p/V12H004U03), [ELPLW06](https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%232-Zoom-Lens-%28ELPLW06%29/p/V12H004W06) lenses, and 1 of [ELPLM10](https://epson.com/Accessories/Projector-Accessories/Middle-Throw-Zoom-Lens-%233-%28ELPLM10%29/p/V12H004M0A)
+- 2 Epson Pro [L1755U WUXGA 3LCD Laser Projectors](https://epson.com/For-Work/Projectors/Large-Venue/Pro-L1755UNL-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement-Without-Lens/p/V11H892820) with 2 each of [ELPLW05](https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%231-Zoom-Lens-%28ELPLW05%29/p/V12H004W05), [ELPLU03](https://epson.com/Accessories/Projector-Accessories/Short-Throw-%231-Zoom-Lens-%28ELPLU03%29/p/V12H004U03), [ELPLW06](https://epson.com/Accessories/Projector-Accessories/Wide-Throw-%232-Zoom-Lens-%28ELPLW06%29/p/V12H004W06) lenses, and 1 of [ELPLM10](https://epson.com/Accessories/Projector-Accessories/Middle-Throw-Zoom-Lens-%233-%28ELPLM10%29/p/V12H004M0A), 2 sets stacking frames and gimbals
 
-### Control
+### Control & Playback
 - 1 [Roland V1-SDI Media Switcher](https://proav.roland.com/global/products/v-1sdi/)
+- 2 Apple Mac Mini
 
 # Miscellaneous
 
