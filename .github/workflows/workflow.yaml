@@ -16,39 +16,85 @@ on:
     # - '*'
 
 jobs:
+  build-docker:
+    runs-on: ubuntu-latest
+    outputs:
+      IMAGE_ID: ${{ steps.push-image.outputs.IMAGE_ID }}
+      VERSION: ${{ steps.push-image.outputs.VERSION }}
+      VERSIONSHA: ${{ steps.push-image.outputs.VERSIONSHA }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: 🏗 Set up build cache
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.docker-cache
+          key: ${{ runner.os }}-buildDocker-${{ env.cache-name }}-${{ github.ref }}-${{ github.sha }}-${{ hashFiles('**/Dockerfile') }}
+          restore-keys: |
+            ${{ runner.os }}-buildDocker-${{ env.cache-name }}-${{ github.ref }}-
+            ${{ runner.os }}-buildDocker-${{ env.cache-name }}-
+      - name: Build image
+        run: docker build . --file Dockerfile --tag ${{ github.event.repository.name }} --label "runnumber=${{ github.run_id }}"
+      - name: Log into registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      - name: Push image
+        id: push-image
+        run: |
+          IMAGE_ID=ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}
+
+          # Change all uppercase to lowercase
+          IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
+          # Use Docker `latest` tag convention
+          [ "$VERSION" == "master" ] && VERSION=latest
+          # Use sha too
+          VERSIONSHA="${{ github.sha }}"
+          echo IMAGE_ID=$IMAGE_ID
+          echo VERSION=$VERSION
+          echo VERSIONSHA=$VERSIONSHA
+          echo "::set-output name=IMAGE_ID::$IMAGE_ID"
+          echo "::set-output name=VERSION::$VERSION"
+          echo "::set-output name=VERSIONSHA::$VERSIONSHA"
+          docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSION
+          docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSIONSHA
+          docker push $IMAGE_ID --all-tags
   build:
+    needs: build-docker
     runs-on: ubuntu-latest
     container:
-      image: ruby:3.0.1-buster
+      image: ${{ needs.build-docker.outputs.IMAGE_ID }}:${{ needs.build-docker.outputs.VERSIONSHA }}
     steps:
       - name: Checkout latest
         uses: actions/checkout@v2
-      - name: Install Node
-        run: >
-          NODE_VERSION=node_14.x && 
-          NODE_DISTRO=buster && 
-          curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -  && 
-          echo "deb https://deb.nodesource.com/$NODE_VERSION $NODE_DISTRO main" | tee /etc/apt/sources.list.d/nodesource.list && 
-          echo "deb-src https://deb.nodesource.com/$NODE_VERSION $NODE_DISTRO main" | tee -a /etc/apt/sources.list.d/nodesource.list && 
-          apt-get update -y && apt-get install -y nodejs=14.17.0-1nodesource1
       - name: Cache Ruby dependencies
         uses: actions/cache@v2
         env:
           cache-name: cache-ruby-gems
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/Gemfile.lock', '**/Gemfile', '**/Dockerfile') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/Gemfile.lock', '**/Gemfile', '**/Dockerfile') }}
           restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
             ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-      - name: Install Ruby dependencies
-        run: bundle config path vendor/bundle && bundle install --jobs 4 --retry 3
-      - name: Install NodejS dependencies
-        run: npm install
+      - name: Cache NodeJS dependencies
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/package-lock.json', '**/package.json', '**/Dockerfile') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+      - name: Install all dependencies # This includes bundler with NPM preinstall script
+        run: npm install --unsafe-perm
       - name: Build Jekyll
-        run: JEKYLL_ENV="production" bundle exec jekyll build
-      - name: 'Archive files'
+        run: npm run-script build-prod
+      - name: Archive files
         run: tar -cvf _site.tar -C _site .
       - name: Upload Artifact
         uses: actions/upload-artifact@v2

@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "AB Tech Website",
   "scripts": {
+    "preinstall": "bundle install --jobs 4 --retry 3",
+    "build": "bundle exec jekyll build",
+    "build-prod": "JEKYLL_ENV=\"production\" bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

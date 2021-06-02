@@ -12,10 +12,9 @@ We all have them.
 Note: We do not host the production website with GitHub Pages, but it is a convenient place to keep the latest built version from `master`. It also provides emergency fallback hosting should it ever be needed.
 ### Simple
  - Use the Dockerfile (more instructions soon)
- - `bundle install`
- - `npm install`
- - `jekyll serve` (for live development)
- - `JEKYLL_ENV="production" jekyll build` (for built app placed in `_sité)
+ - `npm install` (will install Ruby and NodeJS dependencies)
+ - `npm run-script serve` (for live development)
+ - `npm run-script build-prod` (for built app placed in `_site`)
 ### Complicated
  - Use the Ruby version found in the Dockerfile (for consistency)
  - User the NodeJS version found in the Dockerfile (for consistency)
@@ -38,7 +37,7 @@ Ensure JS libraries are browser-ready (no dependencies once built, usually found
 
 ## Adding CSS/SCSS/SASS libraries
 
-1. Install with `npm install <package>`
+1. Install with `npm install --save <package>`
 2. You should now be able to include them from within the `_sass` directory (example with how Bootstrap is included)
 
 ### Setup
