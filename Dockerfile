@@ -10,9 +10,6 @@ RUN export NODE_VERSION=node_14.x && \
     apt-get update -y && apt-get install -y nodejs=14.17.0-1nodesource1 && \
     bundle config path vendor/bundle
 
-# throw errors if Gemfile has been modified since Gemfile.lock
-#RUN bundle config --global frozen 1
-
 WORKDIR /usr/src/app
 VOLUME /usr/src/app
 
