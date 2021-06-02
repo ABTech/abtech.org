@@ -45,7 +45,7 @@ jobs:
       - name: Install Ruby dependencies
         run: bundle config path vendor/bundle && bundle install --jobs 4 --retry 3
       - name: Install NodejS dependencies
-        run: npm Install
+        run: npm install
       - name: Build Jekyll
         run: JEKYLL_ENV="production" jekyll build
       - name: 'Archive files'
