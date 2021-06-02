@@ -58,6 +58,3 @@ To load changes from server, simply pull (from `gh-pages` once it is built):
 ```
 git pull
 ```
-
-## History
-This website was refreshed by pnaseck in 2021 to use Jekyll. It was previously a Django site, which can be found in the `legacy-pre-2021` branch.

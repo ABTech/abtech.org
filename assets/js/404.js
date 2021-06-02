@@ -195,9 +195,9 @@ function render_beam(light, light_focus) {
 
   context.translate(light_pivot_x, light_pivot_y);
   context.rotate(angle - Math.PI / 2);
+  context.fillStyle = 'rgba(255, 255, 255, 0.1)';
 
   // Draw beam
-  context.globalAlpha = 0.1;
   context.fillStyle = 'rgba(255, 255, 255, 0.1)';
   context.beginPath();
 
