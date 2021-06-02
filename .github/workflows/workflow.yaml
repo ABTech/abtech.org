@@ -49,8 +49,6 @@ jobs:
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
           # Strip "v" prefix from tag name
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
-          # Use Docker `latest` tag convention
-          [ "$VERSION" == "master" ] && VERSION=latest
           # Use sha too
           VERSIONSHA="${{ github.sha }}"
           echo IMAGE_ID=$IMAGE_ID
@@ -59,6 +57,8 @@ jobs:
           echo "::set-output name=IMAGE_ID::$IMAGE_ID"
           echo "::set-output name=VERSION::$VERSION"
           echo "::set-output name=VERSIONSHA::$VERSIONSHA"
+          # Use Docker `latest` tag convention
+          [ "$VERSION" == "master" ] && docker tag ${{ github.event.repository.name }} $IMAGE_ID:latest
           docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSION
           docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSIONSHA
           docker push $IMAGE_ID --all-tags
