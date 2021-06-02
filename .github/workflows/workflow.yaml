@@ -47,7 +47,7 @@ jobs:
       - name: Install NodejS dependencies
         run: npm install
       - name: Build Jekyll
-        run: JEKYLL_ENV="production" jekyll build
+        run: JEKYLL_ENV="production" bundle exec jekyll build
       - name: 'Archive files'
         run: tar -cvf -C _site ._site.tar .
       - name: Upload Artifact
