@@ -56,8 +56,8 @@ exclude:
   - .github/
   - .git/
 include:
-  - node_modules/bootstrap/dist/js/bootstrap.min.js
-  - node_modules/bootstrap/dist/js/bootstrap.min.js.map
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
 
 sass:
   sourcemap: development

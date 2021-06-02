@@ -38,7 +38,7 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{ "/node_modules/bootstrap/dist/js/bootstrap.min.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" | relative_url }}"></script>
     {% if page contains "footScripts" %}{% for script in page.footScripts %}
     <script type="text/javascript" src="{{ script | relative_url }}"></script>
     {% endfor %}{% endif %}
