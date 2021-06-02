@@ -17,10 +17,20 @@ on:
 
 jobs:
   build:
-    runs:
-      using: 'docker'
-      image: 'Dockerfile'
+    runs-on: ubuntu-latest
+    container:
+      image: ruby:3.0.1-buster
     steps:
+      - name: Checkout latest
+        uses: actions/checkout@v2
+      - name: Install Node
+        run: >
+          NODE_VERSION=node_14.x && 
+          NODE_DISTRO=buster && 
+          curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -  && 
+          echo "deb https://deb.nodesource.com/$NODE_VERSION $NODE_DISTRO main" | tee /etc/apt/sources.list.d/nodesource.list && 
+          echo "deb-src https://deb.nodesource.com/$NODE_VERSION $NODE_DISTRO main" | tee -a /etc/apt/sources.list.d/nodesource.list && 
+          apt-get update -y && apt-get install -y nodejs=14.17.0-1nodesource1
       - name: Cache Ruby dependencies
         uses: actions/cache@v2
         env:
