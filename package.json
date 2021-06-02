@@ -1,0 +1,21 @@
+{
+  "name": "abtech.org",
+  "version": "1.0.0",
+  "description": "AB Tech Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABTech/abtech.org.git"
+  },
+  "author": "ABTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABTech/abtech.org/issues"
+  },
+  "homepage": "https://www.abtech.org/",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}

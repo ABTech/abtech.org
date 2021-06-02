@@ -1,0 +1,51 @@
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="main-nav">
+      <div class="container">
+        <a class="navbar-brand p-0 me-auto order-1" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/img/abtech_logo_white.svg' | realtive_url }}" alt="AB Tech Logo" height="40">
+        </a>
+        <ul class="navbar-nav ms-auto flex-row order-2 order-lg-5">
+          <li class="nav-item align-self-start align-self-lg-center">
+            <a class="me-2 btn btn-secondary{% if (page.nav_page != 'join') %}"{% else %} active" aria-current="page"{% endif %} href="{{ '/join/' | relative_url }}">Join</a>
+          </li>
+          <li class="nav-item align-self-start align-self-lg-center">
+            <a class="me-2 btn btn-primary{% if (page.nav_page != 'request') %}"{% else %} active" aria-current="page"{% endif %} href="{{ '/request/' | relative_url }}">Request Event</a>
+          </li>
+        </ul>
+        <button class="navbar-toggler order-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse order-4" id="navbarNav">
+          <ul class="navbar-nav ms-auto justify-content-end">
+            <li class="nav-item dropdown">
+              <a id="header-nav-whatWeDo-dropdown" class="nav-link dropdown-toggle{% if (page.nav_page == 'whatWeDo') %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What We Do</a>
+              <ul class="dropdown-menu" aria-labelledby="header-nav-whatWeDo-dropdown">
+                <li><a class="dropdown-item{% if (page.nav_page != 'services') %}"{% else %} active" aria-current="page"{% endif %} href="{{ '/services/' | relative_url }}">Services</a></li>
+                <li><a class="dropdown-item{% if (page.nav_page != 'equipment') %}"{% else %} active" aria-current="page"{% endif %}  href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item{% if (page.nav_page != 'external') %}"{% else %} active" aria-current="page"{% endif %}  href="{{ '/external/' | relative_url }}">External Resources</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link{% if (page.nav_page != 'events') %}"{% else %} active" aria-current="page"{% endif %} href="{{ '/events/' | relative_url }}">Events</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="header-nav-whatWeDo-dropdown" class="nav-link dropdown-toggle{% if (page.nav_page == 'people') %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">People</a>
+              <ul class="dropdown-menu" aria-labelledby="header-nav-whatWeDo-dropdown">
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'currentCrew') %} active" aria-current="page"{% else %}"{% endif %} href="{{ '/people/' | relative_url }}">Current Crew</a></li>
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'hots') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/people/hots/' | relative_url }}">Heads of Tech</a></li>
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'alumni') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/people/alumni/' | relative_url }}">Alumni</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="header-nav-internal-dropdown" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Internal</a>
+              <ul class="dropdown-menu" aria-labelledby="header-nav-internal-dropdown">
+                <li><a class="dropdown-item" href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
+                <li><a class="dropdown-item" href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>

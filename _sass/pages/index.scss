@@ -1,0 +1,33 @@
+// Styles for the index page (homepage)
+
+header #main-nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+#bg-carousel, #bg-carousel-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    img {
+        object-fit: cover;
+    }
+}
+#bg-carousel {
+    z-index: -2;
+}
+#bg-carousel-gradient {
+    z-index: -1;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+main .content-block {
+    background: none;
+    border: none;
+    height: 100%;
+    margin: 15px 0 30px 0;
+    p {
+        background-color: rgba(0,0,0,0.8);
+    }
+}
+
