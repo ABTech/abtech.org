@@ -1,4 +1,9 @@
 # ============================================
+# abtech.org gitignore
+_site.tar
+
+
+# ============================================
 # Jekyll gitignore
 # https://github.com/github/gitignore/blob/3bb7b4b767f3f8df07e362dfa03c8bd425f16d32/Jekyll.gitignore
 _site/
@@ -9,8 +14,9 @@ _site/
 
 # ============================================
 # Jekyll gitignore
-# from `jekyll new` v4.2.0
+# from `jekyll new` v4.2.0 (and where our Docker image stores Gems)
 vendor
+
 
 # ============================================
 # Ruby gitignore
