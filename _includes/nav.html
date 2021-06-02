@@ -19,7 +19,7 @@
           <ul class="navbar-nav ms-auto justify-content-end">
             <li class="nav-item dropdown">
               <a id="header-nav-whatWeDo-dropdown" class="nav-link dropdown-toggle{% if (page.nav_page == 'whatWeDo') %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What We Do</a>
-              <ul class="dropdown-menu" aria-labelledby="header-nav-whatWeDo-dropdown">
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="header-nav-whatWeDo-dropdown">
                 <li><a class="dropdown-item{% if (page.nav_page != 'services') %}"{% else %} active" aria-current="page"{% endif %} href="{{ '/services/' | relative_url }}">Services</a></li>
                 <li><a class="dropdown-item{% if (page.nav_page != 'equipment') %}"{% else %} active" aria-current="page"{% endif %}  href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
                 <li><hr class="dropdown-divider"></li>
@@ -31,7 +31,7 @@
             </li>
             <li class="nav-item dropdown">
               <a id="header-nav-whatWeDo-dropdown" class="nav-link dropdown-toggle{% if (page.nav_page == 'people') %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">People</a>
-              <ul class="dropdown-menu" aria-labelledby="header-nav-whatWeDo-dropdown">
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="header-nav-whatWeDo-dropdown">
                 <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'currentCrew') %} active" aria-current="page"{% else %}"{% endif %} href="{{ '/people/' | relative_url }}">Current Crew</a></li>
                 <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'hots') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/people/hots/' | relative_url }}">Heads of Tech</a></li>
                 <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'alumni') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/people/alumni/' | relative_url }}">Alumni</a></li>
@@ -39,7 +39,7 @@
             </li>
             <li class="nav-item dropdown">
               <a id="header-nav-internal-dropdown" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Internal</a>
-              <ul class="dropdown-menu" aria-labelledby="header-nav-internal-dropdown">
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="header-nav-internal-dropdown">
                 <li><a class="dropdown-item" href="https://abtech.andrew.cmu.edu/tracker/" target="_blank">Tracker</a></li>
                 <li><a class="dropdown-item" href="https://www.abtech.org/wiki/" target="_blank">Wiki</a></li>
               </ul>
