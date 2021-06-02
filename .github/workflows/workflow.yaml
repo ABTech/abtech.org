@@ -1,0 +1,73 @@
+name: abtech.org
+
+on:
+  push:
+    branches:
+      # - 'master'
+      - 'dev'
+      - '!gh-pages'
+    paths-ignore:
+      - 'etc/**'
+  pull_request:
+    branches:
+      # - 'master'
+      - 'dev'
+  # tags:
+    # - '*'
+
+jobs:
+  build:
+    runs:
+      using: 'docker'
+      image: 'Dockerfile'
+    steps:
+      - name: Cache Ruby dependencies
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-ruby-gems
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/Gemfile.lock', '**/Gemfile', '**/Dockerfile') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install Ruby dependencies
+        run: bundle config path vendor/bundle && bundle install --jobs 4 --retry 3
+      - name: Install NodejS dependencies
+        run: npm Install
+      - name: Build Jekyll
+        run: JEKYLL_ENV="production" jekyll build
+      - name: 'Archive files'
+        run: tar -cvf -C _site ._site.tar .
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: "_site"
+          path: _site.tar
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout gh-pages branch of repo
+        uses: actions/checkout@v2
+        with:
+          ref: "gh-pages"
+      - name: Clear branch of previous build
+        run: |
+          git rm -rf . --ignore-unmatch
+          git clean -fxd
+      - name: Download built artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: "_site"
+      - name: 'Unarchive files & remove archive'
+        run: tar -xvf _site.tar && rm _site.tar
+      - name: Commit and push new artifact
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add . --all
+          git commit -m "abtech.org publish $GITHUB_SHA"
+          git push
