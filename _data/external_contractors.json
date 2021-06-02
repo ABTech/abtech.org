@@ -1,0 +1,27 @@
+[
+  {
+    "name": "4Wall",
+    "url": "https://www.4wall.com/",
+    "desc": "Lighting"
+  },
+  {
+    "name": "Flyspace Productions",
+    "url": "https://www.flyspaceproductions.com/",
+    "desc": "Outdoor staging"
+  },
+  {
+    "name": "Hollowood Music & Sound",
+    "url": "https://hollowood.com/",
+    "desc": "Backline & Sound reinforcement"
+  },
+  {
+    "name": "Hughie's Event Production Services",
+    "url": "http://www.hughies.com/",
+    "desc": "Lighting, media, sound reinforcement, & staging"
+  },
+  {
+    "name": "Vincent Lighting Systems (VLS)",
+    "url": "https://www.vls.com/",
+    "desc": "Lighting, media, & staging"
+  }
+]
