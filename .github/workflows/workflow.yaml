@@ -49,7 +49,7 @@ jobs:
       - name: Build Jekyll
         run: JEKYLL_ENV="production" bundle exec jekyll build
       - name: 'Archive files'
-        run: tar -cvf -C _site ._site.tar .
+        run: tar -cvf _site.tar -C _site .
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
