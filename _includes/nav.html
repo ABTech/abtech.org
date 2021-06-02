@@ -20,10 +20,10 @@
             <li class="nav-item dropdown">
               <a id="header-nav-whatWeDo-dropdown" class="nav-link dropdown-toggle{% if (page.nav_page == 'whatWeDo') %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What We Do</a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="header-nav-whatWeDo-dropdown">
-                <li><a class="dropdown-item{% if (page.nav_page != 'services') %}"{% else %} active" aria-current="page"{% endif %} href="{{ '/services/' | relative_url }}">Services</a></li>
-                <li><a class="dropdown-item{% if (page.nav_page != 'equipment') %}"{% else %} active" aria-current="page"{% endif %}  href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'services') %} active" aria-current="page"{% else %}"{% endif %} href="{{ '/services/' | relative_url }}">Services</a></li>
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'equipment') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item{% if (page.nav_page != 'external') %}"{% else %} active" aria-current="page"{% endif %}  href="{{ '/external/' | relative_url }}">External Resources</a></li>
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'external') %} active" aria-current="page"{% else %}"{% endif %} href="{{ '/external/' | relative_url }}">External Resources</a></li>
               </ul>
             </li>
             <li class="nav-item">
