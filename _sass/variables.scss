@@ -1,8 +1,11 @@
 // Custom variables for Boostrap
 
-// Make primary buttons AB Tech red, not blue
+// Make primary buttons and links AB Tech red, not blue
 $red:     #c20f2e;
 $primary:      $red;
 
 // Slow down carousel on honmepage
 $carousel-transition-duration: 3s;
+
+// Don't underline links
+$link-decoration: none;
