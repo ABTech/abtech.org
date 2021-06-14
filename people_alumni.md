@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Events Archive
+title: Alumni
 permalink: /people/alumni/
 nav_page: people
 nav_page_specific: alumni
