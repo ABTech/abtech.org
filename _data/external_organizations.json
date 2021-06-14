@@ -16,19 +16,19 @@
     "url": "https://www.cmu.edu/housing/"
   },
   {
-    "name": "Jared L. Cohon University Center",
+    "name": "Jared L. Cohon University Center (UC)",
     "url": "https://www.cmu.edu/cohon-university-center/"
   },
   {
-    "name": "School of Drama",
+    "name": "School of Drama (SoD)",
     "url": "https://www.drama.cmu.edu/"
   },
   {
-    "name": "Scotch'n'Soda Theatre",
+    "name": "Scotch'n'Soda Theatre (S'n'S)",
     "url": "https://www.snstheatre.org/"
   },
   {
-    "name": "Spring Carnival Committee",
+    "name": "Spring Carnival Committee (SCC)",
     "url": "https://springcarnival.org/"
   },
   {
@@ -36,8 +36,12 @@
     "url": "http://www.w3vc.org/"
   },
   {
-    "name": "Student Leadership, Involvement, and Civic Engagement (SLICE)",
+    "name": "Student Leadership, Involvement, & Civic Engagement (SLICE)",
     "url": "https://www.cmu.edu/student-affairs/slice/"
+  },
+  {
+    "name": "Alumni Association Board (AAB)",
+    "url": "https://www.cmu.edu/engage/alumni/about/aab/index.html"
   },
   {
     "name": "Live Design International (LDI)",
