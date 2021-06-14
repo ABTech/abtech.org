@@ -11,7 +11,7 @@ nav_page_specific: external
 
 # External Resources
 
-------
+<hr class="bg-primary"/>
 
 ## Contractors
 
@@ -30,15 +30,17 @@ AB Tech regularly works with these local vendors. If AB Tech is unavailable to s
 
 Our regular clients, collaborators, providers, supporters, and affiliations.
 
-<ul class="d-flex flex-wrap flex-column align-items-start align-content-center custom-multicolumn-list">
-  {% for organization in site.data.external_organizations %}<li class="mx-5"><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></li>{% endfor %}
+<ul class="align-items-start align-content-center custom-list-columns-large-3 list-unstyled">
+  {% assign sortedOrganizations = site.data.external_organizations | sort_natural: 'name' %}
+  {% for organization in sortedOrganizations %}<li class="border-start border-secondary mb-1 ps-1"><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></li>{% endfor %}
 </ul>
 
 ## Manufacturers
 
 Manufacturers of (most of) our equipment.
 
-<ul class="d-flex flex-wrap flex-column align-items-start align-content-center custom-multicolumn-list">
-  {% for manufacturer in site.data.external_manufacturers %}<li class="mx-5"><a href="{{ manufacturer.url }}" target="_blank">{{ manufacturer.name }}</a></li>{% endfor %}
+<ul class="align-items-start align-content-center custom-list-columns-4 list-unstyled">
+  {% assign sortedManufacturers = site.data.external_manufacturers | sort_natural: 'name' %}
+  {% for manufacturer in sortedManufacturers %}<li class="border-start border-secondary mb-1 ps-1"><a href="{{ manufacturer.url }}" target="_blank">{{ manufacturer.name }}</a></li>{% endfor %}
 </ul>
 

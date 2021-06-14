@@ -21,11 +21,37 @@ footer {
     bottom: auto;
 }
 
-.custom-multicolumn-list {
-    max-height: auto;
+.custom-list-columns-2,
+.custom-list-columns-3,
+.custom-list-columns-4,
+.custom-list-columns-large-2,
+.custom-list-columns-large-3 {
+    column-count: 1;
+}
+@include media-breakpoint-up(sm) {
+    .custom-list-columns-2,
+    .custom-list-columns-3,
+    .custom-list-columns-4 {
+        column-count: 2;
+    }
+}
+@include media-breakpoint-up(md) {
+    .custom-list-columns-3,
+    .custom-list-columns-4 {
+        column-count: 3;
+    }
+    .custom-list-columns-large-2,
+    .custom-list-columns-large-3 {
+        column-count: 2;
+    }
 }
 @include media-breakpoint-up(lg) {
-    .custom-multicolumn-list {
-        max-height: 50vh;
+    .custom-list-columns-4 {
+        column-count: 4;
+    }
+}
+@include media-breakpoint-up(xl) {
+    .custom-list-columns-large-3 {
+        column-count: 3;
     }
 }
