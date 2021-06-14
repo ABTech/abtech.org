@@ -20,3 +20,12 @@ header {
 footer {
     bottom: auto;
 }
+
+.custom-multicolumn-list {
+    max-height: auto;
+}
+@include media-breakpoint-up(lg) {
+    .custom-multicolumn-list {
+        max-height: 50vh;
+    }
+}
