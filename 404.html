@@ -23,9 +23,6 @@ permalink: /404.html
         background: black;
         text-shadow: 0 0 6px red;
       }
-      #background > * > img {
-        filter: drop-shadow(0 0 6px red);
-      }
       canvas {
         position: absolute;
         top: 0;
@@ -38,7 +35,7 @@ permalink: /404.html
   <body class="d-flex w-100 h-100 flex-column justify-content-center align-items-center">
     <div id="background" class="flex-shrink-0 container d-flex text-center flex-column justify-content-center align-items-center">
       <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-8">
-        <img src="{{ '/assets/img/abtech_logo_white.svg' | relative_url }}" class="img-fluid" alt="AB Tech Logo" />
+        <img src="{{ '/assets/img/abtech_logo_white.svg' | relative_url }}" class="img-fluid logo-red-shadow" alt="AB Tech Logo" />
       </div>
       <div class="col-md-4 col-sm-4 col-xs-6 col-xs-12 col-8">
         <h1>404: Warning</h1>
