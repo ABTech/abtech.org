@@ -11,7 +11,7 @@ nav_page_specific: hots
 
 # Heads of Tech (HoTs)
 
-------
+<hr class="bg-primary"/>
 
 <div class="col-12 col-sm-8 col-lg-6 col-xl-4 m-auto">
   <table class="table table-striped table-bordered border-primary table-sm text-center">
