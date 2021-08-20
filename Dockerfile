@@ -9,7 +9,7 @@ RUN export NODE_VERSION=node_14.x && \
     curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -  && \
     echo "deb https://deb.nodesource.com/$NODE_VERSION $NODE_DISTRO main" | tee /etc/apt/sources.list.d/nodesource.list && \
     echo "deb-src https://deb.nodesource.com/$NODE_VERSION $NODE_DISTRO main" | tee -a /etc/apt/sources.list.d/nodesource.list && \
-    apt-get update -y && apt-get install -y nodejs=14.17.0-1nodesource1 && \
+    apt-get update -y && apt-get install -y nodejs && \
     bundle config set --local path vendor/bundle
 
 WORKDIR /usr/src/app
