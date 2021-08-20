@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Gwyneth Chen",
+        "andrewid": "gschen",
+        "img": "gschen.jpg",
+        "title": "Co-Head of Tech",
+        "desc": "Gwyneth is a senior in the School of Computer Science starting her second year in AB Tech. She works primarily with lighting production but is also looking to expand her experience into everything Tech-related. Outside of Tech, Gwyneth entertains a wide array of casual interests, including poetry, music, language, archery, calligraphy, and anything else that catches her attention."
+    },
+    {
+        "name": "Perry Naseck",
+        "andrewid": "pnaseck",
+        "img": "pnaseck.jpg",
+        "title": "Co-Head of Tech",
+        "desc": "Perry is a senior studying art and electrical & computer engineering. His art focuses on electronics, software, and interaction. In AB Tech he does a lot of sound and event management."
+    },
+    {
+        "name": "Shannon Ding",
+        "andrewid": "sding2",
+        "img": "sding2.jpg",
+        "title": "Finance Chair",
+        "desc": ""
+    },
+    {
+        "name": "Andrew Sheng",
+        "andrewid": "asheng2",
+        "img": "asheng2.jpg",
+        "title": "Personnel Manager",
+        "desc": ""
+    },
+    {
+        "name": "Alex Strasser",
+        "andrewid": "astrasse",
+        "img": "astrasse.jpg",
+        "title": "Equipment Manager",
+        "desc": ""
+    },
+    {
+        "name": "Iris Chang",
+        "andrewid": "ischang",
+        "img": "ischang.jpg",
+        "title": "Training Chair",
+        "desc": ""
+    },
+    {
+        "name": "Laura Wu",
+        "andrewid": "lywu",
+        "img": "lywu.jpg",
+        "title": "Secretary",
+        "desc": ""
+    }
+]
