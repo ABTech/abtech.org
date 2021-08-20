@@ -85,7 +85,7 @@ We will design an appropriate system for your event based on the event requireme
   - 2 Shure WH20TQG (Cardioid) Headset Microphones
   - 10 WBH53 (Omni) Headset Microphones
   - 2 Shure WB98H/C Wireless Instrument Microphones (with Horn Clamp)
-  - Assorted Shure KSM9, Beta 58, Beta 87A, and SM59 handheld microphone capsules
+  - Assorted Shure KSM9, Beta 58, Beta 87A, and SM58 handheld microphone capsules
 
 
 ### Microphones & Direct Boxes
