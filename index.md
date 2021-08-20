@@ -7,7 +7,7 @@ stylesheets:
 ---
 
 
-<div id="bg-carousel" class="carousel slide carousel-fade w-100 h-100" data-bs-touch="false" data-bs-ride="carousel" data-bs-interval="10000">
+<div id="bg-carousel" class="carousel slide carousel-fade w-100 h-100" data-bs-touch="false" data-bs-ride="carousel" data-bs-interval="5000">
   <div class="carousel-inner w-100 h-100">
     {% for item in site.data.index_carousel %}
     <div class="carousel-item{% if forloop.first %} active{% endif %} w-100 h-100">
