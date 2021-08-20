@@ -1,0 +1,22 @@
+  <div id="services-carousel-{{include.name}}" class="carousel slide carousel-fade {{include.class}}" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      {% for item in site.data.services_carousels[include.name] %}
+      <button type="button" data-bs-target="#services-carousel-{{include.name}}" data-bs-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %} active{% endif %}" aria-current="true" aria-label="Slide 1"></button>
+      {% endfor %}
+    </div>
+    <div class="carousel-inner">
+      {% for item in site.data.services_carousels[include.name] %}
+      <div class="carousel-item{% if forloop.first %} active{% endif %} w-100 h-100">
+        <img src="{{  item | prepend: '/assets/img/carousel/' | append: '.jpg' | realtive_url }}" class="d-block w-100 h-100" alt="{{ item }}">
+      </div>
+      {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#services-carousel-{{include.name}}" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#services-carousel-{{include.name}}" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
