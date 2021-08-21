@@ -5,26 +5,37 @@ permalink: /request/
 nav_page: request
 ---
 
-<h1>Request Event</h1>
+# Request Event
 
-<form class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2">
+<hr class="bg-primary"/>
+<noscript><style type="text/css">
+.requestFormRow {
+  display: none;
+}
+</style></noscript>
+<form id="requestForm" class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2">
   <div class="row">
     <div class="alert alert-danger" role="alert">
       Please call <a href="tel:+14122682104" class="user-select-all">(412) 268-2104</a> to request an event with less than 48 hours notice.
     </div>
   </div>
-  <div class="row">
+  <noscript><div class="row">
+    <div class="alert alert-warning" role="alert">
+      This form requires JavaScript. Please enable JavaScript and refresh the page.
+    </div>
+  </div></noscript>
+  <div class="row requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" class="form-control" id="request_eventName" required placeholder="Event Name">
+        <input type="text" name="event[title]"  class="form-control requestFormInput" id="request_eventName" required placeholder="Event Name" disabled>
         <label for="request_eventName">Event Name</label>
       </div>
     </div>
   </div>
-  <div class="row mb-1">
+  <div class="row mb-1 requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" class="form-control" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help">
+        <input type="text" name="event[organization_id]" class="form-control requestFormInput" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help" disabled>
         <label for="request_organization">Organization</label>
       </div>
       <div id="request_organization_help" class="form-text col-12 mb-3">
@@ -32,47 +43,55 @@ nav_page: request
       </div>
     </div>
   </div>
-  <div class="row mb-1">
+  <div class="row requestFormRow">
+    <div class="mb-3 gx-0">
+      <div class="form-floating">
+        <input type="text" name="event[contact_name]" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled>
+        <label for="request_contactName">Contact Name</label>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-1 requestFormRow">
     <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="text" class="form-control" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help">
-        <label for="request_contactName">Contact Name</label>
+        <input type="email" name="event[contactemail]" class="form-control requestFormInput" id="request_contactEmail" required placeholder="name@andrew.cmu.edu" aria-describedby="request_contact_help" disabled>
+        <label for="request_contactEmail">Contact Email</label>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-2">
       <div class="form-floating">
-        <input type="email" class="form-control" id="request_contactEmail" required placeholder="name@andrew.cmu.edu" aria-describedby="request_contact_help">
-        <label for="request_contactEmail">Contact Email</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="event[contact_phone]" class="form-control requestFormInput" id="request_contactPhone" required placeholder="412-268-2104" aria-describedby="request_contact_help" disabled>
+        <label for="request_contactPhone">Contact Phone (123-456-7890)</label>
       </div>
     </div>
     <div id="request_contact_help" class="form-text col-12 mb-3">
-      <p>You will receive a confirmation email shortly after submitting this form.</p>
+      <p>You will receive a confirmation email shortly after submitting this form</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row requestFormRow">
     <div class="mb-3 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="date" class="form-control" id="request_startDate" required aria-describedby="request_time_help">
+        <input type="date" name=""  class="form-control requestFormInput" id="request_startDate" required aria-describedby="request_time_help" disabled>
         <label for="request_startDate">Start Date</label>
       </div>
     </div>
     <div class="mb-3 col-md-6 gx-0 ps-2">
       <div class="form-floating">
-        <input type="time" class="form-control" id="request_startTime" required aria-describedby="request_time_help">
+        <input type="time" name=""  class="form-control requestFormInput" id="request_startTime" required aria-describedby="request_time_help" disabled>
         <label for="request_startTime">Start Time</label>
       </div>
     </div>
   </div>
-  <div class="row mb-1">
+  <div class="row mb-1 requestFormRow">
     <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="date" class="form-control" id="request_endDate" required aria-describedby="request_time_help">
+        <input type="date" name=""  class="form-control requestFormInput" id="request_endDate" required aria-describedby="request_time_help" disabled>
         <label for="request_endDate">End Date</label>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-2">
       <div class="form-floating">
-        <input type="time" class="form-control" id="request_endTime" required aria-describedby="request_time_help">
+        <input type="time" name=""  class="form-control requestFormInput" id="request_endTime" required aria-describedby="request_time_help" disabled>
         <label for="request_endTime">End Time</label>
       </div>
     </div>
@@ -82,10 +101,10 @@ nav_page: request
       <p>Changes (venue, times, equipment needs, etc.) or cancellations to the event less than 48 hours before the show may not be possible or may incur an additional late notice fee.</p>
     </div>
   </div>
-  <div class="row mb-3">
+  <div class="row mb-3 requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" class="form-control" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help">
+        <input type="text" name=""  class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled>
         <label for="request_location">Location/Venue</label>
         <div id="request_location_help" class="form-text">
           <p>Please state the precise venue (i.e. "UC Rangos 1 through 3" instead of just "Rangos")</p>
@@ -93,10 +112,10 @@ nav_page: request
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Details" id="request_details" style="height: 200px" aria-describedby="request_details_help"></textarea>
+        <textarea name=""  class="form-control requestFormInput" placeholder="Details" id="request_details" style="height: 200px" aria-describedby="request_details_help" disabled></textarea>
         <label for="request_details">Details</label>
         <div id="request_details_help" class="form-text">Please be sure to include:
           <ul>
@@ -109,5 +128,47 @@ nav_page: request
       </div>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary">Submit Request</button>
+  <div class="row requestFormRow">
+    <div class="gx-0">
+      <button type="submit" class="btn btn-primary requestFormInput" disabled>Submit Request</button>
+    </div>
+  </div>
 </form>
+
+<script type="text/javascript">
+  var request_form_disabled = true
+  var formInputs = document.getElementsByClassName('requestFormInput')
+  var form = document.getElementById('requestForm')
+  form.addEventListener('submit', request_form_submit)
+
+  function request_form_submit(event) {
+    event.preventDefault()
+    if (request_form_disabled === false) {
+      var request = new XMLHttpRequest()
+      request.open('POST', '{{ '/submitrequest' | relative_url }}', true)
+      request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8')
+      request.onreadystatechange = function request_form_status() {
+        if (request.readyState === 4 && request.status === 200) {
+          var jsonData = JSON.parse(request.response);
+          console.log(jsonData);
+        }
+      }
+      formDataPairs = []
+      for (var i = 0; i < formInputs.length; i++) {
+        formDataPairs.push(encodeURIComponent(formInputs[i].name) + '=' + encodeURIComponent(formInputs[i].value))
+      }
+      var urlEncodedData = formDataPairs.join('&').replace(/%20/g, '+')
+      request.send(urlEncodedData);
+    }
+  }
+
+  function form_ready() {
+    request_form_disabled = false
+    for (var i = 0; i < formInputs.length; i++) formInputs[i].disabled = false
+    form.disabled = false
+  }
+
+  if (document.readyState != 'loading') form_ready()
+  else document.addEventListener('DOMContentLoaded', form_ready)
+</script>
+
