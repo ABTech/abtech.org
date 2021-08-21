@@ -3,30 +3,420 @@
         "2019": [
             {
                 "name": "Antoni Porowski",
-                "date": "2019-11-06",
+                "date": "November 6",
                 "venue": "McConomy Auditorium",
                 "desc": "AB Lectures. Cooking demo with a full house."
             },
             {
                 "name": "Smallpools and Gnash",
-                "date": "2019-11-02",
+                "date": "November 2",
                 "venue": "Wiegand Gym",
                 "desc": "AB Concerts. Our first large concert with bands in a long time."
-            }
+            },
+            {
+                "name": "Michelle Wolf",
+                "date": "October 25",
+                "venue": "Rangos",
+                "desc": "Comedy event for the inaugural Tartan Community Day."
+            },
+            {
+                "name": "B&uuml;low",
+                "date": "September 6",
+                "venue": "Baker Lawn",
+                "desc": "AB Coffeehouse. Outdoor show with a truck stage."
+            },
+            {
+                "name": "DRAM and Vanic",
+                "date": "April 13",
+                "venue": "Wiegand Gym",
+                "desc": "AB Concerts. Green confetti and broccoli."
+            },
+            {
+                "name": "Jimmy O. Yang",
+                "date": "April 11",
+                "venue": "McConomy Auditorium",
+                "desc": "AB Comedy."
+            },
+            {
+                "name": "Injury Reserve and Jez Dior",
+                "date": "March 22",
+                "venue": "Studio Theater",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Grant Imahara",
+                "date": "March 20",
+                "venue": "McConomy Auditorium",
+                "desc": "AB Lectures. Full house."
+            },
+            {
+                "name": "Josh Peck",
+                "date": "January 30",
+                "venue": "McConomy Auditorium",
+                "desc": "AB Lectures."
+            },
         ],
         "2018": [
             {
                 "name": "Snakehips and Social House",
-                "date": "2018-11-03",
-                "venue": "McConomy Auditorium",
+                "date": "November 3",
+                "venue": "Wiegand Gym",
                 "desc": "AB Concerts."
             },
             {
                 "name": "Tepper Quad Grand Opening",
-                "desc": "Grand opening celebration for the Tepper Quad.",
-                "date": "2018-09-13",
-                "venue": "Tepper Quad"
-            }
+                "date": "September 13",
+                "venue": "Tepper Quad",
+                "desc": "Grand opening celebration for the Tepper Quad."
+            },
+            {
+                "name": "Elephante",
+                "date": "August 31",
+                "venue": "Studio Theater",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Wale",
+                "date": "April 21",
+                "venue": "The Cut",
+                "desc": "AB Concerts. Our first concert outdoors in a long time and the original opener dropped out last minute."
+            },
+            {
+                "name": "Lovelytheband",
+                "date": "March 5",
+                "venue": "The Underground",
+                "desc": "AB Underground."
+            },
+            {
+                "name": "Casey Neistat",
+                "date": "February 6",
+                "venue": "McConomy Auditorium",
+                "desc": "AB Lectures."
+            },
+        ],
+        "2017": [
+            {
+                "name": "For the Founders",
+                "date": "November 9 - 10",
+                "venue": "Various Locations",
+                "desc": "CMU's 50th anniversary celebration."
+            },
+            {
+                "name": "Cashmere Cat and Hotel Garuda",
+                "date": "October 28",
+                "venue": "Wiegand Gym",
+                "desc": "AB Concerts. Salmon pink...salmon pink everywhere..."
+            },
+            {
+                "name": "Audien",
+                "date": "September 1",
+                "venue": "Studio Theater",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Nghtmre and San Holo",
+                "date": "April 22",
+                "venue": "Wiegand Gym",
+                "desc": "AB Concerts. 4 foot disco ball and lots of pyro."
+            },
+            {
+                "name": "Laverne Cox",
+                "date": "April 13",
+                "venue": "Wiegand Gym",
+                "desc": "AB Lectures."
+            },
+            {
+                "name": "TOKiMONSTA",
+                "date": "January 29",
+                "venue": "Studio Theater",
+                "desc": "AB Coffeehouse."
+            },
+        ],
+        "2016": [
+            {
+                "name": "Eric Andre",
+                "date": "November 17",
+                "venue": "McConomy Auditorium",
+                "desc": "AB Comedy: Sasha chugged an entire liter of ranch."
+            },
+            {
+                "name": "ILoveMakonnen",
+                "date": "November 12",
+                "venue": "Wiegand Gym",
+                "desc": "AB Concerts."
+            },
+            {
+                "name": "Denzel Curry",
+                "date": "October 15",
+                "venue": "Studio Theater",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Louis the Child",
+                "date": "September 2",
+                "venue": "Studio Theater",
+                "desc": "AB Coffeehouse. Par grid."
+            },
+            {
+                "name": "Black Tie Stereo",
+                "date": "August 27",
+                "venue": "Rangos",
+                "desc": "AB Underground goes above ground."
+            },
+            {
+                "name": "Griz and Dan Deacon",
+                "date": "April 15",
+                "venue": "Wiegand Gym",
+                "desc": "AB Spring Concert."
+            },
+            {
+                "name": "Joywave and Beauty Slap",
+                "date": "January 15",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse."
+            },
+        ],
+        "2015": [
+            {
+                "name": "Danny Brown",
+                "date": "November 14",
+                "venue": "Wiegand Gym",
+                "desc": "AB Fall Concert."
+            },
+            {
+                "name": "Nathan for You",
+                "date": "November 9",
+                "venue": "McConomy Auditorium",
+                "desc": "AB Comedy."
+            },
+            {
+                "name": "The Mowglis",
+                "date": "September 8",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Matt & Kim and RJD2",
+                "date": "April 18",
+                "venue": "Baker Lawn",
+                "desc": "AB Spring Concert."
+            },
+            {
+                "name": "International Championships of Collegiate A Cappella",
+                "date": "February 28",
+                "venue": "UC McConomy",
+                "desc": "CMU hosts the Great Lakes ICCAs for the second time."
+            },
+        ],
+        "2014": [
+            {
+                "name": "Dale Earnhardt Jr. Jr.",
+                "date": "November 17",
+                "venue": "CUC Rangos",
+                "desc": "AB Coffeehouse. Giant inflated ball and incandescent light bulb letters"
+            },
+            {
+                "name": "Walk the Moon",
+                "date": "November 13",
+                "venue": "CUC Gym",
+                "desc": "AB Fall Concert. Shut up and dance!"
+            },
+            {
+                "name": "Mac Miller and Icona Pop",
+                "date": "April 12",
+                "venue": "Baker Lawn",
+                "desc": "AB Spring Concert. Transforming truck stage and LED wall...I love it!"
+            },
+            {
+                "name": "Hannibal Buress",
+                "date": "April 10",
+                "venue": "Midway Tent",
+                "desc": "AB Carnival Comedian."
+            },
+        ],
+        "2013": [
+            {
+                "name": "Smallpools",
+                "date": "November 24",
+                "venue": "The Underground",
+                "desc": "AB Underground."
+            },
+            {
+                "name": "President Suresh's Inauguration",
+                "date": "November 24",
+                "venue": "UC Rangos",
+                "desc": "Campus wide celebration to welcome President Suresh"
+            },
+            {
+                "name": "Timeflies w/ Chiddy Bang",
+                "date": "November 8",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert. LED Wall!"
+            },
+            {
+                "name": "Lupe Fiasco",
+                "date": "April 19",
+                "venue": "UC Gym",
+                "desc": "AB Spring Concert.Ludacris cancelled on us for a movie shooting."
+            },
+            {
+                "name": "Judah Friedlander",
+                "date": "April 18",
+                "venue": "Midway Tent",
+                "desc": "AB Carnival Comedian, known for his role as Frank on NBC's 30 Rock."
+            },
+            {
+                "name": "International Championships of Collegiate A Cappella",
+                "date": "February 2",
+                "venue": "UC McConomy",
+                "desc": "CMU hosts the Great Lakes ICCAs for the first time."
+            },
+        ],
+        "2012": [
+            {
+                "name": "Sleigh Bells",
+                "date": "November 8",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert."
+            },
+            {
+                "name": "Laura Stevenson and the Cans",
+                "date": "April 28",
+                "venue": "The Underground",
+                "desc": "AB Underground concert."
+            },
+            {
+                "name": "Keep Shelly in Athens",
+                "date": "April 25",
+                "venue": "The Underground",
+                "desc": "AB Underground concert. CMU was thefirst stop after the band finished playing both weekends ofCoachella."
+            },
+            {
+                "name": "Passion Pit (w/ Donora)",
+                "date": "April 21",
+                "venue": "Baker Lawn",
+                "desc": "Spring Carnival concert. Rain duringmost of load in didn't stop the show from happening outdoors, which drewa massive crowd of thousands. Dozens and dozens of crowdsurfers, condomballoons, and an epic fireworks display during the encore made for quitea night."
+            },
+            {
+                "name": "BetatraXx (w/ DJ Strobe)",
+                "date": "April 20",
+                "venue": "UC Gym",
+                "desc": "AB Coffeehouse danceparty. LightwaveInternational ups the bar again and brings every laser left in theirinventory that isn't at the Coachella Music Festival, while Techcomplements it with a dazzling intelligent & LED rig on the brand newRoad Hog."
+            },
+            {
+                "name": "Nick Offerman (w/ Streeter Seidell)",
+                "date": "April 19",
+                "venue": "Carnival Tent",
+                "desc": "AB Comedian. A well-received openerfollowed by a very long set by the main act that bordered on being moreof an AB Lecture."
+            },
+            {
+                "name": "Kevin Wu (KevJumba)",
+                "date": "April 12",
+                "venue": "Doherty Hall",
+                "desc": "AB Lectures. A packed lecture hall fullof rabid Asian girls flocking to catch a glimpse of the YouTubesuperstar."
+            },
+            {
+                "name": "Zach Weiner",
+                "date": "February 16",
+                "venue": "UC McConomy",
+                "desc": "AB Lectures. The Saturday MorningBreakfast Cereal guy."
+            },
+            {
+                "name": "Tokyo Police Club (w/ 1, 2, 3)",
+                "date": "November 12",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert. Tech brings in over10kW of LEDs and drowns the audience in blinding colors."
+            },
+            {
+                "name": "RAC (Remix Artist Collective)",
+                "date": "October 31",
+                "venue": "UC Rangos",
+                "desc": "Lightwave International returns for aHalloween show redux, with four lasers this time. Before the show, theoperator demonstrates how powerful the concentrated beam from oneemitter is &ndash; burning a hole through a one-dollar bill folded inhalf twice in a couple seconds!"
+            },
+            {
+                "name": "Annie Sprinkle",
+                "date": "September 21",
+                "venue": "UC McConomy",
+                "desc": "AB Lectures. Former prostitute,stripper, and porn star gives an explicit lecture about sex, but isinformed by the AB Main chair that performing the topless "Bosom Ballet"in her script wouldn't be such a great idea."
+            },
+            {
+                "name": "Guster",
+                "date": "September 7",
+                "venue": "Baker Lawn",
+                "desc": "Surprise concert (and fireworks show)held to celebrate the announcement of a $265M donation to CMU by WilliamDietrich, which is apparently enough to clear the skies ofrain."
+            },
+            {
+                "name": "The Hood Internet",
+                "date": "September 4",
+                "venue": "UC Rangos",
+                "desc": "AB Coffeehouse show. Some intoxicatedand shirtless Pitt gentlemen find their way onto the subs and stage forthe entertainment of the audience."
+            },
+            {
+                "name": "Nosaj Thing (w/ Starkey)",
+                "date": "April 24",
+                "venue": "UC Rangos",
+                "desc": "AB Coffeehouse show. Dubstep proves tobe more than the Rosco 4500 Fogger can handle, which in its finalmoments pumps a gallon of unfogged fog juice onto the stage."
+            },
+            {
+                "name": "Eddie Griffin",
+                "date": "April 15",
+                "venue": "Carnival Tent",
+                "desc": "AB Comedian. After consuming an entirebottle of champagne on stage, he grabs his wired SM58 by the cable,swings it over his head, and slams it into the stage -- not 10 secondsafter the FoH engineer decides it would be a good idea to enable thecompressor on that channel."
+            },
+            {
+                "name": "Big Boi (w/ Brother Ali)",
+                "date": "April 14",
+                "venue": "CFA Lawn",
+                "desc": "Spring Carnival concert, Hollowood getsadmonished for being too loud while some PhD students were taking anexam during soundcheck."
+            },
+            {
+                "name": "Titus Andronicus",
+                "date": "February 13",
+                "venue": "UC Rangos",
+                "desc": "AB Coffeehouse concert"
+            },
+            {
+                "name": "Dr. Dog w/ Sondre Lerche",
+                "date": "November 20",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert"
+            },
+            {
+                "name": "Switch (from Major Lazer)",
+                "date": "October 31",
+                "venue": "UC Rangos",
+                "desc": "Lightwave International provides 42watts of lasers for an epic Halloween show, Tech joins the fray anddances in a packed house."
+            },
+            {
+                "name": "White Panda",
+                "date": "September 17",
+                "venue": "UC Rangos",
+                "desc": "AB Coffeehouse show, first large danceparty with the new VL2500 moving light rig."
+            },
+            {
+                "name": "Frank Warren",
+                "date": "April 26",
+                "venue": "UC Gym",
+                "desc": "AB Lectures. The PostSecretguy."
+            },
+            {
+                "name": "The Black Keys (w/ mewithoutYou)",
+                "date": "April 16",
+                "venue": "UC Gym",
+                "desc": "Spring Concert"
+            },
+            {
+                "name": "Michael Ian Black and Michael Showalter",
+                "date": "April 15",
+                "venue": "Carnival Tent",
+                "desc": "AB Comedians"
+            },
+            {
+                "name": "Sleigh Bells",
+                "date": "April 7",
+                "venue": "CFA Alumni Concert Hall",
+                "desc": "The full KUDO rig had plaster rainingfrom the ceiling, while the entire crowd attempted to get onstage (manywere successful), which caused the lead singer's mic to get unpluggedand forced an a capella encore."
+            },
         ]
     },
     "2000s": {},
