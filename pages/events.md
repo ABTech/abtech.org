@@ -9,6 +9,10 @@ nav_page: events
 
 <hr class="bg-primary"/>
 
+Over the years, AB Tech has had the [ahem] pleasure of working with a number of major acts, although they weren't necessarily that big at the time. This list covers major shows produced in whole or part by Tech since its creation.
+
+_Please note this list is definitely not complete and probably not entirely accurate._
+
 <ul class="nav nav-pills nav-fill mb-3" id="eventsTabs" role="tablist">
 {% for tab in site.data.events_events %}
   <li class="nav-item" role="presentation">
