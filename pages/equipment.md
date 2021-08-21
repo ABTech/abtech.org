@@ -6,7 +6,9 @@ nav_page: whatWeDo
 nav_page_specific: equipment
 ---
 
-<h1>Equipment</h1>
+# Equipment
+
+<hr class="bg-primary"/>
 
 Our inventory and equipment configuration is constantly changing as we modify existing setups and acquire new gear to better meet the needs of the organizations we work with. Some large events require nearly our entire inventory all in one place, and other times our gear is divided between a half-dozen small events occurring simultaneously across campus.
 

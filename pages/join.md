@@ -5,4 +5,6 @@ permalink: /join/
 nav_page: join
 ---
 
-<h1>Join</h1>
+# Join
+
+<hr class="bg-primary"/>
