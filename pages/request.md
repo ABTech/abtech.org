@@ -8,6 +8,7 @@ nav_page: request
 # Request Event
 
 <hr class="bg-primary"/>
+
 <noscript><style type="text/css">
 .requestFormRow {
   display: none;
@@ -71,7 +72,7 @@ nav_page: request
   <div class="row requestFormRow">
     <div class="mb-3 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="date" name=""  class="form-control requestFormInput" id="request_startDate" required aria-describedby="request_time_help" disabled>
+        <input type="date" name=""  class="form-control requestFormInput" id="request_startDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
         <label for="request_startDate">Start Date</label>
       </div>
     </div>
@@ -85,7 +86,7 @@ nav_page: request
   <div class="row mb-1 requestFormRow">
     <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="date" name=""  class="form-control requestFormInput" id="request_endDate" required aria-describedby="request_time_help" disabled>
+        <input type="date" name=""  class="form-control requestFormInput" id="request_endDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
         <label for="request_endDate">End Date</label>
       </div>
     </div>
