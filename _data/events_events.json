@@ -419,8 +419,1100 @@
             },
         ]
     },
-    "2000s": {},
-    "1990s": {},
-    "1980s": {},
-    "1970s": {}
+        "2000s": {
+            {
+                "name": "Aesop Rock (w/ The Cool Kids)",
+                "date": "November 14",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert"
+            },
+            {
+                "name": "Revision",
+                "date": "October 18",
+                "venue": "Rangos",
+                "desc": "Jazz-rock-funk trio"
+            },
+            {
+                "name": "Black Moth Super Rainbow",
+                "date": "April 25",
+                "venue": "CFA Lawn",
+                "desc": "AB Coffeehouse concert"
+            },
+            {
+                "name": "Zach Galifianakis",
+                "date": "April 16",
+                "venue": "Carnival Tent",
+                "desc": "Comedian"
+            },
+            {
+                "name": "Frightened Rabbit",
+                "date": "January 26",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse concert"
+            },
+            {
+                "name": "RJD2",
+                "date": "November 15",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert"
+            },
+            {
+                "name": "Amon Tobin",
+                "date": "April 20",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse concert"
+            },
+            {
+                "name": "The Roots",
+                "date": "April 17",
+                "venue": "CFA Lawn",
+                "desc": "Spring Concert"
+            },
+            {
+                "name": "Broken Social Scene",
+                "date": "November 10",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert"
+            },
+            {
+                "name": "Randall Monroe",
+                "date": "November 9",
+                "venue": "UC Gym",
+                "desc": "The xkcd guy"
+            },
+            {
+                "name": "MSTRKRFT",
+                "date": "October 31",
+                "venue": "Rangos",
+                "desc": "Halloween dance party, extremely bad-ass."
+            },
+            {
+                "name": "Spoon (w/ Oakley Hall and Weird Paul)",
+                "date": "April 20",
+                "venue": "CFA Lawn",
+                "desc": "Spring Concert"
+            },
+            {
+                "name": "Demetri Martin",
+                "date": "April 19",
+                "venue": "UC Gym",
+                "desc": "Comedian"
+            },
+            {
+                "name": "Deerhunter",
+                "date": "April 3",
+                "venue": "The Underground",
+                "desc": " "
+            },
+            {
+                "name": "Trans Am",
+                "date": "February 23",
+                "venue": "Doherty Hall",
+                "desc": " "
+            },
+            {
+                "name": "Blackalicious and Andrew Bird",
+                "date": "November 10",
+                "venue": "UC Gym",
+                "desc": "AB Fall Concert"
+            },
+            {
+                "name": "Microwaves and Magic Wolf",
+                "date": "September 16",
+                "venue": "The Underground",
+                "desc": " "
+            },
+            {
+                "name": "The Shins",
+                "date": "April 15",
+                "venue": "CFA Lawn",
+                "desc": "Second year beautiful weather for the AB Carnival Band. Techies prepare for the worst in 2006."
+            },
+            {
+                "name": "Ralphie May",
+                "date": "April 14",
+                "venue": "Carnival Tent",
+                "desc": "AB Comedy Carnival"
+            },
+            {
+                "name": "Mirah",
+                "date": "February 16",
+                "venue": "The Underground",
+                "desc": " "
+            },
+            {
+                "name": "Chef Morimoto",
+                "date": "November 5",
+                "venue": "McConomy",
+                "desc": "TV's "Iron Chef" performs a cooking demo "
+            },
+            {
+                "name": "Michael Moore",
+                "date": "October 26",
+                "venue": "UC Gym",
+                "desc": "AB Political Speakers. Documentry film maker."
+            },
+            {
+                "name": "Rebecca Walker",
+                "date": "September 29",
+                "venue": "McConomy",
+                "desc": "AB Lecture: "I'm actually not sure who this is, but McConomy is a big room...""
+            },
+            {
+                "name": "Evan and Jaron",
+                "date": "April 25",
+                "venue": "The Underground",
+                "desc": " "
+            },
+            {
+                "name": "N.E.R.D",
+                "date": "April 16",
+                "venue": "CFA Lawn",
+                "desc": "AB sponsored Carnival band, on CFA Lawn "
+            },
+            {
+                "name": "Mitch Hedberg",
+                "date": "April 15",
+                "venue": "Carnival Tent",
+                "desc": " "
+            },
+            {
+                "name": "Magdalen Hsu-Li",
+                "date": "February 28",
+                "venue": "Drill Deck",
+                "desc": " "
+            },
+            {
+                "name": "The Ataris with Vendetta Red",
+                "date": "October 20",
+                "venue": "Weigand Gym",
+                "desc": "AB Fall concert"
+            },
+            {
+                "name": "Kim Phuc",
+                "date": "April 29",
+                "venue": " ",
+                "desc": "The girl in the picture"
+            },
+            {
+                "name": "Robocup American Open",
+                "date": "April&nbsp;28- May&nbsp;4",
+                "venue": "Rangos",
+                "desc": "Lighting in Rangos for robotic soccer tournament."
+            },
+            {
+                "name": "Jurassic 5",
+                "date": "April 12",
+                "venue": "Weigand Gym",
+                "desc": "AB sponsored Carnival band, in the Gym."
+            },
+            {
+                "name": "They Might Be Giants",
+                "date": "April 11",
+                "venue": "Weigand Gym",
+                "desc": "Carnival band in the gym. Opened by Yves Jean."
+            },
+            {
+                "name": "Dave Attell",
+                "date": "April 10",
+                "venue": "Carnival Tent",
+                "desc": "Carnival comedian."
+            },
+            {
+                "name": "Godspeed You! Black Emperor",
+                "date": "March 31",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse. Very packed Rangos show."
+            },
+            {
+                "name": "Kevin Mitnick",
+                "date": "March 18",
+                "venue": "Rangos",
+                "desc": "Most Famous Hacker lectures in Rangos."
+            },
+            {
+                "name": "Susie Bright",
+                "date": "March 4",
+                "venue": "Rangos",
+                "desc": "AB Special Events. Sex week keynote speaker."
+            },
+            {
+                "name": "Ted Rall",
+                "date": "February 24",
+                "venue": "McConomy",
+                "desc": "AB Political Speakers. Noted Political Cartoonist."
+            },
+            {
+                "name": "Matt Bessner",
+                "date": "December 2",
+                "venue": "McConomy",
+                "desc": "AB Comedy. Star of Upright Citizens Brigade."
+            },
+            {
+                "name": "Hot Rod Circuit",
+                "date": "November 23",
+                "venue": "The&nbsp;Underground",
+                "desc": "The&nbsp;Underground is packed, again."
+            },
+            {
+                "name": "Atom and his Package",
+                "date": "November 9",
+                "venue": "The&nbsp;Underground",
+                "desc": "The&nbsp;Underground is packed."
+            },
+            {
+                "name": "Ben Folds",
+                "date": "October 26",
+                "venue": "Rangos",
+                "desc": "AB Concert in Rangos."
+            },
+            {
+                "name": "The Hope Conspiracy",
+                "date": "October 19",
+                "venue": "Highlander",
+                "desc": "AB Coffeehouse. Required a row of techies to keep Scorp from being pushed over."
+            },
+            {
+                "name": "Dr. Howard Zinn",
+                "date": "September 23",
+                "venue": "Rangos",
+                "desc": "AB Lectures. Sold out (or nearly so) for an educational lecture."
+            },
+            {
+                "name": "Fishbone",
+                "date": "May 3",
+                "venue": "Rangos",
+                "desc": "AB Concerts. Fiesta de Primavera show, too cold to hold outside and too loud to hold inside."
+            },
+            {
+                "name": "G. Love (and Special Sauce?)",
+                "date": "April 20",
+                "venue": "Wiegand Gym",
+                "desc": " "
+            },
+            {
+                "name": "Reel Big Fish",
+                "date": "April 19",
+                "venue": "Wiegand Gym",
+                "desc": "Crowd Barrier sides with the audience halfway through the show."
+            },
+            {
+                "name": "Randy Kagan",
+                "date": "April 17",
+                "venue": "Carnival Tent",
+                "desc": "AB Comedian with an act that involved stapling things to his head."
+            },
+            {
+                "name": "Les Savy Fav",
+                "date": "April 10",
+                "venue": "Highlander",
+                "desc": "AB Coffeehouse. Highlander becomes a venue."
+            },
+            {
+                "name": "Bruce Campbell",
+                "date": "March 18",
+                "venue": "McConomy",
+                "desc": "AB Lectures. Star of the Evil Dead series."
+            },
+            {
+                "name": "Jon Stewart",
+                "date": "March 16",
+                "venue": "Soldiers and Sailors Hall",
+                "desc": "Scheduling disaster forces us to run a stand-up show."
+            },
+            {
+                "name": "Jim Bruer",
+                "date": "February 25",
+                "venue": "Rangos",
+                "desc": "AB Comedy. &quot;Donner 308. Come smoke with us!&quot;"
+            },
+            {
+                "name": "Henry Rollins",
+                "date": "November 12",
+                "venue": "",
+                "desc": "Former rock star does spoken word."
+            },
+            {
+                "name": "The Clarks",
+                "date": "September 21",
+                "venue": "CFA Lawn",
+                "desc": "Anne Witchner wanted them, so she got them."
+            },
+            {
+                "name": "Superchunk",
+                "date": "April 29",
+                "venue": "CFA Lawn",
+                "desc": "Part of the Rock 'n Roll Film Fest and AB Coffeehouse."
+            },
+            {
+                "name": "Fugazi",
+                "date": "April 21",
+                "venue": "Carnival Tent",
+                "desc": "AB Concert: Rain-call and moved to the Carnival&nbsp;Tent."
+            },
+            {
+                "name": "Jump Little Children with New Invisible Joy",
+                "date": "April 20",
+                "venue": "Carnival Tent",
+                "desc": "Carnival concert."
+            },
+            {
+                "name": "Magnetic Fields",
+                "date": "April 12",
+                "venue": "McConomy",
+                "desc": " font size="-1"iWith a line extending to Forbes Avenue."
+            },
+            {
+                "name": "Dar Williams",
+                "date": "March 12",
+                "venue": "Rangos",
+                "desc": "AB Concerts/Women's Center show."
+            },
+            {
+                "name": "Judy Sheppard",
+                "date": "March 21",
+                "venue": "McConomy",
+                "desc": " "
+            },
+            {
+                "name": "New Deal",
+                "date": "February 11",
+                "venue": "The&nbsp;Underground",
+                "desc": " "
+            },
+            {
+                "name": "Keller Williams",
+                "date": "February 1",
+                "venue": "The&nbsp;Underground",
+                "desc": "Popular entertainer."
+            },
+            {
+                "name": "Lewis Black",
+                "date": "December 4",
+                "venue": "McConomy",
+                "desc": "/td td nowrapfont size="-1"October 31/font/td tdfont size="-1"Ra"
+            },
+            {
+                "name": "Skatellites",
+                "date": "October 28",
+                "venue": "Rangos",
+                "desc": "Co-sponsored by AB Concerts. International Festival/Family Weekend."
+            },
+            {
+                "name": "Al Gore",
+                "date": "October 27",
+                "venue": "The Mall",
+                "desc": "AB Political Speakers."
+            },
+            {
+                "name": "Jerry Springer",
+                "date": "October 26",
+                "venue": "McConomy",
+                "desc": "AB Political Speakers. &quot;I hope to never see any of you on my show.&quot;"
+            },
+            {
+                "name": "Versus",
+                "date": "October 23",
+                "venue": "McConomy",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Blues Traveler",
+                "date": "October 20",
+                "venue": "The Mall",
+                "desc": "Co-sponsored by AB Concerts. Homecoming/midsemester break show."
+            },
+            {
+                "name": "Godspeed You! Black Emperor",
+                "date": "October 9",
+                "venue": "McConomy",
+                "desc": "AB Coffeehouse."
+            },
+            {
+                "name": "Ralph Nader",
+                "date": "September 26",
+                "venue": "Rangos",
+                "desc": "AB Lecture. Sellout crowd."
+            },
+            {
+                "name": "Mike Nelson",
+                "date": "September 18",
+                "venue": "McConomy",
+                "desc": "AB Lecture."
+            },
+            {
+                "name": "Rusted Root",
+                "date": "September 8",
+                "venue": "Orientation Tent",
+                "desc": "AB Concert. Quick stage strike from in front of CFA Lawn due to rain concerns."
+            },
+            {
+                "name": "Mad Professor with New Deal",
+                "date": "May 6",
+                "venue": "Merson Courtyard",
+                "desc": "AB Concert. "I'm a sound engineer, mahn!""
+            },
+            {
+                "name": "The Slip",
+                "date": "April 25",
+                "venue": "The&nbsp;Underground",
+                "desc": "AB Underground."
+            },
+            {
+                "name": "Buddy Brown Show",
+                "date": "April 15",
+                "venue": "Carnival Tent",
+                "desc": "Carnival concert."
+            },
+            {
+                "name": "El Diablo and Ritual Space Travel Agency",
+                "date": "April 15",
+                "venue": "Carnival Side Stage",
+                "desc": "Carnival concert."
+            },
+            {
+                "name": "Strangefolk with Meropoix",
+                "date": "April 15",
+                "venue": "The Mall",
+                "desc": "AB Concert."
+            },
+            {
+                "name": "Buzz Poets with Wade",
+                "date": "April 14",
+                "venue": "Carnival Tent",
+                "desc": "Carnival concert."
+            },
+            {
+                "name": "Quiddity",
+                "date": "April 14",
+                "venue": "Carnival Side Stage",
+                "desc": ""Last show" for a popular student band."
+            },
+            {
+                "name": "Eddie Ifft and Gary Greenburgh",
+                "date": "April 13",
+                "venue": "Carnival Tent",
+                "desc": "Carnival comedy."
+            },
+            {
+                "name": "Cat Power",
+                "date": "April 10",
+                "venue": "McConomy",
+                "desc": "AB Coffeehouse show."
+            },
+            {
+                "name": "Jane Goodall",
+                "date": "April 4",
+                "venue": "Weigand Gym",
+                "desc": "AB Lecture."
+            },
+            {
+                "name": "Keller Williams",
+                "date": "March 23",
+                "venue": "The&nbsp;Underground",
+                "desc": "AB Underground. First ever packed Underground show."
+            },
+            {
+                "name": "X-ecutioners",
+                "date": "January 21",
+                "venue": "Rangos",
+                "desc": "AB techno show."
+            },
+        ]
+    },  "1990s": {
+            {
+                "name": "World Color",
+                "date": "October 14",
+                "venue": "",
+                "desc": "International Festival Band"
+            },
+            {
+                "name": "The Bevis Frond",
+                "date": "September 22",
+                "venue": "",
+                "desc": "AB Coffeehouse concert"
+            },
+            {
+                "name": "Laughing Colors",
+                "date": "September 6",
+                "venue": "",
+                "desc": "Labor Day concert"
+            },
+            {
+                "name": "The Clarks",
+                "date": "April 30",
+                "venue": "Rangos",
+                "desc": " iFiesta Primavera Concert"
+            },
+            {
+                "name": "Soul Coughing with Angry Salad",
+                "date": "April 16",
+                "venue": "Old Gym",
+                "desc": "Spring Carnival Concert"
+            },
+            {
+                "name": "Douglas Adams",
+                "date": "April 9",
+                "venue": "Rangos",
+                "desc": "AB Tech "special forces""
+            },
+            {
+                "name": "Operation Re-Information",
+                "date": "March 11",
+                "venue": "Rangos",
+                "desc": ""
+            },
+            {
+                "name": "Black Star",
+                "date": "November 21",
+                "venue": "Rangos",
+                "desc": ""
+            },
+            {
+                "name": "Jazz Mandolin Project",
+                "date": "October 22",
+                "venue": "Mellon Institute",
+                "desc": ""
+            },
+            {
+                "name": "Fugazi with Burning Airlines and Quixotic",
+                "date": "May 2",
+                "venue": "Rangos",
+                "desc": "WRCT benefit concert"
+            },
+            {
+                "name": "John Spencer's Blues Explosion",
+                "date": "April 18",
+                "venue": "The Mall",
+                "desc": "Spring Carnival concert."
+            },
+            {
+                "name": "Galactic and the Charlie Hunter Trio",
+                "date": "April 18",
+                "venue": "The Mall",
+                "desc": "Spring Carnival concert."
+            },
+            {
+                "name": "Dharma Sons and the Ike McCoy Band",
+                "date": "April 17",
+                "venue": "Carnival Tent",
+                "desc": "Spring Carnival concert sponsored by the Spring Carnival Committee."
+            },
+            {
+                "name": "Norm MacDonald",
+                "date": "January 24",
+                "venue": "Rangos",
+                "desc": ""
+            },
+            {
+                "name": "Henry Rollins",
+                "date": "November 19",
+                "venue": "McConomy",
+                "desc": "Spoken word performance to a sellout crowd."
+            },
+            {
+                "name": "They Might Be Giants w/ Lincoln",
+                "date": "November 7",
+                "venue": "Rangos",
+                "desc": "Sellout crowd. Made discovery that Rangos is very springy."
+            },
+            {
+                "name": "Andy Richter",
+                "date": "November 3",
+                "venue": "Rangos",
+                "desc": "Sellout crowd."
+            },
+            {
+                "name": "Tainted Candy",
+                "date": "October 31",
+                "venue": "Wiegand Gym",
+                "desc": "WRCT fundraiser consisting of 12 punk bands, including Operation Re-Information and Don Caballero."
+            },
+            {
+                "name": "Sleeping Giants",
+                "date": "October 17",
+                "venue": "Margaret Morrisson Hall",
+                "desc": "Homecoming concert"
+            },
+            {
+                "name": "Push",
+                "date": "September 5",
+                "venue": "Fraternity Quad",
+                "desc": ""
+            },
+            {
+                "name": "The Clarks",
+                "date": "",
+                "venue": "Orientation Tent",
+                "desc": "Freshman Orientation concert"
+            },
+            {
+                "name": "The Clarks and Brownie Mary",
+                "date": "",
+                "venue": "Carnival Tent",
+                "desc": "Spring Carnival concert sponsored by Spring Carnival Committee"
+            },
+            {
+                "name": "Letters to Cleo with Angry Salad",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "Spring Carnival concert"
+            },
+            {
+                "name": "Yo La Tengo",
+                "date": "",
+                "venue": "Carnival Tent",
+                "desc": "Spring Carnival concert with lots of rain."
+            },
+            {
+                "name": "Michael McClure & Ray Manserek",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "Belly",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Spring Carnival concert"
+            },
+            {
+                "name": "John Wesley Harding",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "Ladysmith Black Mambazo",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": "Part of the International Festival on Africa"
+            },
+            {
+                "name": "Live",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Spring Carnival concert"
+            },
+            {
+                "name": "Denny Dent",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "The Ramones",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Tom Acousti",
+                "date": "",
+                "venue": "",
+                "desc": "Several performances, in Skibo Ballrom, Mellon Institute auditorium, and other places."
+            },
+            {
+                "name": "De La Soul",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Jake Johannsen",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Spring Carnival comedian."
+            },
+            {
+                "name": "They Might Be Giants",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "Spring Carnival concert."
+            },
+            {
+                "name": "EMF",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": "Co-sponsored with Decesar Engler."
+            },
+            {
+                "name": "Ocean Blue",
+                "date": "",
+                "venue": "Carnival Tent",
+                "desc": "Spring Carnival band"
+            },
+            {
+                "name": "Billy Price",
+                "date": "",
+                "venue": "The Mall",
+                "desc": "Humanities & Social Sciences picnic"
+            },
+            {
+                "name": "Turtle Island String Quartet",
+                "date": "February",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Winter Solstice Tour",
+                "date": "",
+                "venue": "Carnegie Music Hall",
+                "desc": "Liz Story, Philip Aaberg, and others"
+            },
+            {
+                "name": "Jimmy Cliff",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Oingo Boingo",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Spring Carnival concert."
+            },
+            {
+                "name": "Billy Price",
+                "date": "",
+                "venue": "The Cut",
+                "desc": ""
+            },
+        ]
+    },  "1980s": {
+        "BEGI": [
+            {
+                "name": "'Til Tuesday",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Spring Carnival band. Sunday afternoon show."
+            },
+            {
+                "name": "Ladysmith Black Mambazo",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "South Side Johnny",
+                "date": "",
+                "venue": "Flagstaff Hill",
+                "desc": "Co-sponsored by the University of Pittsburgh."
+            },
+            {
+                "name": "Glenn Miller Orchestra",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": "Features of this concert included flamingos, a 6' tall blow-up Godzilla, and a Tech crew in top hats."
+            },
+            {
+                "name": "Tony Miles",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "Alarm",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "Spring Carnival band."
+            },
+            {
+                "name": "Billy Price",
+                "date": "",
+                "venue": "Gesling Stadium",
+                "desc": ""
+            },
+            {
+                "name": "Tommy Dorsey Orchestra",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "The Flow with Tony Miles",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "South Side Johnny",
+                "date": "",
+                "venue": "",
+                "desc": "Spring Carnival band."
+            },
+            {
+                "name": "Windham Hill",
+                "date": "",
+                "venue": "Carnegie Music Hall",
+                "desc": "Daryl Anger, Mike Marshall, Michael Hedges, Liz Storey"
+            },
+            {
+                "name": "The Bangles",
+                "date": "",
+                "venue": "Syria Mosque",
+                "desc": "Free concert for winning a Multiple Sclerosis drive."
+            },
+            {
+                "name": "Iron City Houserockers",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "The Pointer Sisters with Tom Willmorth",
+                "date": "September 24",
+                "venue": "Carnegie Music Hall",
+                "desc": "Co-sponsored by the University of Pittsburgh."
+            },
+            {
+                "name": "Leon Redbone",
+                "date": "",
+                "venue": "Flagstaff Hill",
+                "desc": ""
+            },
+            {
+                "name": "The Romantics",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "Spring Carnival concert"
+            },
+            {
+                "name": "NRBQ",
+                "date": "",
+                "venue": "Gesling Stadium",
+                "desc": "Spring Carnival concert"
+            },
+            {
+                "name": "Donnie Iris",
+                "date": "",
+                "venue": "Flagstaff Hill",
+                "desc": "While the opener was playing the band was watching a Browns game."
+            },
+            {
+                "name": "Shadowfax",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Livingston Taylor",
+                "date": "",
+                "venue": "The Cut",
+                "desc": ""
+            },
+            {
+                "name": "John Baylie",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "Spyro Gyra",
+                "date": "",
+                "venue": "Flagstaff Hill",
+                "desc": "Co-sponsored by the University of Pittsburgh."
+            },
+            {
+                "name": "Steel Pulse",
+                "date": "",
+                "venue": "Flagstaff Hill",
+                "desc": "Co-sponsored by the University of Pittsburgh."
+            },
+            {
+                "name": "Christine Lavin",
+                "date": "",
+                "venue": "",
+                "desc": "Performed several times throughout the year"
+            },
+            {
+                "name": "Michael Spiro",
+                "date": "",
+                "venue": "",
+                "desc": "Performed countless times on campus through 1994."
+            },
+            {
+                "name": "David Bromberg",
+                "date": "September 9",
+                "venue": "Flagstaff Hill",
+                "desc": "Co-sponsored by the University of Pittsburgh."
+            },
+            {
+                "name": "The Outlaws",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Spring Carnival band"
+            },
+            {
+                "name": "Pat Metheny",
+                "date": "February 9",
+                "venue": "Carnegie Music Hall",
+                "desc": "Yet another sellout crowd"
+            },
+            {
+                "name": "Gang of Four",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "David Bromberg with Rick Danko",
+                "date": "September 9",
+                "venue": "Flagstaff Hill",
+                "desc": ""
+            },
+            {
+                "name": "Adrian Belew",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Rennaisance with Pousette Dart",
+                "date": "April 22",
+                "venue": "Skibo Gym",
+                "desc": "Spring Carnival band. When Rennaisance's lighting crew ended up at the other end of the state, Danny Chujko and Bob Miller saved the day for us by scraping a lighting rig together 4 hours before showtime."
+            },
+            {
+                "name": "",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "David Johansen",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": ""
+            },
+            {
+                "name": "Mission of Burma",
+                "date": "",
+                "venue": "The Cut",
+                "desc": ""
+            },
+            {
+                "name": "The Clash",
+                "date": "October 16",
+                "venue": "Skibo Gym",
+                "desc": "Tickets sold out at the Student Center Info Desk in less than two hours."
+            },
+            {
+                "name": "Yakov Smirnov",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": "Broadcast on HBO"
+            },
+            {
+                "name": "The Toons",
+                "date": "September 19",
+                "venue": "The Ballroom",
+                "desc": "Sponsored by AB Coffeehouse."
+            },
+            {
+                "name": "Cheap Trick",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "Sponsored by the CMU Student Dormitory Council"
+            },
+            {
+                "name": "David Johansen",
+                "date": "",
+                "venue": "The Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Tom Verlaine",
+                "date": "",
+                "venue": "The Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "Steve Goodman",
+                "date": "September 6",
+                "venue": "Flagstaff Hill",
+                "desc": "Co-sponsored by the University of Pittsburgh"
+            },
+            {
+                "name": "Santana",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": ""Killer Kahn", Santana's Road Manager, learned the hard way that Jenny doesn't take nicely to sexist comments."
+            },
+            {
+                "name": "Rick Danko",
+                "date": "February",
+                "venue": "Skibo Ballroom",
+                "desc": "With Blondie Chapman on Guitar"
+            },
+            {
+                "name": "Dixie Dregs",
+                "date": "Fall",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+            {
+                "name": "King Crimson",
+                "date": "October 31",
+                "venue": "Skibo Gym",
+                "desc": "This was the "how do you get truck tires for a semi filled on halloween?" concert."
+            },
+            {
+                "name": "Muddy Waters",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "1980 Spring Carnival Concert"
+            },
+        ]
+    },  "1970s": {
+            {
+                "name": "Blood Sweat &amp; Tears",
+                "date": "",
+                "venue": "Skibo Gym",
+                "desc": "Homecoming Show"
+            },
+            {
+                "name": "Livingston Taylor",
+                "date": "",
+                "venue": "",
+                "desc": " "
+            },
+            {
+                "name": "Renaissance/Pousette Dart",
+                "date": "",
+                "venue": "Carnegie Music Hall",
+                "desc": "Homecoming Show."
+            },
+            {
+                "name": "Chuck Mangione",
+                "date": "",
+                "venue": "Carnegie Music Hall",
+                "desc": "Chuck's first performance in the Pittsubrgh area. During Homecoming, it was a sellout."
+            },
+            {
+                "name": "Asleep At The Wheel",
+                "date": "",
+                "venue": "The Cut",
+                "desc": ""
+            },
+            {
+                "name": "Bruce Springsteen",
+                "date": "",
+                "venue": "",
+                "desc": ""
+            },
+            {
+                "name": "Billy Joel",
+                "date": "",
+                "venue": "Carnegie Music Hall",
+                "desc": ""
+            },
+            {
+                "name": "Bonnie Raitt",
+                "date": "",
+                "venue": "Skibo Ballroom",
+                "desc": ""
+            },
+        ]
+    },
 }
