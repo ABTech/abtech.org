@@ -123,6 +123,7 @@ nav_page: request
             <li><strong>Event type:</strong> Describe the details of the event/show/activity so we can provide the right equipment and staff</li>
             <li><strong>Estimated timings:</strong> for the event and setup time, or if your event spans multiple days</li>
             <li><strong>Technical riders and contracts:</strong> If performers have provided you with technical "riders" or requirements in their contract, it is best for us to have a copy of these to ensure they are met. Additionally, contact information for the performer is often useful if we need to request a clarification on technical requirements.</li>
+            <li><strong>Files:</strong> If you need to share any files with us, please reply to the confirmation email with the attachments. Or, you may share with us a Google Drive or Box link. We will follow up with the addresses to share with.</li>
             <li><strong>Any other relevant information or special requests</strong></li>
           </ul>
         </div>
