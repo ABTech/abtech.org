@@ -11,7 +11,7 @@ We all have them.
 
 Note: We do not host the production website with GitHub Pages, but it is a convenient place to keep the latest built version from `master`. It also provides emergency fallback hosting should it ever be needed.
 ### Simple (well, needs much more clarification)
- - Run the Docker container: `docker run --rm -it --publish 4000:4000 -v `pwd`:/usr/src/app ghcr.io/abtech/abtech.org:dev bash`
+ - Run the Docker container: ``docker run --rm -it --publish 4000:4000 -v `pwd`:/usr/src/app ghcr.io/abtech/abtech.org:dev bash``
  - `npm install --unsafe-perm` (will install Ruby and NodeJS dependencies, `--unsafe-perm` since you are probably `root` in the container)
  - `npm run-script serve` (for live development)
  - `npm run-script build-prod` (for built app placed in `_site`)
