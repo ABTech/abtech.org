@@ -1,0 +1,23 @@
+<!DOCTYPE html> <html lang="en-US" class="w-100 h-100"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>AB Tech: 404 Strobe Warning</title> <link rel="stylesheet" href="/assets/css/main.css"> <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: black;
+      }
+      #background {
+        z-index: -1;
+
+        color: #fff;
+        background: black;
+        text-shadow: 0 0 6px red;
+      }
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    </style> </head> <body class="d-flex w-100 h-100 flex-column justify-content-center align-items-center"> <div id="background" class="flex-shrink-0 container d-flex text-center flex-column justify-content-center align-items-center"> <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-8"> <img src="/assets/img/abtech_logo_white.svg" class="img-fluid logo-red-shadow" alt="AB Tech Logo"/> </div> <div class="col-md-4 col-sm-4 col-xs-6 col-xs-12 col-8"> <h1>404: Warning</h1> <p>Strobes will be used extensively during tonight's performance.</p> <p>Click anywhere to return home.</p> </div> </div> <a href="/"><canvas class="d-block" id="canvas"></canvas></a> <script src="/assets/js/404.js"></script> </body> </html>
