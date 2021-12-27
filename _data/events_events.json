@@ -1,5 +1,45 @@
 {
     "2010-present": {
+        "2021": [
+            {
+                "name": "Ronny Chieng",
+                "date": "2021-11-21",
+                "venue": "McConomy",
+                "desc": "AB Lectures. "
+            },
+            {
+                "name": "Cupcakke",
+                "date": "2021-11-13",
+                "venue": "Wiegand Gym",
+                "desc": "AB Concerts. "
+            },
+            {
+                "name": "Gaten Matarazzo",
+                "date": "2021-11-11",
+                "venue": "McConomy",
+                "desc": "AB Lectures. "
+            },
+            {
+                "name": "Maude Latour",
+                "date": "2021-09-24",
+                "venue": "The Mall",
+                "desc": "AB Concerts. First guest act since COVID-19. "
+            },
+            {
+                "name": "Bishop Ivy and CMU Independent Musicians Organization",
+                "date": "2021-04-16",
+                "venue": "The Mall",
+                "desc": "AB Concerts. Our first large performance since COVID-19. "
+            },
+        ],
+        "2020": [
+            {
+                "name": "Hannah Hart",
+                "date": "2021-03-04",
+                "venue": "McConomy",
+                "desc": "AB Lectures. "
+            },
+        ],
         "2019": [
             {
                 "name": "Antoni Porowski",
