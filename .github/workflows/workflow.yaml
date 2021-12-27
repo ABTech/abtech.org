@@ -127,3 +127,29 @@ jobs:
           git add . --all
           git commit -m "abtech.org publish $GITHUB_SHA"
           git push
+  publish-dev:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/dev'
+    steps:
+      - name: Checkout gh-pages-dev branch of repo
+        uses: actions/checkout@v2
+        with:
+          ref: "gh-pages-dev"
+      - name: Clear branch of previous build
+        run: |
+          git rm -rf . --ignore-unmatch
+          git clean -fxd
+      - name: Download built artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: "_site.tar"
+      - name: 'Unarchive files & remove archive'
+        run: tar -xvf _site.tar && rm _site.tar
+      - name: Commit and push new artifact
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add . --all
+          git commit -m "abtech.org publish $GITHUB_SHA"
+          git push
