@@ -28,7 +28,7 @@ nav_page: request
   <div class="row requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="event[title]"  class="form-control requestFormInput" id="request_eventName" required placeholder="Event Name" disabled>
+        <input type="text" name="event_name"  class="form-control requestFormInput" id="request_eventName" required placeholder="Event Name" disabled>
         <label for="request_eventName">Event Name</label>
       </div>
     </div>
@@ -36,7 +36,7 @@ nav_page: request
   <div class="row mb-1 requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="event[organization_id]" class="form-control requestFormInput" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help" disabled>
+        <input type="text" name="organization" class="form-control requestFormInput" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help" disabled>
         <label for="request_organization">Organization</label>
       </div>
       <div id="request_organization_help" class="form-text col-12 mb-3">
@@ -47,7 +47,7 @@ nav_page: request
   <div class="row requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="event[contact_name]" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled>
+        <input type="text" name="contact_name" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled>
         <label for="request_contactName">Contact Name</label>
       </div>
     </div>
@@ -55,13 +55,13 @@ nav_page: request
   <div class="row mb-1 requestFormRow">
     <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="email" name="event[contactemail]" class="form-control requestFormInput" id="request_contactEmail" required placeholder="name@andrew.cmu.edu" aria-describedby="request_contact_help" disabled>
+        <input type="email" name="contact_email" class="form-control requestFormInput" id="request_contactEmail" required placeholder="name@andrew.cmu.edu" aria-describedby="request_contact_help" disabled>
         <label for="request_contactEmail">Contact Email</label>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-2">
       <div class="form-floating">
-        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="event[contact_phone]" class="form-control requestFormInput" id="request_contactPhone" required placeholder="412-268-2104" aria-describedby="request_contact_help" disabled>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="contact_phone" class="form-control requestFormInput" id="request_contactPhone" required placeholder="412-268-2104" aria-describedby="request_contact_help" disabled>
         <label for="request_contactPhone">Contact Phone (123-456-7890)</label>
       </div>
     </div>
@@ -72,13 +72,13 @@ nav_page: request
   <div class="row requestFormRow">
     <div class="mb-3 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="date" name=""  class="form-control requestFormInput" id="request_startDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
+        <input type="date" name="start_date"  class="form-control requestFormInput" id="request_startDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
         <label for="request_startDate">Start Date</label>
       </div>
     </div>
     <div class="mb-3 col-md-6 gx-0 ps-2">
       <div class="form-floating">
-        <input type="time" name=""  class="form-control requestFormInput" id="request_startTime" required aria-describedby="request_time_help" disabled>
+        <input type="time" name="start_time"  class="form-control requestFormInput" id="request_startTime" required aria-describedby="request_time_help" disabled>
         <label for="request_startTime">Start Time</label>
       </div>
     </div>
@@ -86,13 +86,13 @@ nav_page: request
   <div class="row mb-1 requestFormRow">
     <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-2">
       <div class="form-floating">
-        <input type="date" name=""  class="form-control requestFormInput" id="request_endDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
+        <input type="date" name="end_date"  class="form-control requestFormInput" id="request_endDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
         <label for="request_endDate">End Date</label>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-2">
       <div class="form-floating">
-        <input type="time" name=""  class="form-control requestFormInput" id="request_endTime" required aria-describedby="request_time_help" disabled>
+        <input type="time" name="end_time"  class="form-control requestFormInput" id="request_endTime" required aria-describedby="request_time_help" disabled>
         <label for="request_endTime">End Time</label>
       </div>
     </div>
@@ -105,7 +105,7 @@ nav_page: request
   <div class="row mb-3 requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name=""  class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled>
+        <input type="text" name="location"  class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled>
         <label for="request_location">Location/Venue</label>
         <div id="request_location_help" class="form-text">
           <p>Please state the precise venue (i.e. "UC Rangos 1 through 3" instead of just "Rangos")</p>
@@ -116,7 +116,7 @@ nav_page: request
   <div class="row requestFormRow">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <textarea name=""  class="form-control requestFormInput" placeholder="Details" id="request_details" style="height: 200px" aria-describedby="request_details_help" disabled></textarea>
+        <textarea name="details"  class="form-control requestFormInput" placeholder="Details" id="request_details" style="height: 200px" aria-describedby="request_details_help" disabled></textarea>
         <label for="request_details">Details</label>
         <div id="request_details_help" class="form-text">Please be sure to include:
           <ul>
@@ -132,6 +132,13 @@ nav_page: request
   </div>
   <div class="row requestFormRow">
     <div class="gx-0">
+      <div id="requestForm_error" class="alert alert-danger" role="alert" style="display: none">An error has occurred. Please try again later or send your request to <a href="mailto:abtech@andrew.cmu.edu" class="user-select-all">abtech@andrew.cmu.edu</a>.</div>
+      <div id="requestForm_bad_request" class="alert alert-warning" role="alert" style="display: none"><strong>There was an issue with your request; please correct the issue and try again:</strong><br> <span id="requestForm_bad_request_msg"></span></div>
+      <div id="requestForm_success" class="alert alert-success" role="alert" style="display: none">Event successfully requested! Please check your email and spam shortly for a confirmation.</div>
+    </div>
+  </div>
+  <div class="row requestFormRow">
+    <div class="gx-0">
       <button type="submit" class="btn btn-primary requestFormInput" disabled>Submit Request</button>
     </div>
   </div>
@@ -140,19 +147,33 @@ nav_page: request
 <script type="text/javascript">
   var request_form_disabled = true
   var formInputs = document.getElementsByClassName('requestFormInput')
+  var formAlertError = document.getElementById('requestForm_error')
+  var formAlertBadRequest = document.getElementById('requestForm_bad_request')
+  var formAlertSuccess = document.getElementById('requestForm_success')
+  var formAlertBadRequestMsg = document.getElementById('requestForm_bad_request_msg')
   var form = document.getElementById('requestForm')
   form.addEventListener('submit', request_form_submit)
 
   function request_form_submit(event) {
     event.preventDefault()
     if (request_form_disabled === false) {
+      form_disable()
       var request = new XMLHttpRequest()
-      request.open('POST', '{{ '/submitrequest' | relative_url }}', true)
+      request.open('POST', '{{ '/eventrequest' | relative_url }}', true)
       request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8')
       request.onreadystatechange = function request_form_status() {
-        if (request.readyState === 4 && request.status === 200) {
-          var jsonData = JSON.parse(request.response);
-          console.log(jsonData);
+        if (request.readyState === 4) {
+          console.log(request.response);
+          if (request.status === 200) {
+            formAlertSuccess.style.display = 'block'
+          } else if (request.status >= 400 && request.status < 500) {
+            formAlertBadRequestMsg.innerHTML = request.response
+            formAlertBadRequest.style.display = 'block'
+            form_ready()
+          } else {
+            formAlertError.style.display = 'block'
+            form_ready()
+          }
         }
       }
       formDataPairs = []
@@ -168,6 +189,15 @@ nav_page: request
     request_form_disabled = false
     for (var i = 0; i < formInputs.length; i++) formInputs[i].disabled = false
     form.disabled = false
+  }
+
+  function form_disable() {
+    for (var i = 0; i < formInputs.length; i++) formInputs[i].disabled = true
+    form.disabled = true
+    formAlertError.style.display = 'none'
+    formAlertBadRequest.style.display = 'none'
+    formAlertSuccess.style.display = 'none'
+    formAlertBadRequestMsg.innerHTML = ""
   }
 
   if (document.readyState != 'loading') form_ready()
