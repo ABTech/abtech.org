@@ -187,8 +187,7 @@ nav_page: request
     if (request_form_disabled === false) {
       form_disable()
       var request = new XMLHttpRequest()
-      // request.open('POST', '{{ '/eventrequest' | relative_url }}', true)
-      request.open('POST', '{{ 'http://localhost:3000/eventrequest' | relative_url }}', true)
+      request.open('POST', '{% if jekyll.environment == "development" %}{{ 'http://localhost:3000/eventrequest' | relative_url }}{% else %}{{ '/eventrequest' | relative_url }}{% endif %}', true)
       request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8')
       request.onreadystatechange = function request_form_status() {
         if (request.readyState === 4) {
