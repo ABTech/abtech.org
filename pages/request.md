@@ -28,7 +28,7 @@ nav_page: request
   <div class="row requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="event_name"  class="form-control requestFormInput" id="request_eventName" required placeholder="Event Name" disabled>
+        <input type="text" name="event_name"  class="form-control requestFormInput" id="request_eventName" required placeholder="Event Name" disabled maxlength="50">
         <label for="request_eventName">Event Name</label>
       </div>
     </div>
@@ -36,7 +36,7 @@ nav_page: request
   <div class="row mb-1 requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="organization" class="form-control requestFormInput" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help" disabled>
+        <input type="text" name="organization" class="form-control requestFormInput" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help" disabled maxlength="75">
         <label for="request_organization">Organization</label>
       </div>
       <div id="request_organization_help" class="form-text col-12 mb-3">
@@ -47,7 +47,7 @@ nav_page: request
   <div class="row requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="contact_name" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled pattern=".+[ ]+.+" minlength="3">
+        <input type="text" name="contact_name" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled pattern=".+[ ]+.+" minlength="3" maxlength="50">
         <label for="request_contactName">Contact Name (preferred and last)</label>
       </div>
     </div>
@@ -105,7 +105,7 @@ nav_page: request
   <div class="row mb-3 requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="location" class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled>
+        <input type="text" name="location" class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled maxlength="50">
         <label for="request_location">Location/Venue</label>
         <div id="request_location_help" class="form-text">
           <p>Please state the precise venue (i.e. "UC Rangos 1 through 3" instead of just "Rangos")</p>
