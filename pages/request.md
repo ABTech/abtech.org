@@ -139,7 +139,10 @@ nav_page: request
   </div>
   <div class="row requestFormRow">
     <div class="gx-0">
-      <button id="request_submit" type="submit" class="btn btn-primary requestFormInput" disabled>Submit Request</button>
+      <button id="request_submit" type="submit" class="btn btn-primary requestFormInput" disabled>
+        <span id="request_spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Submit Request
+      </button>
       <a id="request_another" class="btn btn-primary" href="{{ '/request/' | relative_url }}" style="display: none">Request Another Event</a>
     </div>
   </div>
@@ -155,6 +158,7 @@ nav_page: request
   var formAlertBadRequestMsg = document.getElementById('requestForm_bad_request_msg')
   var formRequestSubmit = document.getElementById('request_submit')
   var formRequestAnother = document.getElementById('request_another')
+  var formRequestSpinner = document.getElementById('request_spinner')
   var form = document.getElementById('requestForm')
   var formStartDate = document.getElementById("request_startDate")
   var formStartTime = document.getElementById("request_startTime")
@@ -194,6 +198,7 @@ nav_page: request
           if (request.status === 200) {
             formAlertSuccess.style.display = 'block'
             formRequestSubmit.style.display = 'none'
+            formRequestSpinner.style.display = 'none'
             for (var i = 0; i < formSuccessHide.length; i++) formSuccessHide[i].style.display = 'none'
             form.reset()
             formRequestAnother.style.display = ''
@@ -233,12 +238,14 @@ nav_page: request
   }
 
   function form_ready() {
+    formRequestSpinner.style.display = 'none'
     request_form_disabled = false
     for (var i = 0; i < formInputs.length; i++) formInputs[i].disabled = false
     form.disabled = false
   }
 
   function form_disable() {
+    formRequestSpinner.style.display = ''
     for (var i = 0; i < formInputs.length; i++) formInputs[i].disabled = true
     form.disabled = true
     formAlertError.style.display = 'none'
