@@ -3,17 +3,17 @@ name: abtech.org
 on:
   push:
     branches:
-      # - 'master'
+      - 'main'
       - 'dev'
       - '!gh-pages'
     paths-ignore:
       - 'etc/**'
   pull_request:
     branches:
-      # - 'master'
+      - 'main'
       - 'dev'
-  # tags:
-    # - '*'
+  tags:
+    - '*'
 
 jobs:
   build-docker:
@@ -58,7 +58,7 @@ jobs:
           echo "::set-output name=VERSION::$VERSION"
           echo "::set-output name=VERSIONSHA::$VERSIONSHA"
           # Use Docker `latest` tag convention
-          [ "$VERSION" == "master" ] && docker tag ${{ github.event.repository.name }} $IMAGE_ID:latest
+          [ "$VERSION" == "main" ] && docker tag ${{ github.event.repository.name }} $IMAGE_ID:latest
           docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSION
           docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSIONSHA
           docker push $IMAGE_ID --all-tags
