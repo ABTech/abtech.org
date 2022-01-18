@@ -6,14 +6,13 @@ on:
       - 'main'
       - 'dev'
       - '!gh-pages'
-    paths-ignore:
-      - 'etc/**'
+      - '!gh-pages-dev'
+    tags:
+      - '*'
   pull_request:
     branches:
       - 'main'
       - 'dev'
-  tags:
-    - '*'
 
 jobs:
   build-docker:
