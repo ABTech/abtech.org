@@ -16,9 +16,10 @@ Note: We do not host the production website with GitHub Pages, but it is a conve
  - `npm run-script serve` (for live development)
  - `npm run-script build-prod` (for built app placed in `_site`)
 ### Complicated
- - Use the Ruby version found in the Dockerfile (for consistency)
- - User the NodeJS version found in the Dockerfile (for consistency)
- - Continue with instructions from [Simple](#Simple)
+ - Use the Ruby version found in the Dockerfile or `.ruby-version` (for consistency). It is recommended to use rbenv and run `rbenv install`
+ - Install the gems with `bundle install`.
+ - Use the NodeJS version found in the Dockerfile (for consistency) and run `npm install`.
+ - Continue with instructions from [Simple](#Simple) after the Docker and NPM install commands.
 
 ## Tips & Instructions
 ### Adding plugins
