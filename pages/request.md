@@ -44,6 +44,17 @@ nav_page: request
       </div>
     </div>
   </div>
+  <div class="row mb-1 requestFormRow successHide">
+    <div class="mb-3 gx-0">
+      <div class="form-floating">
+        <input type="text" pattern="[a-zA-Z0-9 .-]+" name="oracle_string" class="form-control requestFormInput" id="request_oracle_string" placeholder="FUNDSRC-FUNC-ACTIVITY-ORG-ENTITY" aria-describedby="request_oracle_string_help" disabled maxlength="75">
+        <label for="request_oracle_string">Oracle String (if known)</label>
+      </div>
+      <div id="request_oracle_string_help" class="form-text col-12 mb-3">
+        <p>Student organizations and individuals should leave this field blank</p>
+      </div>
+    </div>
+  </div>
   <div class="row requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
