@@ -125,7 +125,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add . --all
-          git commit -m "abtech.org publish $GITHUB_SHA"
+          git commit --allow-empty -m "abtech.org publish $GITHUB_SHA"
           git push
   publish-dev:
     needs: build
@@ -151,5 +151,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add . --all
-          git commit -m "abtech.org publish $GITHUB_SHA"
+          git commit --allow-empty -m "abtech.org publish $GITHUB_SHA"
           git push
