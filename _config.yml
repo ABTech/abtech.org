@@ -22,11 +22,13 @@ title: AB Tech
 lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.abtech.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://abtech.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
+  - jekyll-last-modified-at
   - jekyll-minifier
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -50,9 +52,9 @@ exclude:
   - package.json
   - package-lock.json
   - .gitignore
+  - .ruby-version
   - README.md
   - Dockerfile
-  - etc/
   - .github/
   - .git/
 include:
