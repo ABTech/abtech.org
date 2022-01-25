@@ -485,6 +485,12 @@
                 "desc": "AB Coffeehouse concert"
             },
             {
+                "name": "The New Pornographers (w/ Ted Leo and the Pharmacists)",
+                "date": "2009-04-17",
+                "venue": "CFA Lawn",
+                "desc": "Spring Concert"
+            },
+            {
                 "name": "Zach Galifianakis",
                 "date": "2009-04-16",
                 "venue": "Carnival Tent",
@@ -574,6 +580,12 @@
                 "venue": "The Underground",
                 "desc": " "
             },
+            {
+                "name": "Big City Rock, Phantom Planet, The Secret Machines",
+                "date": "2006-04-21",
+                "venue": "UC Gym",
+                "desc": "Spring Concert.  Raincalled to the gym.  Large turnout for Phantom Planet, but the crowd dwindled during The Secret Machines."
+            }
         ],
         "2005": [
             {
@@ -791,7 +803,7 @@
             {
                 "name": "Henry Rollins",
                 "date": "2001-11-12",
-                "venue": "",
+                "venue": "McConomy",
                 "desc": "Former rock star does spoken word."
             },
             {
@@ -822,7 +834,7 @@
                 "name": "Magnetic Fields",
                 "date": "2001-04-12",
                 "venue": "McConomy",
-                "desc": " font size=\"-1\"iWith a line extending to Forbes Avenue."
+                "desc": "With a line extending to Forbes Avenue."
             },
             {
                 "name": "Dar Williams",
@@ -854,7 +866,13 @@
                 "name": "Lewis Black",
                 "date": "2000-12-04",
                 "venue": "McConomy",
-                "desc": "/td td nowrapfont size=\"-1\"October 31/font/td tdfont size=\"-1\"Ra"
+                "desc": " "
+            },
+            {
+                "name": "Elliot Smith",
+                "date": "2000-10-31",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse.  Screwed by a promoter.  Lead singer comes in dressed as Jesus."
             },
             {
                 "name": "Skatellites",
@@ -903,6 +921,12 @@
                 "date": "2000-09-18",
                 "venue": "McConomy",
                 "desc": "AB Lecture."
+            },
+            {
+                "name": "Silkworm and Karl Hendricks Trio",
+                "date": "2000-09-11",
+                "venue": "McConomy",
+                "desc": " "
             },
             {
                 "name": "Rusted Root",
@@ -1007,7 +1031,7 @@
                 "name": "The Clarks",
                 "date": "1999-04-30",
                 "venue": "Rangos",
-                "desc": " iFiesta Primavera Concert"
+                "desc": "Fiesta Primavera Concert"
             },
             {
                 "name": "Soul Coughing with Angry Salad",
@@ -1027,6 +1051,12 @@
                 "venue": "Rangos",
                 "desc": ""
             },
+            {
+                "name": "Dr. Ruth Westheimer",
+                "date": "1999-02-11",
+                "venue": "McConomy",
+                "desc": "AB Lecture."
+            }
         ],
         "1998": [
             {
@@ -1129,6 +1159,12 @@
             },
         ],
         "1996": [
+            {
+                "name": "The Mighty Mighty Bosstones with Cherry Poppin Daddies",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Sprint Carnival concert"
+            },
         ],
         "1995": [
             {
