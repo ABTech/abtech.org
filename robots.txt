@@ -1,0 +1,11 @@
+User-agent: *
+Disallow /assets/
+Disallow /tracker
+Disallow /tracker/
+Disallow /wiki
+Disallow /wiki/
+Disallow /eventrequest
+Disallow /joinrequest
+
+Sitemap: https://abtech.org/sitemap.xml
+

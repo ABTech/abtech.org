@@ -485,6 +485,12 @@
                 "desc": "AB Coffeehouse concert"
             },
             {
+                "name": "The New Pornographers (w/ Ted Leo and the Pharmacists)",
+                "date": "2009-04-17",
+                "venue": "CFA Lawn",
+                "desc": "Spring Concert"
+            },
+            {
                 "name": "Zach Galifianakis",
                 "date": "2009-04-16",
                 "venue": "Carnival Tent",
@@ -574,6 +580,12 @@
                 "venue": "The Underground",
                 "desc": " "
             },
+            {
+                "name": "Big City Rock, Phantom Planet, The Secret Machines",
+                "date": "2006-04-21",
+                "venue": "UC Gym",
+                "desc": "Spring Concert.  Raincalled to the gym.  Large turnout for Phantom Planet, but the crowd dwindled during The Secret Machines."
+            }
         ],
         "2005": [
             {
@@ -791,7 +803,7 @@
             {
                 "name": "Henry Rollins",
                 "date": "2001-11-12",
-                "venue": "",
+                "venue": "McConomy",
                 "desc": "Former rock star does spoken word."
             },
             {
@@ -822,7 +834,7 @@
                 "name": "Magnetic Fields",
                 "date": "2001-04-12",
                 "venue": "McConomy",
-                "desc": " font size=\"-1\"iWith a line extending to Forbes Avenue."
+                "desc": "With a line extending to Forbes Avenue."
             },
             {
                 "name": "Dar Williams",
@@ -854,7 +866,13 @@
                 "name": "Lewis Black",
                 "date": "2000-12-04",
                 "venue": "McConomy",
-                "desc": "/td td nowrapfont size=\"-1\"October 31/font/td tdfont size=\"-1\"Ra"
+                "desc": " "
+            },
+            {
+                "name": "Elliot Smith",
+                "date": "2000-10-31",
+                "venue": "Rangos",
+                "desc": "AB Coffeehouse.  Screwed by a promoter.  Lead singer comes in dressed as Jesus."
             },
             {
                 "name": "Skatellites",
@@ -903,6 +921,12 @@
                 "date": "2000-09-18",
                 "venue": "McConomy",
                 "desc": "AB Lecture."
+            },
+            {
+                "name": "Silkworm and Karl Hendricks Trio",
+                "date": "2000-09-11",
+                "venue": "McConomy",
+                "desc": " "
             },
             {
                 "name": "Rusted Root",
@@ -988,26 +1012,26 @@
             {
                 "name": "World Color",
                 "date": "1999-10-14",
-                "venue": "",
+                "venue": "Rangos",
                 "desc": "International Festival Band"
             },
             {
                 "name": "The Bevis Frond",
                 "date": "1999-09-22",
-                "venue": "",
+                "venue": "McConomy",
                 "desc": "AB Coffeehouse concert"
             },
             {
                 "name": "Laughing Colors",
                 "date": "1999-09-06",
-                "venue": "",
+                "venue": "Orientation Tent",
                 "desc": "Labor Day concert"
             },
             {
                 "name": "The Clarks",
                 "date": "1999-04-30",
                 "venue": "Rangos",
-                "desc": " iFiesta Primavera Concert"
+                "desc": "Fiesta Primavera Concert"
             },
             {
                 "name": "Soul Coughing with Angry Salad",
@@ -1027,6 +1051,18 @@
                 "venue": "Rangos",
                 "desc": ""
             },
+            {
+                "name": "Susie Bright",
+                "date": "1999-02-13",
+                "venue": "DH 2315",
+                "desc": "Sex Week Lecture"
+            },
+            {
+                "name": "Dr. Ruth Westheimer",
+                "date": "1999-02-11",
+                "venue": "McConomy",
+                "desc": "Sex Week Lecture"
+            }
         ],
         "1998": [
             {
@@ -1111,24 +1147,30 @@
             },
             {
                 "name": "The Clarks",
-                "date": "",
+                "date": "1997-08-22",
                 "venue": "Orientation Tent",
                 "desc": "Freshman Orientation concert"
             },
             {
-                "name": "The Clarks and Brownie Mary",
-                "date": "",
-                "venue": "Carnival Tent",
-                "desc": "Spring Carnival concert sponsored by Spring Carnival Committee"
-            },
-            {
                 "name": "Letters to Cleo with Angry Salad",
-                "date": "",
+                "date": "1997-04-12",
                 "venue": "Skibo Gym",
                 "desc": "Spring Carnival concert"
             },
+            {
+                "name": "The Clarks and Brownie Mary",
+                "date": "1997-04-11",
+                "venue": "Carnival Tent",
+                "desc": "Spring Carnival concert sponsored by Spring Carnival Committee"
+            },
         ],
         "1996": [
+            {
+                "name": "The Mighty Mighty Bosstones with Cherry Poppin Daddies",
+                "date": "",
+                "venue": "The Cut",
+                "desc": "Sprint Carnival concert"
+            },
         ],
         "1995": [
             {
