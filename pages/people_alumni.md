@@ -20,6 +20,6 @@ To join, [visit http://abtech.org/mailman/listinfo/ghosts](http://abtech.org/mai
 
 <ul class="align-items-start align-content-center custom-list-columns-4 list-unstyled">
   {% assign sortedAlumni = site.data.people_currentcrew_alumni | sort_natural: 'last_name' %}
-  {% for alum in sortedAlumni %}<li class="border-start border-secondary mb-1 ps-1"><span class="user-select-none">{{ alum.first_name }} {{ alum.last_name }}</span>{% if alum.mail != null %} [<a href="mailto:{{alum.mail}}">mail</a>]{% endif %}{% if alum.url != null %} [<a href="mailto:{{alum.url}}">web</a>]{% endif %}</li>{% endfor %}
+  {% for alum in sortedAlumni %}<li class="border-start border-secondary mb-1 ps-1"><span class="user-select-none">{{ alum.first_name }} {{ alum.last_name }}</span>{% if alum.mail != null %} [<a href="mailto:{{alum.mail}}">mail</a>]{% endif %}{% if alum.url != null %} [<a href="{{alum.url}}">web</a>]{% endif %}</li>{% endfor %}
 </ul>
 
