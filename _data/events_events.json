@@ -1012,19 +1012,19 @@
             {
                 "name": "World Color",
                 "date": "1999-10-14",
-                "venue": "",
+                "venue": "Rangos",
                 "desc": "International Festival Band"
             },
             {
                 "name": "The Bevis Frond",
                 "date": "1999-09-22",
-                "venue": "",
+                "venue": "McConomy",
                 "desc": "AB Coffeehouse concert"
             },
             {
                 "name": "Laughing Colors",
                 "date": "1999-09-06",
-                "venue": "",
+                "venue": "Orientation Tent",
                 "desc": "Labor Day concert"
             },
             {
@@ -1052,10 +1052,16 @@
                 "desc": ""
             },
             {
+                "name": "Susie Bright",
+                "date": "1999-02-13",
+                "venue": "DH 2315",
+                "desc": "Sex Week Lecture"
+            },
+            {
                 "name": "Dr. Ruth Westheimer",
                 "date": "1999-02-11",
                 "venue": "McConomy",
-                "desc": "AB Lecture."
+                "desc": "Sex Week Lecture"
             }
         ],
         "1998": [
@@ -1141,21 +1147,21 @@
             },
             {
                 "name": "The Clarks",
-                "date": "",
+                "date": "1997-08-22",
                 "venue": "Orientation Tent",
                 "desc": "Freshman Orientation concert"
             },
             {
-                "name": "The Clarks and Brownie Mary",
-                "date": "",
-                "venue": "Carnival Tent",
-                "desc": "Spring Carnival concert sponsored by Spring Carnival Committee"
-            },
-            {
                 "name": "Letters to Cleo with Angry Salad",
-                "date": "",
+                "date": "1997-04-12",
                 "venue": "Skibo Gym",
                 "desc": "Spring Carnival concert"
+            },
+            {
+                "name": "The Clarks and Brownie Mary",
+                "date": "1997-04-11",
+                "venue": "Carnival Tent",
+                "desc": "Spring Carnival concert sponsored by Spring Carnival Committee"
             },
         ],
         "1996": [
