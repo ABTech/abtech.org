@@ -119,6 +119,7 @@ nav_page: request
     </div>
     <div id="request_time_help" class="form-text col-12 mb-3 gx-0">
       <p>If your dates and times are not yet finalized, please note them in the details section below.</p>
+      <p><strong>Please submit at most one request per event.</strong> If your event has multiple dates with multiple parts (i.e. rehearsals, multiple setup times, etc.), then please note the additional parts in the details box below.</p>
       <p><strong>Please try to allow for least one week advance notice of the event.</strong> Larger events require more lead time (usually 2 weeks or more). We recommend that you contact us as soon as possible to make sure we can fit you in our schedule, as we frequently work multiple events simultaneously and have limited staff and equipment. <strong>Events requested less than a week in advance may incur a small late fee. Events requested less than 48 hours in advance will incur a larger late fee.</strong></p>
       <p>Changes (venue, times, equipment needs, etc.) or cancellations to the event less than 48 hours before the show may not be possible or may incur an additional late notice fee.</p>
     </div>
@@ -299,4 +300,3 @@ nav_page: request
   if (document.readyState != 'loading') form_ready()
   else document.addEventListener('DOMContentLoaded', form_ready)
 </script>
-
