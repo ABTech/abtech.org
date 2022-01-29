@@ -20,7 +20,7 @@ Twice a year (September and January), AB Tech is at the Activities Fair along wi
   display: none;
 }
 </style></noscript>
-<form id="joinForm" class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2">
+<form id="joinForm" class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2" novalidate>
   <noscript><div class="row">
     <div class="alert alert-warning" role="alert">
       This form requires JavaScript. Please enable JavaScript and refresh the page.
@@ -30,6 +30,7 @@ Twice a year (September and January), AB Tech is at the Activities Fair along wi
     <div class="mb-3 gx-0 input-group input-group-lg">
       <input type="text" name="andrew_id"  class="form-control joinFormInput" id="join_andrew_id" required placeholder="Andrew ID" disabled minlength="3" maxlength="8" pattern="[a-z0-9]+" aria-describedby="join_andrew_id_domain" aria-label="Andrew ID">
       <span class="input-group-text" id="join_andrew_id_domain">@andrew.cmu.edu</span>
+      <div class="invalid-feedback"></div>
     </div>
   </div>
   <div class="row mb-3 joinFormRow successHide">
@@ -37,12 +38,14 @@ Twice a year (September and January), AB Tech is at the Activities Fair along wi
       <div class="form-floating">
         <input type="text" name="preferred_name" class="form-control joinFormInput" id="join_preferred_name" required placeholder="Sam" disabled maxlength="50">
         <label for="join_preferred_name">Preferred Name</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
         <input type="text" name="last_name" class="form-control joinFormInput" id="join_last_name" required placeholder="Abtek" disabled maxlength="50">
         <label for="join_last_name">Last Name</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
   </div>
@@ -83,9 +86,32 @@ Other options for joining AB Tech include:
   var form = document.getElementById('joinForm')
   form.addEventListener('submit', join_form_submit)
 
+  function join_form_show_validation (event) {
+    Array.prototype.slice.call(formInputs).forEach(input => {
+      let nextSibling = input.nextSibling
+      while (nextSibling) {
+        if (nextSibling.nodeType == Node.ELEMENT_NODE && nextSibling.classList.contains('invalid-feedback')) {
+          nextSibling.innerHTML = input.validationMessage
+          break
+        }
+        nextSibling = nextSibling.nextSibling
+      }
+    })
+  }
+
+  form.addEventListener('input', join_form_show_validation)
+  form.addEventListener('submit', join_form_show_validation)
+
   function join_form_submit(event) {
     event.preventDefault()
     if (join_form_disabled === false) {
+      if (!form.checkValidity()) {
+        event.stopPropagation()
+        form.classList.add('was-validated')
+        form.querySelector(':invalid').focus()
+        return
+      }
+      form.classList.add('was-validated')
       form_disable()
       var request = new XMLHttpRequest()
       request.open('POST', '{% if jekyll.environment == "development" %}{{ 'http://localhost:3000/joinrequest' | relative_url }}{% else %}{{ '/joinrequest' | relative_url }}{% endif %}', true)

@@ -14,7 +14,7 @@ nav_page: request
   display: none;
 }
 </style></noscript>
-<form id="requestForm" class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2">
+<form id="requestForm" class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2" novalidate>
   <div class="row">
     <div class="alert alert-danger" role="alert">
       Please call <a href="tel:+14122682104" class="user-select-all">(412) 268-2104</a> to request an event with less than 48 hours notice.
@@ -30,6 +30,7 @@ nav_page: request
       <div class="form-floating">
         <input type="text" name="event_name"  class="form-control requestFormInput" id="request_eventName" required placeholder="Event Name" disabled maxlength="50">
         <label for="request_eventName">Event Name</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
   </div>
@@ -38,6 +39,7 @@ nav_page: request
       <div class="form-floating">
         <input type="text" name="organization" class="form-control requestFormInput" id="request_organization" required placeholder="Organization" aria-describedby="request_organization_help" disabled maxlength="75">
         <label for="request_organization">Organization</label>
+        <div class="invalid-feedback"></div>
       </div>
       <div id="request_organization_help" class="form-text col-12 mb-3">
         <p>The hosting or sponsoring organization (i.e. who will be paying for our services)</p>
@@ -49,6 +51,7 @@ nav_page: request
       <div class="form-floating">
         <input type="text" pattern="[a-zA-Z0-9 .-]+" name="oracle_string" class="form-control requestFormInput" id="request_oracle_string" placeholder="FUNDSRC-FUNC-ACTIVITY-ORG-ENTITY" aria-describedby="request_oracle_string_help" disabled maxlength="75">
         <label for="request_oracle_string">Oracle String (if known)</label>
+        <div class="invalid-feedback"></div>
       </div>
       <div id="request_oracle_string_help" class="form-text col-12 mb-3">
         <p>Student organizations and individuals should leave this field blank</p>
@@ -58,8 +61,9 @@ nav_page: request
   <div class="row requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="contact_name" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled pattern=".+[ ]+.+" minlength="3" maxlength="50">
+        <input type="text" name="contact_name" class="form-control requestFormInput" id="request_contactName" required placeholder="Sam Abtek" required aria-describedby="request_contact_help" disabled pattern="\S+[ ]+\S+" minlength="3" maxlength="50">
         <label for="request_contactName">Contact Name (preferred and last)</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
   </div>
@@ -68,12 +72,14 @@ nav_page: request
       <div class="form-floating">
         <input type="email" name="contact_email" class="form-control requestFormInput" id="request_contactEmail" required placeholder="name@andrew.cmu.edu" aria-describedby="request_contact_help" disabled>
         <label for="request_contactEmail">Contact Email</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
         <input type="tel" pattern="[ .()#+-ext]*(?:\d[ .()#+-ext]*){10,}" name="contact_phone" class="form-control requestFormInput" id="request_contactPhone" required placeholder="+1 412-268-2104" aria-describedby="request_contact_help" disabled>
         <label for="request_contactPhone">Contact Cell (+1 123-456-7890)</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
     <div id="request_contact_help" class="form-text col-12 mb-3 gx-0">
@@ -85,12 +91,14 @@ nav_page: request
       <div class="form-floating">
         <input type="date" name="start_date" class="form-control requestFormInput" id="request_startDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
         <label for="request_startDate">Start Date</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
     <div class="mb-3 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
         <input type="time" name="start_time" class="form-control requestFormInput" id="request_startTime" required aria-describedby="request_time_help" disabled>
         <label for="request_startTime">Start Time</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
   </div>
@@ -99,12 +107,14 @@ nav_page: request
       <div class="form-floating">
         <input type="date" name="end_date" class="form-control requestFormInput" id="request_endDate" required aria-describedby="request_time_help" disabled min="1973-01-01" value="1973-01-01">
         <label for="request_endDate">End Date</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
         <input type="time" name="end_time" class="form-control requestFormInput" id="request_endTime" required aria-describedby="request_time_help" disabled>
         <label for="request_endTime">End Time</label>
+        <div class="invalid-feedback"></div>
       </div>
     </div>
     <div id="request_time_help" class="form-text col-12 mb-3 gx-0">
@@ -116,8 +126,9 @@ nav_page: request
   <div class="row mb-3 requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
-        <input type="text" name="location" class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled maxlength="50">
+        <input type="text" name="location" class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled minlength="4" maxlength="50">
         <label for="request_location">Location/Venue</label>
+        <div class="invalid-feedback"></div>
         <div id="request_location_help" class="form-text">
           <p>Please state the precise venue (i.e. "UC Rangos 1 through 3" instead of just "Rangos")</p>
           <p><strong>Please contact us before reserving a venue and confirming show time, so that we can estimate the time required for our setup and teardown.</strong> Smaller shows may only require an hour for setup, but larger shows may require 8 hours or more. We need full access to the venue from the setup time through the end of our teardown, which can be for up to a few hours following the end of the show (depending on the complexity).</p></div>
@@ -129,6 +140,7 @@ nav_page: request
       <div class="form-floating">
         <textarea name="details"  class="form-control requestFormInput" required placeholder="Details" id="request_details" style="height: 200px" aria-describedby="request_details_help" disabled></textarea>
         <label for="request_details">Details</label>
+        <div class="invalid-feedback"></div>
         <div id="request_details_help" class="form-text">Please be sure to include:
           <ul>
             <li><strong>Event type:</strong> Describe the details of the event/show/activity so we can provide the right equipment and staff</li>
@@ -192,14 +204,33 @@ nav_page: request
     formEndTime.setCustomValidity(msg)
   }
 
-  formStartDate.onchange = checkEventEnd
-  formStartTime.onchange = checkEventEnd
-  formEndDate.onchange = checkEventEnd
-  formEndTime.onchange = checkEventEnd
+  function request_form_show_validation (event) {
+    checkEventEnd()
+    Array.prototype.slice.call(formInputs).forEach(input => {
+      let nextSibling = input.nextSibling
+      while (nextSibling) {
+        if (nextSibling.nodeType == Node.ELEMENT_NODE && nextSibling.classList.contains('invalid-feedback')) {
+          nextSibling.innerHTML = input.validationMessage
+          break
+        }
+        nextSibling = nextSibling.nextSibling
+      }
+    })
+  }
+
+  form.addEventListener('input', request_form_show_validation)
+  form.addEventListener('submit', request_form_show_validation)
 
   function request_form_submit(event) {
     event.preventDefault()
     if (request_form_disabled === false) {
+      if (!form.checkValidity()) {
+        event.stopPropagation()
+        form.classList.add('was-validated')
+        form.querySelector(':invalid').focus()
+        return
+      }
+      form.classList.add('was-validated')
       form_disable()
       var request = new XMLHttpRequest()
       request.open('POST', '{% if jekyll.environment == "development" %}{{ 'http://localhost:3000/eventrequest' | relative_url }}{% else %}{{ '/eventrequest' | relative_url }}{% endif %}', true)
