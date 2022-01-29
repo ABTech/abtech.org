@@ -64,13 +64,13 @@ nav_page: request
     </div>
   </div>
   <div class="row mb-1 requestFormRow successHide">
-    <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-2">
+    <div class="mb-3 mb-md-0 col-md-6 gx-0 pe-md-2">
       <div class="form-floating">
         <input type="email" name="contact_email" class="form-control requestFormInput" id="request_contactEmail" required placeholder="name@andrew.cmu.edu" aria-describedby="request_contact_help" disabled>
         <label for="request_contactEmail">Contact Email</label>
       </div>
     </div>
-    <div class="mb-0 col-md-6 gx-0 ps-2">
+    <div class="mb-0 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
         <input type="tel" pattern="[ .()#+-ext]*(?:\d[ .()#+-ext]*){10,}" name="contact_phone" class="form-control requestFormInput" id="request_contactPhone" required placeholder="+1 412-268-2104" aria-describedby="request_contact_help" disabled>
         <label for="request_contactPhone">Contact Cell (+1 123-456-7890)</label>
