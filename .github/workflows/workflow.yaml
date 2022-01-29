@@ -21,6 +21,7 @@ jobs:
       IMAGE_ID: ${{ steps.push-image.outputs.IMAGE_ID }}
       VERSION: ${{ steps.push-image.outputs.VERSION }}
       VERSIONSHA: ${{ steps.push-image.outputs.VERSIONSHA }}
+      CIVERSION: ${{ steps.push-image.outputs.CIVERSION }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -39,6 +40,7 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       - name: Push image
         id: push-image
+        if: github.event_name != 'pull_request'
         run: |
           IMAGE_ID=ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}
 
@@ -53,19 +55,24 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
           echo VERSIONSHA=$VERSIONSHA
+          [[ "${{ github.event_name }}" != "pull_request" ]] && CIVERSION=$VERSIONSHA
+          [[ "${{ github.event_name }}" == "pull_request" ]] && CIVERSION="latest"
           echo "::set-output name=IMAGE_ID::$IMAGE_ID"
           echo "::set-output name=VERSION::$VERSION"
           echo "::set-output name=VERSIONSHA::$VERSIONSHA"
+          echo "::set-output name=CIVERSION::$CIVERSION"
           # Use Docker `latest` tag convention
-          [ "$VERSION" == "main" ] && docker tag ${{ github.event.repository.name }} $IMAGE_ID:latest
-          docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSION
-          docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSIONSHA
-          docker push $IMAGE_ID --all-tags
+          if [[ "${{ github.event_name }}" != "pull_request" ]]; then
+            [ "$VERSION" == "main" ] && docker tag ${{ github.event.repository.name }} $IMAGE_ID:latest
+            docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSION
+            docker tag ${{ github.event.repository.name }} $IMAGE_ID:$VERSIONSHA
+            docker push $IMAGE_ID --all-tags
+          fi
   build:
     needs: build-docker
     runs-on: ubuntu-latest
     container:
-      image: ${{ needs.build-docker.outputs.IMAGE_ID }}:${{ needs.build-docker.outputs.VERSIONSHA }}
+      image: ${{ needs.build-docker.outputs.IMAGE_ID }}:${{ needs.build-docker.outputs.CIVERSION }}
     steps:
       - name: Checkout latest
         uses: actions/checkout@v2
@@ -103,7 +110,9 @@ jobs:
   publish:
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: |
+      github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request'
     steps:
       - name: Checkout gh-pages branch of repo
         uses: actions/checkout@v2
@@ -129,7 +138,9 @@ jobs:
   publish-dev:
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/dev'
+    if: |
+      github.ref == 'refs/heads/dev' &&
+      github.event_name != 'pull_request'
     steps:
       - name: Checkout gh-pages-dev branch of repo
         uses: actions/checkout@v2
