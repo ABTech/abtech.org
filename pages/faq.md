@@ -10,7 +10,7 @@ nav_page_specific: faq
 
 <hr class="bg-primary"/>
 
-Have a question about AB Tech, getting involved, or hiring us? We have answers (well, most of the time). Don't see your question below? Please email <a href = "mailto: abtech@andrew.cmu.edu" class="user-select-all">abtech@andrew.cmu.edu</a> with any questions you may have.
+Have a question about AB Tech, getting involved, or hiring us? We have answers (well, most of the time). Don't see your question below? Please email <a href="mailto: abtech@andrew.cmu.edu" class="user-select-all">abtech@andrew.cmu.edu</a> with any questions you may have.
 
 - [General](#general)
 - [Getting Involved](#getting-involved)
@@ -58,7 +58,7 @@ Techies can take on several different run crew positions, which are roles that a
 No, in fact, many of our members have little to no prior experience in event production when starting out. Just about everything can be learned on the job by participating in events and taking run crew positions. 
 
 ##### When does AB Tech meet?
-AB Tech holds open weekly meetings for anyone interested in getting involved with upcoming events. Join our mailing list in the <a href="{{ '/join' | relative_url }}">Join</a> form for specific times and locations. We also meet to set up events throughout the week. For a list of upcoming events, please see our <a href="https://tracker.abtech.org/" target="_blank">Tracker</a> site. 
+AB Tech holds open weekly meetings for anyone interested in getting involved with upcoming events. Join our mailing list in the <a href="{{ '/join/' | relative_url }}">Join</a> form for specific times and locations. We also meet to set up events throughout the week. For a list of upcoming events, please see our <a href="https://tracker.abtech.org/" target="_blank">Tracker</a> site.
 
 ##### AB Tech does so many things in event production! How can I learn everything?
 Yep, this is a common dilemma for techies. Typically, members try out a few roles, eventually specializing in one or two roles and dabbling in the rest. Coming to events and trainings is the best way to work with equipment hands-on. You can also take an assistant position to be paired with a more experienced techie, who will teach you how to set up equipment and work a show.
