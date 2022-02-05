@@ -22,8 +22,8 @@
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="header-nav-whatWeDo-dropdown">
                 <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'services') %} active" aria-current="page"{% else %}"{% endif %} href="{{ '/services/' | relative_url }}">Services</a></li>
                 <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'equipment') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
-                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'FAQ') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/FAQ/' | relative_url }}">FAQ</a></li>
-		<li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'faq') %} active" aria-current="page"{% else %}"{% endif %}  href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+		            <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item{% if (page contains 'nav_page_specific' and page.nav_page_specific == 'external') %} active" aria-current="page"{% else %}"{% endif %} href="{{ '/external/' | relative_url }}">External Resources</a></li>
               </ul>
             </li>
