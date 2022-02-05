@@ -28,7 +28,7 @@ Twice a year (September and January), AB Tech is at the Activities Fair along wi
   </div></noscript>
   <div class="row joinFormRow successHide">
     <div class="mb-3 gx-0 input-group input-group-lg">
-      <input type="text" name="andrew_id"  class="form-control joinFormInput" id="join_andrew_id" required placeholder="Andrew ID" disabled minlength="3" maxlength="8" pattern="[a-z0-9]+" aria-describedby="join_andrew_id_domain" aria-label="Andrew ID">
+      <input type="text" name="andrew_id"  class="form-control joinFormInput" id="join_andrew_id" required placeholder="Andrew ID" disabled minlength="3" maxlength="8" pattern="[a-zA-Z0-9]+" aria-describedby="join_andrew_id_domain" aria-label="Andrew ID">
       <span class="input-group-text" id="join_andrew_id_domain">@andrew.cmu.edu</span>
       <div class="invalid-feedback"></div>
     </div>
