@@ -71,7 +71,7 @@ AB Tech does not officially provide video services other than large-format proje
 ### Hire Us
 
 <div class="row g-0">
-  <div class="col-lg-9"><p>If you are interested in having in AB Tech provide technical support for your event, please fill our our <a href="{{ '/request/' | relative_url }}">event request form</a>. Expect a reply within a 2 business days. Feel free to follow up with another email for any updates or changes in urgency prior to our initial response.</p></div>
+  <div class="col-lg-9"><p>If you are interested in having in AB Tech provide technical support for your event, please fill out our <a href="{{ '/request/' | relative_url }}">event request form</a>. Expect a reply within a 2 business days. Feel free to follow up with another email for any updates or changes in urgency prior to our initial response.</p></div>
   <div class="col-lg-3 text-center mt-1 mb-lg-0 mb-3">
     <a class="mx-auto d-block d-sm-inline btn btn-primary btn-lg" href="{{ '/request/' | relative_url }}">Request Event</a>
   </div>
