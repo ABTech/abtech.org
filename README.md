@@ -28,7 +28,7 @@ Note: We do not host the production website with GitHub Pages, but it is a conve
 3. Run `bundler update`
 
 ## Adding non-built files to root of repo
-Files added to the root of the repo will automatically be built. Remove them by adding them to the `exlcude` list in `_config.yaml`
+Files added to the root of the repo will automatically be built. Remove them by adding them to the `exclude` list in `_config.yaml`
 
 ## Adding JS libraries
 Ensure JS libraries are browser-ready (no dependencies once built, usually found in a `dist` folder).
