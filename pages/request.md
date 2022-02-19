@@ -124,7 +124,7 @@ nav_page: request
       <p>Changes (venue, times, equipment needs, etc.) or cancellations to the event less than 48 hours before the show may not be possible or may incur an additional late notice fee.</p>
     </div>
   </div>
-  <div class="row mb-3 requestFormRow successHide">
+  <div class="row requestFormRow successHide">
     <div class="mb-3 gx-0">
       <div class="form-floating">
         <input type="text" name="location" class="form-control requestFormInput" id="request_location" required placeholder="Rangos" aria-describedby="request_location_help" disabled minlength="4" maxlength="50">
@@ -132,7 +132,57 @@ nav_page: request
         <div class="invalid-feedback"></div>
         <div id="request_location_help" class="form-text">
           <p>Please state the precise venue (i.e. "UC Rangos 1 through 3" instead of just "Rangos")</p>
-          <p><strong>Please contact us before reserving a venue and confirming show time, so that we can estimate the time required for our setup and teardown.</strong> Smaller shows may only require an hour for setup, but larger shows may require 8 hours or more. We need full access to the venue from the setup time through the end of our teardown, which can be for up to a few hours following the end of the show (depending on the complexity).</p></div>
+          <p><strong>Please contact us before reserving a venue and confirming show time, so that we can estimate the time required for our setup and teardown.</strong> Smaller shows may only require an hour for setup, but larger shows may require 8 hours or more. We need full access to the venue from the setup time through the end of our teardown, which can be for up to a few hours following the end of the show (depending on the complexity).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-3 requestFormRow successHide">
+    <div class="mb-3 gx-0">
+      <div class="form-floating">
+        <div class="form-text">
+          <p>Please let us know if any of these components will be a part of your event (even if AB Tech is not providing them):</p>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_media_services" name="includes[]" value="media_services">
+          <label class="form-check-label" for="request_includes_media_services">Media Services</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_cmutv" name="includes[]" value="cmutv">
+          <label class="form-check-label" for="request_includes_cmutv">cmuTV</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_outside_av_vendors" name="includes[]" value="outside_av_vendors">
+          <label class="form-check-label" for="request_includes_outside_av_vendors">Outside AV Vendors</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_additional_staging" name="includes[]" value="additional_staging">
+          <label class="form-check-label" for="request_includes_additional_staging">Additional Staging</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_zoom" name="includes[]" value="zoom">
+          <label class="form-check-label" for="request_includes_zoom">Zoom</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_live_streaming" name="includes[]" value="live_streaming">
+          <label class="form-check-label" for="request_includes_live_streaming">Live Streaming</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_recording" name="includes[]" value="recording">
+          <label class="form-check-label" for="request_includes_recording">Recording</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_presentation_slides" name="includes[]" value="presentation_slides">
+          <label class="form-check-label" for="request_includes_presentation_slides">Presentation Slides</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_video_playback" name="includes[]" value="video_playback">
+          <label class="form-check-label" for="request_includes_video_playback">Video Playback</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_non_cmu_affiliates_performing" name="includes[]" value="non_cmu_affiliates_performing">
+          <label class="form-check-label" for="request_includes_non_cmu_affiliates_performing">Non-CMU Affiliates Performing</label>
+        </div>
       </div>
     </div>
   </div>
@@ -273,7 +323,14 @@ nav_page: request
       }
       formDataPairs = []
       for (var i = 0; i < formInputs.length; i++) {
-        formDataPairs.push(encodeURIComponent(formInputs[i].name) + '=' + encodeURIComponent(formInputs[i].value))
+        let includeThisInput = true
+        console.log(formInputs[i].tagName, formInputs[i].type)
+        if (formInputs[i] instanceof HTMLInputElement && formInputs[i].type === 'checkbox' && formInputs[i].checked === false) {
+          includeThisInput = false
+        }
+        if (includeThisInput) {
+          formDataPairs.push(encodeURIComponent(formInputs[i].name) + '=' + encodeURIComponent(formInputs[i].value))
+        }
       }
       var urlEncodedData = formDataPairs.join('&').replace(/%20/g, '+')
       request.send(urlEncodedData);
