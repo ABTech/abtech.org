@@ -96,7 +96,7 @@ nav_page: request
     </div>
     <div class="mb-3 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
-        <input type="time" name="start_time" class="form-control requestFormInput" id="request_startTime" required aria-describedby="request_time_help" disabled>
+        <input type="time" name="start_time" class="form-control requestFormInput" id="request_startTime" required aria-describedby="request_time_help" disabled step="300">
         <label for="request_startTime">Start Time</label>
         <div class="invalid-feedback"></div>
       </div>
@@ -112,7 +112,7 @@ nav_page: request
     </div>
     <div class="mb-0 col-md-6 gx-0 ps-md-2">
       <div class="form-floating">
-        <input type="time" name="end_time" class="form-control requestFormInput" id="request_endTime" required aria-describedby="request_time_help" disabled>
+        <input type="time" name="end_time" class="form-control requestFormInput" id="request_endTime" required aria-describedby="request_time_help" disabled step="300">
         <label for="request_endTime">End Time</label>
         <div class="invalid-feedback"></div>
       </div>
@@ -144,8 +144,8 @@ nav_page: request
           <p>Please let us know if any of these components will be a part of your event (even if AB Tech is not providing them):</p>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_media_services" name="includes[]" value="media_services">
-          <label class="form-check-label" for="request_includes_media_services">Media Services</label>
+          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_cmu_media_services" name="includes[]" value="cmu_media_services">
+          <label class="form-check-label" for="request_includes_cmu_media_services">CMU Media Services</label>
         </div>
         <div class="form-check form-check-inline">
           <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_cmutv" name="includes[]" value="cmutv">
@@ -208,6 +208,7 @@ nav_page: request
     <div class="gx-0">
       <div id="requestForm_error" class="alert alert-danger" role="alert" style="display: none">An error has occurred. Please try again later or send your request to <a href="mailto:abtech@andrew.cmu.edu" class="user-select-all">abtech@andrew.cmu.edu</a>.</div>
       <div id="requestForm_bad_request" class="alert alert-warning" role="alert" style="display: none"><strong>There was an issue with your request; please correct the issue and try again:</strong><br> <span id="requestForm_bad_request_msg"></span></div>
+      <div id="requestForm_invalid" class="alert alert-danger" role="alert" style="display: none">Some fields are not complete; please see the items above marked in red. Please correct them and try again.</div>
       <div id="requestForm_success" class="alert alert-success" role="alert" style="display: none">Event successfully requested! Please check your email and spam shortly for a confirmation.</div>
     </div>
   </div>
@@ -230,6 +231,7 @@ nav_page: request
   var formAlertBadRequest = document.getElementById('requestForm_bad_request')
   var formAlertSuccess = document.getElementById('requestForm_success')
   var formAlertBadRequestMsg = document.getElementById('requestForm_bad_request_msg')
+  var formAlertInvalid = document.getElementById('requestForm_invalid')
   var formRequestSubmit = document.getElementById('request_submit')
   var formRequestAnother = document.getElementById('request_another')
   var formRequestSpinner = document.getElementById('request_spinner')
@@ -279,6 +281,7 @@ nav_page: request
         event.stopPropagation()
         form.classList.add('was-validated')
         form.querySelector(':invalid').focus()
+        formAlertInvalid.style.display = 'block'
         return
       }
       form.classList.add('was-validated')
@@ -351,6 +354,7 @@ nav_page: request
     formAlertError.style.display = 'none'
     formAlertBadRequest.style.display = 'none'
     formAlertSuccess.style.display = 'none'
+    formAlertInvalid.style.display = 'none'
     formAlertBadRequestMsg.innerHTML = ""
   }
 
