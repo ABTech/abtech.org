@@ -183,7 +183,8 @@ We will design an appropriate system for your event based on the event requireme
 
 - 8 10'x12"x12" Thomas box truss (silver)
 - 6 8'x12"x12" Thomas box truss (silver)
-- 6 Columbus McKinnon Lodestar half-ton chain motors
-- 6 Columbus McKinnon Prostar quarter-ton chain motors
+- 8 Columbus McKinnon Lodestar half-ton chain motors, 16 fpm
+- 2 Columbus McKinnon Prostar quarter-ton chain motors, 16 fpm
+- 4 Columbus McKinnon Prostar quarter-ton chain motors, 12 fpm
 
 [Back to top](#top)
