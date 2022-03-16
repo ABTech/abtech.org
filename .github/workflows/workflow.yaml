@@ -86,16 +86,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
             ${{ runner.os }}-build-${{ env.cache-name }}-
-      - name: Cache NodeJS dependencies
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/package-lock.json', '**/package.json', '**/Dockerfile') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
-            ${{ runner.os }}-build-${{ env.cache-name }}-
+      # - name: Cache NodeJS dependencies
+      #   uses: actions/cache@v2
+      #   env:
+      #     cache-name: cache-node-modules
+      #   with:
+      #     path: ~/.npm
+      #     key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/package-lock.json', '**/package.json', '**/Dockerfile') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
+      #       ${{ runner.os }}-build-${{ env.cache-name }}-
       - name: Install all dependencies # This includes bundler with NPM preinstall script
         run: npm install --unsafe-perm
       - name: Build Jekyll
