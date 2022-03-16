@@ -76,16 +76,16 @@ jobs:
     steps:
       - name: Checkout latest
         uses: actions/checkout@v2
-      - name: Cache Ruby dependencies
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-ruby-gems
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/Gemfile.lock', '**/Gemfile', '**/Dockerfile') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
-            ${{ runner.os }}-build-${{ env.cache-name }}-
+      # - name: Cache Ruby dependencies
+      #   uses: actions/cache@v2
+      #   env:
+      #     cache-name: cache-ruby-gems
+      #   with:
+      #     path: vendor/bundle
+      #     key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/Gemfile.lock', '**/Gemfile', '**/Dockerfile') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
+      #       ${{ runner.os }}-build-${{ env.cache-name }}-
       # - name: Cache NodeJS dependencies
       #   uses: actions/cache@v2
       #   env:
