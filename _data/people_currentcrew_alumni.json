@@ -44,7 +44,7 @@
     {
         "first_name": "Elizabeth \"Izzy\"",
         "last_name": "Buckser ('02-'06)",
-        "mail": "buckser@thornton.usc.edu"
+        "mail": "buckser#thornton.usc.edu"
     },
     {
         "first_name": "Benjamin",
@@ -58,12 +58,12 @@
     {
         "first_name": "Charlie",
         "last_name": "Butcosk ('00-'03)",
-        "mail": "cbutcosk@andrew.cmu.edu"
+        "mail": "cbutcosk#andrew.cmu.edu"
     },
     {
         "first_name": "Mike",
         "last_name": "Catelinet ('95-'99)",
-        "mail": "catelinm@hotmail.com"
+        "mail": "catelinm#hotmail.com"
     },
     {
         "first_name": "Elena",
@@ -88,7 +88,7 @@
     {
         "first_name": "Thomas",
         "last_name": "Cook ('89-'93)",
-        "mail": "tom@thomasmcook.com"
+        "mail": "tom#thomasmcook.com"
     },
     {
         "first_name": "Katherine",
@@ -102,13 +102,13 @@
     {
         "first_name": "Andrew",
         "last_name": "Davenport ('94-'98)",
-        "mail": "adavenpo@tropnevad.org",
+        "mail": "adavenpo#tropnevad.org",
         "url": "https://www.tropnevad.org/~adavenpo"
     },
     {
         "first_name": "Matthew",
         "last_name": "Denton ('98-'02)",
-        "mail": "msd@abtech.org"
+        "mail": "msd#abtech.org"
     },
     {
         "first_name": "Isaac",
@@ -118,12 +118,12 @@
     {
         "first_name": "Adrian",
         "last_name": "Drury ('94-'00)",
-        "mail": "drury@andrew.cmu.edu"
+        "mail": "drury#andrew.cmu.edu"
     },
     {
         "first_name": "Nathan",
         "last_name": "Dushman ('98-'03)",
-        "mail": "nhd@abtech.org",
+        "mail": "nhd#abtech.org",
         "url": "http://www.andrew.cmu.edu/~nhd"
     },
     {
@@ -143,7 +143,7 @@
     {
         "first_name": "Phil",
         "last_name": "Fong",
-        "mail": "pwf@andrew.cmu.edu"
+        "mail": "pwf#andrew.cmu.edu"
     },
     {
         "first_name": "Jim",
@@ -159,7 +159,7 @@
     {
         "first_name": "Vinny",
         "last_name": "Furia ('99-'01)",
-        "mail": "vmf@abtech.org"
+        "mail": "vmf#abtech.org"
     },
     {
         "first_name": "Carla",
@@ -179,18 +179,18 @@
     {
         "first_name": "Brighten",
         "last_name": "Godfrey",
-        "mail": "godfreyb@cmu.edu",
+        "mail": "godfreyb#cmu.edu",
         "url": "http://brighten.bigw.org/"
     },
     {
         "first_name": "Forest",
         "last_name": "Godfrey ('95-'99)",
-        "mail": "fgodfrey@bigw.org"
+        "mail": "fgodfrey#bigw.org"
     },
     {
         "first_name": "Adam",
         "last_name": "Goldsmith ('86-'91)",
-        "mail": "adam@fainsys.com"
+        "mail": "adam#fainsys.com"
     },
     {
         "first_name": "Jeff",
@@ -201,7 +201,7 @@
     {
         "first_name": "Larry",
         "last_name": "Greenfield",
-        "mail": "leg@andrew.cmu.edu",
+        "mail": "leg#andrew.cmu.edu",
         "url": "http://www.contrib.andrew.cmu.edu/~leg/"
     },
     {
@@ -213,12 +213,12 @@
     {
         "first_name": "Mark",
         "last_name": "Hamill",
-        "mail": "hamillm@mac.com"
+        "mail": "hamillm#mac.com"
     },
     {
         "first_name": "Bill",
         "last_name": "Hammerschlag ('79-'83)",
-        "mail": "whammer@dcccd.edu"
+        "mail": "whammer#dcccd.edu"
     },
     {
         "first_name": "Nick",
@@ -233,7 +233,7 @@
     {
         "first_name": "Ben",
         "last_name": "Henty ('97-'99)",
-        "mail": "henty@abtech.org",
+        "mail": "henty#abtech.org",
         "url": "http://www.ee.vt.edu/~bhenty/"
     },
     {
@@ -243,7 +243,7 @@
     {
         "first_name": "William",
         "last_name": "Holtz ('97-'00)",
-        "mail": "holtz@abtech.org",
+        "mail": "holtz#abtech.org",
         "url": "http://www.willholtz.com/"
     },
     {
@@ -469,7 +469,7 @@
     {
         "first_name": "Matt",
         "last_name": "Silverstein ('96-'00)",
-        "mail": "mas2@abtech.org"
+        "mail": "mas2#abtech.org"
     },
     {
         "first_name": "Joseph",
@@ -502,7 +502,7 @@
     {
         "first_name": "Ben",
         "last_name": "Stolt",
-        "mail": "bstolt@abtech.org"
+        "mail": "bstolt#abtech.org"
     },
     {
         "first_name": "David",
@@ -512,18 +512,18 @@
     {
         "first_name": "Tom",
         "last_name": "Strong ('89-'92)",
-        "mail": "tomstrong@gmail.com",
+        "mail": "tomstrong#gmail.com",
         "url": "http://www.tomstrong.org/"
     },
     {
         "first_name": "Tim",
         "last_name": "Stoudt ('97-'01)",
-        "mail": "timstoudt@onebox.com"
+        "mail": "timstoudt#onebox.com"
     },
     {
         "first_name": "Susan",
         "last_name": "Swithenbank ('96-'00)",
-        "mail": "susans@abtech.org"
+        "mail": "susans#abtech.org"
     },
     {
         "first_name": "Ryan",
@@ -548,7 +548,7 @@
     {
         "first_name": "Scott",
         "last_name": "Tietjen ('78-'82)",
-        "mail": "stjen@acm.org"
+        "mail": "stjen#acm.org"
     },
     {
         "first_name": "Gilman",
