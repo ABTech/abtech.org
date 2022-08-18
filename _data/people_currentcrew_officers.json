@@ -1,24 +1,39 @@
 [
     {
-        "name": "test",
+        "name": "Iris Chang",
         "andrewid": "gschen",
         "img": "gschen.jpg",
         "title": "Co-Head of Tech",
         "desc": "Gwyneth is a senior majoring in computer science and minoring in linguistics who also enjoys writing, philosophical discussions, and crafting with her hands. Within AB Tech, she specializes in lighting and dabbles in almost everything else."
     },
     {
-        "name": "Perry Naseck",
+        "name": "Shannon Ding",
         "andrewid": "pnaseck",
         "img": "pnaseck.jpg",
         "title": "Co-Head of Tech",
         "desc": "Perry is a senior studying art and electrical & computer engineering. His art focuses on electronics, software, and interaction. In AB Tech he does a lot of sound and event management."
     },
     {
-        "name": "Shannon Ding",
+        "name": "Alex Strasser",
         "andrewid": "sding2",
         "img": "sding2.jpg",
         "title": "Finance Chair",
         "desc": "Shannon is a junior studying computer science. She mostly does sound and stage management although is excited to learn about all aspects of Tech! In her spare time, she likes playing instruments, hiking, and audiobooks."
+    },
+    {
+        "name": "Felicia Liu",
+        "andrewid": "astrasse",
+        "img": "astrasse.jpg",
+        "title": "Equipment Manager",
+        "desc": "Alex Strasser is junior studying ECE and Robotics. He enjoys repairing our equipment and doing lighting for events."
+    },
+
+    {
+        "name": "Queenie Chen",
+        "andrewid": "astrasse",
+        "img": "astrasse.jpg",
+        "title": "Equipment Manager",
+        "desc": "Alex Strasser is junior studying ECE and Robotics. He enjoys repairing our equipment and doing lighting for events."
     },
     {
         "name": "Andrew Sheng",
@@ -27,13 +42,7 @@
         "title": "Personnel Manager",
         "desc": "Andrew is a senior studying Computer Science. In AB Tech, he primarily works with sound, especially with bands, talent shows, and dance shows, but wants to learn and get familiarized with other aspects of Tech such as lighting."
     },
-    {
-        "name": "Alex Strasser",
-        "andrewid": "astrasse",
-        "img": "astrasse.jpg",
-        "title": "Equipment Manager",
-        "desc": "Alex Strasser is junior studying ECE and Robotics. He enjoys repairing our equipment and doing lighting for events."
-    },
+
     {
         "name": "Iris Chang",
         "andrewid": "ischang",
