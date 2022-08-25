@@ -41,7 +41,6 @@
         "title": "Personnel Manager",
         "desc": "Stella is a sophomore studying mechanical engineering. In AB Tech she does a lot of sound and driving trucks. Sometimes she randomly does media or blasts K-pop in techroom while intensely playing UC Stones. Her preferred snacks from Entropy are are dark chocolate Kit-Kats and blue pomegranate Mountain Dew energy drinks."
     },
-
     {
         "name": "Zara Mansoor",
         "andrewid": "zmansoor",
@@ -49,7 +48,6 @@
         "title": "Internal Operations Chair",
         "desc": "Zara is a sophomore studying Electrical and Computer Engineering. She’s interested in sound in tech but hoping to learn more in other areas as well!"
     }, 
-
     {
         "name": "Grace Kam",
         "andrewid": "gskam",
@@ -57,15 +55,13 @@
         "title": "Public Relations Chair",
         "desc": "Grace is a sophomore studying Materials Science and Biomedical Engineering. She hasn't yet chosen a focus within AB Tech, but is interested in all areas. Her hobbies include baking, playing violin, and sleeping."
     }, 
-
     {
         "name": "Clarise Liu",
         "andrewid": "crliu",
         "img": "crliu.jpg",
         "title": "Training Chair",
         "desc": "Clarise is a sophomore studying computer science. They mainly do lighting & event communication in AB Tech but dabbles in other fields as well. Clarise loves music, animated movies, running, and anything colorful that makes sound."
-    },
-        
+    },      
     {
         "name": "Greta Luo",
         "andrewid": "gretal",
