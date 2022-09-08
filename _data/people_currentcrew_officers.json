@@ -12,14 +12,14 @@
         "img": "sding2.jpg",
         "title": "Co-Head of Tech",
         "desc": "Shannon is a senior studying computer science with a minor in music technology. She does sound and production management in AB Tech. In her spare time, she enjoys audiobooks, trying to play instruments, and long walks (at sunset)."
-    }, 
+    },
     {
         "name":"Alex Strasser",
         "andrewid": "astrasse",
         "img": "astrasse.jpg",
         "title": "Co-Head of Tech",
         "desc": "Alex Strasser is a senior studying ECE and Robotics. He enjoys repairing our equipment, doing lighting for events, and working with event organizers to make events meet their dreams!"
-    }, 
+    },
     {
         "name": "Felicia Liu",
         "andrewid": "yixuanl3",
@@ -47,21 +47,21 @@
         "img": "zmansoor.jpg",
         "title": "Internal Operations Chair",
         "desc": "Zara is a sophomore studying Electrical and Computer Engineering. She’s interested in sound in tech but hoping to learn more in other areas as well!"
-    }, 
+    },
     {
         "name": "Grace Kam",
         "andrewid": "gskam",
         "img": "gskam.jpg",
         "title": "Public Relations Chair",
         "desc": "Grace is a sophomore studying Materials Science and Biomedical Engineering. She hasn't yet chosen a focus within AB Tech, but is interested in all areas. Her hobbies include baking, playing violin, and sleeping."
-    }, 
+    },
     {
         "name": "Clarise Liu",
         "andrewid": "crliu",
         "img": "crliu.jpg",
         "title": "Training Chair",
-        "desc": "Clarise is a sophomore studying computer science. They mainly do lighting & event communication in AB Tech but dabbles in other fields as well. Clarise loves music, animated movies, running, and anything colorful that makes sound."
-    },      
+        "desc": "Clarise is a sophomore studying computer science. They mainly do lighting & event communication in AB Tech but sometimes works in power and stage management. Clarise loves music, animated movies, running, and anything colorful that makes sound."
+    },
     {
         "name": "Greta Luo",
         "andrewid": "gretal",
