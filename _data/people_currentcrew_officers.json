@@ -12,6 +12,7 @@
         "img": "sding2.jpg",
         "title": "Co-Head of Tech",
         "desc": "Shannon is a senior studying computer science with a minor in music technology. She does sound and production management in AB Tech. In her spare time, she enjoys audiobooks, trying to play instruments, and long walks (at sunset)."
+    }, 
     {
         "name":"Alex Strasser",
         "andrewid": "astrasse",
@@ -19,7 +20,6 @@
         "title": "Co-Head of Tech",
         "desc": "Alex Strasser is a senior studying ECE and Robotics. He enjoys repairing our equipment, doing lighting for events, and working with event organizers to make events meet their dreams!"
     }, 
-
     {
         "name": "Felicia Liu",
         "andrewid": "yixuanl3",
