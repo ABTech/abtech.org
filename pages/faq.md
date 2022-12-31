@@ -36,7 +36,7 @@ Techroom will be on your left after passing the double doors.
 Students! Affectionately known as techies, our members are undergraduate and graduate students studying anything from engineering to computer science to business to art to English, and everything in between. Occasionally, alumni will also return to help with our large events.
 
 ##### How is AB Tech different from technical theatre or Scotch ‘n’ Soda?
-While we do partner and share equipment with the drama department and Scotch ‘n’ Soda (in fact, some of our members are also involved with S’n’S), as the university’s production organization, we support a wider range of events. We specifically specialize in event production with handling entertainment technology; however, you can expect some overlap in knowledge between us and S’n’S.
+While we do partner and share equipment with the drama department and Scotch ‘n’ Soda (in fact, some of our members are also involved with S’n’S), as the university’s production organization, we support a wider range of events. We specialize in event production with handling entertainment technology; however, you can expect some overlap in knowledge between us and S’n’S.
 
 [Back to top](#top)
 
