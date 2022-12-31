@@ -20,7 +20,7 @@ Have a question about AB Tech, getting involved, or hiring us? We have answers (
 ## General 
 
 ##### What is AB Tech? How do we fit into the Activities Board?
-AB Tech (short for Activities Board Technical Committee) is Carnegie Mellon’s production organization charged wtih providing the technical needs for university-sponsored events. We are one of the committees under the Activities Board (AB) along with Concerts, Events, Films, Publicity and Speakers; however, we are governed separately from the rest of the AB organization.
+AB Tech (short for Activities Board Technical Committee) is Carnegie Mellon’s production organization charged with providing the technical needs for university-sponsored events. We are one of the committees under the Activities Board (AB) along with Concerts, Events, Films, Publicity and Speakers; however, we are governed separately from the rest of the AB organization.
 
 ##### What exactly does AB Tech do?
 Every year, CMU hosts many events on campus, such as dance shows, concerts, and competitions. These events often require technical support to run smoothly, and that is where AB Tech steps in. We provide the lighting, sound and backstage management needed to make the event a success. Some of our events are as small as providing speakers for a gathering, while others are as large as rigging new structures to hang dozens of lights for a concert. 
@@ -36,7 +36,7 @@ Techroom will be on your left after passing the double doors.
 Students! Affectionately known as techies, our members are undergraduate and graduate students studying anything from engineering to computer science to business to art to English, and everything in between. Occasionally, alumni will also return to help with our large events.
 
 ##### How is AB Tech different from technical theatre or Scotch ‘n’ Soda?
-While we do partner and share equipment with the drama department and Scotch ‘n’ Soda (in fact, some of our members are also involved with S’n’S), as the university’s production organization, we support a wider range of events. We specifically specialize in event production with handling entertainment technology; however, you can expect some overlap in knowledge between us and S’n’S.
+While we do partner and share equipment with the drama department and Scotch ‘n’ Soda (in fact, some of our members are also involved with S’n’S), as the university’s production organization, we support a wider range of events. We specialize in event production with handling entertainment technology; however, you can expect some overlap in knowledge between us and S’n’S.
 
 [Back to top](#top)
 
