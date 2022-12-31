@@ -2,6 +2,18 @@
     "2020-present": {
         "2022": [
             {
+                "name":"IMO X Brummies X Jordy",
+                "date":"2022-10-28",
+                "venue":"Cohon Center - Rangos 123",
+                "desc":"First Tartan Turn it Up Concert. "
+            },
+            {
+                "name": "Peach Tree Rascals",
+                "date": "2022-10-08",
+                "venue":"Wiegand Gym",
+                "desc": "AB Fall Concert. "
+            },
+            {
                 "name": "Dominic Fike",
                 "date": "2022-04-28",
                 "venue": "McConomy",
@@ -24,18 +36,6 @@
                 "date": "2022-04-07",
                 "venue": "McConomy",
                 "desc": "AB Comedy. "
-            },
-            {
-                "name": "Peach Tree Rascals",
-                "date": "2022-10-08",
-                "venue":"Wiegand Gym",
-                "desc": "AB Fall Concert. "
-            },
-            {
-                "name":"IMO X Brummies X Jordy",
-                "date":"2022-10-28",
-                "venue":"Cohon Center - Rangos 123",
-                "desc":"First Tartan Turn it Up Concert. "
             }
         ],
         "2021": [
