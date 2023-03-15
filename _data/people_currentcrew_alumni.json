@@ -123,8 +123,7 @@
     {
         "first_name": "Nathan",
         "last_name": "Dushman ('98-'03)",
-        "mail": "nhd#abtech.org",
-        "url": "http://www.andrew.cmu.edu/~nhd"
+        "mail": "nhd#abtech.org"
     },
     {
         "first_name": "Blake",
@@ -137,8 +136,7 @@
     {
         "first_name": "Esther \"Moose\"",
         "last_name": "Filderman",
-        "mail": "moose#abtech.org",
-        "url": "http://www.contrib.andrew.cmu.edu/~moose"
+        "mail": "moose#abtech.org"
     },
     {
         "first_name": "Phil",
@@ -148,8 +146,7 @@
     {
         "first_name": "Jim",
         "last_name": "Foraker",
-        "mail": "jf6b#andrew.cmu.edu",
-        "url": "http://www.andrew.cmu.edu/~jf6b"
+        "mail": "jf6b#andrew.cmu.edu"
     },
     {
         "first_name": "Tyler",
@@ -207,8 +204,7 @@
     {
         "first_name": "Alison",
         "last_name": "Greenwald ('97-'01)",
-        "mail": "alison#abtech.org",
-        "url": "http://alison.abtech.org/personal"
+        "mail": "alison#abtech.org"
     },
     {
         "first_name": "Mark",
@@ -233,8 +229,7 @@
     {
         "first_name": "Ben",
         "last_name": "Henty ('97-'99)",
-        "mail": "henty#abtech.org",
-        "url": "http://www.ee.vt.edu/~bhenty/"
+        "mail": "henty#abtech.org"
     },
     {
         "first_name": "Bryan",
@@ -391,8 +386,7 @@
     {
         "first_name": "Saagar",
         "last_name": "Patel",
-        "mail": "saagarp#saagarpatel.com",
-        "url": "http://saagarpatel.com/"
+        "mail": "saagarp#saagarpatel.com"
     },
     {
         "first_name": "Adam",
@@ -407,8 +401,7 @@
     {
         "first_name": "Hunter",
         "last_name": "Pitelka ('07-'11)",
-        "mail": "hpitelka#abtech.org",
-        "url": "http://hunterpitelka.com/"
+        "mail": "hpitelka#abtech.org"
     },
     {
         "first_name": "Harrison",
@@ -464,7 +457,8 @@
     },
     {
         "first_name": "Rob",
-        "last_name": "Siemborski ('98-'04)"
+        "last_name": "Siemborski ('98-'04)",
+        "url": "https://www.linkedin.com/in/robsiemborski"
     },
     {
         "first_name": "Matt",
@@ -479,8 +473,7 @@
     {
         "first_name": "Barrie",
         "last_name": "Slaymaker",
-        "mail": "barries#slaysys.com",
-        "url": "http://slaysys.com/"
+        "mail": "barries#slaysys.com"
     },
     {
         "first_name": "Jen",
@@ -557,8 +550,7 @@
     {
         "first_name": "Chris",
         "last_name": "Tuttle ('01-'03)",
-        "mail": "clt#abtech.org",
-        "url": "http://www.cse.ucsd.edu/%7ectuttle/"
+        "mail": "clt#abtech.org"
     },
     {
         "first_name": "Thomas",
