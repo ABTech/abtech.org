@@ -136,7 +136,7 @@ We will design an appropriate system for your event based on the event requireme
 ##### LED Fixtures
 - 12 ETC Source Four LED Series 2 Lustr+ with 19-, 26-, 36-, and 50-degree EDLT lens tubes
 - 10 ETC Source Four LED Series 3 Lustr X8 with 36-degree XDLT lense tubes
-- 6 Chroma-Q Color Force II 48 4' RGBA LED Cyc/Wash Fictures (with 22°, 43°, and 80° x 35° spread options)
+- 6 Chroma-Q Color Force II 48 4' RGBA LED Cyc/Wash Fixtures (with 22°, 43°, and 80° x 35° spread options)
 - 8 Philips Color Kinetics ColorBlaze TRX 2' RGBAW LED Wash Fixtures (with 22-, 32-, 60x32-, and 32x12-degree spread lenses)
 - 18 Martin Rush Par 1 RGBW
 - 18 Chauvet Freedom Par Hex-4
