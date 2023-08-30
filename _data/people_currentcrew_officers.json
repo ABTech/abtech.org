@@ -1,72 +1,79 @@
 [
     {
-        "name": "Iris Chang",
-        "andrewid": "ischang",
-        "img": "ischang.jpg",
+        "name": "Clarise Liu",
+        "andrewid": "crliu",
+        "img": "crliu.jpg",
         "title": "Co-Head of Tech",
-        "desc": "Iris is a Master's student studying Professional Writing with a focus on communication design and executive comms. This is her fourth year on tech, and she does stage and event management. In her free time, she enjoys teaching her parakeets new tricks."
+        "desc": "Clarise is a junior studying computer science with a minor in Intelligent Environments. They mainly do lighting, event communications, and power in AB Tech. Clarise loves fast-paced music, animated movies, and creating tangible and interactive experiences."
     },
     {
-        "name": "Shannon Ding",
-        "andrewid": "sding2",
-        "img": "sding2.jpg",
+        "name": "Stella Yim",
+        "andrewid": "maristey",
+        "img": "maristey.jpg",
         "title": "Co-Head of Tech",
-        "desc": "Shannon is a senior studying computer science with a minor in music technology. She does sound and production management in AB Tech. In her spare time, she enjoys audiobooks, trying to play instruments, and long walks (at sunset)."
+        "desc": "Stella is a junior studying mechanical engineering. In AB Tech, she does a lot of sound and driving trucks. Sometimes she will randomly do stage management, get a new tattoo, or blast K-pop in techroom while battling balloons. "
     },
     {
-        "name":"Alex Strasser",
-        "andrewid": "astrasse",
-        "img": "astrasse.jpg",
-        "title": "Co-Head of Tech",
-        "desc": "Alex Strasser is a senior studying ECE and Robotics. He enjoys repairing our equipment, doing lighting for events, and working with event organizers to make events meet their dreams!"
+        "name":"Queenie Chen",
+        "andrewid": "siyanche",
+        "img": "siyanche.jpg",
+        "title": "Co-Finance Chair",
+        "desc": "I'm Queenie! Junior in Computational Finance minoring in Drama and Behavioral Economics. I love swimming, hiking, participating in theatre (watching/ producing!). Fun fact about me -- my birthday is usually the first/ second day of class for spring semester."
+    },
+    {
+        "name": "Maggie Gong",
+        "andrewid": "yiyugong",
+        "img": "yiyug.jpg",
+        "title": "Co-Finance Chair",
+        "desc": "Maggie is a sophomore studying ECE who enjoys doing lighting and is interested in learning about all areas in Tech. In her free time, Maggie loves watching musicals and playing certain winter sports."
     },
     {
         "name": "Felicia Liu",
         "andrewid": "yixuanl3",
         "img": "yixuanl3.jpg",
         "title": "Equipment Manager",
-        "desc": "Felicia is a sophomore studying ECE and BME. Within Tech, she mostly does lighting, but also dabbles in other areas like power and stage management. She loves movies, musicals, manga, and other form of visual media."
-    },
-    {
-        "name": "Queenie Chen",
-        "andrewid": "siyanche",
-        "img": "siyanche.jpg",
-        "title": "Finance Chair",
-        "desc": "Queenie is a sophomore in Business Administration with a minor in Drama. Inside AB Tech, she is mainly doing stage management and lighting design. Queenie loves musicals."
-    },
-    {
-        "name": "Stella Yim",
-        "andrewid": "maristey",
-        "img": "maristey.jpg",
-        "title": "Personnel Manager",
-        "desc": "Stella is a sophomore studying mechanical engineering. In AB Tech she does a lot of sound and driving trucks. Sometimes she randomly does media or blasts K-pop in techroom while intensely playing UC Stones. Her preferred snacks from Entropy are are dark chocolate Kit-Kats and blue pomegranate Mountain Dew energy drinks."
-    },
-    {
-        "name": "Zara Mansoor",
-        "andrewid": "zmansoor",
-        "img": "zmansoor.jpg",
-        "title": "Internal Operations Chair",
-        "desc": "Zara is a sophomore studying Electrical and Computer Engineering. She’s interested in sound in tech but hoping to learn more in other areas as well!"
+        "desc": "My name is Felicia Liu, and I'm a junior majoring in ECE and BME. I recently developed a love for film photography and is actively learning new skills. Come to talk if you also like photography!"
     },
     {
         "name": "Grace Kam",
         "andrewid": "gskam",
         "img": "gskam.jpg",
-        "title": "Public Relations Chair",
-        "desc": "Grace is a sophomore studying Materials Science and Biomedical Engineering. She hasn't yet chosen a focus within AB Tech, but is interested in all areas. Her hobbies include baking, playing violin, and sleeping."
+        "title": "Personnel Manager",
+        "desc": "Grace is a junior studying Materials Science and Biomedical Engineering. In her free time she likes playing violin, cooking, playing board games, and dancing :)"
     },
     {
-        "name": "Clarise Liu",
-        "andrewid": "crliu",
-        "img": "crliu.jpg",
+        "name": "Chloe Poon",
+        "andrewid": "cpoon2",
+        "img": "cpoon2.jpg",
+        "title": "Internal Operations Chair",
+        "desc": "I am a sophomore majoring in ECE and BME. In my free time I like to sleep, eat, stare into space, and crochet."
+    },
+    {
+        "name": "Heidi Tao",
+        "andrewid": "heidit",
+        "img": "heidit.jpg",
+        "title": "Social Chair",
+        "desc": "Heidi is a sophomore in Dietrich who's currently trying to decide on a major. In her spare time, she enjoys taking photos and videos."
+    },
+    {
+        "name": "Max Wang",
+        "andrewid": "junkaiw",
+        "img": "junkaiw.jpg",
         "title": "Training Chair",
-        "desc": "Clarise is a sophomore studying computer science. They mainly do lighting & event communication in AB Tech but sometimes works in power and stage management. Clarise loves music, animated movies, running, and anything colorful that makes sound."
+        "desc": "I am a sophomore in ABTech interested in (but not good at!) lighting, sound, stage management and media. In my free time, I enjoy playing video games, watching anime and staying in my room."
     },
     {
-        "name": "Greta Luo",
-        "andrewid": "gretal",
-        "img": "gretal.jpg",
-        "title": "Recruitment & Retainment Chair",
-        "desc": "Greta is a senior/first year master’s student studying statistics + information systems. In AB Tech, she likes helping out with stage management. She also likes to dance a lot so you might see her choreography (and lighting) in Dancers’ Symposium!"
+        "name": "Wellington Jiang",
+        "andrewid": "haoj2",
+        "img": "haoj2.jpg",
+        "title": "Tracker Dev",
+        "desc": "Wellington is a sophomore studying ECE with additional minors in economics and IRP. Within AB Tech, he is most interested in sound, but also loves Tracker and maintaining the AB Tech website. When (if) he is free, Wellington loves to explore Google Earth, blast music, read and sleep."
+    },
+    {
+        "name": "Gyan Singh",
+        "andrewid": "gyanepss",
+        "img": "gyanepss.jpg",
+        "title": "Repair & Maintenance Chair",
+        "desc": "Gyan is a sophomore studying ECE. She mainly does lighting design in AB Tech but enjoys dabbling in sound and production management. In her free time, you can find her making art, doing any variety of outdoorsy activities, or perched on the tallest surface in the room."
     }
 ]
