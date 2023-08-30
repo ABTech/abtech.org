@@ -4,6 +4,10 @@
         "last_name": "Richards"
     },
     {
+        "first_name": "Edward",
+        "last_name": "Garbade"
+    },
+    {
         "first_name": "Anthony",
         "last_name": "Hong"
     },
@@ -166,5 +170,9 @@
     {
         "first_name": "Milo",
         "last_name": "Polaron"
+    },
+    {
+        "first_name": "Angelica",
+        "last_name": "Gonzales"
     }
 ]
