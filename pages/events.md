@@ -11,9 +11,7 @@ stylesheets:
 
 <hr class="bg-primary"/>
 
-Over the years, AB Tech has had the [ahem] pleasure of working with a number of major acts, although they weren't necessarily that big at the time. This list covers major shows produced in whole or part by Tech since its creation.
-
-_Please note this list is definitely not complete and probably not entirely accurate._
+Over the years, AB Tech has had the pleasure of working with a number of major acts, although they weren't necessarily that big at the time. This list covers major shows produced in whole or part by Tech since its creation.
 
 <div class="sticky-top bg-body w-100 pt-1 pb-1 border-bottom border-primary border-2" id="eventTabsStickyContainer">
   <ul class="nav nav-pills nav-fill" id="eventsTabs" role="tablist">
