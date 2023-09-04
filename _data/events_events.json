@@ -1,6 +1,44 @@
 {
     "2020-present": {
+        "2023": [
+            {
+                "name":"Stephanie Hsu",
+                "date":"2022-04-23",
+                "venue":"McConomy",
+                "desc":"AB Lectures. "
+            },
+            {
+                "name": "COIN and Bren Joy",
+                "date": "2023-04-15",
+                "venue":"The Mall",
+                "desc": "AB Spring Concert. "
+            },
+            {
+                "name": "Melissa Villasenor",
+                "date": "2022-04-13",
+                "venue": "McConomy",
+                "desc": "AB Comedy. "
+            },
+            {
+                "name": "Allegheny County Executive Debate",
+                "date": "2023-04-13",
+                "venue": "McConomy",
+                "desc": "University Events. "
+            },
+            {
+                "name": "Tiffany Day",
+                "date": "2023-02-10",
+                "venue": "Rangos",
+                "desc": "AB Winter Concert. "
+            }
+        ],
         "2022": [
+            {
+                "name": "Jennette McCurdy",
+                "date": "2022-11-04",
+                "venue": "McConomy",
+                "desc": "AB Lectures."
+            },
             {
                 "name":"IMO X Brummies X Jordy",
                 "date":"2022-10-28",
