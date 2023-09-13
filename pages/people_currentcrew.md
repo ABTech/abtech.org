@@ -9,7 +9,7 @@ nav_page_specific: currentCrew
 
 ---
 
-<h1 class="text-center pt-4"> Current Crew </h1>
+# Current Crew
 
 <hr class="bg-primary"/>
 
