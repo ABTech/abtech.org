@@ -19,6 +19,6 @@ stylesheets:
 <div id="bg-carousel-gradient" class="d-block w-100 h-100"></div>
 
 <div class="row justify-content-center align-items-center align-items-sm-end h-100">
-    <img src="{{ '/assets/img/abtech_logo_white.svg' | relative_url }}" class="img-fluid d-none d-sm-block col-6 col-xl-5 text-center logo-red-shadow logo-fade-in" alt="AB Tech Logo" />
+    <img src="{{ '/assets/img/abtech_flybynight_white.svg' | relative_url }}" class="img-fluid d-none d-sm-block col-6 col-xl-5 text-center logo-red-shadow logo-fade-in" alt="AB Tech Logo" />
     <p class="col-sm-10 col-11 text-white text-center m-30"><strong>The Activities Board Technical Committee</strong>, commonly known as <strong class="text-nowrap">AB Tech</strong>, is the production organization charged with handling the technical production of University sponsored events in and around Pittsburgh. We provide high quality, professional grade entertainment production services, including sound reinforcement, lighting design, and event management at heavily subsidized rates to the Pittsburgh community. Our clients include student groups, university faculty & administration, and various independent companies and other organizations. We coordinate associated needs and services such as multi-phase/high-load power, rigging & trussing, staging rentals, backline rentals, and more.</p>
 </div>
