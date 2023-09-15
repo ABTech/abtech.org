@@ -7,7 +7,7 @@ stylesheets:
  - '/assets/css/pages/events.css'
 ---
 
-# Events Archive
+<h1 class="text-center pt-3"> Events Archive </h1>
 
 <hr class="bg-primary"/>
 

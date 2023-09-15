@@ -6,7 +6,7 @@ nav_page: whatWeDo
 nav_page_specific: equipment
 ---
 
-# Equipment
+<h1 class="text-center pt-3"> Equipment </h1>
 
 <hr class="bg-primary"/>
 

@@ -9,7 +9,7 @@ nav_page_specific: hots
 
 ---
 
-# Heads of Tech (HoTs)
+<h1 class="text-center pt-3"> Heads of Tech (HoTs) </h1>
 
 <hr class="bg-primary"/>
 
