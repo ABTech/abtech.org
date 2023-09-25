@@ -6,7 +6,7 @@ nav_page: whatWeDo
 nav_page_specific: services
 ---
 
-# Services
+<h1 class="text-center pt-3"> Services </h1>
 
 <hr class="bg-primary"/>
 

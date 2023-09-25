@@ -9,7 +9,7 @@ nav_page_specific: external
 
 ---
 
-# External Resources
+<h1 class="text-center pt-3"> External Resources </h1>
 
 <hr class="bg-primary"/>
 

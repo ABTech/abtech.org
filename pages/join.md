@@ -5,7 +5,7 @@ permalink: /join/
 nav_page: join
 ---
 
-# Join
+<h1 class="text-center pt-3"> Join </h1>
 
 <hr class="bg-primary"/>
 

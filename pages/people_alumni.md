@@ -6,7 +6,7 @@ nav_page: people
 nav_page_specific: alumni
 ---
 
-# Alumni
+<h1 class="text-center pt-3"> Alumni </h1>
 
 <hr class="bg-primary"/>
 
