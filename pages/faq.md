@@ -6,7 +6,7 @@ nav_page: whatWeDo
 nav_page_specific: faq
 ---
 
-# Frequently Asked Questions 
+<h1 class="text-center pt-3"> Frequently Asked Questions </h1>
 
 <hr class="bg-primary"/>
 

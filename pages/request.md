@@ -5,7 +5,7 @@ permalink: /request/
 nav_page: request
 ---
 
-# Request Event
+<h1 class="text-center pt-3"> Request Event </h1>
 
 <hr class="bg-primary"/>
 
