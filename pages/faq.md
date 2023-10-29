@@ -20,7 +20,7 @@ Have a question about AB Tech, getting involved, or hiring us? We have answers (
 ## General 
 
 ##### What is AB Tech? How do we fit into the Activities Board?
-AB Tech (short for Activities Board Technical Committee) is Carnegie Mellon’s production organization charged with providing the technical needs for university-sponsored events. We are one of the committees under the Activities Board (AB) along with Concerts, Events, Films, Publicity and Speakers; however, we are governed separately from the rest of the AB organization.
+AB Tech (short for Activities Board Technical Committee) is Carnegie Mellon’s production organization charged with providing the technical needs for university-sponsored events. We are one of the committees under the Activities Board (AB) along with Concerts, Events, and Speakers; however, we are governed separately from the rest of the AB organization.
 
 ##### What exactly does AB Tech do?
 Every year, CMU hosts many events on campus, such as dance shows, concerts, and competitions. These events often require technical support to run smoothly, and that is where AB Tech steps in. We provide the lighting, sound and backstage management needed to make the event a success. Some of our events are as small as providing speakers for a gathering, while others are as large as rigging new structures to hang dozens of lights for a concert. 
