@@ -49,7 +49,7 @@ More info coming soon
 It's a static website. Throw it on any web server (Apache, Nginx, etc.). Set the 404 page to `/404.html`.
 
 ## Contribute
-Just send a pull request!
+Just send a pull request! Please contribute to the `dev` branch.
 
 ### Maintenance
 Code hosted at www-01.abtech.org:/srv/abtech.org
