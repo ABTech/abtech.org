@@ -109,6 +109,8 @@ jobs:
           name: "_site.tar"
           path: _site.tar
   publish:
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}-publish
     needs: build
     runs-on: ubuntu-latest
     if: |
@@ -137,6 +139,8 @@ jobs:
           git commit --allow-empty -m "abtech.org publish $GITHUB_SHA"
           git push
   publish-dev:
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}-publish-dev
     needs: build
     runs-on: ubuntu-latest
     if: |
