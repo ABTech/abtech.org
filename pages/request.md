@@ -16,8 +16,8 @@ nav_page: request
 </style></noscript>
 <form id="requestForm" class="col-12 col-md-10 col-lg-8 mx-auto mb-2 px-2" novalidate>
   <div class="row">
-    <div class="alert alert-danger" role="alert">
-      Please call <a href="tel:+14122682104" class="user-select-all">(412) 268-2104</a> to request an event with less than 48 hours notice.
+    <div class="alert alert-danger text-center" role="alert">
+      Call <a href="tel:+14122682104" class="user-select-all">(412) 268-2104</a> to request an event with less than 48 hours notice. Please note that we reserve the right to reject events, particularly due to short notice. 
     </div>
   </div>
   <noscript><div class="row">
