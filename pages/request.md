@@ -19,6 +19,9 @@ nav_page: request
     <div class="alert alert-danger text-center" role="alert">
       Call <a href="tel:+14122682104" class="user-select-all">(412) 268-2104</a> to request an event with less than 48 hours notice. Please note that we reserve the right to reject events, particularly due to short notice. 
     </div>
+    <div class="alert alert-warning text-center" role="alert">
+      Events that necessitate AB Tech labor at inopportune times (12:00am - 7:00am) will incur a labor surcharge of 1.5x the amount that would normally be charged.
+    </div>
   </div>
   <noscript><div class="row">
     <div class="alert alert-warning" role="alert">
