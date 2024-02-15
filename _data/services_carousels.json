@@ -1,14 +1,20 @@
 {
     "sound": [
-        "f19_sound",
-        "tent19",
+        "gs_sound",
+        "concert_f23_tde2",
         "dejj-2014",
         "gs_sound"
     ],
     "lighting": [
-        "fcf19",
-        "pars-and-stars",
         "griz-sc2016",
-        "ds"
+        "pars-and-stars",
+        "esprite",
+        "pyro"
+    ],
+    "other": [
+        "csa_s24_sm",
+        "tent19",
+        "concert_s23",
+        "lg2016"
     ]
 }
