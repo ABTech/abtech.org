@@ -14,7 +14,7 @@ nav_page_specific: hots
 <hr class="bg-primary"/>
 
 <div class="container">
-  <div class="col-7 m-auto">
+  <div class="col-md-7 m-auto">
     <table class="table table-striped table-bordered border-primary table-sm text-center">
       <thead><tr class="bg-primary text-white">
           <th scope="col">Year</th>
