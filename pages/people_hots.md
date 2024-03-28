@@ -22,7 +22,7 @@ nav_page_specific: hots
       </tr></thead>
       <tbody>
           {% for hot in site.data.people_hots_hots %}<tr{% if forloop.first %} class="border-bottom-3"{% endif %}>
-              <td>{{ hot.year }}</td>
+              <td><nobr>{{ hot.year }}</nobr></td>
               <td>{{ hot.name }}</td>
           </tr>
           {% endfor %}
