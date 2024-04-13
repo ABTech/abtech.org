@@ -28,11 +28,11 @@
         "desc": "Maggie is a sophomore studying ECE who enjoys doing lighting and is interested in learning about all areas in Tech. In her free time, Maggie loves watching musicals and playing certain winter sports."
     },
     {
-        "name": "Felicia Liu",
-        "andrewid": "yixuanl3",
-        "img": "yixuanl3.jpg",
+        "name": "Fletcher Sun",
+        "andrewid": "haichuas",
+        "img": "haichuas.jpg",
         "title": "Equipment Manager",
-        "desc": "Felicia is a junior majoring in ECE and BME. She recently developed a love for film photography and is actively learning new skills. Come talk to her if you also like photography!"
+        "desc": "Fletcher is a sophomore studying StatsML and IRP. In tech, he mainly does lighting, and is a fan of a certain fixture that start with B and end with E. In his spare time, he likes playing and watching soccer(occasionally during tech too), going down random wikipedia pages, blasting J-pop/musicals/military marches, and sleep."
     },
     {
         "name": "Grace Kam",
@@ -53,7 +53,7 @@
         "andrewid": "heidit",
         "img": "heidit.jpg",
         "title": "Social Chair",
-        "desc": "Heidi is a sophomore in Dietrich who's currently trying to decide on a major. In her spare time, she enjoys taking photos and videos."
+        "desc": "Heidi is a sophomore studying Information Systems with a minor in Engineering Studies. She takes random photos and videos and enjoys (the good) random things that happen."
     },
     {
         "name": "Max Wang",
@@ -67,13 +67,20 @@
         "andrewid": "haoj2",
         "img": "haoj2.jpg",
         "title": "Tracker Dev",
-        "desc": "Wellington is a sophomore studying ECE with additional minors in economics and IRP. Within AB Tech, he is most interested in sound, but dabbles in maintaining Tracker and the AB Tech website. When (if) he is free, Wellington loves to explore Google Earth, blast music, read and sleep."
+        "desc": "Wellington is a sophomore studying ECE with a minor in math and econ. Within AB Tech, he is most interested in sound, but also loves driving trucks, vans and golf carts for AB Tech's off campus events. In his free time, Wellington likes to take photos, blast music, read, and sleep."
     },
     {
         "name": "Gyan Singh",
-        "andrewid": "gyanepss",
-        "img": "gyanepss.jpg",
+        "andrewid": "gyanepsaa",
+        "img": "gyanepsaa.jpg",
         "title": "Repair & Maintenance Chair",
         "desc": "Gyan is a sophomore studying ECE. She mainly does lighting design in AB Tech but enjoys dabbling in sound and production management. In her free time, you can find her making art, doing any variety of outdoorsy activities, or perched on the tallest surface in the room."
+    },
+    {
+        "name": "Percival",
+        "andrewid": "abear.tech",
+        "img": "percival.jpg",
+        "title": "Mascot",
+        "desc": "Percival is our favorite and fluffiest techie! With over 2 decades of knowledge, it enjoys being a vital member in all lighting and sound events. Whether it's for moral support or late-night contemplation, Percival is here for all of us, all the time ʕっ•ᴥ•ʔっ"
     }
 ]

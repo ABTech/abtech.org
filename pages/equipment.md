@@ -179,13 +179,16 @@ We will design an appropriate system for your event based on the event requireme
 
 ##### Control and Playback
 - 2 Apple Mac Mini
+- 1 Blackmagic Design ATEM 1 M/E Constellation HD Live Production Switcher (1 RU)
+- 1 Blackmagic Design ATEM Mini HDMI Live Stream Switcher
 
 ## Miscellaneous
 
-- 8 10'x12"x12" Thomas box truss (silver)
+- 11 10'x12"x12" Thomas box truss (silver)
 - 6 8'x12"x12" Thomas box truss (silver)
 - 8 Columbus McKinnon Lodestar half-ton chain motors, 16 fpm
 - 2 Columbus McKinnon Prostar quarter-ton chain motors, 16 fpm
 - 4 Columbus McKinnon Prostar quarter-ton chain motors, 12 fpm
+- 3 3-phase Power Distributor Systems with varying cable configurations
 
 [Back to top](#top)
