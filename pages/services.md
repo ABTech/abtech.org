@@ -40,7 +40,7 @@ AB Tech provides sound and lighting services to organizations affiliated with or
     <div class="col-lg-7">
       <div class="card-body p-4 ps-lg-3 mb-3 mb-lg-0">
         <h3 class="card-title">Lighting</h3>
-        <p class="card-text">You've probably seen our lighting, be it the inside of the Orientation Tent, lights illuminating the walls of the University Center, or the lighting behind Dancer's Symposium. We own a wide variety of lighting fixtures, and can provide lighting for almost any need imaginable.</p>
+        <p class="card-text">You've probably seen our lighting, be it the inside of the Orientation Tent, the lights illuminating the walls of the University Center, or the lighting behind Dancer's Symposium. We own a wide variety of lighting fixtures and can provide lighting for almost any need imaginable.</p>
         <p class="card-text">Popular services:</p>
         <ul class="card-text">
           <li>Uplighting</li>
