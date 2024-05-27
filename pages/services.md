@@ -18,7 +18,7 @@ AB Tech provides sound and lighting services to organizations affiliated with or
 <div class="card mb-5 border-0">
   <div class="row g-0">
     <div class="col-lg-7">
-      <div class="card-body p-0 pe-lg-3 mb-3 mb-lg-0 p-2">
+      <div class="card-body p-4 pe-lg-3 mb-3 mb-lg-0">
         <h3 class="card-title">Sound Reinforcement</h3>
         <p class="card-text">From small lectures and vocal performances to dance parties, large bands, and concerts, we are experienced in the art of sound reinforcement. Nearly all events, indoors or outdoors, can be handled with our own inventory. As necessary, we can also bring in required instruments and other equipment.</p>
         <p class="card-text">Popular services:</p>
@@ -38,9 +38,9 @@ AB Tech provides sound and lighting services to organizations affiliated with or
 <div class="card mb-5 border-0">
   <div class="row g-0">
     <div class="col-lg-7">
-      <div class="card-body p-0 ps-lg-3 mb-3 mb-lg-0 p-2">
+      <div class="card-body p-4 ps-lg-3 mb-3 mb-lg-0">
         <h3 class="card-title">Lighting</h3>
-        <p class="card-text">We can provide lighting on the ground for small shows or setup spans of overhead lighting for larger events. We can provide profiles, spots, washes, uplighting, and effect lighting. We have traditional neutral and colored lighting as well as LEDs, moving lights, and strobes. We also have theatrical-grade haze and fog.</p>
+        <p class="card-text">You've probably seen our lighting, be it the inside of the Orientation Tent, the lights illuminating the walls of the University Center, or the lighting behind Dancer's Symposium. We own a wide variety of lighting fixtures and can provide lighting for almost any need imaginable.</p>
         <p class="card-text">Popular services:</p>
         <ul class="card-text">
           <li>Uplighting</li>
@@ -58,12 +58,13 @@ AB Tech provides sound and lighting services to organizations affiliated with or
 <div class="card mb-5 border-0">
   <div class="row g-0">
     <div class="col-lg-7">
-      <div class="card-body p-0 ps-lg-3 mb-3 mb-lg-0 p-2">
+      <div class="card-body p-4 ps-lg-3 mb-3 mb-lg-0">
         <h3 class="card-title">Production Services</h3>
         <p class="card-text">In addition to Sound and Lighting, AB Tech also provides the following as support and standalone services. </p>
-        <p class="card-text"><strong> Staging: </strong>If your event requires additional staging material, we can coordinate the rental of stage components from outside contractors. We do not carry any staging ourselves.</p>
-        <p class="card-text"><strong> Stage Management: </strong>We will make sure that your show runs smoothly. We will coordinate performers moving on and off stage, playback of sound and video components, and lighting cues.</p>
+        <p class="card-text"><strong> Staging: </strong>If your event requires staging material, we can coordinate the rental of stage components from outside contractors. We do not carry any staging ourselves.</p>
+        <p class="card-text"><strong> Stage Management: </strong>Many events require close coordination between you and our crew for smooth operation. Our crew can coordinate performers moving on and off stage, playback of sound and video components, and lighting cues.</p>
         <p class="card-text"><strong> Power: </strong>Larger shows, especially those with complex lighting requirements, will require more than wall power. We can provide, coordinate, and operate large power systems for you.</p>
+        <p class="card-text"><strong> Rigging: </strong>Shows that require overhead rigging will require safe assembly and operation of all rigging equipment. We carry an array of rigging gear and are able to plan and assemble a rig suitable for your needs.</p>
       </div>
     </div>
     <div class="col-lg-5">

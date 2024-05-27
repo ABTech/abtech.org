@@ -1,9 +1,47 @@
 {
     "2020-present": {
+        "2024": [
+            {
+                "name":"Ruel, Flyana Boss and Lyn Lapid",
+                "date":"2024-04-13",
+                "venue":"Wiegand Gym",
+                "desc":"AB Spring Concert."
+            },
+            {
+                "name":"Bill Nye",
+                "date":"2024-04-11",
+                "venue":"McConomy",
+                "desc":"AB Speakers. Sold out within minutes!"
+            },
+            {
+                "name":"Audrey Nuna",
+                "date":"2024-02-02",
+                "venue":"Studio Theater",
+                "desc":"AB Winter Concert."
+            }
+        ],
         "2023": [
             {
+                "name":"The Driver Era and almost monday",
+                "date":"2023-11-11",
+                "venue":"Wiegand Gym",
+                "desc":"AB Fall Concert."
+            },
+            {
+                "name":"Brittany Broski",
+                "date":"2023-11-07",
+                "venue":"McConomy",
+                "desc":"AB Speakers."
+            },
+            {
+                "name":"Live Comedy Night with Devon Walker, Punkie Johnson and Michael Longfellow",
+                "date":"2023-10-30",
+                "venue":"McConomy",
+                "desc":"AB Speakers."
+            },
+            {
                 "name":"Stephanie Hsu",
-                "date":"2022-04-23",
+                "date":"2023-04-23",
                 "venue":"McConomy",
                 "desc":"AB Lectures. "
             },
@@ -15,13 +53,13 @@
             },
             {
                 "name": "Melissa Villasenor",
-                "date": "2022-04-13",
+                "date": "2023-04-13",
                 "venue": "McConomy",
                 "desc": "AB Comedy. "
             },
             {
                 "name": "Allegheny County Executive Debate",
-                "date": "2023-04-13",
+                "date": "2023-02-18",
                 "venue": "McConomy",
                 "desc": "University Events. "
             },
@@ -106,7 +144,7 @@
                 "date": "2021-04-16",
                 "venue": "The Mall",
                 "desc": "AB Concerts. Our first large performance since COVID-19. "
-            },
+            }
         ],
         "2020": [
             {
@@ -114,8 +152,8 @@
                 "date": "2021-03-04",
                 "venue": "McConomy",
                 "desc": "AB Lectures. "
-            },
-        ],
+            }
+        ]
     },
     "2010s": {
         "2019": [
@@ -178,7 +216,7 @@
                 "date": "2019-01-30",
                 "venue": "McConomy",
                 "desc": "AB Lectures. "
-            },
+            }
         ],
         "2018": [
             {
@@ -222,7 +260,7 @@
                 "date": "2018-02-06",
                 "venue": "McConomy",
                 "desc": "AB Lectures. "
-            },
+            }
         ],
         "2017": [
             {
@@ -260,7 +298,7 @@
                 "date": "2017-01-29",
                 "venue": "Studio Theater",
                 "desc": "AB Coffeehouse. "
-            },
+            }
         ],
         "2016": [
             {
@@ -304,7 +342,7 @@
                 "date": "2016-01-15",
                 "venue": "Rangos",
                 "desc": "AB Coffeehouse. "
-            },
+            }
         ],
         "2015": [
             {
@@ -336,7 +374,7 @@
                 "date": "2015-02-28",
                 "venue": "McConomy",
                 "desc": "CMU hosts the Great Lakes ICCAs for the second time. "
-            },
+            }
         ],
         "2014": [
             {
@@ -362,7 +400,7 @@
                 "date": "2014-04-10",
                 "venue": "Midway Tent",
                 "desc": "AB Carnival Comedian. "
-            },
+            }
         ],
         "2013": [
             {
@@ -400,7 +438,7 @@
                 "date": "2013-02-02",
                 "venue": "McConomy",
                 "desc": "CMU hosts the Great Lakes ICCAs for the first time. "
-            },
+            }
         ],
         "2012": [
             {
@@ -450,7 +488,7 @@
                 "date": "2012-02-16",
                 "venue": "McConomy",
                 "desc": "AB Lectures. The Saturday Morning Breakfast Cereal guy."
-            },
+            }
         ],
         "2011": [
             {
@@ -506,7 +544,7 @@
                 "date": "2011-02-13",
                 "venue": "Rangos",
                 "desc": "AB Coffeehouse concert"
-            },
+            }
         ],
         "2010": [
             {
@@ -550,7 +588,7 @@
                 "date": "2010-04-07",
                 "venue": "CFA Alumni Concert Hall",
                 "desc": "The full KUDO rig had plaster raining from the ceiling, while the entire crowd attempted to get onstage (many were successful), which caused the lead singer's mic to get unplugged and forced an a capella encore."
-            },
+            }
         ]
     },  "2000s": {
         "2009": [
@@ -589,7 +627,7 @@
                 "date": "2009-01-26",
                 "venue": "Rangos",
                 "desc": "AB Coffeehouse concert"
-            },
+            }
         ], 
         "2008": [
             {
@@ -609,7 +647,7 @@
                 "date": "2008-04-17",
                 "venue": "CFA Lawn",
                 "desc": "Spring Concert"
-            },
+            }
         ],
         "2007": [
             {
@@ -653,7 +691,7 @@
                 "date": "2007-02-23",
                 "venue": "Doherty Hall",
                 "desc": " "
-            },
+            }
         ],
         "2006": [
             {
@@ -693,7 +731,7 @@
                 "date": "2005-02-16",
                 "venue": "The Underground",
                 "desc": " "
-            },
+            }
         ],
         "2004": [
             {
@@ -737,7 +775,7 @@
                 "date": "2004-02-28",
                 "venue": "Drill Deck",
                 "desc": " "
-            },
+            }
         ],
         "2003": [
             {
@@ -799,7 +837,7 @@
                 "date": "2003-02-24",
                 "venue": "McConomy",
                 "desc": "AB Political Speakers. Noted Political Cartoonist."
-            },
+            }
         ],
         "2002": [
             {
@@ -885,7 +923,7 @@
                 "date": "2002-02-25",
                 "venue": "Rangos",
                 "desc": "AB Comedy. &quot;Donner 308. Come smoke with us!&quot;"
-            },
+            }
         ],
         "2001": [
             {
@@ -947,7 +985,7 @@
                 "date": "2001-02-01",
                 "venue": "The&nbsp;Underground",
                 "desc": "Popular entertainer."
-            },
+            }
         ],
         "2000": [
             {
@@ -1093,7 +1131,7 @@
                 "date": "2000-01-21",
                 "venue": "Rangos",
                 "desc": "AB techno show."
-            },
+            }
         ]
     },  "1990s": {
         "1999": [
@@ -1194,7 +1232,7 @@
                 "date": "1998-01-24",
                 "venue": "Rangos",
                 "desc": ""
-            },
+            }
         ],
         "1997": [
             {
@@ -1250,7 +1288,7 @@
                 "date": "1997-04-11",
                 "venue": "Carnival Tent",
                 "desc": "Spring Carnival concert sponsored by Spring Carnival Committee"
-            },
+            }
         ],
         "1996": [
             {
@@ -1258,7 +1296,7 @@
                 "date": "",
                 "venue": "The Cut",
                 "desc": "Sprint Carnival concert"
-            },
+            }
         ],
         "1995": [
             {
@@ -1272,7 +1310,7 @@
                 "date": "",
                 "venue": "",
                 "desc": ""
-            },
+            }
         ],
         "1994": [
             {
@@ -1286,7 +1324,7 @@
                 "date": "",
                 "venue": "",
                 "desc": ""
-            },
+            }
         ],
         "1993": [
             {
@@ -1318,7 +1356,7 @@
                 "date": "",
                 "venue": "",
                 "desc": "Several performances, in Skibo Ballrom, Mellon Institute auditorium, and other places."
-            },
+            }
         ],
         "1992": [
             {
@@ -1344,7 +1382,7 @@
                 "date": "",
                 "venue": "Skibo Ballroom",
                 "desc": "Co-sponsored with Decesar Engler."
-            },
+            }
         ],
         "1991": [
             {
@@ -1376,7 +1414,7 @@
                 "date": "",
                 "venue": "Skibo Ballroom",
                 "desc": ""
-            },
+            }
         ],
         "1990": [
             {
@@ -1390,7 +1428,7 @@
                 "date": "",
                 "venue": "The Cut",
                 "desc": ""
-            },
+            }
         ]
     },  "1980s": {
         "1989": [
@@ -1423,7 +1461,7 @@
                 "date": "",
                 "venue": "",
                 "desc": ""
-            },
+            }
         ],
         "1988": [
             {
@@ -1449,7 +1487,7 @@
                 "date": "",
                 "venue": "",
                 "desc": ""
-            },
+            }
         ],
         "1987": [
             {
@@ -1463,7 +1501,7 @@
                 "date": "",
                 "venue": "Carnegie Music Hall",
                 "desc": "Daryl Anger, Mike Marshall, Michael Hedges, Liz Storey"
-            },
+            }
         ],
         "1986": [
             {
@@ -1471,7 +1509,7 @@
                 "date": "",
                 "venue": "Syria Mosque",
                 "desc": "Free concert for winning a Multiple Sclerosis drive."
-            },
+            }
         ],
         "1985": [
             {
@@ -1551,7 +1589,7 @@
                 "date": "",
                 "venue": "",
                 "desc": "Performed countless times on campus through 1994."
-            },
+            }
         ],
         "1984": [
             {
@@ -1571,7 +1609,7 @@
                 "date": "1984-02-09",
                 "venue": "Carnegie Music Hall",
                 "desc": "Yet another sellout crowd"
-            },
+            }
         ],
         "1983": [
             {
@@ -1603,7 +1641,7 @@
                 "date": "",
                 "venue": "",
                 "desc": ""
-            },
+            }
         ],
         "1982": [
             {
@@ -1617,7 +1655,7 @@
                 "date": "",
                 "venue": "The Cut",
                 "desc": ""
-            },
+            }
         ],
         "1981": [
             {
@@ -1673,7 +1711,7 @@
                 "date": "February",
                 "venue": "Skibo Ballroom",
                 "desc": "With Blondie Chapman on Guitar"
-            },
+            }
         ],
         "1980": [
             {
@@ -1693,7 +1731,7 @@
                 "date": "",
                 "venue": "Skibo Gym",
                 "desc": "1980 Spring Carnival Concert"
-            },
+            }
         ]
     },  "1970s": {
         "1979": [
@@ -1708,7 +1746,7 @@
                 "date": "",
                 "venue": "",
                 "desc": " "
-            },
+            }
         ],
         "1978": [
             {
@@ -1716,7 +1754,7 @@
                 "date": "",
                 "venue": "Carnegie Music Hall",
                 "desc": "Homecoming Show."
-            },
+            }
         ],
         "1977": [
             {
@@ -1730,7 +1768,7 @@
                 "date": "",
                 "venue": "The Cut",
                 "desc": ""
-            },
+            }
         ],
         "1973": [
             {
@@ -1744,7 +1782,7 @@
                 "date": "",
                 "venue": "Carnegie Music Hall",
                 "desc": ""
-            },
+            }
         ],
         "1972": [
             {
@@ -1752,7 +1790,7 @@
                 "date": "",
                 "venue": "Skibo Ballroom",
                 "desc": ""
-            },
+            }
         ]
-    },
+    }
 }

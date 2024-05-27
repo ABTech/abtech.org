@@ -12,7 +12,7 @@
   {
     "name": "Flyspace Productions",
     "url": "https://www.flyspaceproductions.com/",
-    "desc": "Outdoor staging"
+    "desc": "Lighting, media, sound reinforcement, & staging"
   },
   {
     "name": "4Wall",
@@ -23,5 +23,15 @@
     "name": "Hollowood Music & Sound",
     "url": "https://hollowood.com/",
     "desc": "Backline & Sound reinforcement"
+  },
+  {
+    "name": "Three Rivers",
+    "url": "https://threeriversentertainment.com/",
+    "desc": "Lighting, sound reinforcement, & staging"
+  },
+  {
+    "name": "United Rentals",
+    "url": "https://www.unitedrentals.com/",
+    "desc": "Work Lifts"
   }
 ]
