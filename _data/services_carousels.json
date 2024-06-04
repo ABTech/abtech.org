@@ -2,7 +2,7 @@
     "sound": [
         "f19_sound",
         "concert_s22",
-        "concert_f23_mons",
+        "orientation_imo_f21",
         "dejj-2014",
         "gs_sound"
     ],
@@ -15,9 +15,9 @@
     ],
     "other": [
         "csa_s24_sm",
+        "concert_s24_lights",
         "tent19",
-        "concert_s23",
         "lg2016",
-        "ds_f21"
+        "concert_s23"
     ]
 }
