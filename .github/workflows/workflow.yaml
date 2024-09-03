@@ -126,7 +126,7 @@ jobs:
           git rm -rf . --ignore-unmatch
           git clean -fxd
       - name: Download built artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: "_site.tar"
       - name: 'Unarchive files & remove archive'
@@ -156,7 +156,7 @@ jobs:
           git rm -rf . --ignore-unmatch
           git clean -fxd
       - name: Download built artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: "_site.tar"
       - name: 'Unarchive files & remove archive'
