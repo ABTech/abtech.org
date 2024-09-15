@@ -8,8 +8,8 @@
         "last_name": "Garbade"
     },
     {
-        "first_name": "Alex",
-        "last_name": "Strasser"
+        "first_name": "Tarana",
+        "last_name": "Laroia"
     },
     {
         "first_name": "Anthony",
@@ -28,8 +28,20 @@
         "last_name": "Wu"
     },
     {
+        "first_name": "Clarise",
+        "last_name": "Liu"
+    },
+    {
+        "first_name": "Stella",
+        "last_name": "Yim"
+    },
+    {
         "first_name": "Felicia",
         "last_name": "Liu"
+    },
+    {
+        "first_name": "Queenie",
+        "last_name": "Chen"
     },
     {
         "first_name": "Zara",
@@ -52,6 +64,10 @@
         "last_name": "Hanson"
     },
     {
+        "first_name": "Grace",
+        "last_name": "Kam"
+    },
+    {
         "first_name": "Nate",
         "last_name": "Miller"
     },
@@ -66,10 +82,6 @@
     {
         "first_name": "Bradley",
         "last_name": "Ma"
-    },
-    {
-        "first_name": "Mia",
-        "last_name": "Kong"
     },
     {
         "first_name": "Korene",
@@ -140,24 +152,16 @@
         "last_name": "Kim"
     },
     {
-        "first_name": "Tucker",
-        "last_name": "Shea"
-    },
-    {
         "first_name": "Owen",
         "last_name": "Sheehan"
     },
     {
-        "first_name": "Vi",
-        "last_name": "Vu"
+        "first_name": "Kayva",
+        "last_name": "Ramesh"
     },
     {
         "first_name": "Kaibin",
         "last_name": "Wang"
-    },
-    {
-        "first_name": "Kavya",
-        "last_name": "Ramesh"
     },
     {
         "first_name": "Sara",
@@ -166,10 +170,6 @@
     {
         "first_name": "Su Mae",
         "last_name": "Khor"
-    },
-    {
-        "first_name": "Shannon",
-        "last_name": "Lee"
     },
     {
         "first_name": "Ayan",
@@ -196,11 +196,27 @@
         "last_name": "Lin"
     },
     {
-        "first_name": "Niki",
-        "last_name": "Wang"
-    },
-    {
         "first_name": "Johnathan",
         "last_name": "Subramanian"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Zhang"
+    },
+    {
+        "first_name": "Aarya",
+        "last_name": "Batchu"
+    },
+    {
+        "first_name": "Benjamin",
+        "last_name": "Streck"
+    },
+    {
+        "first_name": "Neil",
+        "last_name": "Makur"
+    },
+    {
+        "first_name": "Tomas",
+        "last_name": "Goncalves"
     }
 ]
