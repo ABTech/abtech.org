@@ -24,10 +24,10 @@ jobs:
 #       CIVERSION: ${{ steps.push-image.outputs.CIVERSION }}
 #     steps:
 #       - name: Checkout
-#         uses: actions/checkout@v2
+#         uses: actions/checkout@v4
 #       - name: 🏗 Set up build cache
 #         id: cache
-#         uses: actions/cache@v2
+#         uses: actions/cache@v4
 #         with:
 #           path: /tmp/.docker-cache
 #           key: ${{ runner.os }}-buildDocker-${{ env.cache-name }}-${{ github.ref }}-${{ github.sha }}-${{ hashFiles('**/Dockerfile') }}
@@ -76,9 +76,9 @@ jobs:
       image: "ghcr.io/abtech/abtech.org:fefc2b479d4c22d6b3e00b1b359a5be2780d7fbe"
     steps:
       - name: Checkout latest
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       # - name: Cache Ruby dependencies
-      #   uses: actions/cache@v2
+      #   uses: actions/cache@v4
       #   env:
       #     cache-name: cache-ruby-gems
       #   with:
@@ -88,7 +88,7 @@ jobs:
       #       ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.ref }}-
       #       ${{ runner.os }}-build-${{ env.cache-name }}-
       # - name: Cache NodeJS dependencies
-      #   uses: actions/cache@v2
+      #   uses: actions/cache@v4
       #   env:
       #     cache-name: cache-node-modules
       #   with:
@@ -118,7 +118,7 @@ jobs:
       github.event_name != 'pull_request'
     steps:
       - name: Checkout gh-pages branch of repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: "gh-pages"
       - name: Clear branch of previous build
@@ -126,7 +126,7 @@ jobs:
           git rm -rf . --ignore-unmatch
           git clean -fxd
       - name: Download built artifact
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: "_site.tar"
       - name: 'Unarchive files & remove archive'
@@ -148,7 +148,7 @@ jobs:
       github.event_name != 'pull_request'
     steps:
       - name: Checkout gh-pages-dev branch of repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: "gh-pages-dev"
       - name: Clear branch of previous build
@@ -156,7 +156,7 @@ jobs:
           git rm -rf . --ignore-unmatch
           git clean -fxd
       - name: Download built artifact
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: "_site.tar"
       - name: 'Unarchive files & remove archive'
