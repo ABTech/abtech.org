@@ -28,7 +28,7 @@ We will design an appropriate system for your event based on the event requireme
 - 8 d&b Y8 and 4 d&b Y12 2-way passive line array loudspeakers
 - 6 d&b V-SUB subwoofers
 - 4 d&b Y10P point source loudspeakers
-- d&b D80 and d&b D20 amplification with network-controlled monitoring and processing
+- d&b D80, D40, and 2x D20 amplification with network-controlled monitoring and processing
 
 ##### L-Acoustics KUDO System
 
@@ -92,6 +92,7 @@ We will design an appropriate system for your event based on the event requireme
   - 2 Shure WL185 (Cardioid) Lavalier Microphones
   - 2 Shure WH20TQG (Cardioid) Headset Microphones
   - 10 WBH53 (Omni) Headset Microphones
+  - 4 DH5 (Omni) Headset Microphones
   - 2 Shure WB98H/C Wireless Instrument Microphones (with Horn Clamp)
   - Assorted Shure KSM9, Beta 58, Beta 87A, and SM58 handheld microphone capsules
 
@@ -143,7 +144,7 @@ We will design an appropriate system for your event based on the event requireme
 
 ##### Moving Head Fixtures
 - 6 Robe Esprite
-- 6 Philips Vari\*Lite VL2500 Spot
+- 6 Chauvet COLORado PXL Bar 8
 
 ##### Special Fixtures
 - 3 Martin Atomic 3000 DMX Strobe
@@ -162,6 +163,7 @@ We will design an appropriate system for your event based on the event requireme
 - Jands Stage CL
 - ETC Smartfade 1296
 - ETC DMX/RDM Four-Port Gateway
+- Pathway Pathport DMX/RDM Eight-Port Gateway
 
 [Back to top](#top)
 
@@ -187,7 +189,7 @@ We will design an appropriate system for your event based on the event requireme
 - 11 10'x12"x12" Thomas box truss (silver)
 - 6 8'x12"x12" Thomas box truss (silver)
 - 8 Columbus McKinnon Lodestar half-ton chain motors, 16 fpm
-- 2 Columbus McKinnon Prostar quarter-ton chain motors, 16 fpm
+- 4 Columbus McKinnon Prostar quarter-ton chain motors, 16 fpm
 - 4 Columbus McKinnon Prostar quarter-ton chain motors, 12 fpm
 - 3 3-phase Power Distributor Systems with varying cable configurations
 
