@@ -1,198 +1,202 @@
 [
   {
-      "year": "24-25",
-      "name": "Wellington Jiang / Heidi Tao / Maggie Gong / Max Wang"
+    "year": "25-26",
+    "name": "Max Wang / Mia Kong / Vi Vu"
   },
   {
-      "year": "23-24",
-      "name": "Clarise Liu / Stella Yim"
+    "year": "24-25",
+    "name": "Wellington Jiang / Heidi Tao / Maggie Gong / Max Wang"
   },
   {
-      "year": "22-23",
-      "name": "Iris Chang / Shannon Ding / Alex Strasser"
+    "year": "23-24",
+    "name": "Clarise Liu / Stella Yim"
   },
   {
-      "year": "21-22",
-      "name": "Gwyneth Chen / Perry Naseck"
+    "year": "22-23",
+    "name": "Iris Chang / Shannon Ding / Alex Strasser"
   },
   {
-      "year": "20-21",
-      "name": "Ryan Eckert / Bobby Zhang"
+    "year": "21-22",
+    "name": "Gwyneth Chen / Perry Naseck"
   },
   {
-      "year": "19-20",
-      "name": "Bridget Tan / Ariel Uy"
+    "year": "20-21",
+    "name": "Ryan Eckert / Bobby Zhang"
   },
   {
-      "year": "18-19",
-      "name": "Emily Newman"
+    "year": "19-20",
+    "name": "Bridget Tan / Ariel Uy"
   },
   {
-      "year": "17-18",
-      "name": "Kenny Cohen"
+    "year": "18-19",
+    "name": "Emily Newman"
   },
   {
-      "year": "16-17",
-      "name": "Robert Maratos"
+    "year": "17-18",
+    "name": "Kenny Cohen"
   },
   {
-      "year": "15-16",
-      "name": "Youzi Wu / Adam Pinson"
+    "year": "16-17",
+    "name": "Robert Maratos"
   },
   {
-      "year": "14-15",
-      "name": "Peter Chiappa"
+    "year": "15-16",
+    "name": "Youzi Wu / Adam Pinson"
   },
   {
-      "year": "13-14",
-      "name": "Tim Reid"
+    "year": "14-15",
+    "name": "Peter Chiappa"
   },
   {
-      "year": "12-13",
-      "name": "Pranesh Sai Vadlamudi / Benjamin Wasserman"
+    "year": "13-14",
+    "name": "Tim Reid"
   },
   {
-      "year": "11-12",
-      "name": "Joe Burgess / Tyler Fox / Mickey Reiss"
+    "year": "12-13",
+    "name": "Pranesh Sai Vadlamudi / Benjamin Wasserman"
   },
   {
-      "year": "10-11",
-      "name": "Hunter Pitelka / Michael Sibley"
+    "year": "11-12",
+    "name": "Joe Burgess / Tyler Fox / Mickey Reiss"
   },
   {
-      "year": "09-10",
-      "name": "Jason Meyers / Matt Schnall"
+    "year": "10-11",
+    "name": "Hunter Pitelka / Michael Sibley"
   },
   {
-      "year": "08-09",
-      "name": "Bryan Hinch"
+    "year": "09-10",
+    "name": "Jason Meyers / Matt Schnall"
   },
   {
-      "year": "07-08",
-      "name": "Jeff Grafton / Matt Williamson"
+    "year": "08-09",
+    "name": "Bryan Hinch"
   },
   {
-      "year": "06-07",
-      "name": "Saagar Patel with Peter Nelson / Sam Lipson / Carmen Jackson"
+    "year": "07-08",
+    "name": "Jeff Grafton / Matt Williamson"
   },
   {
-      "year": "05-06",
-      "name": "Halloran Parry / Chris Marshall"
+    "year": "06-07",
+    "name": "Saagar Patel with Peter Nelson / Sam Lipson / Carmen Jackson"
   },
   {
-      "year": "04-05",
-      "name": "Anand Patel / Jonathan Robinson"
+    "year": "05-06",
+    "name": "Halloran Parry / Chris Marshall"
   },
   {
-      "year": "03-04",
-      "name": "Carla Geisser / Mathew Theisz"
+    "year": "04-05",
+    "name": "Anand Patel / Jonathan Robinson"
   },
   {
-      "year": "02-03",
-      "name": "Maya Nigrosh / Chris Tuttle"
+    "year": "03-04",
+    "name": "Carla Geisser / Mathew Theisz"
   },
   {
-      "year": "01-02",
-      "name": "Matthew Denton"
+    "year": "02-03",
+    "name": "Maya Nigrosh / Chris Tuttle"
   },
   {
-      "year": "00-01",
-      "name": "Kevin Miller / Megin Wardle"
+    "year": "01-02",
+    "name": "Matthew Denton"
   },
   {
-      "year": "99-00",
-      "name": "William Holtz"
+    "year": "00-01",
+    "name": "Kevin Miller / Megin Wardle"
   },
   {
-      "year": "98-99",
-      "name": "Ben Henty"
+    "year": "99-00",
+    "name": "William Holtz"
   },
   {
-      "year": "97-98",
-      "name": "Will Ferry / Jim Foraker"
+    "year": "98-99",
+    "name": "Ben Henty"
   },
   {
-      "year": "96-97",
-      "name": "Mike Batz with Andrew Cuneo / Matt Messner"
+    "year": "97-98",
+    "name": "Will Ferry / Jim Foraker"
   },
   {
-      "year": "95-96",
-      "name": "Matt Messner / Alex Nicolaidis"
+    "year": "96-97",
+    "name": "Mike Batz with Andrew Cuneo / Matt Messner"
   },
   {
-      "year": "94-95",
-      "name": "Howard Meisner / Peter Wieland"
+    "year": "95-96",
+    "name": "Matt Messner / Alex Nicolaidis"
   },
   {
-      "year": "93-94",
-      "name": "Peter Wieland / Howard Meisner"
+    "year": "94-95",
+    "name": "Howard Meisner / Peter Wieland"
   },
   {
-      "year": "92-93",
-      "name": "Tom Cook with Peter Wieland / Martin Dixon / Howard Meisner"
+    "year": "93-94",
+    "name": "Peter Wieland / Howard Meisner"
   },
   {
-      "year": "91-92",
-      "name": "Brian Papa"
+    "year": "92-93",
+    "name": "Tom Cook with Peter Wieland / Martin Dixon / Howard Meisner"
   },
   {
-      "year": "90-91",
-      "name": "Josh Lynn / Brian Papa"
+    "year": "91-92",
+    "name": "Brian Papa"
   },
   {
-      "year": "89-90",
-      "name": "Josh Lynn / Brian Papa / Russ Grimm"
+    "year": "90-91",
+    "name": "Josh Lynn / Brian Papa"
   },
   {
-      "year": "88-89",
-      "name": "Scott Jones followed by Josh Lynn / Russ Grimm / Mark Hamill [the Unholy Triumverate]"
+    "year": "89-90",
+    "name": "Josh Lynn / Brian Papa / Russ Grimm"
   },
   {
-      "year": "87-88",
-      "name": "Frank Otremba"
+    "year": "88-89",
+    "name": "Scott Jones followed by Josh Lynn / Russ Grimm / Mark Hamill [the Unholy Triumverate]"
   },
   {
-      "year": "86-87",
-      "name": "Jon Manley"
+    "year": "87-88",
+    "name": "Frank Otremba"
   },
   {
-      "year": "85-86",
-      "name": "Jon Manley"
+    "year": "86-87",
+    "name": "Jon Manley"
   },
   {
-      "year": "84-85",
-      "name": "Steve Winawer"
+    "year": "85-86",
+    "name": "Jon Manley"
   },
   {
-      "year": "83-84",
-      "name": "Rich Ives"
+    "year": "84-85",
+    "name": "Steve Winawer"
   },
   {
-      "year": "82-83",
-      "name": "Bill Hammerschlag"
+    "year": "83-84",
+    "name": "Rich Ives"
   },
   {
-      "year": "81-82",
-      "name": "Bill Hammerschlag"
+    "year": "82-83",
+    "name": "Bill Hammerschlag"
   },
   {
-      "year": "80-81",
-      "name": "Mark Stemnisky (aka Mark Andrews) with Scott Tietjen"
+    "year": "81-82",
+    "name": "Bill Hammerschlag"
   },
   {
-      "year": "79-80",
-      "name": "Bobby Demartino / Scott Tietjen"
+    "year": "80-81",
+    "name": "Mark Stemnisky (aka Mark Andrews) with Scott Tietjen"
   },
   {
-      "year": "78-79",
-      "name": "Bobby Demartino"
+    "year": "79-80",
+    "name": "Bobby Demartino / Scott Tietjen"
   },
   {
-      "year": "77-78",
-      "name": "Mark Zarembski"
+    "year": "78-79",
+    "name": "Bobby Demartino"
   },
   {
-      "year": "76-77",
-      "name": "Rusty Gray"
+    "year": "77-78",
+    "name": "Mark Zarembski"
+  },
+  {
+    "year": "76-77",
+    "name": "Rusty Gray"
   }
 ]

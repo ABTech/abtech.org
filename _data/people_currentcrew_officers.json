@@ -1,93 +1,79 @@
 [
-    {
-        "name": "Wellington Jiang",
-        "andrewid": "haoj2",
-        "img": "haoj2.jpg",
-        "title": "Co-Head of Tech",
-        "desc": "Wellington is a junior studying ECE with a minor in math. Within AB Tech, he is interested in sound, rigging and driving trucks and golf carts. In his free time, Wellington likes to take photos, blast music, read, and sleep with vicious intent."
-    },
-    {
-        "name": "Heidi Tao",
-        "andrewid": "heidit",
-        "img": "heidit.jpg",
-        "title": "Co-Head of Tech",
-        "desc": "Heidi is a junior majoring in Information Systems with a minor in Engineering Studies. She enjoys capturing moments with photos and videos. FUNFACT her name is pronounced as \"Hiiiii\" followed by a \"D\" :D"
-    },
-    {
-        "name": "Maggie Gong",
-        "andrewid": "yiyug",
-        "img": "yiyug.jpg",
-        "title": "Co-Head of Tech",
-        "desc": "Maggie is a winter sport lover who enjoys touching grass and firmly believes that mayo and ketchup should go on burgers."
-    },
-    {
-        "name": "Max Wang",
-        "andrewid": "junkaiw",
-        "img": "junkaiw.jpg",
-        "title": "Co-Head of Tech",
-        "desc": "Max is a junior in ABTech interested in (but not good at!) lighting, sound, stage management and media. In his free time, he enjoys playing video games, watching anime and staying in his room."
-    },
-    {
-        "name": "Mia Kong",
-        "andrewid": "shengzhk",
-        "img": "shengzhk.jpg",
-        "title": "Co-Finance Chair",
-        "desc": "Mia is a junior in Mechanical Engineering. In her free time, she likes to read as well as cook, especially when it comes to trying out new recipes. A fun fact about her is that she has four blahajs!"
-    },
-    {
-        "name": "Vi Vu",
-        "andrewid": "vivu",
-        "img": "vivu.jpg",
-        "title": "Co-Finance Chair",
-        "desc": "Vi is a sophomore studying computer science. In my free time, she likes to listen to a random assortment of music, play video games, build keyboards, and fall into rabbit holes."
-    },
-    {
-        "name": "Fletcher Sun",
-        "andrewid": "haichuas",
-        "img": "haichuas.jpg",
-        "title": "Equipment Manager",
-        "desc": "Fletcher is a junior studying StatsML and IRP. In tech, he mainly does lighting, and is a fan of a certain fixture that start with B and end with E. In his spare time, he likes playing and watching soccer(occasionally during tech too), going down random wikipedia pages, blasting J-pop/musicals/military marches, and sleep."
-    },
-    {
-        "name": "Chloe Poon",
-        "andrewid": "cpoon2",
-        "img": "cpoon2.jpg",
-        "title": "Personnel Manager",
-        "desc": "Chloe is a junior majoring in ECE and BME. In her free time she likes to sleep, eat, stare into space, and crochet. Her favorite tech memory is sleeping on Percival during KPDS week and the random Wushiland boba trips. Fun fact: Chloe’s andrew id is cpoon2."
-    },
-    {
-        "name": "Niki Wang",
-        "andrewid": "nikiw",
-        "img": "nikiw.jpg",
-        "title": "Internal Operations Chair",
-        "desc": "Niki will be studying Cognitive Science and in my free time she likes reading (literally anything interesting) and listening to K-pop. Niki’s favorite tech memory is blasting K-pop on our KPDC sound system after the show."
-    },
-    {
-        "name": "Shannon Lee",
-        "andrewid": "shannon4",
-        "img": "shannon4.jpg",
-        "title": "Social Chair",
-        "desc": "Shannon is a sophomore studying art and film with a minor in animation and special effects. In her free time, she enjoys going to museums and finding everything bagels with jalapeno cream cheese."
-    },
-    {
-        "name": "Tucker Shea",
-        "andrewid": "tshea",
-        "img": "tshea.jpg",
-        "title": "Tracker Dev",
-        "desc": "Tucker is a sophomore studying Electrical and Computer Engineering. He especially enjoys Media-ing and TiCing, love to hike, and can often be found in a hammock outside KT. His favorite moments are story time with techies and tech alums."
-    },
-    {
-        "name": "Gyan Singh",
-        "andrewid": "gyanepsaa",
-        "img": "gyanepsaa.jpg",
-        "title": "Repair & Maintenance Chair",
-        "desc": "Gyan is a junior studying ECE. She mainly does lighting design in AB Tech but enjoys dabbling in sound and production management. In her free time, you can find her making art, doing any variety of outdoorsy activities, or perched on the tallest surface in the room."
-    },
-    {
-        "name": "Percival",
-        "andrewid": "abear.tech",
-        "img": "percival.jpg",
-        "title": "Mascot",
-        "desc": "Percival is our favorite and fluffiest techie! With over 2 decades of knowledge, it enjoys being a vital member in all lighting and sound events. Whether it's for moral support or late-night contemplation, Percival is here for all of us, all the time ʕっ•ᴥ•ʔっ"
-    }
+  {
+    "name": "Mia Kong",
+    "andrewid": "shengzhk",
+    "img": "shengzhk.jpg",
+    "title": "Co-Head of Tech",
+    "desc": "Mia is a senior in Mechanical Engineering. In her free time, she likes to read as well as cook, especially when it comes to trying out new recipes. A fun fact about her is that she has five Blahajs!"
+  },
+  {
+    "name": "Vi Vu",
+    "andrewid": "vivu",
+    "img": "vivu.jpg",
+    "title": "Co-Head of Tech",
+    "desc": "Vi is a junior studying computer science. In her free time, she likes to listen to a random assortment of music, play video games, build keyboards, and fall into rabbit holes."
+  },
+  {
+    "name": "Max Wang",
+    "andrewid": "junkaiw",
+    "img": "junkaiw.jpg",
+    "title": "Co-Head of Tech",
+    "desc": "Max is a senior in ABTech interested in (but not good at!) lighting, sound, stage management and media. In his free time, he enjoys playing video games, watching anime and staying in his room."
+  },
+  {
+    "name": "Wellington Jiang",
+    "andrewid": "haoj2",
+    "img": "haoj2.jpg",
+    "title": "Equipment Manager",
+    "desc": "Wellington is a senior studying ECE with a minor in math. Within AB Tech, he is interested in sound, rigging and driving golf carts. In his free time, Wellington likes to take photos, blast music, read and sleep."
+  },
+  {
+    "name": "Fletcher Sun",
+    "andrewid": "haichuas",
+    "img": "haichuas.jpg",
+    "title": "Co-Finance Chair",
+    "desc": "I'm Fletcher, a senior majoring in Stats/ML and IRP. I mainly do lighting on tech. In my free time, I like to watch soccer and formula 1, despite teams that I support routinely ruin my whole week in 90 minutes/2hrs. For music, I'm a fan of J-pop, incl. Ado and TogeToge ( though happened to missed all their recent concerts because of CMU finals).  "
+  },
+  {
+    "name": "Neil Makur",
+    "andrewid": "nmakur",
+    "img": "nmakur.jpg",
+    "title": "Co-Finance Chair",
+    "desc": "Neil is a sophomore studying computer science. Within tech he usually does lighting, and you can probably find him sitting on top of the subs reading a random textbook."
+  },
+  {
+    "name": "Tucker Shea",
+    "andrewid": "tshea",
+    "img": "tshea.jpg",
+    "title": "Personnel Manager",
+    "desc": "Tucker is a sophomore studying Electrical and Computer Engineering. He especially enjoys Media-ing and TiCing, love to hike, and can often be found reading science fiction. His favorite moments are story time with techies and tech alums."
+  },
+  {
+    "name": "Alice Zhang",
+    "andrewid": "alicez2",
+    "img": "alicez2.jpg",
+    "title": "Internal Operations Chair",
+    "desc": "Alice is a sophomore studying Information Systems with a minor in Music Technology. She likes to build custom keyboards, song write, play basketball, and collect Pokemon cards. She has the cutest cat in the world and will be taking no objections."
+  },
+  {
+    "name": "Benjamin Streck",
+    "andrewid": "bstreck",
+    "img": "bstreck.jpg",
+    "title": "Repair & Maintenance Chair",
+    "desc": "I am an ECE major, with a minor in Drama (Technical Direction). I also enjoy amateur radio, and eating extremely spicy food."
+  },
+  {
+    "name": "Shannon Lee",
+    "andrewid": "shannon4",
+    "img": "shannon4.jpg",
+    "title": "Social Chair",
+    "desc": "Shannon is a BHA junior studying art and film. In her free time, she enjoys going to cafes and having an everything bagels with jalapeno cream cheese or a red bean mochi bun."
+  },
+  {
+    "name": "Percival",
+    "andrewid": "abear.tech",
+    "img": "percival.jpg",
+    "title": "Mascot",
+    "desc": "Percival is our favorite and fluffiest techie! With over 2 decades of knowledge, it enjoys being a vital member in all lighting and sound events. Whether it's for moral support or late-night contemplation, Percival is here for all of us, all the time ʕっ•ᴥ•ʔっ"
+  }
 ]

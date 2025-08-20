@@ -1,6 +1,44 @@
 {
     "2020-present": {
+        "2025": [
+          {
+            "name": "Caleb Hearon",
+            "date": "2025-04-20",
+            "desc": "AB Spring Speakers",
+            "venue": "McConomy"
+          },
+          {
+            "name": "ABoogieWitDaHoodie and Isabella Lovestory",
+            "date": "2025-04-05",
+            "desc": "AB Spring Concert.",
+            "venue": "Wiegand Gym"
+          },
+          {
+            "name": "Amelia Dimoldenberg",
+            "date": "2025-04-04",
+            "desc": "AB Carnival Speaker",
+            "venue": "Wiegand Gym"
+          },
+          {
+            "name": "Etymology Nerd",
+            "date": "2025-01-31",
+            "venue": "McConomy",
+            "desc": "AB Speakers"
+          },
+        ],
         "2024": [
+            {
+              "name": "Trixie Mattel",
+              "date": "2024-11-04",
+              "venue":  "McConomy",
+              "desc": "AB Fall Speakers"
+            }
+            {
+              "name": "Malcom Todd",
+              "date": "2024-11-02",
+              "venue": "Wiegand Gym",
+              "desc": "AB Fall Concert."
+            },
             {
                 "name":"Ruel, Flyana Boss and Lyn Lapid",
                 "date":"2024-04-13",
@@ -628,7 +666,7 @@
                 "venue": "Rangos",
                 "desc": "AB Coffeehouse concert"
             }
-        ], 
+        ],
         "2008": [
             {
                 "name": "RJD2",
