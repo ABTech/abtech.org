@@ -1686,6 +1686,12 @@
     ],
     "1982": [
       {
+        "name": "The Clash",
+        "date": "1982-10-16",
+        "venue": "Skibo Gym",
+        "desc": "Tickets sold out at the Student Center Info Desk in less than two hours."
+      },
+      {
         "name": "David Johansen",
         "date": "",
         "venue": "Skibo Gym",
@@ -1699,12 +1705,6 @@
       }
     ],
     "1981": [
-      {
-        "name": "The Clash",
-        "date": "1981-10-16",
-        "venue": "Skibo Gym",
-        "desc": "Tickets sold out at the Student Center Info Desk in less than two hours."
-      },
       {
         "name": "Yakov Smirnov",
         "date": "",
