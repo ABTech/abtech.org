@@ -73,7 +73,7 @@ AB Tech provides sound and lighting services to organizations affiliated with or
   </div>
 </div>
 
-AB Tech does not officially provide video services other than large-format projection. We do not have large projection surfaces or recording/streaming equipment. If your event requires these services, we may subcontract [cmuTV](http://www.cmutv.org/){:target="_blank"} or [another local production company]({{ '/external/' | relative_url }}) at an additional charge. Similarly, AB Tech does not own any backline equipment (guitar amplifiers, drums, keyboards, or other musical instruments), but we are happy to help coordinate the appropriate rentals through a local backline rental company.
+AB Tech does not own any backline equipment (guitar amplifiers, drums, keyboards, or other musical instruments), but we are happy to help coordinate the appropriate rentals through a local backline rental company.
 
 
 
