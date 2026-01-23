@@ -151,10 +151,6 @@ nav_page: request
           <label class="form-check-label" for="request_includes_cmu_media_services">CMU Media Services</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_cmutv" name="includes[]" value="cmutv">
-          <label class="form-check-label" for="request_includes_cmutv">cmuTV</label>
-        </div>
-        <div class="form-check form-check-inline">
           <input class="form-check-input requestFormInput" type="checkbox" id="request_includes_outside_av_vendors" name="includes[]" value="outside_av_vendors">
           <label class="form-check-label" for="request_includes_outside_av_vendors">Outside AV Vendors</label>
         </div>
